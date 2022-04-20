@@ -12,14 +12,15 @@
         android:theme="@style/Theme.MisTareas">
         <activity
             android:name=".activities.PostActivity"
-            android:exported="false" />
+            android:exported="false"
+            android:parentActivityName=".activities.MainActivity"/>
         <activity
             android:name=".activities.RegisterActivity"
             android:exported="false"
             android:parentActivityName=".activities.LoginActivity" />
         <activity
             android:name=".activities.MainActivity"
-            android:exported="false" />
+            android:exported="false"/>
         <activity
             android:name=".activities.LoginActivity"
             android:exported="false" />
