@@ -67,7 +67,18 @@ public class LoginActivity extends AppCompatActivity {
 
      }
 
-     //Cambio activity Registro
+     //Dejamos la sesion iniciada (accederia sin tener que logearse)
+    @Override
+    protected void onStart() {
+        super.onStart();
+        if(mAuthProvider.getUserSession() != null){
+            Intent intent = new Intent(LoginActivity.this, MainActivity.class);
+            intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_NEW_TASK); //Evitamos que se pueda volver borrando el historial de activitys
+            startActivity(intent);
+        }
+    }
+
+    //Cambio activity Registro
     public void crearCuenta(View view){
         Intent intent = new Intent(this, RegisterActivity.class);
         startActivity(intent);
