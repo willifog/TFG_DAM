@@ -41,6 +41,7 @@
         android:orientation="vertical"
         android:padding="10dp">
 
+<!-- Nombre de usuario -->
         <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
@@ -59,7 +60,7 @@
 
             </com.google.android.material.textfield.TextInputEditText>
         </com.google.android.material.textfield.TextInputLayout>
-
+<!-- Correo Electronico -->
         <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
@@ -72,11 +73,30 @@
                 android:background="@android:color/white"
                 android:hint="@string/correo_electronico"
                 android:textColor="@color/design_default_color_primary"
+                android:textSize="17sp"
+                android:inputType="textEmailAddress">
+            </com.google.android.material.textfield.TextInputEditText>
+        </com.google.android.material.textfield.TextInputLayout>
+
+<!-- Numero de telefono -->
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/cajaTelefonoRegistro"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="0dp"
+                android:background="@android:color/white"
+                android:hint="@string/numero_de_telefono"
+                android:inputType="numberSigned"
+                android:textColor="@color/design_default_color_primary"
                 android:textSize="17sp">
             </com.google.android.material.textfield.TextInputEditText>
         </com.google.android.material.textfield.TextInputLayout>
 
-
+<!-- Contraseña -->
         <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -94,6 +114,7 @@
                 android:textSize="17sp" />
         </com.google.android.material.textfield.TextInputLayout>
 
+<!-- Confirmar Contraseña -->
         <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

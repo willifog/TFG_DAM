@@ -96,6 +96,7 @@ public class LoginActivity extends AppCompatActivity {
                     mDialog.dismiss();
                     if(task.isSuccessful()){
                         Intent intent = new Intent(LoginActivity.this, MainActivity.class);
+                        intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);  //Limpiamos el historial de pantallas que hayamos abierto.
                         startActivity(intent);
                     }else{
                         Toast.makeText(LoginActivity.this, "Email o ocntraseña erroneo", Toast.LENGTH_SHORT).show();

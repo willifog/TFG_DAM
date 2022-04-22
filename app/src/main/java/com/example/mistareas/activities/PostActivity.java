@@ -296,6 +296,7 @@ public class PostActivity extends AppCompatActivity {
                                                 post.setDescription(mDescription);
                                                 post.setCategory(mCategory);
                                                 post.setIdUser(mAutProvider.getUid());
+                                                post.setTimestamp(new Date().getTime());
 
                                                 mPostProvider.save(post).addOnCompleteListener(new OnCompleteListener<Void>() {  //Escuchador para saber en que momento se termina la tarea
                                                     @Override

@@ -2,11 +2,11 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.mistareas">
 
-    //Establecemos permisos para acceder a la camara
-    <uses-feature android:name="android.hardware.camera2"
-        android:required="false"/>
+    <uses-feature
+        android:name="android.hardware.camera2"
+        android:required="false" />
 
-    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>  //Permisos para acceder a la gallery
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
     <application
         android:allowBackup="true"
@@ -15,31 +15,31 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MisTareas">
 
-        //Opcines requeridas para poder acceder a la camara del telefono
+
         <provider
-            android:authorities="com.example.mistareas"
             android:name="androidx.core.content.FileProvider"
+            android:authorities="com.example.mistareas"
             android:exported="false"
             android:grantUriPermissions="true">
-
             <meta-data
                 android:name="android.support.FILE_PROVIDER_PATHS"
-                android:resource="@xml/file_paths"/>
-
+                android:resource="@xml/file_paths" />
         </provider>
-        
-        
+
+        <activity
+            android:name=".activities.EditProfileActivity"
+            android:exported="false"/>
         <activity
             android:name=".activities.PostActivity"
             android:exported="false"
-            android:parentActivityName=".activities.MainActivity"/>
+            android:parentActivityName=".activities.MainActivity" />
         <activity
             android:name=".activities.RegisterActivity"
             android:exported="false"
             android:parentActivityName=".activities.LoginActivity" />
         <activity
             android:name=".activities.MainActivity"
-            android:exported="false"/>
+            android:exported="false" />
         <activity
             android:name=".activities.LoginActivity"
             android:exported="false" />
