@@ -21,6 +21,15 @@ public class PostProvider {
 
     //Para obtener todos los post
     public Query getAll(){
-       return  mCollection.orderBy("title",Query.Direction.DESCENDING);
+       return  mCollection.orderBy("timestamp",Query.Direction.DESCENDING);
+    }
+
+    //Obtener post de un usuario
+    public Query getPostByUser(String id){
+        return mCollection.whereEqualTo("idUser", id);
+    }
+
+    public Task<Void> delete (String id){
+        return mCollection.document(id).delete();
     }
 }

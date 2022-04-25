@@ -28,7 +28,9 @@ import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.android.gms.tasks.Task;
 import com.google.android.material.textfield.TextInputEditText;
+import com.google.firebase.firestore.DocumentSnapshot;
 import com.google.firebase.storage.UploadTask;
+import com.squareup.picasso.Picasso;
 
 import java.io.File;
 import java.util.Date;
@@ -54,6 +56,7 @@ public class EditProfileActivity extends AppCompatActivity {
     
     String mUserName = "";
     String mPhone = "";
+    String mImageProfile = "";
 
     AlertDialog mDialog;
     ImageProvider mImageProvider;
@@ -112,16 +115,47 @@ public class EditProfileActivity extends AppCompatActivity {
                 finish();
             }
         });
+
+        getUser();
+    }
+
+    private void getUser(){
+        mUsersProvider.getUser(mAuthProvider.getUid()).addOnSuccessListener(new OnSuccessListener<DocumentSnapshot>() {
+            @Override
+            public void onSuccess(DocumentSnapshot documentSnapshot) {
+                if(documentSnapshot.exists()){      //Comprobamos si el documento del usuario existe en la bbdd y contiene los campos necesarios
+                    if(documentSnapshot.contains("username")){
+                        mUserName = documentSnapshot.getString("username");  //Aqui asignamos en el mUserName el nombre de usuario desde la bbdd
+                        mTextInputUserName.setText(mUserName);
+                    }
+                    if(documentSnapshot.contains("phone")){
+                        mPhone = documentSnapshot.getString("phone");
+                        mTextInputPhone.setText(mPhone);
+                    }
+                    if(documentSnapshot.contains("image_profile")){
+                        mImageProfile = documentSnapshot.getString("image_profile");
+                        if(mImageProfile!= null && (!mImageProfile.isEmpty())){
+                            Picasso.with(EditProfileActivity.this).load(mImageProfile).into(mCircleImageViewProfile);
+                        }
+                    }
+                }
+            }
+        });
     }
 
     private void clickEditProfile() {
         mUserName = mTextInputUserName.getText().toString();
         mPhone = mTextInputPhone.getText().toString();
+
         if(!mUserName.isEmpty() && !mPhone.isEmpty()){
             if(mImageFile != null){
                 saveImage(mImageFile);
             }else{
-                Toast.makeText(this, "Debes seleccionar una imagen", Toast.LENGTH_SHORT).show();
+                User user = new User();
+                user.setUsername(mUserName);
+                user.setPhone(mPhone);
+                user.setId(mAuthProvider.getUid());
+                updateInfo(user);
             }
 
         }else{
@@ -130,9 +164,9 @@ public class EditProfileActivity extends AppCompatActivity {
         
     }
 
-    private void saveImage(File imageFile1){
+    private void saveImage(File imageFile){
         mDialog.show(); //Mostramos dialogo de espera
-        mImageProvider.save(EditProfileActivity.this, imageFile1).addOnCompleteListener(new OnCompleteListener<UploadTask.TaskSnapshot>() {
+        mImageProvider.save(EditProfileActivity.this, imageFile).addOnCompleteListener(new OnCompleteListener<UploadTask.TaskSnapshot>() {
             @Override
             public void onComplete(@NonNull Task<UploadTask.TaskSnapshot> task) {
                 if(task.isSuccessful()){
@@ -145,20 +179,10 @@ public class EditProfileActivity extends AppCompatActivity {
                             user.setId(mAuthProvider.getUid());
                             user.setUsername(mUserName);
                             user.setPhone(mPhone);
+                            user.setImageProfile(mImageProfile);    //Añadimos la imagen ya que sino apareceria a null y daria error al actualizar
                             user.setImageProfile(urlProfile);
 
-                            mUsersProvider.update(user).addOnCompleteListener(new OnCompleteListener<Void>() {
-                                @Override
-                                public void onComplete(@NonNull Task<Void> task) {
-                                    if(task.isSuccessful()){
-                                        mDialog.dismiss();
-                                        Toast.makeText(EditProfileActivity.this, "La informacion se actualizo correctamente", Toast.LENGTH_SHORT).show();
-                                    }else{
-                                        mDialog.dismiss();
-                                        Toast.makeText(EditProfileActivity.this, "La informacion no se pudo actualizar", Toast.LENGTH_SHORT).show();
-                                    }
-                                }
-                            });
+                            updateInfo(user);
                         }
                     });
                 }else{
@@ -169,6 +193,24 @@ public class EditProfileActivity extends AppCompatActivity {
         });
     }
 
+
+    private void updateInfo(User user){
+        if(mDialog.isShowing()){        //Para que no se solape con el del metodo que lo ha llamado
+            mDialog.show();
+        }
+
+        mUsersProvider.update(user).addOnCompleteListener(new OnCompleteListener<Void>() {
+            @Override
+            public void onComplete(@NonNull Task<Void> task) {
+                mDialog.dismiss();
+                if(task.isSuccessful()){
+                    Toast.makeText(EditProfileActivity.this, "La informacion se actualizo correctamente", Toast.LENGTH_SHORT).show();
+                }else{
+                    Toast.makeText(EditProfileActivity.this, "La informacion no se pudo actualizar", Toast.LENGTH_SHORT).show();
+                }
+            }
+        });
+    }
 
     private void openGallery(int requestCode){
         Intent galleryIntent = new Intent(Intent.ACTION_GET_CONTENT);

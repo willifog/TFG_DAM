@@ -74,19 +74,20 @@ public class HomeFragment extends Fragment {
     public void onStart() {
         super.onStart();
 
-        Query query = mPostProvider.getAll();
+        Query query = mPostProvider.getAll();       //obtenemos datos de firestore
         FirestoreRecyclerOptions<Post> options = new FirestoreRecyclerOptions
                 .Builder<Post>().setQuery(query, Post.class)
                 .build();
         mPostsAdapter = new PostsAdapter(options, getContext());
         mRecyclerView.setAdapter(mPostsAdapter);
-        mPostsAdapter.startListening();
+        mPostsAdapter.startListening();  //Obtenemos datos en tiempo real.
     }
 
+    //Cuando la app pasa a segundo plano
     @Override
     public void onStop() {
         super.onStop();
-        mPostsAdapter.stopListening();
+        mPostsAdapter.stopListening(); //Deja de escuchar los cambios desde la bbdd
     }
 
     private void goToPost(){

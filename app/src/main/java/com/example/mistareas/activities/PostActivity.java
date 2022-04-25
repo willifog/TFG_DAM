@@ -302,10 +302,8 @@ public class PostActivity extends AppCompatActivity {
                                                     @Override
                                                     public void onComplete(@NonNull Task<Void> taskSave) {
                                                         mDialog.dismiss();
-
                                                         if(taskSave.isSuccessful()){
                                                             clearForm();
-
                                                             Toast.makeText(PostActivity.this, "LA informacion se almaceno correctamente", Toast.LENGTH_SHORT).show();
                                                         }else{
                                                             Toast.makeText(PostActivity.this, "No se pudo almacenar la informacion", Toast.LENGTH_SHORT).show();
