@@ -6,22 +6,30 @@ public class Post {
     private String title;
     private String description;
     private String image1;  //De tipo string ya que vamos a almacenar la URL
-    private String image2;
     private String category;
     private String idUser;
+    private long timestamp;
 
 
     public Post() {
     }
 
-    public Post(String id, String title, String description, String image1, String image2, String category, String idUser) {
+    public Post(String id, String title, String description, String image1, String category, String idUser, long timestamp) {
         this.id = id;
         this.title = title;
         this.description = description;
         this.image1 = image1;
-        this.image2 = image2;
         this.category = category;
         this.idUser = idUser;
+        this.timestamp = timestamp;
+    }
+
+    public long getTimestamp() {
+        return timestamp;
+    }
+
+    public void setTimestamp(long timestamp) {
+        this.timestamp = timestamp;
     }
 
     public String getId() {
@@ -56,13 +64,6 @@ public class Post {
         this.image1 = image1;
     }
 
-    public String getImage2() {
-        return image2;
-    }
-
-    public void setImage2(String image2) {
-        this.image2 = image2;
-    }
 
     public String getCategory() {
         return category;

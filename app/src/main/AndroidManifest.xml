@@ -2,7 +2,11 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.mistareas">
 
-    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>  //Permisos para acceder a la gallery
+    <uses-feature
+        android:name="android.hardware.camera2"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
     <application
         android:allowBackup="true"
@@ -11,8 +15,26 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MisTareas">
         <activity
-            android:name=".activities.PostActivity"
+            android:name=".activities.PostDetailActivity"
             android:exported="false" />
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.example.mistareas"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+
+        <activity
+            android:name=".activities.EditProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.PostActivity"
+            android:exported="false"
+            android:parentActivityName=".activities.MainActivity" />
         <activity
             android:name=".activities.RegisterActivity"
             android:exported="false"
