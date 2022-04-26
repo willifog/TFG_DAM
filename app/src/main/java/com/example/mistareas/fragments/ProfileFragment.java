@@ -98,6 +98,7 @@ public class ProfileFragment extends Fragment {
     @Override
     public void onStart() {
         super.onStart();
+        getUser();
 
         Query query = mPostProvider.getPostByUser(mAuthProvider.getUid());  //Obtenemos las publicaciones del usuario
         FirestoreRecyclerOptions<Post> options = new FirestoreRecyclerOptions

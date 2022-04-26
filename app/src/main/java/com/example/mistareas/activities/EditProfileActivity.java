@@ -18,6 +18,7 @@ import android.widget.ImageView;
 import android.widget.Toast;
 
 import com.example.mistareas.R;
+import com.example.mistareas.fragments.ProfileFragment;
 import com.example.mistareas.models.Post;
 import com.example.mistareas.models.User;
 import com.example.mistareas.providers.AuthProvider;
@@ -47,7 +48,7 @@ public class EditProfileActivity extends AppCompatActivity {
     TextInputEditText mTextInputUserName;
     Button mButtonEditProfile;
 
-    private final int GALLERY_REQUEST_CODE_PROFILE = 1;;
+    private final int GALLERY_REQUEST_CODE_PROFILE = 1;
 
     //Variables necesarias para mostrar opciones al subir imagen
     AlertDialog.Builder mBuilderSelector;  //Lo utilizaremos para dar la opcion de hacer una foto cn la camara
@@ -155,6 +156,7 @@ public class EditProfileActivity extends AppCompatActivity {
                 user.setUsername(mUserName);
                 user.setPhone(mPhone);
                 user.setId(mAuthProvider.getUid());
+                user.setImageProfile(mImageProfile);
                 updateInfo(user);
             }
 

@@ -6,7 +6,6 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.content.FileProvider;
 
 import android.app.AlertDialog;
-import android.app.Dialog;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.graphics.BitmapFactory;
@@ -43,15 +42,11 @@ import dmax.dialog.SpotsDialog;
 public class PostActivity extends AppCompatActivity {
 
     ImageView mImageViewPost1;
-    ImageView mImageViewPost2;
 
     private final int GALLERY_REQUEST_CODE = 1;
-    private final int GALLERY_REQUEST_CODE_2 = 2;
     private final int PHOTO_REQUEST_CODE = 3;
-    private final int PHOTO_REQUEST_CODE_2 = 4;
 
     File mImageFile;
-    File mImageFile2;
 
     Button mButtonPost;
     ImageProvider mImageProvider;
@@ -59,9 +54,9 @@ public class PostActivity extends AppCompatActivity {
     TextInputEditText mTextInputTitle;
     TextInputEditText mTextInputDescription;
     TextInputEditText mTextInputDificultad;
-    ImageView mImageViewPc;
-    ImageView mImageViewPs4;
-    ImageView mImageViewXbox;
+    TextView mImageViewComida;
+    TextView mImageViewCena;
+    TextView mImageViewDesayuno;
     TextView mTextViewCategory;
 
     String mCategory = "";
@@ -82,10 +77,6 @@ public class PostActivity extends AppCompatActivity {
     String mPhotoPath;
     File mPhotoFile;
 
-    //Foto2
-    String mAbsolutePath2;
-    String mPhotoPath2;
-    File mPhotoFile2;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -111,29 +102,29 @@ public class PostActivity extends AppCompatActivity {
                 .setCancelable(false).build();
 
 
-        mImageViewPc = findViewById(R.id.imageViewPc);
-        mImageViewPc.setOnClickListener(new View.OnClickListener() {
+        mImageViewComida = findViewById(R.id.imageViewComida);
+        mImageViewComida.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                mCategory = "PC";
+                mCategory = "COMIDA";
                 mTextViewCategory.setText(mCategory);
             }
         });
 
-        mImageViewPs4 = findViewById(R.id.imageViewPs4);
-        mImageViewPs4.setOnClickListener(new View.OnClickListener() {
+        mImageViewCena = findViewById(R.id.imageViewCena);
+        mImageViewCena.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                mCategory = "PS4";
+                mCategory = "CENA";
                 mTextViewCategory.setText(mCategory);
             }
         });
 
-        mImageViewXbox = findViewById(R.id.imageViewXbox);
-        mImageViewXbox.setOnClickListener(new View.OnClickListener() {
+        mImageViewDesayuno = findViewById(R.id.imageViewDesayuno);
+        mImageViewDesayuno.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                mCategory = "XBOX";
+                mCategory = "DESAYUNO / POSTRE";
                 mTextViewCategory.setText(mCategory);
             }
         });
@@ -156,13 +147,6 @@ public class PostActivity extends AppCompatActivity {
             }
         });
 
-        mImageViewPost2 = findViewById(R.id.imageViewPost2);
-        mImageViewPost2.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                selectOptionImage(2);
-            }
-        });
     }
 
 
@@ -177,16 +161,10 @@ public class PostActivity extends AppCompatActivity {
                     if(numberImage == 1){
                         openGallery(GALLERY_REQUEST_CODE);
                     }
-                    else if(numberImage == 2){
-                        openGallery(GALLERY_REQUEST_CODE_2);
-                    }
                 }else if(i == 1){    //Imagen de la Camara
 
                     if(numberImage == 1){
                         takePhoto(PHOTO_REQUEST_CODE);
-                    }
-                    else if(numberImage == 2){
-                        takePhoto(PHOTO_REQUEST_CODE_2);
                     }
                 }
             }
@@ -229,10 +207,6 @@ public class PostActivity extends AppCompatActivity {
             mPhotoPath = "file:" + photoFile.getAbsolutePath();
             mAbsolutePath = photoFile.getAbsolutePath();
         }
-        else if(requestCode == PHOTO_REQUEST_CODE_2){
-            mPhotoPath2 = "file:" + photoFile.getAbsolutePath();
-            mAbsolutePath2 = photoFile.getAbsolutePath();
-        }
 
         return photoFile;
     }
@@ -246,18 +220,12 @@ public class PostActivity extends AppCompatActivity {
         if(!mTitle.isEmpty() && !mDescription.isEmpty() && !mCategory.isEmpty()){
 
             //Selecciono ambas imagenes de la galeria
-            if(mImageFile != null && mImageFile2 != null){
-                saveImage(mImageFile, mImageFile2);
+            if(mImageFile != null){
+                saveImage(mImageFile);
             }
             //Selecciono las dos fotos de la camara
-            else if (mPhotoFile != null && mPhotoFile2 != null){
-                saveImage(mPhotoFile, mPhotoFile2);
-            }
-            else if (mImageFile != null && mPhotoFile2 != null){
-                saveImage(mImageFile, mPhotoFile2);
-            }
-            else if (mPhotoFile != null && mImageFile2 != null){
-                saveImage(mPhotoFile, mImageFile2);
+            else if (mPhotoFile != null){
+                saveImage(mPhotoFile);
             }
             else{
                 Toast.makeText(PostActivity.this, "Seleccione una imagen", Toast.LENGTH_SHORT).show();
@@ -268,7 +236,7 @@ public class PostActivity extends AppCompatActivity {
     }
 
 
-    private void saveImage(File imageFile1, File imageFile2){
+    private void saveImage(File imageFile1){
         mDialog.show(); //Mostramos dialogo de espera
         mImageProvider.save(PostActivity.this, imageFile1).addOnCompleteListener(new OnCompleteListener<UploadTask.TaskSnapshot>() {
             @Override
@@ -279,43 +247,25 @@ public class PostActivity extends AppCompatActivity {
                         public void onSuccess(Uri uri) {
                             final String url = uri.toString();    //Aqui ya hemos obtenidos la url de la imagen.
 
-                            mImageProvider.save(PostActivity.this, imageFile2).addOnCompleteListener(new OnCompleteListener<UploadTask.TaskSnapshot>() {
+                            Post post = new Post(); //Establecemos cada uno de los campos que queremos guardar.
+                            post.setImage1(url);
+                            post.setTitle(mTitle);
+                            post.setDescription(mDescription);
+                            post.setCategory(mCategory);
+                            post.setIdUser(mAutProvider.getUid());
+                            post.setTimestamp(new Date().getTime());
+
+                            mPostProvider.save(post).addOnCompleteListener(new OnCompleteListener<Void>() {  //Escuchador para saber en que momento se termina la tarea
                                 @Override
-                                public void onComplete(@NonNull Task<UploadTask.TaskSnapshot> taskImage2) {
-                                    if(taskImage2.isSuccessful()){
-                                        mDialog.dismiss();;
-                                        mImageProvider.getStorage().getDownloadUrl().addOnSuccessListener(new OnSuccessListener<Uri>() {
-                                            @Override
-                                            public void onSuccess(Uri uri2) {
-                                                final String url2 = uri2.toString();
-
-                                                Post post = new Post(); //Establecemos cada uno de los campos que queremos guardar.
-                                                post.setImage1(url);
-                                                post.setImage2(url2);
-                                                post.setTitle(mTitle);
-                                                post.setDescription(mDescription);
-                                                post.setCategory(mCategory);
-                                                post.setIdUser(mAutProvider.getUid());
-                                                post.setTimestamp(new Date().getTime());
-
-                                                mPostProvider.save(post).addOnCompleteListener(new OnCompleteListener<Void>() {  //Escuchador para saber en que momento se termina la tarea
-                                                    @Override
-                                                    public void onComplete(@NonNull Task<Void> taskSave) {
-                                                        mDialog.dismiss();
-                                                        if(taskSave.isSuccessful()){
-                                                            clearForm();
-                                                            Toast.makeText(PostActivity.this, "LA informacion se almaceno correctamente", Toast.LENGTH_SHORT).show();
-                                                        }else{
-                                                            Toast.makeText(PostActivity.this, "No se pudo almacenar la informacion", Toast.LENGTH_SHORT).show();
-                                                        }
-                                                    }
-                                                });
-                                            }
-                                        });
-                                    }
-                                    else{
-                                        mDialog.dismiss(); // Cerramos el dialogo de espera
-                                        Toast.makeText(PostActivity.this, "La imagen numero2 no se ha podido guardar", Toast.LENGTH_SHORT).show();
+                                public void onComplete(@NonNull Task<Void> taskSave) {
+                                    mDialog.dismiss();
+                                    if(taskSave.isSuccessful()){
+                                        Intent intent = new Intent(PostActivity.this, MainActivity.class);
+                                        intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_NEW_TASK); //Evitamos que se pueda volver borrando el historial de activitys
+                                        startActivity(intent);
+                                        Toast.makeText(PostActivity.this, "LA informacion se almaceno correctamente", Toast.LENGTH_SHORT).show();
+                                    }else{
+                                        Toast.makeText(PostActivity.this, "No se pudo almacenar la informacion", Toast.LENGTH_SHORT).show();
                                     }
                                 }
                             });
@@ -336,24 +286,6 @@ public class PostActivity extends AppCompatActivity {
     }
 
 
-    private void clearForm(){
-        //Reiniciamos el texto
-        mTextInputTitle.setText("");
-        mTextViewCategory.setText("");
-        mTextInputDescription.setText("");
-        mTextInputDificultad.setText("");
-
-        //reinicioamos las imagenes
-        mImageViewPost1.setImageResource(R.drawable.upload_image);
-        mImageViewPost2.setImageResource(R.drawable.upload_image);
-
-        mTitle = "";
-        mDescription = "";
-        mCategory = "";
-        mImageFile = null;
-        mImageFile2 = null;
-    }
-
     @Override
     protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
@@ -373,18 +305,6 @@ public class PostActivity extends AppCompatActivity {
             }
         }
 
-        if(requestCode == GALLERY_REQUEST_CODE_2 && resultCode == RESULT_OK){
-            try {
-                mPhotoFile2 = null;
-                mImageFile2 = FileUtil.from(this, data.getData()); //Nos transforma la uri en un archivo
-                mImageViewPost2.setImageBitmap(BitmapFactory.decodeFile(mImageFile2.getAbsolutePath()));  //mostramos la imagen en activity inicial
-
-            }catch (Exception e){
-                Log.d("ERROR", "Se produjo un error" + e.getMessage());
-                Toast.makeText(this, "Se produjo un error", Toast.LENGTH_SHORT).show();
-            }
-        }
-
         /**
          * Validacion seleccion de fotografia (desde la camara)
          */
@@ -395,14 +315,6 @@ public class PostActivity extends AppCompatActivity {
             //Nos permitira mostrar una imagen a partir de una URL (libreria Picasso)
             Picasso.with(PostActivity.this).load(mPhotoPath).into(mImageViewPost1);
         }
-
-        //Hacer Foto desde la segunda opcion
-        if(requestCode == PHOTO_REQUEST_CODE_2 && resultCode == RESULT_OK){
-            mImageFile2 = null;
-            mPhotoFile2 = new File(mAbsolutePath2);
-            Picasso.with(PostActivity.this).load(mPhotoPath2).into(mImageViewPost2);
-        }
-
 
     }
 }
