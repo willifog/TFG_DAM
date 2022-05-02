@@ -21,12 +21,15 @@ import com.squareup.picasso.Picasso;
 
 public class PostsAdapter extends FirestoreRecyclerAdapter<Post,PostsAdapter.ViewHolder> {
 
+
     TextView mTextViewNumberFilter;
     Context context;
+
     public PostsAdapter(FirestoreRecyclerOptions<Post> options, Context context){
         super(options);
         this.context = context;
     }
+
 
 
     public PostsAdapter(FirestoreRecyclerOptions<Post> options, Context context, TextView textView){
@@ -35,11 +38,13 @@ public class PostsAdapter extends FirestoreRecyclerAdapter<Post,PostsAdapter.Vie
         mTextViewNumberFilter = textView;
     }
 
+
     @Override
     protected void onBindViewHolder(@NonNull ViewHolder holder, int position, @NonNull Post post) {
 
         DocumentSnapshot document = getSnapshots().getSnapshot(position);  //Obtenemos el documento con la info de la publicacion
         String postId = document.getId();
+
 
         if (mTextViewNumberFilter !=null)
         {

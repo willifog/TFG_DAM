@@ -3,17 +3,19 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+
     tools:context=".fragments.FiltersFragment"
     android:layout_marginBottom="55dp">
 
     <!-- TODO: Update blank fragment layout -->
-    <!--
+
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:textAlignment="center"
         android:text="FRAGMENT FILTROS" />
--->
+
 
     <LinearLayout
 
@@ -23,7 +25,7 @@
 
 
         <androidx.cardview.widget.CardView
-            android:id="@+id/cardViewDesayuno"
+            android:id="@+id/cardViewAmericana"
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
@@ -51,14 +53,14 @@
                     android:layout_height="match_parent"
                     android:layout_marginLeft="20dp"
                     android:gravity="center_vertical"
-                    android:text="Desayuno/Postre"
+                    android:text="Americana"
                     android:textSize="20dp" />
             </LinearLayout>
 
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
-            android:id="@+id/cardViewComida"
+            android:id="@+id/cardViewChina"
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
@@ -86,7 +88,7 @@
                     android:layout_height="match_parent"
                     android:layout_marginLeft="20dp"
                     android:gravity="center_vertical"
-                    android:text="Comida"
+                    android:text="China"
                     android:textSize="20dp"
                     android:layout_gravity="center_vertical"/>/>
             </LinearLayout>
@@ -96,7 +98,7 @@
 
 
         <androidx.cardview.widget.CardView
-            android:id="@+id/cardViewCena"
+            android:id="@+id/cardViewMediterranea"
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
@@ -123,11 +125,13 @@
                     android:layout_height="match_parent"
                     android:layout_marginLeft="20dp"
                     android:gravity="center_vertical"
-                    android:text="Cena"
+                    android:text="Mediterranea"
                     android:textSize="20dp" />
             </LinearLayout>
         </androidx.cardview.widget.CardView>
 
 
     </LinearLayout>
+
+
 </FrameLayout>

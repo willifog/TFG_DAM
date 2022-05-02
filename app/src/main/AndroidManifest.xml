@@ -18,6 +18,9 @@
             android:name=".activities.FiltersActivity"
             android:exported="false" />
         <activity
+            android:name=".activities.UserProfileActivity"
+            android:exported="false" />
+        <activity
             android:name=".activities.PostDetailActivity"
             android:exported="false" />
 
