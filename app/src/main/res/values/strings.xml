@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">AppTFG</string>
+    <string name="mis_tareas">AppTFG</string>
+    <string name="imagen_de_fondo">imagen de fondo</string>
+    <string name="itt">Tareas</string>
+    <string name="usuario">Nombre de Usuario</string>
+    <string name="pass">Contraseña</string>
+    <string name="login">Login</string>
+    <string name="registro">Registro</string>
+    <string name="recuperar_pass">He olvidado mi contraseña</string>
+    <string name="hecho">Hecho</string>
+
+    <string name="registrarse">REGISTRARSE</string>
+    <string name="apptareas">AppTFG</string>
+    <string name="correo_electronico">Correo Electronico</string>
+
+    <string name="transtionname_picture">transitionnamepicture</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="nombre_de_la_receta">Nombre de la Receta</string>
+    <string name="descripcion">Descripcion</string>
+    <string name="numero_de_telefono">Telefono</string>
+
+</resources>
