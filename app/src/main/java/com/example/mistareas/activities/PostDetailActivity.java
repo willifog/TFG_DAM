@@ -1,5 +1,6 @@
 package com.example.mistareas.activities;
 
+
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
@@ -64,12 +65,14 @@ public class PostDetailActivity extends AppCompatActivity {
 
     FloatingActionButton mBtnComent;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_post_detail);
 
         mImageView = findViewById(R.id.imagePostDetail);
+
         mExtraPostId = getIntent().getStringExtra("id"); //recibimos el id del usuario para buscar su foto mas a delante
 
 
@@ -201,10 +204,12 @@ public class PostDetailActivity extends AppCompatActivity {
         }else{
             Toast.makeText(this, "No se ha podido cargar el perfil de usuario", Toast.LENGTH_SHORT).show();
         }
+
     }
 
     //Obtenemos la imagen desde el documento
     private void getPost(){
+
         mPostProvider.getPostById(mExtraPostId).addOnSuccessListener(new OnSuccessListener<DocumentSnapshot>() {  //Obtenemos la publicacion del user
             @Override
             public void onSuccess(DocumentSnapshot documentSnapshot) {
@@ -266,6 +271,7 @@ public class PostDetailActivity extends AppCompatActivity {
                     }
 
                 }
+
             }
         });
     }

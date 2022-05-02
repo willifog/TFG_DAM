@@ -1,5 +1,8 @@
 package com.example.mistareas.fragments;
 
+
+
+
 import android.content.Intent;
 import android.os.Bundle;
 
@@ -10,6 +13,7 @@ import androidx.recyclerview.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
@@ -40,13 +44,14 @@ public class ProfileFragment extends Fragment {
     TextView mTextViewPostNumber;
     CircleImageView mCircleImageProfile;
 
+
     LinearLayout mLinearLayoutEditProfile;
+
     View mView;
 
     UsersProvider mUsersProvider;
     AuthProvider mAuthProvider;
     PostProvider mPostProvider;
-
     MyPostsAdapter mAdapter;
 
     RecyclerView mRecyclerView;
@@ -80,8 +85,10 @@ public class ProfileFragment extends Fragment {
         LinearLayoutManager linearLayoutManager = new LinearLayoutManager(getContext());
         mRecyclerView.setLayoutManager(linearLayoutManager);
 
+
         mLinearLayoutEditProfile = mView.findViewById(R.id.linearLayoutEditProfile);
         mLinearLayoutEditProfile.setOnClickListener(new View.OnClickListener() {
+
             @Override
             public void onClick(View view) {
                 goToEditProfile();

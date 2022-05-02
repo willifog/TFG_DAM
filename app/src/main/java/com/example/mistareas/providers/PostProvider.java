@@ -26,6 +26,12 @@ public class PostProvider {
        return  mCollection.orderBy("timestamp",Query.Direction.DESCENDING);
     }
 
+
+    //para obtener datos del filtro de búsqueda
+    public Query getPostByCategoryAndTimestamp(String category){
+        return  mCollection.whereEqualTo("category", category).orderBy("timestamp",Query.Direction.DESCENDING);
+    }
+
     //Obtener post de un usuario
     public Query getPostByUser(String id){
         return mCollection.whereEqualTo("idUser", id);

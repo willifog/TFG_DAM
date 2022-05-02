@@ -1,6 +1,8 @@
 package com.example.mistareas.activities;
 
+
 import androidx.appcompat.app.AppCompatActivity;
+
 
 import android.content.Intent;
 import android.graphics.Typeface;
