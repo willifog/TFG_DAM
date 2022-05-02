@@ -89,25 +89,25 @@ public class LoginActivity extends AppCompatActivity {
     public void login(){
             String email = mTextInputEmail.getText().toString();
             String password = mTextInputPassword.getText().toString();
-            mDialog.show();
 
-            mAuthProvider.login(email,password).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
-                @Override
-                public void onComplete(@NonNull Task<AuthResult> task) {
-                    mDialog.dismiss();
-                    if(task.isSuccessful()){
-                        Intent intent = new Intent(LoginActivity.this, MainActivity.class);
 
-                        intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);  //Limpiamos el historial de pantallas que hayamos abierto.
-                        startActivity(intent);
-                    }else{
-                        Toast.makeText(LoginActivity.this, "Email o ocntraseña erroneo", Toast.LENGTH_SHORT).show();
+            if(!email.isEmpty() && !password.isEmpty()){
+                mDialog.show();
+                mAuthProvider.login(email,password).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
+                    @Override
+                    public void onComplete(@NonNull Task<AuthResult> task) {
+                        mDialog.dismiss();
+                        if(task.isSuccessful()){
+                            Intent intent = new Intent(LoginActivity.this, MainActivity.class);
+                            intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);  //Limpiamos el historial de pantallas que hayamos abierto.
+                            startActivity(intent);
+                        }else{
+                            Toast.makeText(LoginActivity.this, "Email o contraseña incorrectos", Toast.LENGTH_SHORT).show();
+                        }
                     }
-                }
-            });
-            
+                });
+            }else{
+                Toast.makeText(this, "Complete todos los campos", Toast.LENGTH_SHORT).show();
+            }
     }
-
-
-
 }

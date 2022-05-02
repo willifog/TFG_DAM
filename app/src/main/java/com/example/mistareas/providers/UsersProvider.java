@@ -19,6 +19,12 @@ public class UsersProvider {
         mCollection = FirebaseFirestore.getInstance().collection("Users");
     }
 
+    /**
+     *Metodo utilizado para la consulta de los datos del usuario
+     *
+     * @param id id del usuario que queremos consultar
+     * @return retorna todos los datos del usuario.
+     */
     public Task<DocumentSnapshot> getUser(String id){
         return mCollection.document(id).get();
     }
