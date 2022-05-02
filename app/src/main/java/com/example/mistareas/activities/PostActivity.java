@@ -102,29 +102,29 @@ public class PostActivity extends AppCompatActivity {
                 .setCancelable(false).build();
 
 
-        mImageViewComida = findViewById(R.id.imageViewComida);
+        mImageViewComida = findViewById(R.id.imageViewAmericana);
         mImageViewComida.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                mCategory = "COMIDA";
+                mCategory = "AMERICANA";
                 mTextViewCategory.setText(mCategory);
             }
         });
 
-        mImageViewCena = findViewById(R.id.imageViewCena);
+        mImageViewCena = findViewById(R.id.imageViewChina);
         mImageViewCena.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                mCategory = "CENA";
+                mCategory = "CHINA";
                 mTextViewCategory.setText(mCategory);
             }
         });
 
-        mImageViewDesayuno = findViewById(R.id.imageViewDesayuno);
+        mImageViewDesayuno = findViewById(R.id.imageViewMediterraneo);
         mImageViewDesayuno.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                mCategory = "DESAYUNO / POSTRE";
+                mCategory = "MEDITERRANEA";
                 mTextViewCategory.setText(mCategory);
             }
         });
