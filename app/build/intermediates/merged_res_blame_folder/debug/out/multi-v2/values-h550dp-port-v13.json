@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\PROYECTO DAM\\tfg_dam\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-h550dp-port-v13\\values-h550dp-port-v13.xml",
+            "outputFile": "C:\\Users\\Cesar\\AndroidStudioProjects\\TFG_DAM\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-h550dp-port-v13\\values-h550dp-port-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\alexa\\.gradle\\caches\\transforms-3\\f6c6ebf033929a0267c3e1d915626a98\\transformed\\material-1.4.0\\res\\values-h550dp-port-v13\\values-h550dp-port-v13.xml",
+                    "source": "C:\\Users\\Cesar\\.gradle\\caches\\transforms-3\\f6c6ebf033929a0267c3e1d915626a98\\transformed\\material-1.4.0\\res\\values-h550dp-port-v13\\values-h550dp-port-v13.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
