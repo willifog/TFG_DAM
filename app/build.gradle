@@ -54,6 +54,8 @@ dependencies {
 
     implementation 'com.github.smarteist:autoimageslider:1.4.0'  // Dependencia para Slider de imagenes
 
+    implementation 'com.google.firebase:firebase-messaging:23.0.3' //Dependencia para notificaciones y mensajería
+
     testImplementation 'junit:junit:4.+'
     androidTestImplementation 'androidx.test.ext:junit:1.1.3'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'

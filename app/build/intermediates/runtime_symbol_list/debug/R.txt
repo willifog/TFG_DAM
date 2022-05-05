@@ -2790,6 +2790,7 @@ int string error_icon_content_description 0x7f0f003b
 int string exposed_dropdown_menu_content_description 0x7f0f003c
 int string fab_transformation_scrim_behavior 0x7f0f003d
 int string fab_transformation_sheet_behavior 0x7f0f003e
+int string fcm_fallback_notification_channel_label 0x7f0f0094
 int string gcm_defaultSenderId 0x7f0f003f
 int string google_api_key 0x7f0f0040
 int string google_app_id 0x7f0f0041
