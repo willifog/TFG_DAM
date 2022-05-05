@@ -7,30 +7,30 @@
     tools:context=".activities.SplashActivity">
 
     <!-- Ponemos el gradiente bajo el texto -->
-    <View
+    <ImageView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@mipmap/splash"
+        android:src="@mipmap/splash"
         android:scaleType="fitXY"
-        />
+        android:tint="#59756161"
+        tools:ignore="UseAppTint" />
 
     <TextView
         android:id="@+id/titulo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="300dp"
         android:text="@string/mis_tareas"
-        android:textColor="@android:color/white"
-        android:textSize="50sp"
         android:textAlignment="center"
-        android:layout_marginTop="40dp"
-         />
+        android:textColor="@android:color/white"
+        android:textSize="50sp" />
 
     <ImageView
         android:id="@+id/bird2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:src="@mipmap/bird2"
+        android:layout_marginTop="120dp"
+        android:src="@mipmap/logo"
         />
 
 
