@@ -228,6 +228,10 @@
         "source": "D:\\Programacion Apps\\TFG_DAM\\app\\src\\main\\res\\menu\\bottom_navigation_menu.xml"
     },
     {
+        "merged": "D:\\Programacion Apps\\TFG_DAM\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_chat.xml.flat",
+        "source": "D:\\Programacion Apps\\TFG_DAM\\app\\src\\main\\res\\layout\\activity_chat.xml"
+    },
+    {
         "merged": "D:\\Programacion Apps\\TFG_DAM\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_profile.xml.flat",
         "source": "D:\\Programacion Apps\\TFG_DAM\\app\\src\\main\\res\\layout\\fragment_profile.xml"
     },

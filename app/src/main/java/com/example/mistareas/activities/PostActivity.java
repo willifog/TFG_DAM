@@ -37,6 +37,7 @@ import com.squareup.picasso.Picasso;
 import java.io.File;
 import java.io.IOException;
 import java.util.Date;
+import java.util.Locale;
 
 import dmax.dialog.SpotsDialog;
 
@@ -271,7 +272,7 @@ public class PostActivity extends AppCompatActivity {
 
                             Post post = new Post(); //Establecemos cada uno de los campos que queremos guardar.
                             post.setImage1(url);
-                            post.setTitle(mTitle);
+                            post.setTitle(mTitle.toLowerCase());
                             post.setDescription(mDescription);
                             post.setCategory(mCategory);
                             post.setIdUser(mAutProvider.getUid());
@@ -286,9 +287,9 @@ public class PostActivity extends AppCompatActivity {
                                         Intent intent = new Intent(PostActivity.this, MainActivity.class);
                                         intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_NEW_TASK); //Evitamos que se pueda volver borrando el historial de activitys
                                         startActivity(intent);
-                                        Toast.makeText(PostActivity.this, "LA informacion se almaceno correctamente", Toast.LENGTH_SHORT).show();
+                                        Toast.makeText(PostActivity.this, "La información se almaceno correctamente", Toast.LENGTH_SHORT).show();
                                     }else{
-                                        Toast.makeText(PostActivity.this, "No se pudo almacenar la informacion", Toast.LENGTH_SHORT).show();
+                                        Toast.makeText(PostActivity.this, "No se pudo almacenar la información", Toast.LENGTH_SHORT).show();
                                     }
                                 }
                             });

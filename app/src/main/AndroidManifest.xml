@@ -15,6 +15,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MisTareas">
         <activity
+            android:name=".activities.ChatActivity"
+            android:exported="false" />
+        <activity
             android:name=".activities.FiltersActivity"
             android:exported="false" />
         <activity
@@ -69,6 +72,9 @@
             </intent-filter>
         </service>
 
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_channel_id"
+            android:value="@string/default_notification_channel_id" />
     </application>
 
 </manifest>

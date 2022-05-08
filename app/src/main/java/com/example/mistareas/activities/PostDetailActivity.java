@@ -21,10 +21,14 @@ import android.widget.Toast;
 import com.example.mistareas.R;
 import com.example.mistareas.adapters.CommentAdapter;
 import com.example.mistareas.models.Comment;
+import com.example.mistareas.models.FCMBody;
+import com.example.mistareas.models.FCMResponse;
 import com.example.mistareas.models.Post;
 import com.example.mistareas.providers.AuthProvider;
 import com.example.mistareas.providers.CommentProvider;
+import com.example.mistareas.providers.NotificationProvider;
 import com.example.mistareas.providers.PostProvider;
+import com.example.mistareas.providers.TokenProvider;
 import com.example.mistareas.providers.UsersProvider;
 import com.firebase.ui.firestore.FirestoreRecyclerOptions;
 import com.google.android.gms.tasks.OnCompleteListener;
@@ -36,9 +40,14 @@ import com.google.firebase.firestore.Query;
 import com.squareup.picasso.Picasso;
 
 import java.util.Date;
+import java.util.HashMap;
 import java.util.Locale;
+import java.util.Map;
 
 import de.hdodenhof.circleimageview.CircleImageView;
+import retrofit2.Call;
+import retrofit2.Callback;
+import retrofit2.Response;
 
 public class PostDetailActivity extends AppCompatActivity {
 
@@ -59,6 +68,9 @@ public class PostDetailActivity extends AppCompatActivity {
     CircleImageView mCircleImageViewBack; //Boton retroceso
     Button mButtonShowProfile;
     RecyclerView mRecyclerView;
+
+    NotificationProvider mNotificationProvider;
+    TokenProvider mTokenProvider;
 
     String mExtraPostId;
     String mIdUser = "";
@@ -93,6 +105,8 @@ public class PostDetailActivity extends AppCompatActivity {
         mUsersProviders = new UsersProvider();
         mCommentProvider = new CommentProvider();
         mAuthProvider = new AuthProvider();
+        mNotificationProvider = new NotificationProvider();
+        mTokenProvider = new TokenProvider();
 
 
         /**
@@ -170,7 +184,7 @@ public class PostDetailActivity extends AppCompatActivity {
         dialog.show();
     }
 
-    private void createComment(String comentario) {
+    private void createComment(final String comentario) {
         Comment comment = new Comment();
         comment.setComment(comentario);
         comment.setIdPost(mExtraPostId);
@@ -182,9 +196,51 @@ public class PostDetailActivity extends AppCompatActivity {
             @Override
             public void onComplete(@NonNull Task<Void> task) {
                 if(task.isSuccessful()){
+                    sendNotification(comentario);
                     Toast.makeText(PostDetailActivity.this , "Comentario añadido", Toast.LENGTH_SHORT).show();
                 }else{
                     Toast.makeText(PostDetailActivity.this, "No se ha podido publicar el comentario", Toast.LENGTH_SHORT).show();
+                }
+            }
+        });
+    }
+
+    private void sendNotification(String comment){
+        if(mIdUser == null){
+            return;
+        }
+        mTokenProvider.getToken(mIdUser).addOnSuccessListener(new OnSuccessListener<DocumentSnapshot>() {
+            @Override
+            public void onSuccess(DocumentSnapshot documentSnapshot) {
+                if(documentSnapshot.exists()){
+                    if(documentSnapshot.contains("token")){
+                        String token = documentSnapshot.getString("token");
+                        Map<String, String> data = new HashMap<>();
+                        data.put("title", "NUEVO COMENTARIO");
+                        data.put("body", comment);
+                        FCMBody body = new FCMBody(token, "high", "4500s", data);
+                        mNotificationProvider.sendNotification(body).enqueue(new Callback<FCMResponse>() {
+                            @Override
+                            public void onResponse(Call<FCMResponse> call, Response<FCMResponse> response) {
+                                if(response.body() != null){
+                                    if(response.body().getSuccess() == 1){
+                                        Toast.makeText(PostDetailActivity.this, "La notificación se envió correctamente",Toast.LENGTH_SHORT).show();
+                                    }else{
+                                        Toast.makeText(PostDetailActivity.this, "La notificación no se pudo enviar",Toast.LENGTH_SHORT).show();
+                                    }
+                                }else{
+                                    Toast.makeText(PostDetailActivity.this, "La notificación no se pudo enviar",Toast.LENGTH_SHORT).show();
+                                }
+                            }
+
+                            @Override
+                            public void onFailure(Call<FCMResponse> call, Throwable t) {
+
+                            }
+                        });
+                    }
+                }else{
+                    Toast.makeText(PostDetailActivity.this, "El token de notificaciones no existe",Toast.LENGTH_SHORT).show();
                 }
             }
         });

@@ -2187,6 +2187,7 @@ id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
 id fab
+id fabChat
 id fade
 id fill
 id fill_horizontal
@@ -2599,6 +2600,7 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_chat
 layout activity_edit_profile
 layout activity_filters
 layout activity_login
@@ -2785,6 +2787,7 @@ string common_open_on_phone
 string common_signin_button_text
 string common_signin_button_text_long
 string correo_electronico
+string default_notification_channel_id
 string default_web_client_id
 string descripcion
 string error_icon_content_description

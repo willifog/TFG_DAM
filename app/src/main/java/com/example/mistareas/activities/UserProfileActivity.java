@@ -2,16 +2,19 @@ package com.example.mistareas.activities;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import com.example.mistareas.R;
+import com.example.mistareas.models.User;
 import com.example.mistareas.providers.AuthProvider;
 import com.example.mistareas.providers.PostProvider;
 import com.example.mistareas.providers.UsersProvider;
 import com.google.android.gms.tasks.OnSuccessListener;
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.firebase.firestore.DocumentSnapshot;
 import com.google.firebase.firestore.QuerySnapshot;
 import com.squareup.picasso.Picasso;
@@ -33,6 +36,8 @@ public class UserProfileActivity extends AppCompatActivity {
     PostProvider mPostProvider;
 
     String mExtraIdUser;
+
+    FloatingActionButton mFabChat;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -63,8 +68,28 @@ public class UserProfileActivity extends AppCompatActivity {
 
         mExtraIdUser = getIntent().getStringExtra("idUser");
 
+        if (mAuthProvider.getUid().equals(mExtraIdUser)){
+            mFabChat.setVisibility(View.GONE);
+        }
+
+        mFabChat = findViewById(R.id.fabChat);
+
+        mFabChat.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                goToChatActivity();
+            }
+        });
+
         getUser();
         getPostNumber();
+    }
+
+    private void goToChatActivity() {
+        Intent intent = new Intent(UserProfileActivity.this, ChatActivity.class);
+        intent.putExtra("idUser1", mAuthProvider.getUid());
+        intent.putExtra("idUser2", mExtraIdUser);
+        startActivity(intent);
     }
 
     /**

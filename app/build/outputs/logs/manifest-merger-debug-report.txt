@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\Programacion Apps\TFG_DAM\app\src\main\AndroidManifest.xml:2:1-74:12
-INJECTED from D:\Programacion Apps\TFG_DAM\app\src\main\AndroidManifest.xml:2:1-74:12
-INJECTED from D:\Programacion Apps\TFG_DAM\app\src\main\AndroidManifest.xml:2:1-74:12
-INJECTED from D:\Programacion Apps\TFG_DAM\app\src\main\AndroidManifest.xml:2:1-74:12
+ADDED from D:\Programacion Apps\TFG_DAM\app\src\main\AndroidManifest.xml:2:1-80:12
+INJECTED from D:\Programacion Apps\TFG_DAM\app\src\main\AndroidManifest.xml:2:1-80:12
+INJECTED from D:\Programacion Apps\TFG_DAM\app\src\main\AndroidManifest.xml:2:1-80:12
+INJECTED from D:\Programacion Apps\TFG_DAM\app\src\main\AndroidManifest.xml:2:1-80:12
 MERGED from [com.google.android.material:material:1.4.0] C:\Users\willi\.gradle\caches\transforms-3\f6c6ebf033929a0267c3e1d915626a98\transformed\material-1.4.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.2] C:\Users\willi\.gradle\caches\transforms-3\af061228be6f970866d76e2c9c8b9808\transformed\constraintlayout-2.1.2\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.appcompat:appcompat:1.4.0] C:\Users\willi\.gradle\caches\transforms-3\57ddf2140b3aabe196ee4fe7ba0c2707\transformed\appcompat-1.4.0\AndroidManifest.xml:17:1-24:12
@@ -86,20 +86,20 @@ MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\willi\.gradle\ca
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\willi\.gradle\caches\transforms-3\eeee98bc70b38d41eb6c478588d5437e\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [io.grpc:grpc-android:1.44.1] C:\Users\willi\.gradle\caches\transforms-3\9b81bf923783b8ef985b4cb815a49d18\transformed\jetified-grpc-android-1.44.1\AndroidManifest.xml:2:1-11:12
 MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] C:\Users\willi\.gradle\caches\transforms-3\df73d2b6302d01465e24667c98346d00\transformed\jetified-protolite-well-known-types-18.0.0\AndroidManifest.xml:2:1-11:12
-INJECTED from D:\Programacion Apps\TFG_DAM\app\src\main\AndroidManifest.xml:2:1-74:12
-INJECTED from D:\Programacion Apps\TFG_DAM\app\src\main\AndroidManifest.xml:2:1-74:12
-INJECTED from D:\Programacion Apps\TFG_DAM\app\src\main\AndroidManifest.xml:2:1-74:12
+INJECTED from D:\Programacion Apps\TFG_DAM\app\src\main\AndroidManifest.xml:2:1-80:12
+INJECTED from D:\Programacion Apps\TFG_DAM\app\src\main\AndroidManifest.xml:2:1-80:12
+INJECTED from D:\Programacion Apps\TFG_DAM\app\src\main\AndroidManifest.xml:2:1-80:12
 	package
 		ADDED from D:\Programacion Apps\TFG_DAM\app\src\main\AndroidManifest.xml:3:5-36
 		INJECTED from D:\Programacion Apps\TFG_DAM\app\src\main\AndroidManifest.xml
 		INJECTED from D:\Programacion Apps\TFG_DAM\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from D:\Programacion Apps\TFG_DAM\app\src\main\AndroidManifest.xml
-		ADDED from D:\Programacion Apps\TFG_DAM\app\src\main\AndroidManifest.xml:2:1-74:12
+		ADDED from D:\Programacion Apps\TFG_DAM\app\src\main\AndroidManifest.xml:2:1-80:12
 		INJECTED from D:\Programacion Apps\TFG_DAM\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from D:\Programacion Apps\TFG_DAM\app\src\main\AndroidManifest.xml
-		ADDED from D:\Programacion Apps\TFG_DAM\app\src\main\AndroidManifest.xml:2:1-74:12
+		ADDED from D:\Programacion Apps\TFG_DAM\app\src\main\AndroidManifest.xml:2:1-80:12
 		INJECTED from D:\Programacion Apps\TFG_DAM\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from D:\Programacion Apps\TFG_DAM\app\src\main\AndroidManifest.xml:2:11-69
@@ -114,7 +114,7 @@ ADDED from D:\Programacion Apps\TFG_DAM\app\src\main\AndroidManifest.xml:9:5-80
 	android:name
 		ADDED from D:\Programacion Apps\TFG_DAM\app\src\main\AndroidManifest.xml:9:22-77
 application
-ADDED from D:\Programacion Apps\TFG_DAM\app\src\main\AndroidManifest.xml:11:5-72:19
+ADDED from D:\Programacion Apps\TFG_DAM\app\src\main\AndroidManifest.xml:11:5-78:19
 MERGED from [com.google.android.material:material:1.4.0] C:\Users\willi\.gradle\caches\transforms-3\f6c6ebf033929a0267c3e1d915626a98\transformed\material-1.4.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.4.0] C:\Users\willi\.gradle\caches\transforms-3\f6c6ebf033929a0267c3e1d915626a98\transformed\material-1.4.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.2] C:\Users\willi\.gradle\caches\transforms-3\af061228be6f970866d76e2c9c8b9808\transformed\constraintlayout-2.1.2\AndroidManifest.xml:9:5-20
@@ -185,102 +185,114 @@ MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\willi\.gradle\cach
 		ADDED from D:\Programacion Apps\TFG_DAM\app\src\main\AndroidManifest.xml:12:9-35
 	android:theme
 		ADDED from D:\Programacion Apps\TFG_DAM\app\src\main\AndroidManifest.xml:16:9-47
-activity#com.example.mistareas.activities.FiltersActivity
+activity#com.example.mistareas.activities.ChatActivity
 ADDED from D:\Programacion Apps\TFG_DAM\app\src\main\AndroidManifest.xml:17:9-19:40
 	android:exported
 		ADDED from D:\Programacion Apps\TFG_DAM\app\src\main\AndroidManifest.xml:19:13-37
 	android:name
-		ADDED from D:\Programacion Apps\TFG_DAM\app\src\main\AndroidManifest.xml:18:13-55
-activity#com.example.mistareas.activities.UserProfileActivity
+		ADDED from D:\Programacion Apps\TFG_DAM\app\src\main\AndroidManifest.xml:18:13-52
+activity#com.example.mistareas.activities.FiltersActivity
 ADDED from D:\Programacion Apps\TFG_DAM\app\src\main\AndroidManifest.xml:20:9-22:40
 	android:exported
 		ADDED from D:\Programacion Apps\TFG_DAM\app\src\main\AndroidManifest.xml:22:13-37
 	android:name
-		ADDED from D:\Programacion Apps\TFG_DAM\app\src\main\AndroidManifest.xml:21:13-59
-activity#com.example.mistareas.activities.PostDetailActivity
+		ADDED from D:\Programacion Apps\TFG_DAM\app\src\main\AndroidManifest.xml:21:13-55
+activity#com.example.mistareas.activities.UserProfileActivity
 ADDED from D:\Programacion Apps\TFG_DAM\app\src\main\AndroidManifest.xml:23:9-25:40
 	android:exported
 		ADDED from D:\Programacion Apps\TFG_DAM\app\src\main\AndroidManifest.xml:25:13-37
 	android:name
-		ADDED from D:\Programacion Apps\TFG_DAM\app\src\main\AndroidManifest.xml:24:13-58
+		ADDED from D:\Programacion Apps\TFG_DAM\app\src\main\AndroidManifest.xml:24:13-59
+activity#com.example.mistareas.activities.PostDetailActivity
+ADDED from D:\Programacion Apps\TFG_DAM\app\src\main\AndroidManifest.xml:26:9-28:40
+	android:exported
+		ADDED from D:\Programacion Apps\TFG_DAM\app\src\main\AndroidManifest.xml:28:13-37
+	android:name
+		ADDED from D:\Programacion Apps\TFG_DAM\app\src\main\AndroidManifest.xml:27:13-58
 provider#androidx.core.content.FileProvider
-ADDED from D:\Programacion Apps\TFG_DAM\app\src\main\AndroidManifest.xml:27:9-35:20
+ADDED from D:\Programacion Apps\TFG_DAM\app\src\main\AndroidManifest.xml:30:9-38:20
 	android:grantUriPermissions
-		ADDED from D:\Programacion Apps\TFG_DAM\app\src\main\AndroidManifest.xml:31:13-47
+		ADDED from D:\Programacion Apps\TFG_DAM\app\src\main\AndroidManifest.xml:34:13-47
 	android:authorities
-		ADDED from D:\Programacion Apps\TFG_DAM\app\src\main\AndroidManifest.xml:29:13-56
+		ADDED from D:\Programacion Apps\TFG_DAM\app\src\main\AndroidManifest.xml:32:13-56
 	android:exported
-		ADDED from D:\Programacion Apps\TFG_DAM\app\src\main\AndroidManifest.xml:30:13-37
+		ADDED from D:\Programacion Apps\TFG_DAM\app\src\main\AndroidManifest.xml:33:13-37
 	android:name
-		ADDED from D:\Programacion Apps\TFG_DAM\app\src\main\AndroidManifest.xml:28:13-62
+		ADDED from D:\Programacion Apps\TFG_DAM\app\src\main\AndroidManifest.xml:31:13-62
 meta-data#android.support.FILE_PROVIDER_PATHS
-ADDED from D:\Programacion Apps\TFG_DAM\app\src\main\AndroidManifest.xml:32:13-34:54
+ADDED from D:\Programacion Apps\TFG_DAM\app\src\main\AndroidManifest.xml:35:13-37:54
 	android:resource
-		ADDED from D:\Programacion Apps\TFG_DAM\app\src\main\AndroidManifest.xml:34:17-51
+		ADDED from D:\Programacion Apps\TFG_DAM\app\src\main\AndroidManifest.xml:37:17-51
 	android:name
-		ADDED from D:\Programacion Apps\TFG_DAM\app\src\main\AndroidManifest.xml:33:17-67
+		ADDED from D:\Programacion Apps\TFG_DAM\app\src\main\AndroidManifest.xml:36:17-67
 activity#com.example.mistareas.activities.EditProfileActivity
-ADDED from D:\Programacion Apps\TFG_DAM\app\src\main\AndroidManifest.xml:37:9-39:40
-	android:exported
-		ADDED from D:\Programacion Apps\TFG_DAM\app\src\main\AndroidManifest.xml:39:13-37
-	android:name
-		ADDED from D:\Programacion Apps\TFG_DAM\app\src\main\AndroidManifest.xml:38:13-59
-activity#com.example.mistareas.activities.PostActivity
-ADDED from D:\Programacion Apps\TFG_DAM\app\src\main\AndroidManifest.xml:40:9-43:69
-	android:parentActivityName
-		ADDED from D:\Programacion Apps\TFG_DAM\app\src\main\AndroidManifest.xml:43:13-66
+ADDED from D:\Programacion Apps\TFG_DAM\app\src\main\AndroidManifest.xml:40:9-42:40
 	android:exported
 		ADDED from D:\Programacion Apps\TFG_DAM\app\src\main\AndroidManifest.xml:42:13-37
 	android:name
-		ADDED from D:\Programacion Apps\TFG_DAM\app\src\main\AndroidManifest.xml:41:13-52
-activity#com.example.mistareas.activities.RegisterActivity
-ADDED from D:\Programacion Apps\TFG_DAM\app\src\main\AndroidManifest.xml:44:9-47:70
+		ADDED from D:\Programacion Apps\TFG_DAM\app\src\main\AndroidManifest.xml:41:13-59
+activity#com.example.mistareas.activities.PostActivity
+ADDED from D:\Programacion Apps\TFG_DAM\app\src\main\AndroidManifest.xml:43:9-46:69
 	android:parentActivityName
-		ADDED from D:\Programacion Apps\TFG_DAM\app\src\main\AndroidManifest.xml:47:13-67
+		ADDED from D:\Programacion Apps\TFG_DAM\app\src\main\AndroidManifest.xml:46:13-66
 	android:exported
-		ADDED from D:\Programacion Apps\TFG_DAM\app\src\main\AndroidManifest.xml:46:13-37
+		ADDED from D:\Programacion Apps\TFG_DAM\app\src\main\AndroidManifest.xml:45:13-37
 	android:name
-		ADDED from D:\Programacion Apps\TFG_DAM\app\src\main\AndroidManifest.xml:45:13-56
+		ADDED from D:\Programacion Apps\TFG_DAM\app\src\main\AndroidManifest.xml:44:13-52
+activity#com.example.mistareas.activities.RegisterActivity
+ADDED from D:\Programacion Apps\TFG_DAM\app\src\main\AndroidManifest.xml:47:9-50:70
+	android:parentActivityName
+		ADDED from D:\Programacion Apps\TFG_DAM\app\src\main\AndroidManifest.xml:50:13-67
+	android:exported
+		ADDED from D:\Programacion Apps\TFG_DAM\app\src\main\AndroidManifest.xml:49:13-37
+	android:name
+		ADDED from D:\Programacion Apps\TFG_DAM\app\src\main\AndroidManifest.xml:48:13-56
 activity#com.example.mistareas.activities.MainActivity
-ADDED from D:\Programacion Apps\TFG_DAM\app\src\main\AndroidManifest.xml:48:9-50:40
-	android:exported
-		ADDED from D:\Programacion Apps\TFG_DAM\app\src\main\AndroidManifest.xml:50:13-37
-	android:name
-		ADDED from D:\Programacion Apps\TFG_DAM\app\src\main\AndroidManifest.xml:49:13-52
-activity#com.example.mistareas.activities.LoginActivity
 ADDED from D:\Programacion Apps\TFG_DAM\app\src\main\AndroidManifest.xml:51:9-53:40
 	android:exported
 		ADDED from D:\Programacion Apps\TFG_DAM\app\src\main\AndroidManifest.xml:53:13-37
 	android:name
-		ADDED from D:\Programacion Apps\TFG_DAM\app\src\main\AndroidManifest.xml:52:13-53
+		ADDED from D:\Programacion Apps\TFG_DAM\app\src\main\AndroidManifest.xml:52:13-52
+activity#com.example.mistareas.activities.LoginActivity
+ADDED from D:\Programacion Apps\TFG_DAM\app\src\main\AndroidManifest.xml:54:9-56:40
+	android:exported
+		ADDED from D:\Programacion Apps\TFG_DAM\app\src\main\AndroidManifest.xml:56:13-37
+	android:name
+		ADDED from D:\Programacion Apps\TFG_DAM\app\src\main\AndroidManifest.xml:55:13-53
 activity#com.example.mistareas.activities.SplashActivity
-ADDED from D:\Programacion Apps\TFG_DAM\app\src\main\AndroidManifest.xml:54:9-62:20
+ADDED from D:\Programacion Apps\TFG_DAM\app\src\main\AndroidManifest.xml:57:9-65:20
 	android:exported
-		ADDED from D:\Programacion Apps\TFG_DAM\app\src\main\AndroidManifest.xml:56:13-36
+		ADDED from D:\Programacion Apps\TFG_DAM\app\src\main\AndroidManifest.xml:59:13-36
 	android:name
-		ADDED from D:\Programacion Apps\TFG_DAM\app\src\main\AndroidManifest.xml:55:13-54
+		ADDED from D:\Programacion Apps\TFG_DAM\app\src\main\AndroidManifest.xml:58:13-54
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from D:\Programacion Apps\TFG_DAM\app\src\main\AndroidManifest.xml:57:13-61:29
+ADDED from D:\Programacion Apps\TFG_DAM\app\src\main\AndroidManifest.xml:60:13-64:29
 action#android.intent.action.MAIN
-ADDED from D:\Programacion Apps\TFG_DAM\app\src\main\AndroidManifest.xml:58:17-69
+ADDED from D:\Programacion Apps\TFG_DAM\app\src\main\AndroidManifest.xml:61:17-69
 	android:name
-		ADDED from D:\Programacion Apps\TFG_DAM\app\src\main\AndroidManifest.xml:58:25-66
+		ADDED from D:\Programacion Apps\TFG_DAM\app\src\main\AndroidManifest.xml:61:25-66
 category#android.intent.category.LAUNCHER
-ADDED from D:\Programacion Apps\TFG_DAM\app\src\main\AndroidManifest.xml:60:17-77
+ADDED from D:\Programacion Apps\TFG_DAM\app\src\main\AndroidManifest.xml:63:17-77
 	android:name
-		ADDED from D:\Programacion Apps\TFG_DAM\app\src\main\AndroidManifest.xml:60:27-74
+		ADDED from D:\Programacion Apps\TFG_DAM\app\src\main\AndroidManifest.xml:63:27-74
 service#com.example.mistareas.services.MyFirebaseMessagingClient
-ADDED from D:\Programacion Apps\TFG_DAM\app\src\main\AndroidManifest.xml:64:9-70:19
+ADDED from D:\Programacion Apps\TFG_DAM\app\src\main\AndroidManifest.xml:67:9-73:19
 	android:exported
-		ADDED from D:\Programacion Apps\TFG_DAM\app\src\main\AndroidManifest.xml:66:13-37
+		ADDED from D:\Programacion Apps\TFG_DAM\app\src\main\AndroidManifest.xml:69:13-37
 	android:name
-		ADDED from D:\Programacion Apps\TFG_DAM\app\src\main\AndroidManifest.xml:65:13-63
+		ADDED from D:\Programacion Apps\TFG_DAM\app\src\main\AndroidManifest.xml:68:13-63
 intent-filter#action:name:com.google.firebase.MESSAGING_EVENT
-ADDED from D:\Programacion Apps\TFG_DAM\app\src\main\AndroidManifest.xml:67:13-69:29
+ADDED from D:\Programacion Apps\TFG_DAM\app\src\main\AndroidManifest.xml:70:13-72:29
 action#com.google.firebase.MESSAGING_EVENT
-ADDED from D:\Programacion Apps\TFG_DAM\app\src\main\AndroidManifest.xml:68:17-78
+ADDED from D:\Programacion Apps\TFG_DAM\app\src\main\AndroidManifest.xml:71:17-78
 	android:name
-		ADDED from D:\Programacion Apps\TFG_DAM\app\src\main\AndroidManifest.xml:68:25-75
+		ADDED from D:\Programacion Apps\TFG_DAM\app\src\main\AndroidManifest.xml:71:25-75
+meta-data#com.google.firebase.messaging.default_notification_channel_id
+ADDED from D:\Programacion Apps\TFG_DAM\app\src\main\AndroidManifest.xml:75:9-77:71
+	android:value
+		ADDED from D:\Programacion Apps\TFG_DAM\app\src\main\AndroidManifest.xml:77:13-68
+	android:name
+		ADDED from D:\Programacion Apps\TFG_DAM\app\src\main\AndroidManifest.xml:76:13-89
 uses-sdk
 INJECTED from D:\Programacion Apps\TFG_DAM\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from D:\Programacion Apps\TFG_DAM\app\src\main\AndroidManifest.xml
