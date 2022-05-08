@@ -12,13 +12,14 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.mistareas.R;
 import com.example.mistareas.models.Chat;
-import com.example.mistareas.models.Comment;
 import com.example.mistareas.providers.UsersProvider;
 import com.firebase.ui.firestore.FirestoreRecyclerAdapter;
 import com.firebase.ui.firestore.FirestoreRecyclerOptions;
 import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.firebase.firestore.DocumentSnapshot;
 import com.squareup.picasso.Picasso;
+
+import de.hdodenhof.circleimageview.CircleImageView;
 
 public class ChatsAdapter extends FirestoreRecyclerAdapter<Chat, ChatsAdapter.ViewHolder> {
 
@@ -37,7 +38,7 @@ public class ChatsAdapter extends FirestoreRecyclerAdapter<Chat, ChatsAdapter.Vi
     protected void onBindViewHolder(@NonNull ViewHolder holder, int position, @NonNull Chat chat) {
 
         DocumentSnapshot document = getSnapshots().getSnapshot(position);  //Obtenemos el documento con la info de la publicacion
-        String chatId = document.getId();
+        final String chatId = document.getId();
 
         getUserInfo(chatId, holder);
     }
@@ -53,9 +54,9 @@ public class ChatsAdapter extends FirestoreRecyclerAdapter<Chat, ChatsAdapter.Vi
                         holder.textViewUserName.setText(username);
                     }
                     if(documentSnapshot.contains("image_profile")){
-                        String imagePofile = documentSnapshot.getString("image_profile");
-                        if(imagePofile != null && !imagePofile.isEmpty()){
-                            Picasso.with(context).load(imagePofile).into(holder.imageViewChat);
+                        String imageProfile = documentSnapshot.getString("image_profile");
+                        if(imageProfile != null && !imageProfile.isEmpty()){
+                            Picasso.with(context).load(imageProfile).into(holder.circleImageChat);
                         }
                     }
                 }
@@ -77,7 +78,7 @@ public class ChatsAdapter extends FirestoreRecyclerAdapter<Chat, ChatsAdapter.Vi
 
        TextView textViewUserName;
        TextView textViewLastMessage;
-       ImageView imageViewChat;
+       CircleImageView circleImageChat;
        View viewHolder; //Variable para contener toda la informacion de la publicacion
 
 
@@ -86,7 +87,7 @@ public class ChatsAdapter extends FirestoreRecyclerAdapter<Chat, ChatsAdapter.Vi
            super(view);
            textViewUserName = view.findViewById(R.id.textViewUserNameChat);
            textViewLastMessage = view.findViewById(R.id.textViewLastMessageChat);
-           imageViewChat = view.findViewById(R.id.circleImageChat);
+           circleImageChat = view.findViewById(R.id.circleImageChat);
 
            viewHolder = view;
        }

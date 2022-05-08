@@ -68,11 +68,11 @@ public class UserProfileActivity extends AppCompatActivity {
 
         mExtraIdUser = getIntent().getStringExtra("idUser");
 
+        mFabChat = findViewById(R.id.fabChat);
+
         if (mAuthProvider.getUid().equals(mExtraIdUser)){
             mFabChat.setVisibility(View.GONE);
         }
-
-        mFabChat = findViewById(R.id.fabChat);
 
         mFabChat.setOnClickListener(new View.OnClickListener() {
             @Override

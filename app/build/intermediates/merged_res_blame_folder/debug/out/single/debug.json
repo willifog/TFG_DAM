@@ -12,6 +12,10 @@
         "source": "D:\\Programacion Apps\\TFG_DAM\\app\\src\\main\\res\\drawable\\ic_add.xml"
     },
     {
+        "merged": "D:\\Programacion Apps\\TFG_DAM\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_padding_send.png.flat",
+        "source": "D:\\Programacion Apps\\TFG_DAM\\app\\src\\main\\res\\mipmap-mdpi\\ic_padding_send.png"
+    },
+    {
         "merged": "D:\\Programacion Apps\\TFG_DAM\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_description.xml.flat",
         "source": "D:\\Programacion Apps\\TFG_DAM\\app\\src\\main\\res\\drawable\\ic_description.xml"
     },
@@ -26,6 +30,10 @@
     {
         "merged": "D:\\Programacion Apps\\TFG_DAM\\app\\build\\intermediates\\merged_res\\debug\\layout_cardview_my_post.xml.flat",
         "source": "D:\\Programacion Apps\\TFG_DAM\\app\\src\\main\\res\\layout\\cardview_my_post.xml"
+    },
+    {
+        "merged": "D:\\Programacion Apps\\TFG_DAM\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_send.xml.flat",
+        "source": "D:\\Programacion Apps\\TFG_DAM\\app\\src\\main\\res\\drawable\\ic_send.xml"
     },
     {
         "merged": "D:\\Programacion Apps\\TFG_DAM\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_logo.png.flat",
@@ -60,6 +68,10 @@
         "source": "D:\\Programacion Apps\\TFG_DAM\\app\\src\\main\\res\\layout\\fragment_filters.xml"
     },
     {
+        "merged": "D:\\Programacion Apps\\TFG_DAM\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_padding_send.png.flat",
+        "source": "D:\\Programacion Apps\\TFG_DAM\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_padding_send.png"
+    },
+    {
         "merged": "D:\\Programacion Apps\\TFG_DAM\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxxhdpi_ic_pass.png.flat",
         "source": "D:\\Programacion Apps\\TFG_DAM\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_pass.png"
     },
@@ -78,6 +90,10 @@
     {
         "merged": "D:\\Programacion Apps\\TFG_DAM\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher.webp.flat",
         "source": "D:\\Programacion Apps\\TFG_DAM\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "D:\\Programacion Apps\\TFG_DAM\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_padding_send.png.flat",
+        "source": "D:\\Programacion Apps\\TFG_DAM\\app\\src\\main\\res\\mipmap-xhdpi\\ic_padding_send.png"
     },
     {
         "merged": "D:\\Programacion Apps\\TFG_DAM\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_icono_app.jpg.flat",
@@ -128,6 +144,10 @@
         "source": "D:\\Programacion Apps\\TFG_DAM\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
+        "merged": "D:\\Programacion Apps\\TFG_DAM\\app\\build\\intermediates\\merged_res\\debug\\drawable_custom_edittext_chat.xml.flat",
+        "source": "D:\\Programacion Apps\\TFG_DAM\\app\\src\\main\\res\\drawable\\custom_edittext_chat.xml"
+    },
+    {
         "merged": "D:\\Programacion Apps\\TFG_DAM\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher.webp.flat",
         "source": "D:\\Programacion Apps\\TFG_DAM\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.webp"
     },
@@ -168,6 +188,10 @@
         "source": "D:\\Programacion Apps\\TFG_DAM\\app\\src\\main\\res\\drawable\\ic_desayuno.jpg"
     },
     {
+        "merged": "D:\\Programacion Apps\\TFG_DAM\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_padding_send.png.flat",
+        "source": "D:\\Programacion Apps\\TFG_DAM\\app\\src\\main\\res\\mipmap-hdpi\\ic_padding_send.png"
+    },
+    {
         "merged": "D:\\Programacion Apps\\TFG_DAM\\app\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_ic_pass.png.flat",
         "source": "D:\\Programacion Apps\\TFG_DAM\\app\\src\\main\\res\\drawable-xhdpi\\ic_pass.png"
     },
@@ -196,8 +220,16 @@
         "source": "D:\\Programacion Apps\\TFG_DAM\\app\\src\\main\\res\\drawable-hdpi\\ic_pass.png"
     },
     {
+        "merged": "D:\\Programacion Apps\\TFG_DAM\\app\\build\\intermediates\\merged_res\\debug\\layout_custom_chat_toolbar.xml.flat",
+        "source": "D:\\Programacion Apps\\TFG_DAM\\app\\src\\main\\res\\layout\\custom_chat_toolbar.xml"
+    },
+    {
         "merged": "D:\\Programacion Apps\\TFG_DAM\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_dificultad.xml.flat",
         "source": "D:\\Programacion Apps\\TFG_DAM\\app\\src\\main\\res\\drawable\\ic_dificultad.xml"
+    },
+    {
+        "merged": "D:\\Programacion Apps\\TFG_DAM\\app\\build\\intermediates\\merged_res\\debug\\layout_cardview_chats.xml.flat",
+        "source": "D:\\Programacion Apps\\TFG_DAM\\app\\src\\main\\res\\layout\\cardview_chats.xml"
     },
     {
         "merged": "D:\\Programacion Apps\\TFG_DAM\\app\\build\\intermediates\\merged_res\\debug\\drawable_imagen_perfil.png.flat",
@@ -240,6 +272,10 @@
         "source": "D:\\Programacion Apps\\TFG_DAM\\app\\src\\main\\res\\layout\\activity_register.xml"
     },
     {
+        "merged": "D:\\Programacion Apps\\TFG_DAM\\app\\build\\intermediates\\merged_res\\debug\\layout_action_bar_toolbar.xml.flat",
+        "source": "D:\\Programacion Apps\\TFG_DAM\\app\\src\\main\\res\\layout\\action_bar_toolbar.xml"
+    },
+    {
         "merged": "D:\\Programacion Apps\\TFG_DAM\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_arrow_back.xml.flat",
         "source": "D:\\Programacion Apps\\TFG_DAM\\app\\src\\main\\res\\drawable\\ic_arrow_back.xml"
     },
@@ -256,16 +292,20 @@
         "source": "D:\\Programacion Apps\\TFG_DAM\\app\\src\\main\\res\\layout\\cardview_comment.xml"
     },
     {
+        "merged": "D:\\Programacion Apps\\TFG_DAM\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_padding_send.png.flat",
+        "source": "D:\\Programacion Apps\\TFG_DAM\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_padding_send.png"
+    },
+    {
         "merged": "D:\\Programacion Apps\\TFG_DAM\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_chat.xml.flat",
         "source": "D:\\Programacion Apps\\TFG_DAM\\app\\src\\main\\res\\drawable\\ic_chat.xml"
     },
     {
-        "merged": "D:\\Programacion Apps\\TFG_DAM\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_bird.png.flat",
-        "source": "D:\\Programacion Apps\\TFG_DAM\\app\\src\\main\\res\\mipmap-mdpi\\bird.png"
-    },
-    {
         "merged": "D:\\Programacion Apps\\TFG_DAM\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
         "source": "D:\\Programacion Apps\\TFG_DAM\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "D:\\Programacion Apps\\TFG_DAM\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_bird.png.flat",
+        "source": "D:\\Programacion Apps\\TFG_DAM\\app\\src\\main\\res\\mipmap-mdpi\\bird.png"
     },
     {
         "merged": "D:\\Programacion Apps\\TFG_DAM\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_launcher_background.xml.flat",

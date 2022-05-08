@@ -6,13 +6,12 @@
     tools:context=".fragments.ChatsFragment"
     android:layout_marginBottom="55dp">
 
-    <!-- TODO: Update blank fragment layout -->
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical">
 
-        <!-- Nos permite mostrar las publicaciones una tras otra-->
+        <!-- Nos permite mostrar los chats uno tras otro-->
         <androidx.recyclerview.widget.RecyclerView
             android:layout_width="match_parent"
             android:layout_height="match_parent"

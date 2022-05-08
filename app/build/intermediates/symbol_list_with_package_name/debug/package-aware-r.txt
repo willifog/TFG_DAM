@@ -1887,6 +1887,7 @@ drawable common_google_signin_btn_text_light
 drawable common_google_signin_btn_text_light_focused
 drawable common_google_signin_btn_text_light_normal
 drawable common_google_signin_btn_text_light_normal_background
+drawable custom_edittext_chat
 drawable design_fab_background
 drawable design_ic_visibility
 drawable design_ic_visibility_off
@@ -1924,6 +1925,7 @@ drawable ic_pass_login
 drawable ic_person
 drawable ic_person_login
 drawable ic_phone
+drawable ic_send
 drawable ic_user
 drawable imagen_perfil
 drawable material_cursor_drawable
@@ -2111,6 +2113,7 @@ id chip3
 id chip_group
 id chronometer
 id circleImageBack
+id circleImageChat
 id circleImageComment
 id circleImageMyPost
 id circleImageProfile
@@ -2225,6 +2228,7 @@ id ignoreRequest
 id image
 id imagePostDetail
 id imageViewAmericana
+id imageViewBack
 id imageViewChina
 id imageViewCover
 id imageViewDeleteMyPost
@@ -2361,11 +2365,13 @@ id progress_circular
 id progress_horizontal
 id radio
 id ratio
+id reciclerViewChats
 id reciclerViewComment
 id reciclerViewHome
 id reciclerViewMyPost
 id rectangles
 id recyclerViewFilter
+id recyclerViewMessage
 id reverseSawtooth
 id right
 id rightToLeft
@@ -2470,6 +2476,7 @@ id textViewComment
 id textViewCorreoUser
 id textViewDescription
 id textViewDescriptionPostCard
+id textViewLastMessageChat
 id textViewNameCategory
 id textViewPhone
 id textViewPhonePost
@@ -2478,6 +2485,7 @@ id textViewTitle
 id textViewTitleMyPost
 id textViewTitlePostCard
 id textViewUserName
+id textViewUserNameChat
 id textViewUserNamePost
 id textViewnumerFilter
 id text_input_end_icon
@@ -2496,6 +2504,7 @@ id titleDividerNoCustom
 id title_template
 id titulo
 id toggle
+id toolbar
 id top
 id topPanel
 id touch_outside
@@ -2600,6 +2609,7 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout action_bar_toolbar
 layout activity_chat
 layout activity_edit_profile
 layout activity_filters
@@ -2612,9 +2622,11 @@ layout activity_splash
 layout activity_user_profile
 layout browser_actions_context_menu_page
 layout browser_actions_context_menu_row
+layout cardview_chats
 layout cardview_comment
 layout cardview_my_post
 layout cardview_post
+layout custom_chat_toolbar
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
@@ -2722,6 +2734,7 @@ mipmap bird
 mipmap fondo
 mipmap ic_launcher
 mipmap ic_launcher_round
+mipmap ic_padding_send
 mipmap icon_edit
 mipmap icono_app
 mipmap icono_app_40
