@@ -1,6 +1,7 @@
 package com.example.mistareas.adapters;
 
 import android.content.Context;
+import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -11,7 +12,9 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.mistareas.R;
+import com.example.mistareas.activities.ChatActivity;
 import com.example.mistareas.models.Chat;
+import com.example.mistareas.providers.AuthProvider;
 import com.example.mistareas.providers.UsersProvider;
 import com.firebase.ui.firestore.FirestoreRecyclerAdapter;
 import com.firebase.ui.firestore.FirestoreRecyclerOptions;
@@ -25,6 +28,7 @@ public class ChatsAdapter extends FirestoreRecyclerAdapter<Chat, ChatsAdapter.Vi
 
     Context context;
     UsersProvider mUsersProvider;
+    AuthProvider mAuthProvider;
 
 
     public ChatsAdapter(FirestoreRecyclerOptions<Chat> options, Context context){
@@ -32,6 +36,7 @@ public class ChatsAdapter extends FirestoreRecyclerAdapter<Chat, ChatsAdapter.Vi
         this.context = context;
 
         mUsersProvider = new UsersProvider();
+        mAuthProvider = new AuthProvider();
     }
 
     @Override
@@ -39,8 +44,28 @@ public class ChatsAdapter extends FirestoreRecyclerAdapter<Chat, ChatsAdapter.Vi
 
         DocumentSnapshot document = getSnapshots().getSnapshot(position);  //Obtenemos el documento con la info de la publicacion
         final String chatId = document.getId();
+        if(mAuthProvider.getUid().equals(chat.getIdUser1())){
+            getUserInfo(chat.getIdUser2(), holder);
+        }else{
+            getUserInfo(chat.getIdUser1(), holder);
+        }
 
-        getUserInfo(chatId, holder);
+        holder.viewHolder.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                goToChatActivity(chatId, chat.getIdUser1(), chat.getIdUser2());
+            }
+        });
+        //getUserInfo(chatId, holder);
+    }
+
+    private void goToChatActivity(String chatId, String idUser1, String idUser2) {
+        Intent intent = new Intent(context, ChatActivity.class);
+        intent.putExtra("idChat", chatId);
+        intent.putExtra("idUser1", idUser1);
+        intent.putExtra("idUser2", idUser2);
+        context.startActivity(intent);
+
     }
 
     private void getUserInfo(String idUser, ViewHolder holder){

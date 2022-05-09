@@ -2178,6 +2178,7 @@ int id easeIn 0x7f0800ce
 int id easeInOut 0x7f0800cf
 int id easeOut 0x7f0800d0
 int id east 0x7f0800d1
+int id editTextMessage 0x7f08023d
 int id edit_query 0x7f0800d2
 int id elastic 0x7f0800d3
 int id end 0x7f0800d4
@@ -2234,6 +2235,7 @@ int id imageViewDeleteMyPost 0x7f080104
 int id imageViewMediterraneo 0x7f080105
 int id imageViewPost1 0x7f080106
 int id imageViewPostCard 0x7f080107
+int id imageViewSendMessage 0x7f08023e
 int id immediateStop 0x7f080108
 int id included 0x7f080109
 int id info 0x7f08010a

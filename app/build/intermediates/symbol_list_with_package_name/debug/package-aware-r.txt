@@ -2179,6 +2179,7 @@ id easeIn
 id easeInOut
 id easeOut
 id east
+id editTextMessage
 id edit_query
 id elastic
 id end
@@ -2235,6 +2236,7 @@ id imageViewDeleteMyPost
 id imageViewMediterraneo
 id imageViewPost1
 id imageViewPostCard
+id imageViewSendMessage
 id immediateStop
 id included
 id info
