@@ -13,6 +13,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.mistareas.R;
 import com.example.mistareas.models.Post;
+import com.example.mistareas.providers.AuthProvider;
 import com.example.mistareas.providers.PostProvider;
 import com.firebase.ui.firestore.FirestoreRecyclerAdapter;
 import com.firebase.ui.firestore.FirestoreRecyclerOptions;
@@ -27,13 +28,14 @@ public class MyPostsAdapter extends FirestoreRecyclerAdapter<Post,MyPostsAdapter
 
     Context context;
     PostProvider mPostProvider;
-
+    AuthProvider mAuthProvider;
 
 
     public MyPostsAdapter(FirestoreRecyclerOptions<Post> options, Context context){
         super(options);
         this.context = context;
         mPostProvider = new PostProvider();
+        mAuthProvider = new AuthProvider();
     }
 
     @Override
@@ -44,6 +46,14 @@ public class MyPostsAdapter extends FirestoreRecyclerAdapter<Post,MyPostsAdapter
 
         //Para establecer el contenido que se muestra en cada una de estas Views
         holder.textViewTitle.setText(post.getTitle());
+
+        //Establecemos condicion para dar opcion de borrar post dependiendo del id de usuario que lo visualice.
+        if(post.getIdUser().equals(mAuthProvider.getUid())){
+            holder.imageViewDelete.setVisibility(View.VISIBLE);
+        }else{
+            holder.imageViewDelete.setVisibility(View.GONE); //Ocultamos el imageView
+        }
+
         if(post.getImage1() != null){
             if(!post.getImage1().isEmpty()){
                 Picasso.with(context).load(post.getImage1()).into(holder.circleImagePost);
@@ -56,6 +66,7 @@ public class MyPostsAdapter extends FirestoreRecyclerAdapter<Post,MyPostsAdapter
                 deletePost(postId);
            }
         });
+
     }
 
 

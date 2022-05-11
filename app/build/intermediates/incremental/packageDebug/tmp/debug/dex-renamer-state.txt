@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-#Wed May 04 12:44:14 CEST 2022
-=======
-#Thu May 05 16:27:36 CEST 2022
->>>>>>> 10284f0595f0f1abf603840666847352595ed59d
+#Wed May 11 16:00:11 CEST 2022
 path.4=15/classes.dex
 path.3=12/classes.dex
 path.2=11/classes.dex
