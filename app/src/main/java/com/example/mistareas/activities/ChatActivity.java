@@ -4,6 +4,8 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 
 import android.content.Context;
 import android.os.Bundle;
@@ -15,6 +17,8 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.mistareas.R;
+import com.example.mistareas.adapters.MessageAdapter;
+import com.example.mistareas.adapters.MyPostsAdapter;
 import com.example.mistareas.models.Chat;
 import com.example.mistareas.models.Message;
 import com.example.mistareas.models.User;
@@ -22,10 +26,12 @@ import com.example.mistareas.providers.AuthProvider;
 import com.example.mistareas.providers.ChatsProvider;
 import com.example.mistareas.providers.MessageProvider;
 import com.example.mistareas.providers.UsersProvider;
+import com.firebase.ui.firestore.FirestoreRecyclerOptions;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.firestore.DocumentSnapshot;
+import com.google.firebase.firestore.Query;
 import com.google.firebase.firestore.QuerySnapshot;
 import com.squareup.picasso.Picasso;
 
@@ -53,6 +59,9 @@ public class ChatActivity extends AppCompatActivity {
     TextView mTextViewRelativeTime;
     TextView mTextViewUsername;
     ImageView mImageViewBack;
+    RecyclerView mRecyclerViewMessage;
+
+    MessageAdapter mAdapter;
 
     View mActionBarView;
 
@@ -70,6 +79,10 @@ public class ChatActivity extends AppCompatActivity {
 
         mEditTextMessage = findViewById(R.id.editTextMessage);
         mImageViewSendMessage = findViewById(R.id.imageViewSendMessage);
+        mRecyclerViewMessage = findViewById(R.id.recyclerViewMessage);
+
+        LinearLayoutManager linearLayoutManager = new LinearLayoutManager(ChatActivity.this);
+        mRecyclerViewMessage.setLayoutManager(linearLayoutManager);
 
         mExtraIdUser1 = getIntent().getStringExtra("idUser1");
         mExtraIdUser2 = getIntent().getStringExtra("idUser2");
@@ -85,6 +98,25 @@ public class ChatActivity extends AppCompatActivity {
         });
 
         checkIfChatExists();
+    }
+
+    @Override
+    public void onStart(){
+        super.onStart();
+        Query query = mMessageProvider.getMessageByChat(mExtraIdChat);
+        FirestoreRecyclerOptions<Message> options =
+                new FirestoreRecyclerOptions.Builder<Message>()
+                    .setQuery(query, Message.class)
+                    .build();
+        mAdapter = new MessageAdapter(options, ChatActivity.this);
+        mRecyclerViewMessage.setAdapter(mAdapter);
+        mAdapter.startListening();
+    }
+
+    @Override
+    public void onStop(){
+        super.onStop();
+        mAdapter.stopListening();
     }
 
     private void sendMessage() {
@@ -103,14 +135,21 @@ public class ChatActivity extends AppCompatActivity {
             message.setViewed(false);
             message.setMessage(textMessage);
 
-            mMessageProvider.create(message).addOnCompleteListener(new OnCompleteListener<Void>() {
+            /*mMessageProvider.create(message).addOnCompleteListener(new OnCompleteListener<Void>() {
                 @Override
                 public void onComplete(@NonNull Task<Void> task) {
                     if(task.isSuccessful()){
-                        mEditTextMessage.setText("");
+
                     }
                 }
-            });
+            });*/
+
+            mMessageProvider.create(message).addOnCompleteListener((task -> {
+                if(task.isSuccessful()){
+                    mEditTextMessage.setText("");
+                    mAdapter.notifyDataSetChanged();
+                }
+            }));
         }
     }
 
