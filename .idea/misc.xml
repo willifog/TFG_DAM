@@ -33,6 +33,56 @@
         <entry key="..\:/Users/Cesar/AndroidStudioProjects/MisTareas/app/src/main/res/layout/activity_register.xml" value="0.1" />
         <entry key="..\:/Users/Cesar/AndroidStudioProjects/MisTareas/app/src/main/res/layout/item_tarea.xml" value="0.209375" />
         <entry key="..\:/Users/Cesar/AndroidStudioProjects/MisTareas/app/src/main/res/menu/menu.xml" value="0.209375" />
+<<<<<<< HEAD
+        <entry key="..\:/Users/Cesar/AndroidStudioProjects/TFG_DAM/app/src/main/res/drawable/button_border.xml" value="0.382051282051282" />
+        <entry key="..\:/Users/Cesar/AndroidStudioProjects/TFG_DAM/app/src/main/res/drawable/ic_person.xml" value="0.382051282051282" />
+        <entry key="..\:/Users/Cesar/AndroidStudioProjects/TFG_DAM/app/src/main/res/layout/activity_edit_profile.xml" value="0.33" />
+        <entry key="..\:/Users/Cesar/AndroidStudioProjects/TFG_DAM/app/src/main/res/layout/activity_login.xml" value="0.371875" />
+        <entry key="..\:/Users/Cesar/AndroidStudioProjects/TFG_DAM/app/src/main/res/layout/activity_main.xml" value="0.209375" />
+        <entry key="..\:/Users/Cesar/AndroidStudioProjects/TFG_DAM/app/src/main/res/layout/activity_post.xml" value="0.22" />
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+=======
+=======
+        <entry key="..\:/Users/Cesar/AndroidStudioProjects/TFG_DAM/app/src/main/res/drawable/button_border.xml" value="0.382051282051282" />
+        <entry key="..\:/Users/Cesar/AndroidStudioProjects/TFG_DAM/app/src/main/res/drawable/ic_person.xml" value="0.382051282051282" />
+>>>>>>> c420b9bff43fad3bfe6441231436a2b806cefa94
+>>>>>>> 28ce565a36bb402cf459bd3820d85c45c6a25b60
+        <entry key="..\:/Users/Cesar/AndroidStudioProjects/TFG_DAM/app/src/main/res/layout/activity_edit_profile.xml" value="0.33" />
+        <entry key="..\:/Users/Cesar/AndroidStudioProjects/TFG_DAM/app/src/main/res/layout/activity_login.xml" value="0.371875" />
+        <entry key="..\:/Users/Cesar/AndroidStudioProjects/TFG_DAM/app/src/main/res/layout/activity_main.xml" value="0.209375" />
+        <entry key="..\:/Users/Cesar/AndroidStudioProjects/TFG_DAM/app/src/main/res/layout/activity_post.xml" value="0.33" />
+<<<<<<< HEAD
+        <entry key="..\:/Users/Cesar/AndroidStudioProjects/TFG_DAM/app/src/main/res/layout/activity_post_detail.xml" value="0.1" />
+        <entry key="..\:/Users/Cesar/AndroidStudioProjects/TFG_DAM/app/src/main/res/layout/activity_register.xml" value="0.2786458333333333" />
+        <entry key="..\:/Users/Cesar/AndroidStudioProjects/TFG_DAM/app/src/main/res/layout/activity_splash.xml" value="0.371875" />
+        <entry key="..\:/Users/Cesar/AndroidStudioProjects/TFG_DAM/app/src/main/res/layout/cardview_my_post.xml" value="0.371875" />
+=======
+>>>>>>> 16b095fb6736dd1c15d9c3817b11d933dac3bcff
+        <entry key="..\:/Users/Cesar/AndroidStudioProjects/TFG_DAM/app/src/main/res/layout/activity_post_detail.xml" value="0.25" />
+        <entry key="..\:/Users/Cesar/AndroidStudioProjects/TFG_DAM/app/src/main/res/layout/activity_register.xml" value="0.2786458333333333" />
+        <entry key="..\:/Users/Cesar/AndroidStudioProjects/TFG_DAM/app/src/main/res/layout/activity_splash.xml" value="0.371875" />
+        <entry key="..\:/Users/Cesar/AndroidStudioProjects/TFG_DAM/app/src/main/res/layout/activity_user_profile.xml" value="0.371875" />
+        <entry key="..\:/Users/Cesar/AndroidStudioProjects/TFG_DAM/app/src/main/res/layout/cardview_comment.xml" value="0.33" />
+        <entry key="..\:/Users/Cesar/AndroidStudioProjects/TFG_DAM/app/src/main/res/layout/cardview_my_post.xml" value="0.25" />
+<<<<<<< HEAD
+        <entry key="..\:/Users/Cesar/AndroidStudioProjects/TFG_DAM/app/src/main/res/layout/cardview_post.xml" value="0.25" />
+=======
+>>>>>>> 28ce565a36bb402cf459bd3820d85c45c6a25b60
+        <entry key="..\:/Users/Cesar/AndroidStudioProjects/TFG_DAM/app/src/main/res/layout/cardview_post.xml" value="0.371875" />
+>>>>>>> 16b095fb6736dd1c15d9c3817b11d933dac3bcff
+        <entry key="..\:/Users/Cesar/AndroidStudioProjects/TFG_DAM/app/src/main/res/layout/fragment_filters.xml" value="0.371875" />
+        <entry key="..\:/Users/Cesar/AndroidStudioProjects/TFG_DAM/app/src/main/res/layout/fragment_home.xml" value="0.2" />
+        <entry key="..\:/Users/Cesar/AndroidStudioProjects/TFG_DAM/app/src/main/res/layout/fragment_profile.xml" value="0.33" />
+        <entry key="..\:/Users/Cesar/AndroidStudioProjects/TFG_DAM/app/src/main/res/layout/item_tarea.xml" value="0.371875" />
+        <entry key="..\:/Users/Cesar/AndroidStudioProjects/TFG_DAM/app/src/main/res/layout/slider_layout_item.xml" value="0.371875" />
+        <entry key="..\:/Users/Cesar/AndroidStudioProjects/TFG_DAM/app/src/main/res/menu/bottom_navigation_menu.xml" value="0.2786458333333333" />
+        <entry key="..\:/Users/Cesar/AndroidStudioProjects/TFG_DAM/app/src/main/res/menu/main_menu.xml" value="0.371875" />
+        <entry key="..\:/Users/Cesar/AndroidStudioProjects/TFG_DAM/app/src/main/res/xml/file_paths.xml" value="0.31354166666666666" />
       </map>
     </option>
   </component>

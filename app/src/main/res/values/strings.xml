@@ -13,9 +13,14 @@
     <string name="registrarse">REGISTRARSE</string>
     <string name="apptareas">AppTFG</string>
     <string name="correo_electronico">Correo Electronico</string>
+
+    <string name="transtionname_picture">transitionnamepicture</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="nombre_de_la_receta">Nombre de la Receta</string>
     <string name="descripcion">Descripcion</string>
+    <string name="numero_de_telefono">Telefono</string>
+
+    <string name="default_notification_channel_id" translatable="false">fcm_default_channel</string>
 
 </resources>
