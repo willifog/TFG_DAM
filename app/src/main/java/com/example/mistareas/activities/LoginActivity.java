@@ -1,5 +1,6 @@
 package com.example.mistareas.activities;
 
+import androidx.activity.result.contract.ActivityResultContracts;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -30,6 +31,7 @@ public class LoginActivity extends AppCompatActivity {
     TextInputEditText mTextInputEmail;
     TextInputEditText mTextInputPassword;
     Button mButtonLogin;
+    TextView mButtonResetPass;
 
     AuthProvider  mAuthProvider;
     UsersProvider mUsersProvider;
@@ -49,8 +51,11 @@ public class LoginActivity extends AppCompatActivity {
         mTextInputEmail = findViewById(R.id.cajaUser);
         mTextInputPassword = findViewById(R.id.cajaPass);
         mButtonLogin = findViewById(R.id.botonLogin);
+        mButtonResetPass =  findViewById(R.id.botonReset);
 
         mAuthProvider = new AuthProvider();
+
+
 
         mDialog = new SpotsDialog.Builder() //Inicializamos en mensaje de espera
                 .setContext(this)
@@ -65,7 +70,15 @@ public class LoginActivity extends AppCompatActivity {
             }
         });
 
-     }
+
+        //Escuchador recuperar contraseña
+ /*       mButtonResetPass.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(LoginActivity.this, ResetPasswordActivity.class));
+            }
+        });
+*/     }
 
 
      //Dejamos la sesion iniciada (accederia sin tener que logearse)
@@ -82,6 +95,11 @@ public class LoginActivity extends AppCompatActivity {
     //Cambio activity Registro
     public void crearCuenta(View view){
         Intent intent = new Intent(this, RegisterActivity.class);
+        startActivity(intent);
+    }
+
+    public void resetPass(View view){
+        Intent intent = new Intent(this, ResetPasswordActivity.class);
         startActivity(intent);
     }
 

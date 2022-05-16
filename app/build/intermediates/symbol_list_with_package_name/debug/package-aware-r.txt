@@ -1973,6 +1973,7 @@ id CTRL
 id FUNCTION
 id META
 id NO_DEBUG
+id ResetPass
 id SHIFT
 id SHOW_ALL
 id SHOW_PATH
@@ -2066,6 +2067,7 @@ id bird2
 id blocking
 id botonLogin
 id botonRegistrar
+id botonReset
 id bottom
 id bottom_navigation
 id bounce
@@ -2084,6 +2086,7 @@ id btnShowProfile
 id buttonPanel
 id cache_measures
 id cajaEmailRegistro
+id cajaEmailReset
 id cajaPass
 id cajaPassConfirmacion
 id cajaPassRegistro
@@ -2606,6 +2609,7 @@ layout activity_main
 layout activity_post
 layout activity_post_detail
 layout activity_register
+layout activity_reset_password
 layout activity_splash
 layout activity_user_profile
 layout browser_actions_context_menu_page

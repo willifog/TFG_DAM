@@ -208,6 +208,10 @@
         "source": "C:\\Users\\Cesar\\AndroidStudioProjects\\TFG_DAM\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.webp"
     },
     {
+        "merged": "C:\\Users\\Cesar\\AndroidStudioProjects\\TFG_DAM\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_reset_password.xml.flat",
+        "source": "C:\\Users\\Cesar\\AndroidStudioProjects\\TFG_DAM\\app\\src\\main\\res\\layout\\activity_reset_password.xml"
+    },
+    {
         "merged": "C:\\Users\\Cesar\\AndroidStudioProjects\\TFG_DAM\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_cena.png.flat",
         "source": "C:\\Users\\Cesar\\AndroidStudioProjects\\TFG_DAM\\app\\src\\main\\res\\drawable\\ic_cena.png"
     },
