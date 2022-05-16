@@ -2483,6 +2483,7 @@ id textViewNameCategory
 id textViewPhone
 id textViewPhonePost
 id textViewPostNumber
+id textViewRelativeTime
 id textViewTitle
 id textViewTitleMyPost
 id textViewTitlePostCard

@@ -2482,6 +2482,7 @@ int id textViewNameCategory 0x7f0801f7
 int id textViewPhone 0x7f0801f8
 int id textViewPhonePost 0x7f0801f9
 int id textViewPostNumber 0x7f0801fa
+int id textViewRelativeTime 0x7f08023f
 int id textViewTitle 0x7f0801fb
 int id textViewTitleMyPost 0x7f0801fc
 int id textViewTitlePostCard 0x7f0801fd
