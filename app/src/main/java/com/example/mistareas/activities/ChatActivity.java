@@ -61,6 +61,8 @@ public class ChatActivity extends AppCompatActivity {
     ImageView mImageViewBack;
     RecyclerView mRecyclerViewMessage;
 
+    LinearLayoutManager mLinearLayoutManager;
+
     MessageAdapter mAdapter;
 
     View mActionBarView;
@@ -75,14 +77,13 @@ public class ChatActivity extends AppCompatActivity {
         mAuthProvider = new AuthProvider();
         mUsersProvider = new UsersProvider();
 
-
-
         mEditTextMessage = findViewById(R.id.editTextMessage);
         mImageViewSendMessage = findViewById(R.id.imageViewSendMessage);
         mRecyclerViewMessage = findViewById(R.id.recyclerViewMessage);
 
-        LinearLayoutManager linearLayoutManager = new LinearLayoutManager(ChatActivity.this);
-        mRecyclerViewMessage.setLayoutManager(linearLayoutManager);
+        mLinearLayoutManager = new LinearLayoutManager(ChatActivity.this);
+        mLinearLayoutManager.setStackFromEnd(true);
+        mRecyclerViewMessage.setLayoutManager(mLinearLayoutManager);
 
         mExtraIdUser1 = getIntent().getStringExtra("idUser1");
         mExtraIdUser2 = getIntent().getStringExtra("idUser2");
@@ -103,20 +104,36 @@ public class ChatActivity extends AppCompatActivity {
     @Override
     public void onStart(){
         super.onStart();
-        Query query = mMessageProvider.getMessageByChat(mExtraIdChat);
-        FirestoreRecyclerOptions<Message> options =
-                new FirestoreRecyclerOptions.Builder<Message>()
-                    .setQuery(query, Message.class)
-                    .build();
-        mAdapter = new MessageAdapter(options, ChatActivity.this);
-        mRecyclerViewMessage.setAdapter(mAdapter);
-        mAdapter.startListening();
+
     }
 
     @Override
     public void onStop(){
         super.onStop();
         mAdapter.stopListening();
+    }
+
+    private void getMessageChat(){
+        Query query = mMessageProvider.getMessageByChat(mExtraIdChat);
+        FirestoreRecyclerOptions<Message> options =
+                new FirestoreRecyclerOptions.Builder<Message>()
+                        .setQuery(query, Message.class)
+                        .build();
+        mAdapter = new MessageAdapter(options, ChatActivity.this);
+        mRecyclerViewMessage.setAdapter(mAdapter);
+        mAdapter.startListening();
+        mAdapter.registerAdapterDataObserver(new RecyclerView.AdapterDataObserver() {
+            @Override
+            public void onItemRangeInserted(int positionStart, int itemCount) {
+                super.onItemRangeInserted(positionStart, itemCount);
+                int nMessages = mAdapter.getItemCount();
+                int lastMessagePosition = mLinearLayoutManager.findLastCompletelyVisibleItemPosition();
+
+                if(lastMessagePosition == -1 || (positionStart >= (nMessages -1) && lastMessagePosition == (positionStart - 1))){
+                    mRecyclerViewMessage.scrollToPosition(positionStart);
+                }
+            }
+        });
     }
 
     private void sendMessage() {
@@ -134,15 +151,6 @@ public class ChatActivity extends AppCompatActivity {
             message.setTimestamp(new Date().getTime());
             message.setViewed(false);
             message.setMessage(textMessage);
-
-            /*mMessageProvider.create(message).addOnCompleteListener(new OnCompleteListener<Void>() {
-                @Override
-                public void onComplete(@NonNull Task<Void> task) {
-                    if(task.isSuccessful()){
-
-                    }
-                }
-            });*/
 
             mMessageProvider.create(message).addOnCompleteListener((task -> {
                 if(task.isSuccessful()){
@@ -216,6 +224,7 @@ public class ChatActivity extends AppCompatActivity {
                     createChat();
                 }else{
                     mExtraIdChat = queryDocumentSnapshots.getDocuments().get(0).getId();
+                    getMessageChat();
                 }
             }
         });
