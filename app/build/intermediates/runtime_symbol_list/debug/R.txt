@@ -2481,7 +2481,6 @@ int id textTop 0x7f0801f9
 int id textViewCategory 0x7f0801fa
 int id textViewComment 0x7f0801fb
 int id textViewCorreoUser 0x7f0801fc
-int id textViewDateMessage 0x7f0801fd
 int id textViewDescription 0x7f0801fe
 int id textViewDescriptionPostCard 0x7f0801ff
 int id textViewLastMessageChat 0x7f080200

@@ -2482,7 +2482,6 @@ id textTop
 id textViewCategory
 id textViewComment
 id textViewCorreoUser
-id textViewDateMessage
 id textViewDescription
 id textViewDescriptionPostCard
 id textViewLastMessageChat

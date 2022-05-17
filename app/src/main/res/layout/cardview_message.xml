@@ -30,19 +30,10 @@
             android:textSize="15dp"
             android:textColor="@color/white"/>
 
-        <TextView
-            android:id="@+id/textViewDateMessage"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Fecha"
-            android:textSize="11dp"
-            android:textColor="@color/grey"
-            android:layout_marginLeft="5dp"
-            android:layout_gravity="bottom"/>
 
         <ImageView
             android:id="@+id/imageViewViewedMessage"
-            android:layout_width="wrap_content"
+            android:layout_width="40dp"
             android:layout_height="20dp"
             android:src="@drawable/icon_check_grey"
             android:layout_gravity="bottom"/>

@@ -48,9 +48,6 @@ public class MessageAdapter extends FirestoreRecyclerAdapter<Message, MessageAda
         final String messageId = document.getId();
        holder.textViewMessage.setText(message.getMessage());
 
-       //String relativeTime = RelativeTime.getTimeAgo(message.getTimestamp(), context);
-       //holder.textViewDate.setText(relativeTime);
-
         if(message.getIdSender().equals(mAuthProvider.getUid())){
             RelativeLayout.LayoutParams params = new RelativeLayout.LayoutParams(
                     RelativeLayout.LayoutParams.WRAP_CONTENT,
@@ -59,7 +56,7 @@ public class MessageAdapter extends FirestoreRecyclerAdapter<Message, MessageAda
             params.addRule(RelativeLayout.ALIGN_PARENT_RIGHT);
             params.setMargins(150, 0, 0, 0);
             holder.linearLayoutMessage.setLayoutParams(params);
-            holder.linearLayoutMessage.setPadding(30, 20, 25, 20);
+            holder.linearLayoutMessage.setPadding(30, 20, 0, 20);
             holder.linearLayoutMessage.setBackground(context.getResources().getDrawable(R.drawable.rounded_linear_layout));
             holder.imageViewViewed.setVisibility(View.VISIBLE);
         }
@@ -74,6 +71,12 @@ public class MessageAdapter extends FirestoreRecyclerAdapter<Message, MessageAda
             holder.linearLayoutMessage.setPadding(30, 20, -40, 20);
             holder.linearLayoutMessage.setBackground(context.getResources().getDrawable(R.drawable.rounded_linear_layout_2));
             holder.imageViewViewed.setVisibility(View.INVISIBLE);
+        }
+
+        if(message.isViewed()){
+            holder.imageViewViewed.setImageResource(R.drawable.icon_check_blue);
+        }else{
+            holder.imageViewViewed.setImageResource(R.drawable.icon_check_grey);
         }
 
     }
@@ -101,7 +104,6 @@ public class MessageAdapter extends FirestoreRecyclerAdapter<Message, MessageAda
        public ViewHolder(View view){
            super(view);
            textViewMessage = view.findViewById(R.id.textViewMessage);
-           textViewDate = view.findViewById(R.id.textViewDateMessage);
            imageViewViewed = view.findViewById(R.id.imageViewViewedMessage);
            linearLayoutMessage = view.findViewById(R.id.linearLayoutMessage);
 

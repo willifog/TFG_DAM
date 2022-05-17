@@ -30,6 +30,7 @@ import com.firebase.ui.firestore.FirestoreRecyclerOptions;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.android.gms.tasks.Task;
+import com.google.firebase.firestore.DocumentReference;
 import com.google.firebase.firestore.DocumentSnapshot;
 import com.google.firebase.firestore.Query;
 import com.google.firebase.firestore.QuerySnapshot;
@@ -104,6 +105,9 @@ public class ChatActivity extends AppCompatActivity {
     @Override
     public void onStart(){
         super.onStart();
+        if(mAdapter != null){
+            mAdapter.startListening();
+        }
 
     }
 
@@ -126,6 +130,7 @@ public class ChatActivity extends AppCompatActivity {
             @Override
             public void onItemRangeInserted(int positionStart, int itemCount) {
                 super.onItemRangeInserted(positionStart, itemCount);
+                updateViewed();
                 int nMessages = mAdapter.getItemCount();
                 int lastMessagePosition = mLinearLayoutManager.findLastCompletelyVisibleItemPosition();
 
@@ -225,9 +230,30 @@ public class ChatActivity extends AppCompatActivity {
                 }else{
                     mExtraIdChat = queryDocumentSnapshots.getDocuments().get(0).getId();
                     getMessageChat();
+                    updateViewed();
                 }
             }
         });
+    }
+
+    private void updateViewed() {
+        String idSender = "";
+
+        if(mAuthProvider.getUid().equals(mExtraIdUser1)){
+            idSender = mExtraIdUser2;
+        }else{
+            idSender = mExtraIdUser1;
+        }
+
+        mMessageProvider.getMessageByChatAndSender(mExtraIdChat, idSender).get().addOnSuccessListener(new OnSuccessListener<QuerySnapshot>() {
+            @Override
+            public void onSuccess(QuerySnapshot queryDocumentSnapshots) {
+                for(DocumentSnapshot document : queryDocumentSnapshots.getDocuments()){
+                    mMessageProvider.updateViewed(document.getId(), true);
+                }
+            }
+        });
+
     }
 
     private void createChat() {
@@ -243,5 +269,7 @@ public class ChatActivity extends AppCompatActivity {
         arrayIds.add(mExtraIdUser2);
         chat.setArrayIds(arrayIds);
         mChatsProvider.create(chat);
+        mExtraIdChat = chat.getId();
+        getMessageChat();
     }
 }
