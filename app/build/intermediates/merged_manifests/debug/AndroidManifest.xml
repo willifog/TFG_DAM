@@ -30,10 +30,17 @@
         android:theme="@style/Theme.MisTareas" >
         <activity
             android:name="com.example.mistareas.activities.ResetPasswordActivity"
+<<<<<<< HEAD
             android:exported="false" />
         <activity
             android:name="com.example.mistareas.activities.ChatActivity"
+=======
+>>>>>>> df8bfdae4715d0b79d82fa2780db3af2727c89d3
             android:exported="false" />
+        <activity
+            android:name="com.example.mistareas.activities.ChatActivity"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
         <activity
             android:name="com.example.mistareas.activities.FiltersActivity"
             android:exported="false" />
