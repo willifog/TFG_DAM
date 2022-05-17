@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-#Tue May 17 19:29:49 CEST 2022
-=======
-#Tue May 17 20:02:18 CEST 2022
->>>>>>> df8bfdae4715d0b79d82fa2780db3af2727c89d3
+#Tue May 17 20:18:49 CEST 2022
 path.4=14/classes.dex
 path.3=12/classes.dex
 path.2=11/classes.dex
@@ -26,11 +22,7 @@ renamed.2=classes3.dex
 renamed.1=classes2.dex
 path.10=classes2.dex
 renamed.0=classes.dex
-<<<<<<< HEAD
 base.9=C\:\\Users\\Cesar\\AndroidStudioProjects\\TFG_DAM\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\4\\classes.dex
-=======
-base.9=D\:\\Programacion Apps\\TFG_DAM\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\4\\classes.dex
->>>>>>> df8bfdae4715d0b79d82fa2780db3af2727c89d3
 path.9=4/classes.dex
 path.11=classes3.dex
 renamed.7=classes8.dex
@@ -40,12 +32,6 @@ base.7=C\:\\Users\\Cesar\\AndroidStudioProjects\\TFG_DAM\\app\\build\\intermedia
 renamed.5=classes6.dex
 base.6=C\:\\Users\\Cesar\\AndroidStudioProjects\\TFG_DAM\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\1\\classes.dex
 renamed.4=classes5.dex
-<<<<<<< HEAD
 base.5=C\:\\Users\\Cesar\\AndroidStudioProjects\\TFG_DAM\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\15\\classes.dex
 base.11=C\:\\Users\\Cesar\\AndroidStudioProjects\\TFG_DAM\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes3.dex
 base.10=C\:\\Users\\Cesar\\AndroidStudioProjects\\TFG_DAM\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes2.dex
-=======
-base.5=D\:\\Programacion Apps\\TFG_DAM\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\15\\classes.dex
-base.11=D\:\\Programacion Apps\\TFG_DAM\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes3.dex
-base.10=D\:\\Programacion Apps\\TFG_DAM\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes2.dex
->>>>>>> df8bfdae4715d0b79d82fa2780db3af2727c89d3

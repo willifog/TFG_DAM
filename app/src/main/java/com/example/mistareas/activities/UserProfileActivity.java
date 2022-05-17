@@ -8,10 +8,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 
 import android.content.Intent;
-<<<<<<< HEAD
-=======
 
->>>>>>> df8bfdae4715d0b79d82fa2780db3af2727c89d3
 import android.os.Bundle;
 import android.util.AttributeSet;
 import android.view.LayoutInflater;
@@ -25,11 +22,7 @@ import com.example.mistareas.R;
 import com.example.mistareas.adapters.MyPostsAdapter;
 import com.example.mistareas.models.Post;
 
-<<<<<<< HEAD
-=======
 
-
->>>>>>> df8bfdae4715d0b79d82fa2780db3af2727c89d3
 import com.example.mistareas.providers.AuthProvider;
 import com.example.mistareas.providers.PostProvider;
 import com.example.mistareas.providers.UsersProvider;
@@ -63,10 +56,7 @@ public class UserProfileActivity extends AppCompatActivity {
     RecyclerView mRecyclerView;
 
     FloatingActionButton mFabChat;
-<<<<<<< HEAD
-=======
 
->>>>>>> df8bfdae4715d0b79d82fa2780db3af2727c89d3
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

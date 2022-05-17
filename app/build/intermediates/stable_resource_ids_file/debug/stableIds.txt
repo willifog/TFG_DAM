@@ -375,14 +375,7 @@ com.example.mistareas:style/Test.Theme.MaterialComponents.MaterialCalendar = 0x7
 com.example.mistareas:style/SpotsDialogDefault = 0x7f100126
 com.example.mistareas:style/ShapeAppearanceOverlay.TopLeftCut = 0x7f100124
 com.example.mistareas:style/ShapeAppearanceOverlay.MaterialComponents.MaterialCalendar.Year = 0x7f100122
-<<<<<<< HEAD
-com.example.mistareas:attr/dragScale = 0x7f03013b
-com.example.mistareas:style/ShapeAppearanceOverlay.MaterialComponents.MaterialCalendar.Window.Fullscreen = 0x7f100121
-com.example.mistareas:id/special_effects_controller_view_tag = 0x7f0801c8
-com.example.mistareas:style/ShapeAppearanceOverlay.MaterialComponents.FloatingActionButton = 0x7f10011f
-=======
 com.example.mistareas:style/ShapeAppearanceOverlay.MaterialComponents.MaterialCalendar.Day = 0x7f100120
->>>>>>> df8bfdae4715d0b79d82fa2780db3af2727c89d3
 com.example.mistareas:color/design_dark_default_color_on_background = 0x7f050044
 com.example.mistareas:style/ShapeAppearanceOverlay.MaterialComponents.BottomSheet = 0x7f10011c
 com.example.mistareas:style/ShapeAppearanceOverlay.DifferentCornerSize = 0x7f10011b
@@ -398,11 +391,7 @@ com.example.mistareas:style/RtlOverlay.Widget.AppCompat.Search.DropDown.Text = 0
 com.example.mistareas:style/RtlOverlay.Widget.AppCompat.Search.DropDown.Icon2 = 0x7f10010b
 com.example.mistareas:style/RtlOverlay.Widget.AppCompat.Search.DropDown.Icon1 = 0x7f10010a
 com.example.mistareas:style/RtlOverlay.Widget.AppCompat.Search.DropDown = 0x7f100109
-<<<<<<< HEAD
-com.example.mistareas:id/editTextMessage = 0x7f0800d6
-=======
 com.example.mistareas:id/editTextMessage = 0x7f0800d8
->>>>>>> df8bfdae4715d0b79d82fa2780db3af2727c89d3
 com.example.mistareas:style/RtlOverlay.Widget.AppCompat.PopupMenuItem.Text = 0x7f100107
 com.example.mistareas:drawable/abc_seekbar_tick_mark_material = 0x7f070042
 com.example.mistareas:style/RtlOverlay.Widget.AppCompat.PopupMenuItem = 0x7f100103
@@ -419,11 +408,7 @@ com.example.mistareas:attr/statusBarForeground = 0x7f03035c
 com.example.mistareas:style/Platform.ThemeOverlay.AppCompat.Light = 0x7f1000fa
 com.example.mistareas:style/Platform.MaterialComponents.Light.Dialog = 0x7f1000f7
 com.example.mistareas:attr/buttonBarPositiveButtonStyle = 0x7f030079
-<<<<<<< HEAD
-com.example.mistareas:id/match_constraint = 0x7f080130
-=======
 com.example.mistareas:id/match_constraint = 0x7f080134
->>>>>>> df8bfdae4715d0b79d82fa2780db3af2727c89d3
 com.example.mistareas:style/RtlOverlay.Widget.AppCompat.PopupMenuItem.InternalGroup = 0x7f100104
 com.example.mistareas:style/MaterialAlertDialog.MaterialComponents.Title.Panel.CenterStacked = 0x7f1000ef
 com.example.mistareas:style/MaterialAlertDialog.MaterialComponents.Title.Panel = 0x7f1000ee
@@ -445,11 +430,7 @@ com.example.mistareas:anim/btn_radio_to_on_mtrl_ring_outer_path_animation = 0x7f
 com.example.mistareas:style/Base.Widget.AppCompat.Spinner.Underlined = 0x7f1000d1
 com.example.mistareas:style/Widget.MaterialComponents.NavigationRailView = 0x7f1002ab
 com.example.mistareas:style/Base.Widget.AppCompat.Spinner = 0x7f1000d0
-<<<<<<< HEAD
-com.example.mistareas:id/italic = 0x7f080115
-=======
 com.example.mistareas:id/italic = 0x7f080118
->>>>>>> df8bfdae4715d0b79d82fa2780db3af2727c89d3
 com.example.mistareas:style/Base.Widget.AppCompat.SearchView.ActionBar = 0x7f1000cd
 com.example.mistareas:style/Base.Widget.AppCompat.RatingBar.Small = 0x7f1000cb
 com.example.mistareas:style/Base.Widget.AppCompat.RatingBar.Indicator = 0x7f1000ca
@@ -467,17 +448,10 @@ com.example.mistareas:dimen/mtrl_shape_corner_size_small_component = 0x7f060163
 com.example.mistareas:style/Base.Widget.AppCompat.ImageButton = 0x7f1000b6
 com.example.mistareas:style/Base.Widget.AppCompat.EditText = 0x7f1000b5
 com.example.mistareas:style/Base.Widget.AppCompat.CompoundButton.CheckBox = 0x7f1000af
-<<<<<<< HEAD
-com.example.mistareas:layout/fragment_profile = 0x7f0b0043
-com.example.mistareas:style/Base.Widget.AppCompat.ButtonBar.AlertDialog = 0x7f1000ae
-com.example.mistareas:attr/drawableTintMode = 0x7f030145
-com.example.mistareas:layout/test_action_chip = 0x7f0b0082
-=======
 com.example.mistareas:layout/fragment_profile = 0x7f0b0044
 com.example.mistareas:style/Base.Widget.AppCompat.ButtonBar.AlertDialog = 0x7f1000ae
 com.example.mistareas:attr/drawableTintMode = 0x7f030145
 com.example.mistareas:layout/test_action_chip = 0x7f0b0083
->>>>>>> df8bfdae4715d0b79d82fa2780db3af2727c89d3
 com.example.mistareas:style/Base.Widget.AppCompat.ButtonBar = 0x7f1000ad
 com.example.mistareas:style/Base.Widget.AppCompat.Button.Small = 0x7f1000ac
 com.example.mistareas:style/Base.Widget.AppCompat.Button.Borderless = 0x7f1000a8
@@ -485,11 +459,7 @@ com.example.mistareas:style/ThemeOverlay.MaterialComponents.Light.Dialog.Alert.F
 com.example.mistareas:style/Base.Widget.AppCompat.Button = 0x7f1000a7
 com.example.mistareas:style/Theme.MaterialComponents.DayNight.BottomSheetDialog = 0x7f1001ac
 com.example.mistareas:style/Base.Widget.AppCompat.ActivityChooserView = 0x7f1000a5
-<<<<<<< HEAD
-com.example.mistareas:id/neverCompleteToEnd = 0x7f08016e
-=======
 com.example.mistareas:id/neverCompleteToEnd = 0x7f080172
->>>>>>> df8bfdae4715d0b79d82fa2780db3af2727c89d3
 com.example.mistareas:style/Base.Widget.AppCompat.ActionMode = 0x7f1000a4
 com.example.mistareas:attr/expandedTitleGravity = 0x7f030166
 com.example.mistareas:drawable/abc_textfield_search_activated_mtrl_alpha = 0x7f070052
@@ -502,11 +472,7 @@ com.example.mistareas:style/Base.V7.Widget.AppCompat.Toolbar = 0x7f10009b
 com.example.mistareas:style/Base.V7.Theme.AppCompat.Light.Dialog = 0x7f100097
 com.example.mistareas:dimen/material_textinput_default_width = 0x7f0600bc
 com.example.mistareas:style/Base.V26.Widget.AppCompat.Toolbar = 0x7f100091
-<<<<<<< HEAD
-com.example.mistareas:id/normal = 0x7f080174
-=======
 com.example.mistareas:id/normal = 0x7f080178
->>>>>>> df8bfdae4715d0b79d82fa2780db3af2727c89d3
 com.example.mistareas:style/Base.V26.Theme.AppCompat.Light = 0x7f100090
 com.example.mistareas:style/Base.V22.Theme.AppCompat = 0x7f10008b
 com.example.mistareas:style/Base.V21.ThemeOverlay.AppCompat.Dialog = 0x7f100089
@@ -523,11 +489,7 @@ com.example.mistareas:style/Base.V14.Theme.MaterialComponents.Light.Dialog = 0x7
 com.example.mistareas:dimen/abc_action_button_min_height_material = 0x7f06000d
 com.example.mistareas:style/Base.V14.Theme.MaterialComponents.Light.DarkActionBar.Bridge = 0x7f10007a
 com.example.mistareas:layout/activity_register = 0x7f0b0024
-<<<<<<< HEAD
-com.example.mistareas:id/rectangles = 0x7f080196
-=======
 com.example.mistareas:id/rectangles = 0x7f08019a
->>>>>>> df8bfdae4715d0b79d82fa2780db3af2727c89d3
 com.example.mistareas:style/Base.Theme.MaterialComponents.Light.DialogWhenLarge = 0x7f100067
 com.example.mistareas:style/Base.V14.Theme.MaterialComponents.Dialog = 0x7f100076
 com.example.mistareas:style/Base.V14.Theme.MaterialComponents = 0x7f100074
@@ -535,11 +497,7 @@ com.example.mistareas:style/Base.ThemeOverlay.MaterialComponents.Dialog.Alert.Fr
 com.example.mistareas:style/Base.ThemeOverlay.AppCompat.Light = 0x7f10006e
 com.example.mistareas:style/Base.ThemeOverlay.AppCompat.Dialog = 0x7f10006c
 com.example.mistareas:style/Base.Theme.MaterialComponents.Light.Dialog.Bridge = 0x7f100064
-<<<<<<< HEAD
-com.example.mistareas:id/bestChoice = 0x7f080060
-=======
 com.example.mistareas:id/bestChoice = 0x7f080061
->>>>>>> df8bfdae4715d0b79d82fa2780db3af2727c89d3
 com.example.mistareas:style/Base.Theme.MaterialComponents.Light.Dialog = 0x7f100062
 com.example.mistareas:style/Base.Theme.MaterialComponents.Light.DarkActionBar.Bridge = 0x7f100061
 com.example.mistareas:style/Base.Theme.MaterialComponents.DialogWhenLarge = 0x7f10005d
@@ -548,11 +506,7 @@ com.example.mistareas:style/Base.Theme.MaterialComponents.Dialog.Bridge = 0x7f10
 com.example.mistareas:style/Base.Theme.MaterialComponents.Dialog = 0x7f100058
 com.example.mistareas:style/Base.Theme.MaterialComponents.Bridge = 0x7f100056
 com.example.mistareas:style/Base.Theme.AppCompat.Light.DarkActionBar = 0x7f10004f
-<<<<<<< HEAD
-com.example.mistareas:id/west = 0x7f080238
-=======
 com.example.mistareas:id/west = 0x7f08023b
->>>>>>> df8bfdae4715d0b79d82fa2780db3af2727c89d3
 com.example.mistareas:style/Base.Theme.AppCompat.CompactMenu = 0x7f100048
 com.example.mistareas:style/Base.Theme.AppCompat = 0x7f100047
 com.example.mistareas:style/Base.TextAppearance.Widget.AppCompat.ExpandedMenu.Item = 0x7f100044
@@ -632,13 +586,8 @@ com.example.mistareas:attr/customNavigationLayout = 0x7f030124
 com.example.mistareas:string/material_hour_selection = 0x7f0f0050
 com.example.mistareas:string/login = 0x7f0f004d
 com.example.mistareas:string/item_view_role_description = 0x7f0f004b
-<<<<<<< HEAD
-com.example.mistareas:id/view_transition = 0x7f080232
-com.example.mistareas:id/line1 = 0x7f080128
-=======
 com.example.mistareas:id/view_transition = 0x7f080235
 com.example.mistareas:id/line1 = 0x7f08012b
->>>>>>> df8bfdae4715d0b79d82fa2780db3af2727c89d3
 com.example.mistareas:style/Base.TextAppearance.AppCompat.Widget.TextView.SpinnerItem = 0x7f10003f
 com.example.mistareas:string/google_storage_bucket = 0x7f0f0045
 com.example.mistareas:string/google_crash_reporting_api_key = 0x7f0f0044
@@ -672,11 +621,7 @@ com.example.mistareas:string/character_counter_overflowed_content_description = 
 com.example.mistareas:style/Base.MaterialAlertDialog.MaterialComponents.Title.Text = 0x7f100012
 com.example.mistareas:color/common_google_signin_btn_text_light = 0x7f050039
 com.example.mistareas:string/character_counter_content_description = 0x7f0f0021
-<<<<<<< HEAD
-com.example.mistareas:id/pin = 0x7f08018a
-=======
 com.example.mistareas:id/pin = 0x7f08018e
->>>>>>> df8bfdae4715d0b79d82fa2780db3af2727c89d3
 com.example.mistareas:style/Base.Theme.AppCompat.Light.Dialog.FixedSize = 0x7f100052
 com.example.mistareas:style/Theme.AppCompat.DayNight.Dialog = 0x7f10018f
 com.example.mistareas:style/TextAppearance.AppCompat.SearchResult.Title = 0x7f100147
@@ -694,11 +639,7 @@ com.example.mistareas:dimen/design_bottom_navigation_active_text_size = 0x7f0600
 com.example.mistareas:string/abc_menu_alt_shortcut_label = 0x7f0f0008
 com.example.mistareas:string/abc_capital_on = 0x7f0f0007
 com.example.mistareas:anim/btn_checkbox_to_checked_box_outer_merged_animation = 0x7f01000f
-<<<<<<< HEAD
-com.example.mistareas:id/custom = 0x7f0800ac
-=======
 com.example.mistareas:id/custom = 0x7f0800ad
->>>>>>> df8bfdae4715d0b79d82fa2780db3af2727c89d3
 com.example.mistareas:string/abc_activitychooserview_choose_application = 0x7f0f0005
 com.example.mistareas:string/abc_action_bar_home_description = 0x7f0f0000
 com.example.mistareas:attr/textOutlineThickness = 0x7f0303b2
@@ -714,89 +655,6 @@ com.example.mistareas:mipmap/back = 0x7f0d0000
 com.example.mistareas:dimen/mtrl_alert_dialog_background_inset_bottom = 0x7f0600c2
 com.example.mistareas:menu/main_menu = 0x7f0c0003
 com.example.mistareas:styleable/ButtonBarLayout = 0x7f110018
-<<<<<<< HEAD
-com.example.mistareas:layout/text_view_without_line_height = 0x7f0b0090
-com.example.mistareas:layout/text_view_with_line_height_from_style = 0x7f0b008e
-com.example.mistareas:layout/text_view_with_line_height_from_layout = 0x7f0b008d
-com.example.mistareas:dimen/mtrl_calendar_selection_text_baseline_to_top = 0x7f06010e
-com.example.mistareas:layout/test_toolbar_elevation = 0x7f0b008a
-com.example.mistareas:style/TextAppearance.Compat.Notification.Info = 0x7f100163
-com.example.mistareas:layout/test_toolbar_custom_background = 0x7f0b0089
-com.example.mistareas:string/abc_capital_off = 0x7f0f0006
-com.example.mistareas:style/TextAppearance.AppCompat.Widget.ActionBar.Subtitle = 0x7f100150
-com.example.mistareas:layout/test_reflow_chipgroup = 0x7f0b0087
-com.example.mistareas:layout/test_navigation_bar_item_layout = 0x7f0b0086
-com.example.mistareas:layout/test_design_radiobutton = 0x7f0b0085
-com.example.mistareas:attr/layout_constraintRight_toRightOf = 0x7f03021c
-com.example.mistareas:style/Base.Widget.AppCompat.Toolbar = 0x7f1000d4
-com.example.mistareas:layout/test_design_checkbox = 0x7f0b0084
-com.example.mistareas:layout/test_chip_zero_corner_radius = 0x7f0b0083
-com.example.mistareas:layout/select_dialog_item_material = 0x7f0b007e
-com.example.mistareas:id/action_text = 0x7f080045
-com.example.mistareas:layout/notification_template_media_custom = 0x7f0b007b
-com.example.mistareas:styleable/Spinner = 0x7f11007f
-com.example.mistareas:style/ShapeAppearanceOverlay.MaterialComponents.Chip = 0x7f10011d
-com.example.mistareas:layout/notification_template_media = 0x7f0b007a
-com.example.mistareas:style/Widget.MaterialComponents.Badge = 0x7f10026b
-com.example.mistareas:attr/layout_dodgeInsetEdges = 0x7f03022b
-com.example.mistareas:layout/notification_template_custom_big = 0x7f0b0077
-com.example.mistareas:id/month_navigation_next = 0x7f08014c
-com.example.mistareas:layout/notification_template_big_media_narrow_custom = 0x7f0b0076
-com.example.mistareas:layout/notification_template_big_media_narrow = 0x7f0b0075
-com.example.mistareas:layout/notification_template_big_media = 0x7f0b0073
-com.example.mistareas:drawable/common_google_signin_btn_icon_light_normal = 0x7f070069
-com.example.mistareas:dimen/design_navigation_elevation = 0x7f060078
-com.example.mistareas:layout/notification_action_tombstone = 0x7f0b0070
-com.example.mistareas:layout/notification_action = 0x7f0b006f
-com.example.mistareas:attr/buttonSize = 0x7f03007f
-com.example.mistareas:layout/mtrl_picker_text_input_date = 0x7f0b006d
-com.example.mistareas:layout/mtrl_picker_header_selection_text = 0x7f0b006a
-com.example.mistareas:style/Base.V14.Theme.MaterialComponents.Light = 0x7f100078
-com.example.mistareas:attr/materialCalendarFullscreenTheme = 0x7f03025c
-com.example.mistareas:id/ResetPass = 0x7f080007
-com.example.mistareas:layout/mtrl_picker_header_dialog = 0x7f0b0068
-com.example.mistareas:layout/mtrl_layout_snackbar = 0x7f0b0062
-com.example.mistareas:dimen/hint_alpha_material_dark = 0x7f060098
-com.example.mistareas:layout/mtrl_calendar_year = 0x7f0b0061
-com.example.mistareas:layout/mtrl_calendar_vertical = 0x7f0b0060
-com.example.mistareas:style/Base.V22.Theme.AppCompat.Light = 0x7f10008c
-com.example.mistareas:layout/mtrl_calendar_months = 0x7f0b005f
-com.example.mistareas:layout/mtrl_calendar_month = 0x7f0b005c
-com.example.mistareas:layout/mtrl_calendar_horizontal = 0x7f0b005b
-com.example.mistareas:layout/mtrl_calendar_days_of_week = 0x7f0b005a
-com.example.mistareas:layout/mtrl_alert_select_dialog_multichoice = 0x7f0b0056
-com.example.mistareas:layout/mtrl_alert_dialog_title = 0x7f0b0054
-com.example.mistareas:layout/mtrl_alert_dialog_actions = 0x7f0b0053
-com.example.mistareas:style/Base.V7.ThemeOverlay.AppCompat.Dialog = 0x7f100098
-com.example.mistareas:layout/material_timepicker_textinput_display = 0x7f0b0051
-com.example.mistareas:layout/material_timepicker_dialog = 0x7f0b0050
-com.example.mistareas:layout/material_time_input = 0x7f0b004e
-com.example.mistareas:layout/material_textinput_timepicker = 0x7f0b004c
-com.example.mistareas:id/unlabeled = 0x7f08022c
-com.example.mistareas:layout/material_clock_display = 0x7f0b0045
-com.example.mistareas:layout/material_chip_input_combo = 0x7f0b0044
-com.example.mistareas:layout/dmax_spots_dialog = 0x7f0b003f
-com.example.mistareas:layout/design_text_input_start_icon = 0x7f0b003e
-com.example.mistareas:attr/flow_lastVerticalStyle = 0x7f030189
-com.example.mistareas:layout/design_text_input_end_icon = 0x7f0b003d
-com.example.mistareas:id/accessibility_custom_action_4 = 0x7f08002b
-com.example.mistareas:layout/design_navigation_menu_item = 0x7f0b003c
-com.example.mistareas:attr/windowMinWidthMajor = 0x7f030412
-com.example.mistareas:attr/layout_constraintHeight_min = 0x7f030212
-com.example.mistareas:layout/design_navigation_menu = 0x7f0b003b
-com.example.mistareas:layout/design_navigation_item_separator = 0x7f0b0039
-com.example.mistareas:layout/design_layout_tab_icon = 0x7f0b0034
-com.example.mistareas:attr/titleMarginBottom = 0x7f0303d3
-com.example.mistareas:style/ShapeAppearance.MaterialComponents.LargeComponent = 0x7f100112
-com.example.mistareas:color/design_dark_default_color_on_error = 0x7f050045
-com.example.mistareas:layout/design_layout_snackbar_include = 0x7f0b0033
-com.example.mistareas:style/Widget.MaterialComponents.BottomAppBar.PrimarySurface = 0x7f10026e
-com.example.mistareas:layout/design_layout_snackbar = 0x7f0b0032
-com.example.mistareas:layout/cardview_post = 0x7f0b002d
-com.example.mistareas:drawable/navigation_empty_icon = 0x7f0700b1
-com.example.mistareas:attr/subMenuArrow = 0x7f030360
-com.example.mistareas:layout/design_bottom_navigation_item = 0x7f0b0030
-=======
 com.example.mistareas:layout/text_view_without_line_height = 0x7f0b0091
 com.example.mistareas:layout/text_view_with_line_height_from_style = 0x7f0b008f
 com.example.mistareas:layout/text_view_with_line_height_from_layout = 0x7f0b008e
@@ -879,7 +737,6 @@ com.example.mistareas:layout/cardview_message = 0x7f0b002c
 com.example.mistareas:drawable/navigation_empty_icon = 0x7f0700b3
 com.example.mistareas:attr/subMenuArrow = 0x7f030360
 com.example.mistareas:layout/design_bottom_navigation_item = 0x7f0b0031
->>>>>>> df8bfdae4715d0b79d82fa2780db3af2727c89d3
 com.example.mistareas:layout/browser_actions_context_menu_row = 0x7f0b0029
 com.example.mistareas:layout/browser_actions_context_menu_page = 0x7f0b0028
 com.example.mistareas:dimen/fastscroll_margin = 0x7f060093
@@ -890,20 +747,12 @@ com.example.mistareas:mipmap/user = 0x7f0d000c
 com.example.mistareas:layout/activity_reset_password = 0x7f0b0025
 com.example.mistareas:attr/cardElevation = 0x7f030086
 com.example.mistareas:dimen/material_emphasis_disabled = 0x7f0600ad
-<<<<<<< HEAD
-com.example.mistareas:id/progress_circular = 0x7f08018e
-=======
 com.example.mistareas:id/progress_circular = 0x7f080192
->>>>>>> df8bfdae4715d0b79d82fa2780db3af2727c89d3
 com.example.mistareas:layout/activity_main = 0x7f0b0021
 com.example.mistareas:layout/abc_tooltip = 0x7f0b001b
 com.example.mistareas:animator/mtrl_fab_transformation_sheet_expand_spec = 0x7f020019
 com.example.mistareas:layout/abc_select_dialog_material = 0x7f0b001a
-<<<<<<< HEAD
-com.example.mistareas:id/scale = 0x7f0801a3
-=======
 com.example.mistareas:id/scale = 0x7f0801a7
->>>>>>> df8bfdae4715d0b79d82fa2780db3af2727c89d3
 com.example.mistareas:layout/abc_search_view = 0x7f0b0019
 com.example.mistareas:attr/onHide = 0x7f0302b1
 com.example.mistareas:layout/abc_screen_simple = 0x7f0b0015
@@ -920,11 +769,7 @@ com.example.mistareas:attr/contentInsetStart = 0x7f0300fd
 com.example.mistareas:attr/thumbStrokeWidth = 0x7f0303c1
 com.example.mistareas:layout/abc_action_mode_bar = 0x7f0b0004
 com.example.mistareas:interpolator/mtrl_linear = 0x7f0a0009
-<<<<<<< HEAD
-com.example.mistareas:id/fragment_container_view_tag = 0x7f0800ed
-=======
 com.example.mistareas:id/fragment_container_view_tag = 0x7f0800ef
->>>>>>> df8bfdae4715d0b79d82fa2780db3af2727c89d3
 com.example.mistareas:interpolator/mtrl_fast_out_slow_in = 0x7f0a0008
 com.example.mistareas:interpolator/mtrl_fast_out_linear_in = 0x7f0a0007
 com.example.mistareas:interpolator/fast_out_slow_in = 0x7f0a0006
@@ -948,155 +793,12 @@ com.example.mistareas:dimen/mtrl_calendar_navigation_height = 0x7f060108
 com.example.mistareas:integer/material_motion_duration_medium_2 = 0x7f09000d
 com.example.mistareas:attr/boxCornerRadiusBottomStart = 0x7f03006e
 com.example.mistareas:integer/material_motion_duration_long_2 = 0x7f09000b
-<<<<<<< HEAD
-com.example.mistareas:id/material_minute_tv = 0x7f08013c
-=======
 com.example.mistareas:id/material_minute_tv = 0x7f080140
->>>>>>> df8bfdae4715d0b79d82fa2780db3af2727c89d3
 com.example.mistareas:integer/material_motion_duration_long_1 = 0x7f09000a
 com.example.mistareas:drawable/abc_tab_indicator_mtrl_alpha = 0x7f07004b
 com.example.mistareas:integer/design_snackbar_text_max_lines = 0x7f090006
 com.example.mistareas:integer/cancel_button_image_alpha = 0x7f090004
 com.example.mistareas:integer/app_bar_elevation_anim_duration = 0x7f090002
-<<<<<<< HEAD
-com.example.mistareas:id/zero_corner_chip = 0x7f080242
-com.example.mistareas:id/x_right = 0x7f080241
-com.example.mistareas:id/worm = 0x7f08023c
-com.example.mistareas:style/Base.Widget.AppCompat.Light.ActionBar.TabView = 0x7f1000bc
-com.example.mistareas:dimen/abc_dialog_fixed_width_major = 0x7f06001e
-com.example.mistareas:id/wide = 0x7f080239
-com.example.mistareas:id/visible_removing_fragment_view_tag = 0x7f080237
-com.example.mistareas:dimen/material_cursor_inset_bottom = 0x7f0600aa
-com.example.mistareas:id/withText = 0x7f08023a
-com.example.mistareas:id/visible = 0x7f080236
-com.example.mistareas:id/view_tree_view_model_store_owner = 0x7f080235
-com.example.mistareas:style/Base.ThemeOverlay.MaterialComponents.Light.Dialog.Alert.Framework = 0x7f100072
-com.example.mistareas:id/view_tree_lifecycle_owner = 0x7f080233
-com.example.mistareas:attr/chipStartPadding = 0x7f0300b3
-com.example.mistareas:id/vertical_only = 0x7f080230
-com.example.mistareas:id/vertical = 0x7f08022f
-com.example.mistareas:string/abc_activity_chooser_view_see_all = 0x7f0f0004
-com.example.mistareas:attr/paddingRightSystemWindowInsets = 0x7f0302bd
-com.example.mistareas:id/useLogo = 0x7f08022e
-com.example.mistareas:layout/design_navigation_item = 0x7f0b0037
-com.example.mistareas:id/up = 0x7f08022d
-com.example.mistareas:id/transition_layout_save = 0x7f080225
-com.example.mistareas:style/Theme.MaterialComponents.Dialog.MinWidth.Bridge = 0x7f1001c2
-com.example.mistareas:id/tag_transition_group = 0x7f0801eb
-com.example.mistareas:style/Base.TextAppearance.AppCompat.Widget.Button.Colored = 0x7f100038
-com.example.mistareas:id/transition_current_scene = 0x7f080224
-com.example.mistareas:id/transitionToStart = 0x7f080223
-com.example.mistareas:layout/mtrl_calendar_month_navigation = 0x7f0b005e
-com.example.mistareas:id/touch_outside = 0x7f080221
-com.example.mistareas:attr/carousel_touchUp_velocityThreshold = 0x7f030095
-com.example.mistareas:menu/example_menu = 0x7f0c0001
-com.example.mistareas:attr/maxVelocity = 0x7f030276
-com.example.mistareas:id/topPanel = 0x7f080220
-com.example.mistareas:id/top = 0x7f08021f
-com.example.mistareas:id/titulo = 0x7f08021c
-com.example.mistareas:id/title_template = 0x7f08021b
-com.example.mistareas:id/title = 0x7f080219
-com.example.mistareas:attr/helperTextEnabled = 0x7f0301a8
-com.example.mistareas:id/time = 0x7f080218
-com.example.mistareas:id/thinWorm = 0x7f080217
-com.example.mistareas:id/textinput_prefix_text = 0x7f080215
-com.example.mistareas:id/textinput_error = 0x7f080212
-com.example.mistareas:attr/chainUseRtl = 0x7f030096
-com.example.mistareas:id/textinput_counter = 0x7f080211
-com.example.mistareas:attr/checkedButton = 0x7f03009b
-com.example.mistareas:string/mtrl_picker_range_header_unselected = 0x7f0f007a
-com.example.mistareas:id/text_input_error_icon = 0x7f08020f
-com.example.mistareas:id/text_input_end_icon = 0x7f08020e
-com.example.mistareas:id/textViewnumerFilter = 0x7f08020d
-com.example.mistareas:attr/layout_goneMarginTop = 0x7f030234
-com.example.mistareas:id/textViewUserNameChat = 0x7f08020b
-com.example.mistareas:dimen/progress_width = 0x7f060195
-com.example.mistareas:id/textViewTitlePostCard = 0x7f080209
-com.example.mistareas:id/textViewTitle = 0x7f080207
-com.example.mistareas:id/textViewRelativeTime = 0x7f080206
-com.example.mistareas:attr/colorSecondary = 0x7f0300eb
-com.example.mistareas:id/textViewPhonePost = 0x7f080204
-com.example.mistareas:id/textViewPhone = 0x7f080203
-com.example.mistareas:id/textViewLastMessageChat = 0x7f080201
-com.example.mistareas:attr/materialCalendarMonthNavigationButton = 0x7f030265
-com.example.mistareas:id/triangle = 0x7f080229
-com.example.mistareas:style/Base.V28.Theme.AppCompat.Light = 0x7f100093
-com.example.mistareas:layout/test_toolbar = 0x7f0b0088
-com.example.mistareas:id/textViewComment = 0x7f0801fd
-com.example.mistareas:id/textStart = 0x7f0801fa
-com.example.mistareas:id/textInputPhoneEdit = 0x7f0801f7
-com.example.mistareas:string/material_minute_suffix = 0x7f0f0053
-com.example.mistareas:id/text = 0x7f0801f3
-com.example.mistareas:id/tag_window_insets_animation_callback = 0x7f0801ee
-com.example.mistareas:id/tag_unhandled_key_event_manager = 0x7f0801ec
-com.example.mistareas:id/tag_state_description = 0x7f0801ea
-com.example.mistareas:style/TextAppearance.MaterialComponents.Chip = 0x7f10017c
-com.example.mistareas:style/TextAppearance.AppCompat.Light.Widget.PopupMenu.Large = 0x7f100141
-com.example.mistareas:id/textViewNameCategory = 0x7f080202
-com.example.mistareas:string/material_timepicker_am = 0x7f0f005b
-com.example.mistareas:id/tag_on_receive_content_mime_types = 0x7f0801e8
-com.example.mistareas:id/tag_on_receive_content_listener = 0x7f0801e7
-com.example.mistareas:animator/fragment_fade_exit = 0x7f020006
-com.example.mistareas:id/tag_on_apply_window_listener = 0x7f0801e6
-com.example.mistareas:id/mtrl_picker_text_input_date = 0x7f080162
-com.example.mistareas:style/Base.TextAppearance.AppCompat.Button = 0x7f100016
-com.example.mistareas:drawable/notification_template_icon_low_bg = 0x7f0700bb
-com.example.mistareas:id/tabMode = 0x7f0801e1
-com.example.mistareas:id/src_in = 0x7f0801d0
-com.example.mistareas:id/supportScrollUp = 0x7f0801df
-com.example.mistareas:dimen/tooltip_y_offset_touch = 0x7f0601b0
-com.example.mistareas:id/submenuarrow = 0x7f0801dc
-com.example.mistareas:id/stretch = 0x7f0801db
-com.example.mistareas:style/Theme.MaterialComponents.CompactMenu = 0x7f1001aa
-com.example.mistareas:dimen/abc_action_bar_overflow_padding_start_material = 0x7f060008
-com.example.mistareas:id/stop = 0x7f0801da
-com.example.mistareas:id/startVertical = 0x7f0801d6
-com.example.mistareas:id/spring = 0x7f0801cd
-com.example.mistareas:id/split_action_bar = 0x7f0801ca
-com.example.mistareas:id/transition_position = 0x7f080226
-com.example.mistareas:color/mtrl_btn_transparent_bg_color = 0x7f05009c
-com.example.mistareas:attr/textureWidth = 0x7f0303b9
-com.example.mistareas:id/spacer = 0x7f0801c7
-com.example.mistareas:style/Base.TextAppearance.AppCompat.Display2 = 0x7f100019
-com.example.mistareas:color/mtrl_navigation_item_background_color = 0x7f0500b4
-com.example.mistareas:id/snackbar_text = 0x7f0801c3
-com.example.mistareas:id/skipped = 0x7f0801c0
-com.example.mistareas:id/showHome = 0x7f0801bc
-com.example.mistareas:id/sharedValueSet = 0x7f0801b8
-com.example.mistareas:attr/region_heightLessThan = 0x7f030301
-com.example.mistareas:id/selected = 0x7f0801b6
-com.example.mistareas:id/showTitle = 0x7f0801bd
-com.example.mistareas:dimen/test_navigation_bar_height = 0x7f0601a0
-com.example.mistareas:id/select_dialog_listview = 0x7f0801b5
-com.example.mistareas:style/Widget.Design.TextInputEditText = 0x7f10025e
-com.example.mistareas:id/search_plate = 0x7f0801b2
-com.example.mistareas:id/search_go_btn = 0x7f0801b0
-com.example.mistareas:color/design_fab_shadow_end_color = 0x7f05005d
-com.example.mistareas:id/search_edit_frame = 0x7f0801af
-com.example.mistareas:id/search_bar = 0x7f0801ac
-com.example.mistareas:id/showCustom = 0x7f0801bb
-com.example.mistareas:id/scrollable = 0x7f0801aa
-com.example.mistareas:string/itt = 0x7f0f004c
-com.example.mistareas:id/scrollView = 0x7f0801a9
-com.example.mistareas:id/screen = 0x7f0801a5
-com.example.mistareas:animator/design_fab_hide_motion_spec = 0x7f020001
-com.example.mistareas:id/row_index_key = 0x7f08019f
-com.example.mistareas:id/right_side = 0x7f08019d
-com.example.mistareas:dimen/material_input_text_to_prefix_suffix_padding = 0x7f0600b9
-com.example.mistareas:id/right_icon = 0x7f08019c
-com.example.mistareas:id/recyclerViewFilter = 0x7f080197
-com.example.mistareas:id/reciclerViewMyPost = 0x7f080195
-com.example.mistareas:color/abc_tint_seek_thumb = 0x7f050016
-com.example.mistareas:id/reciclerViewHome = 0x7f080194
-com.example.mistareas:style/ThemeOverlay.MaterialComponents.AutoCompleteTextView = 0x7f1001e7
-com.example.mistareas:id/reciclerViewChats = 0x7f080192
-com.example.mistareas:color/material_on_surface_stroke = 0x7f050089
-com.example.mistareas:id/radio = 0x7f080190
-com.example.mistareas:dimen/mtrl_slider_widget_height = 0x7f06016d
-com.example.mistareas:style/Base.Widget.MaterialComponents.MaterialCalendar.NavigationButton = 0x7f1000da
-com.example.mistareas:drawable/mtrl_navigation_bar_item_background = 0x7f0700ad
-com.example.mistareas:id/progress_horizontal = 0x7f08018f
-=======
 com.example.mistareas:id/zero_corner_chip = 0x7f080245
 com.example.mistareas:id/x_right = 0x7f080244
 com.example.mistareas:id/worm = 0x7f08023f
@@ -1233,149 +935,10 @@ com.example.mistareas:dimen/mtrl_slider_widget_height = 0x7f06016d
 com.example.mistareas:style/Base.Widget.MaterialComponents.MaterialCalendar.NavigationButton = 0x7f1000da
 com.example.mistareas:drawable/mtrl_navigation_bar_item_background = 0x7f0700af
 com.example.mistareas:id/progress_horizontal = 0x7f080193
->>>>>>> df8bfdae4715d0b79d82fa2780db3af2727c89d3
 com.example.mistareas:string/usuario = 0x7f0f0095
 com.example.mistareas:style/Base.TextAppearance.Widget.AppCompat.Toolbar.Title = 0x7f100046
 com.example.mistareas:attr/showText = 0x7f030325
 com.example.mistareas:attr/itemFillColor = 0x7f0301d5
-<<<<<<< HEAD
-com.example.mistareas:id/peekHeight = 0x7f080188
-com.example.mistareas:styleable/StateListDrawableItem = 0x7f110082
-com.example.mistareas:id/pathRelative = 0x7f080187
-com.example.mistareas:id/password_toggle = 0x7f080185
-com.example.mistareas:attr/itemShapeAppearanceOverlay = 0x7f0301df
-com.example.mistareas:id/barrier = 0x7f08005c
-com.example.mistareas:id/parallax = 0x7f080180
-com.example.mistareas:id/packed = 0x7f08017f
-com.example.mistareas:id/overshoot = 0x7f08017e
-com.example.mistareas:styleable/ThemeEnforcement = 0x7f11008c
-com.example.mistareas:id/image = 0x7f080105
-com.example.mistareas:id/outward = 0x7f08017d
-com.example.mistareas:layout/activity_login = 0x7f0b0020
-com.example.mistareas:id/onInterceptTouchReturnSwipe = 0x7f08017b
-com.example.mistareas:id/on = 0x7f08017a
-com.example.mistareas:id/off = 0x7f080179
-com.example.mistareas:id/notification_main_column = 0x7f080177
-com.example.mistareas:id/chip2 = 0x7f08008f
-com.example.mistareas:id/clear_text = 0x7f08009a
-com.example.mistareas:id/toggle = 0x7f08021d
-com.example.mistareas:attr/layout_constraintStart_toStartOf = 0x7f03021e
-com.example.mistareas:id/notification_background = 0x7f080176
-com.example.mistareas:id/noState = 0x7f080171
-com.example.mistareas:id/navigation_header_container = 0x7f08016c
-com.example.mistareas:id/navigation_bar_item_small_label_view = 0x7f08016b
-com.example.mistareas:styleable/RecycleListView = 0x7f110073
-com.example.mistareas:id/circleImageChat = 0x7f080094
-com.example.mistareas:id/navigation_bar_item_labels_group = 0x7f080169
-com.example.mistareas:id/mtrl_view_tag_bottom_padding = 0x7f080166
-com.example.mistareas:anim/btn_radio_to_off_mtrl_dot_group_animation = 0x7f010014
-com.example.mistareas:attr/mock_diagonalsColor = 0x7f030281
-com.example.mistareas:id/mtrl_picker_title_text = 0x7f080165
-com.example.mistareas:id/mtrl_picker_text_input_range_start = 0x7f080164
-com.example.mistareas:id/mtrl_picker_text_input_range_end = 0x7f080163
-com.example.mistareas:styleable/SwitchCompat = 0x7f110084
-com.example.mistareas:id/mtrl_picker_header_title_and_selection = 0x7f080160
-com.example.mistareas:id/mtrl_picker_header_selection_text = 0x7f08015f
-com.example.mistareas:id/mtrl_picker_fullscreen = 0x7f08015d
-com.example.mistareas:id/mtrl_calendar_year_selector_frame = 0x7f080158
-com.example.mistareas:attr/colorControlActivated = 0x7f0300dc
-com.example.mistareas:id/mtrl_calendar_text_input_frame = 0x7f080157
-com.example.mistareas:id/mtrl_calendar_frame = 0x7f080153
-com.example.mistareas:id/mtrl_calendar_day_selector_frame = 0x7f080151
-com.example.mistareas:style/Theme.MaterialComponents.Dialog.MinWidth = 0x7f1001c1
-com.example.mistareas:layout/support_simple_spinner_dropdown_item = 0x7f0b0081
-com.example.mistareas:id/mtrl_anchor_parent = 0x7f080150
-com.example.mistareas:string/abc_shareactionprovider_share_with_application = 0x7f0f0019
-com.example.mistareas:interpolator/btn_checkbox_checked_mtrl_animation_interpolator_1 = 0x7f0a0001
-com.example.mistareas:style/Widget.MaterialComponents.CollapsingToolbar = 0x7f10028b
-com.example.mistareas:id/month_navigation_previous = 0x7f08014d
-com.example.mistareas:id/transition_scene_layoutid_cache = 0x7f080227
-com.example.mistareas:style/Animation.AppCompat.Dialog = 0x7f100003
-com.example.mistareas:id/circleImageProfileEdit = 0x7f080098
-com.example.mistareas:id/month_navigation_fragment_toggle = 0x7f08014b
-com.example.mistareas:color/cardview_shadow_start_color = 0x7f050031
-com.example.mistareas:layout/notification_media_cancel_action = 0x7f0b0072
-com.example.mistareas:attr/flow_verticalAlign = 0x7f03018c
-com.example.mistareas:id/month_grid = 0x7f080149
-com.example.mistareas:id/mini = 0x7f080148
-com.example.mistareas:attr/borderRoundPercent = 0x7f030063
-com.example.mistareas:id/middle = 0x7f080147
-com.example.mistareas:style/Theme.MaterialComponents.Light.Dialog.Alert = 0x7f1001cb
-com.example.mistareas:integer/abc_config_activityShortDur = 0x7f090001
-com.example.mistareas:color/design_snackbar_background_color = 0x7f050065
-com.example.mistareas:id/scale_down = 0x7f0801a4
-com.example.mistareas:layout/design_layout_tab_text = 0x7f0b0035
-com.example.mistareas:id/message = 0x7f080146
-com.example.mistareas:id/material_timepicker_ok_button = 0x7f080142
-com.example.mistareas:color/verdeOscuro = 0x7f0500e9
-com.example.mistareas:id/material_timepicker_mode_button = 0x7f080141
-com.example.mistareas:id/material_timepicker_edit_text = 0x7f080140
-com.example.mistareas:attr/actionBarTabStyle = 0x7f03000d
-com.example.mistareas:id/material_timepicker_cancel_button = 0x7f08013e
-com.example.mistareas:id/fitToContents = 0x7f0800e8
-com.example.mistareas:id/material_textinput_timepicker = 0x7f08013d
-com.example.mistareas:layout/fragment_chats = 0x7f0b0040
-com.example.mistareas:id/material_minute_text_input = 0x7f08013b
-com.example.mistareas:string/correo_electronico = 0x7f0f0038
-com.example.mistareas:attr/enforceMaterialTheme = 0x7f030159
-com.example.mistareas:id/material_hour_tv = 0x7f080139
-com.example.mistareas:styleable/LoadingImageView = 0x7f11004d
-com.example.mistareas:mipmap/icon_edit = 0x7f0d0006
-com.example.mistareas:style/Theme.Design.NoActionBar = 0x7f1001a6
-com.example.mistareas:id/material_hour_text_input = 0x7f080138
-com.example.mistareas:style/Base.TextAppearance.AppCompat.Small = 0x7f100028
-com.example.mistareas:id/material_clock_period_toggle = 0x7f080137
-com.example.mistareas:id/recyclerViewMessage = 0x7f080198
-com.example.mistareas:style/Widget.AppCompat.SeekBar.Discrete = 0x7f10024a
-com.example.mistareas:attr/carousel_nextState = 0x7f030091
-com.example.mistareas:color/material_timepicker_button_background = 0x7f050090
-com.example.mistareas:id/material_clock_face = 0x7f080133
-com.example.mistareas:attr/motionEasingDecelerated = 0x7f03028f
-com.example.mistareas:id/search_src_text = 0x7f0801b3
-com.example.mistareas:attr/statusBarScrim = 0x7f03035d
-com.example.mistareas:id/material_clock_display = 0x7f080132
-com.example.mistareas:style/TextAppearance.MaterialComponents.Caption = 0x7f10017b
-com.example.mistareas:style/Base.Widget.AppCompat.SearchView = 0x7f1000cc
-com.example.mistareas:id/accessibility_custom_action_2 = 0x7f08001d
-com.example.mistareas:id/action_menu_divider = 0x7f080040
-com.example.mistareas:id/match_parent = 0x7f080131
-com.example.mistareas:attr/DialogSpotColor = 0x7f030000
-com.example.mistareas:id/material_clock_period_pm_button = 0x7f080136
-com.example.mistareas:id/masked = 0x7f08012f
-com.example.mistareas:string/material_timepicker_clock_mode_description = 0x7f0f005c
-com.example.mistareas:drawable/abc_ic_menu_overflow_material = 0x7f070023
-com.example.mistareas:layout/abc_expanded_menu_layout = 0x7f0b000d
-com.example.mistareas:id/linearLayout = 0x7f08012b
-com.example.mistareas:id/linear = 0x7f08012a
-com.example.mistareas:id/line3 = 0x7f080129
-com.example.mistareas:id/legacy = 0x7f080126
-com.example.mistareas:id/graph_wrap = 0x7f0800f3
-com.example.mistareas:style/Base.V7.Theme.AppCompat.Light = 0x7f100096
-com.example.mistareas:id/leftToRight = 0x7f080125
-com.example.mistareas:id/left = 0x7f080124
-com.example.mistareas:id/labeled = 0x7f080122
-com.example.mistareas:id/jumpToEnd = 0x7f080120
-com.example.mistareas:id/item_touch_helper_previous_elevation = 0x7f08011f
-com.example.mistareas:id/itemFilters = 0x7f08011b
-com.example.mistareas:drawable/ic_launcher_background = 0x7f07008f
-com.example.mistareas:style/Base.Theme.AppCompat.Dialog = 0x7f100049
-com.example.mistareas:id/itemChats = 0x7f08011a
-com.example.mistareas:id/endToStart = 0x7f0800da
-com.example.mistareas:string/mtrl_picker_invalid_format = 0x7f0f0070
-com.example.mistareas:attr/colorError = 0x7f0300df
-com.example.mistareas:id/inward = 0x7f080114
-com.example.mistareas:attr/chipIconSize = 0x7f0300aa
-com.example.mistareas:style/Base.TextAppearance.AppCompat.Large.Inverse = 0x7f10001f
-com.example.mistareas:id/invisible = 0x7f080113
-com.example.mistareas:layout/design_navigation_item_subheader = 0x7f0b003a
-com.example.mistareas:id/included = 0x7f080111
-com.example.mistareas:id/immediateStop = 0x7f080110
-com.example.mistareas:id/imageViewSendMessage = 0x7f08010f
-com.example.mistareas:dimen/abc_alert_dialog_button_dimen = 0x7f060011
-com.example.mistareas:id/imageViewPost1 = 0x7f08010d
-com.example.mistareas:id/imageViewDeleteMyPost = 0x7f08010b
-com.example.mistareas:id/imageViewBack = 0x7f080108
-=======
 com.example.mistareas:id/peekHeight = 0x7f08018c
 com.example.mistareas:styleable/StateListDrawableItem = 0x7f110082
 com.example.mistareas:id/pathRelative = 0x7f08018b
@@ -1510,26 +1073,11 @@ com.example.mistareas:dimen/abc_alert_dialog_button_dimen = 0x7f060011
 com.example.mistareas:id/imageViewPost1 = 0x7f08010f
 com.example.mistareas:id/imageViewDeleteMyPost = 0x7f08010d
 com.example.mistareas:id/imageViewBack = 0x7f08010a
->>>>>>> df8bfdae4715d0b79d82fa2780db3af2727c89d3
 com.example.mistareas:anim/btn_radio_to_off_mtrl_ring_outer_animation = 0x7f010015
 com.example.mistareas:attr/textAppearanceSearchResultTitle = 0x7f0303a1
 com.example.mistareas:style/ShapeAppearanceOverlay = 0x7f100117
 com.example.mistareas:dimen/design_fab_size_normal = 0x7f060075
 com.example.mistareas:id/SHIFT = 0x7f080008
-<<<<<<< HEAD
-com.example.mistareas:id/imageViewAmericana = 0x7f080107
-com.example.mistareas:id/ignoreRequest = 0x7f080104
-com.example.mistareas:id/ignore = 0x7f080103
-com.example.mistareas:attr/preserveIconSpacing = 0x7f0302ed
-com.example.mistareas:id/ifRoom = 0x7f080102
-com.example.mistareas:attr/actionModeSplitBackground = 0x7f030021
-com.example.mistareas:id/icon_group = 0x7f080100
-com.example.mistareas:id/icon = 0x7f0800ff
-com.example.mistareas:id/test_radiobutton_app_button_tint = 0x7f0801f2
-com.example.mistareas:id/honorRequest = 0x7f0800fc
-com.example.mistareas:color/mtrl_navigation_bar_ripple_color = 0x7f0500b3
-com.example.mistareas:id/guideline = 0x7f0800f7
-=======
 com.example.mistareas:id/imageViewAmericana = 0x7f080109
 com.example.mistareas:id/ignoreRequest = 0x7f080106
 com.example.mistareas:id/ignore = 0x7f080105
@@ -1542,130 +1090,10 @@ com.example.mistareas:id/test_radiobutton_app_button_tint = 0x7f0801f6
 com.example.mistareas:id/honorRequest = 0x7f0800fe
 com.example.mistareas:color/mtrl_navigation_bar_ripple_color = 0x7f0500b3
 com.example.mistareas:id/guideline = 0x7f0800f9
->>>>>>> df8bfdae4715d0b79d82fa2780db3af2727c89d3
 com.example.mistareas:attr/maxHeight = 0x7f030273
 com.example.mistareas:string/error_icon_content_description = 0x7f0f003c
 com.example.mistareas:style/ShapeAppearanceOverlay.MaterialComponents.ExtendedFloatingActionButton = 0x7f10011e
 com.example.mistareas:style/Theme.MaterialComponents.BottomSheetDialog = 0x7f1001a8
-<<<<<<< HEAD
-com.example.mistareas:id/transition_transform = 0x7f080228
-com.example.mistareas:id/groups = 0x7f0800f6
-com.example.mistareas:id/tag_unhandled_key_listeners = 0x7f0801ed
-com.example.mistareas:id/group_divider = 0x7f0800f4
-com.example.mistareas:id/graph = 0x7f0800f2
-com.example.mistareas:id/floating = 0x7f0800eb
-com.example.mistareas:style/Base.Widget.AppCompat.ActionBar.TabView = 0x7f1000a0
-com.example.mistareas:drawable/googleg_standard_color_18 = 0x7f07007c
-com.example.mistareas:id/flip = 0x7f0800ea
-com.example.mistareas:style/Base.Widget.AppCompat.PopupMenu.Overflow = 0x7f1000c5
-com.example.mistareas:id/fixed = 0x7f0800e9
-com.example.mistareas:id/search_badge = 0x7f0801ab
-com.example.mistareas:id/filled = 0x7f0800e7
-com.example.mistareas:id/fill_horizontal = 0x7f0800e5
-com.example.mistareas:dimen/mtrl_badge_text_horizontal_edge_offset = 0x7f0600ca
-com.example.mistareas:id/expanded_menu = 0x7f0800e0
-com.example.mistareas:id/expand_activities_button = 0x7f0800df
-com.example.mistareas:layout/material_radial_view_group = 0x7f0b004b
-com.example.mistareas:dimen/mtrl_high_ripple_focused_alpha = 0x7f060139
-com.example.mistareas:id/exitUntilCollapsed = 0x7f0800de
-com.example.mistareas:attr/thumbElevation = 0x7f0303be
-com.example.mistareas:id/end = 0x7f0800d9
-com.example.mistareas:style/Platform.ThemeOverlay.AppCompat.Dark = 0x7f1000f9
-com.example.mistareas:color/primary_material_light = 0x7f0500ce
-com.example.mistareas:layout/abc_list_menu_item_radio = 0x7f0b0011
-com.example.mistareas:id/elastic = 0x7f0800d8
-com.example.mistareas:id/east = 0x7f0800d5
-com.example.mistareas:id/mtrl_calendar_days_of_week = 0x7f080152
-com.example.mistareas:id/easeOut = 0x7f0800d4
-com.example.mistareas:style/ThemeOverlay.MaterialComponents.MaterialAlertDialog.Centered = 0x7f1001f8
-com.example.mistareas:id/easeIn = 0x7f0800d2
-com.example.mistareas:id/dropdown_menu = 0x7f0800d1
-com.example.mistareas:style/TextAppearance.AppCompat.Small = 0x7f100148
-com.example.mistareas:style/Base.V21.Theme.MaterialComponents = 0x7f100085
-com.example.mistareas:id/drop = 0x7f0800d0
-com.example.mistareas:attr/region_heightMoreThan = 0x7f030302
-com.example.mistareas:attr/minSeparation = 0x7f03027e
-com.example.mistareas:id/item2 = 0x7f080117
-com.example.mistareas:attr/motionStagger = 0x7f03029f
-com.example.mistareas:id/dragUp = 0x7f0800cf
-com.example.mistareas:id/scrollIndicatorUp = 0x7f0801a8
-com.example.mistareas:id/dragStart = 0x7f0800ce
-com.example.mistareas:id/action_divider = 0x7f08003e
-com.example.mistareas:style/Platform.AppCompat = 0x7f1000f2
-com.example.mistareas:drawable/common_google_signin_btn_text_light_normal = 0x7f070072
-com.example.mistareas:id/month_navigation_bar = 0x7f08014a
-com.example.mistareas:id/dragRight = 0x7f0800cd
-com.example.mistareas:dimen/mtrl_navigation_rail_elevation = 0x7f06014d
-com.example.mistareas:style/Base.TextAppearance.AppCompat.Caption = 0x7f100017
-com.example.mistareas:drawable/notification_bg_normal_pressed = 0x7f0700b8
-com.example.mistareas:string/material_motion_easing_linear = 0x7f0f0057
-com.example.mistareas:id/dragLeft = 0x7f0800cc
-com.example.mistareas:style/Widget.MaterialComponents.AutoCompleteTextView.OutlinedBox = 0x7f100269
-com.example.mistareas:id/dragAnticlockwise = 0x7f0800c8
-com.example.mistareas:id/dmax_spots_title = 0x7f0800c7
-com.example.mistareas:id/dmax_spots_progress = 0x7f0800c6
-com.example.mistareas:id/disablePostScroll = 0x7f0800c3
-com.example.mistareas:string/chip_text = 0x7f0f0024
-com.example.mistareas:attr/layout_constraintBottom_toBottomOf = 0x7f030204
-com.example.mistareas:style/ShapeAppearanceOverlay.BottomLeftDifferentCornerSize = 0x7f100118
-com.example.mistareas:id/disableIntraAutoTransition = 0x7f0800c2
-com.example.mistareas:color/mtrl_calendar_selected_range = 0x7f05009e
-com.example.mistareas:dimen/mtrl_progress_circular_inset = 0x7f060153
-com.example.mistareas:id/disableHome = 0x7f0800c1
-com.example.mistareas:string/material_slider_range_end = 0x7f0f0059
-com.example.mistareas:id/right = 0x7f08019a
-com.example.mistareas:id/direct = 0x7f0800c0
-com.example.mistareas:id/dificultadReceta = 0x7f0800be
-com.example.mistareas:id/dialog_button = 0x7f0800bd
-com.example.mistareas:id/textViewDescription = 0x7f0801ff
-com.example.mistareas:id/design_bottom_sheet = 0x7f0800b8
-com.example.mistareas:id/none = 0x7f080173
-com.example.mistareas:dimen/design_navigation_icon_size = 0x7f06007a
-com.example.mistareas:dimen/mtrl_alert_dialog_background_inset_end = 0x7f0600c3
-com.example.mistareas:id/descripcionReceta = 0x7f0800b7
-com.example.mistareas:attr/endIconDrawable = 0x7f030155
-com.example.mistareas:string/hecho = 0x7f0f0046
-com.example.mistareas:id/dependency_ordering = 0x7f0800b6
-com.example.mistareas:dimen/material_clock_hand_stroke_width = 0x7f0600a4
-com.example.mistareas:id/decor_content_parent = 0x7f0800b3
-com.example.mistareas:style/Widget.MaterialComponents.Button = 0x7f100274
-com.example.mistareas:attr/showMotionSpec = 0x7f030323
-com.example.mistareas:id/decelerate = 0x7f0800b1
-com.example.mistareas:id/currentState = 0x7f0800ab
-com.example.mistareas:id/counterclockwise = 0x7f0800aa
-com.example.mistareas:attr/materialCalendarHeaderDivider = 0x7f03025f
-com.example.mistareas:id/coordinator = 0x7f0800a8
-com.example.mistareas:id/continuousVelocity = 0x7f0800a7
-com.example.mistareas:layout/activity_chat = 0x7f0b001d
-com.example.mistareas:attr/actionModeCloseContentDescription = 0x7f030018
-com.example.mistareas:id/contiguous = 0x7f0800a6
-com.example.mistareas:style/Base.Theme.AppCompat.Dialog.Alert = 0x7f10004a
-com.example.mistareas:id/bottom = 0x7f080066
-com.example.mistareas:layout/text_view_with_theme_line_height = 0x7f0b008f
-com.example.mistareas:id/contentPanel = 0x7f0800a5
-com.example.mistareas:id/content = 0x7f0800a4
-com.example.mistareas:id/container = 0x7f0800a3
-com.example.mistareas:styleable/StateListDrawable = 0x7f110081
-com.example.mistareas:color/design_fab_stroke_end_outer_color = 0x7f050061
-com.example.mistareas:id/constraint = 0x7f0800a2
-com.example.mistareas:id/confirm_button = 0x7f0800a1
-com.example.mistareas:id/clip_horizontal = 0x7f08009b
-com.example.mistareas:style/Theme.MaterialComponents.Light.Dialog.FixedSize.Bridge = 0x7f1001cf
-com.example.mistareas:drawable/common_google_signin_btn_icon_dark_normal_background = 0x7f070065
-com.example.mistareas:layout/design_menu_item_action_area = 0x7f0b0036
-com.example.mistareas:id/circleImageProfile = 0x7f080097
-com.example.mistareas:id/circleImageComment = 0x7f080095
-com.example.mistareas:layout/notification_template_icon_group = 0x7f0b0078
-com.example.mistareas:style/Base.CardView = 0x7f10000d
-com.example.mistareas:id/circleImageBack = 0x7f080093
-com.example.mistareas:id/chronometer = 0x7f080092
-com.example.mistareas:id/chip_group = 0x7f080091
-com.example.mistareas:integer/material_motion_path = 0x7f090010
-com.example.mistareas:attr/checkedIcon = 0x7f03009d
-com.example.mistareas:id/chip3 = 0x7f080090
-com.example.mistareas:string/mtrl_picker_text_input_year_abbr = 0x7f0f0081
-com.example.mistareas:id/end_padder = 0x7f0800db
-=======
 com.example.mistareas:id/transition_transform = 0x7f08022b
 com.example.mistareas:id/groups = 0x7f0800f8
 com.example.mistareas:id/tag_unhandled_key_listeners = 0x7f0801f1
@@ -1784,7 +1212,6 @@ com.example.mistareas:attr/checkedIcon = 0x7f03009d
 com.example.mistareas:id/chip3 = 0x7f080091
 com.example.mistareas:string/mtrl_picker_text_input_year_abbr = 0x7f0f0081
 com.example.mistareas:id/end_padder = 0x7f0800dd
->>>>>>> df8bfdae4715d0b79d82fa2780db3af2727c89d3
 com.example.mistareas:dimen/mtrl_calendar_day_horizontal_padding = 0x7f0600f4
 com.example.mistareas:id/checked = 0x7f08008d
 com.example.mistareas:style/TextAppearance.Compat.Notification.Title = 0x7f10016a
@@ -1802,40 +1229,24 @@ com.example.mistareas:id/cancel_action = 0x7f080081
 com.example.mistareas:id/callMeasure = 0x7f080080
 com.example.mistareas:style/RtlOverlay.Widget.AppCompat.PopupMenuItem.SubmenuArrow = 0x7f100106
 com.example.mistareas:style/MaterialAlertDialog.MaterialComponents.Title.Text = 0x7f1000f0
-<<<<<<< HEAD
-com.example.mistareas:layout/mtrl_layout_snackbar_include = 0x7f0b0063
-com.example.mistareas:layout/mtrl_picker_fullscreen = 0x7f0b0067
-com.example.mistareas:id/cajaPassRegistro = 0x7f08007b
-=======
 com.example.mistareas:layout/mtrl_layout_snackbar_include = 0x7f0b0064
 com.example.mistareas:layout/mtrl_picker_fullscreen = 0x7f0b0068
 com.example.mistareas:id/cajaPassRegistro = 0x7f08007c
->>>>>>> df8bfdae4715d0b79d82fa2780db3af2727c89d3
 com.example.mistareas:style/Widget.MaterialComponents.PopupMenu.ContextMenu = 0x7f1002b2
 com.example.mistareas:dimen/material_filled_edittext_font_2_0_padding_top = 0x7f0600b3
 com.example.mistareas:style/Base.Theme.MaterialComponents.Light.Dialog.MinWidth = 0x7f100066
 com.example.mistareas:attr/clockNumberTextColor = 0x7f0300c9
 com.example.mistareas:dimen/mtrl_progress_track_thickness = 0x7f060160
-<<<<<<< HEAD
-com.example.mistareas:id/textViewCategory = 0x7f0801fc
-com.example.mistareas:id/cajaPass = 0x7f080079
-=======
 com.example.mistareas:id/textViewCategory = 0x7f080200
 com.example.mistareas:id/cajaPass = 0x7f08007a
->>>>>>> df8bfdae4715d0b79d82fa2780db3af2727c89d3
 com.example.mistareas:style/Base.Widget.AppCompat.Light.PopupMenu = 0x7f1000bd
 com.example.mistareas:attr/toolbarStyle = 0x7f0303dd
 com.example.mistareas:id/cajaEmailRegistro = 0x7f080078
 com.example.mistareas:id/cache_measures = 0x7f080077
 com.example.mistareas:id/btnPublicar = 0x7f080074
 com.example.mistareas:style/TextAppearance.AppCompat.Light.SearchResult.Subtitle = 0x7f10013f
-<<<<<<< HEAD
-com.example.mistareas:id/btnEditProfile = 0x7f080072
-com.example.mistareas:id/customPanel = 0x7f0800ad
-=======
 com.example.mistareas:id/btnEditProfile = 0x7f080073
 com.example.mistareas:id/customPanel = 0x7f0800ae
->>>>>>> df8bfdae4715d0b79d82fa2780db3af2727c89d3
 com.example.mistareas:attr/piv_unselectedColor = 0x7f0302de
 com.example.mistareas:drawable/abc_seekbar_thumb_material = 0x7f070041
 com.example.mistareas:id/btnComent = 0x7f080072
@@ -1863,27 +1274,15 @@ com.example.mistareas:attr/layout_constraintVertical_bias = 0x7f030223
 com.example.mistareas:string/common_google_play_services_unsupported_text = 0x7f0f002f
 com.example.mistareas:style/Base.Widget.MaterialComponents.Slider = 0x7f1000df
 com.example.mistareas:attr/textAppearanceBody2 = 0x7f030390
-<<<<<<< HEAD
-com.example.mistareas:id/asConfigured = 0x7f080055
-com.example.mistareas:id/chain = 0x7f080089
-com.example.mistareas:id/arc = 0x7f080054
-com.example.mistareas:id/anticipate = 0x7f080053
-=======
 com.example.mistareas:id/asConfigured = 0x7f080056
 com.example.mistareas:id/chain = 0x7f08008a
 com.example.mistareas:id/arc = 0x7f080055
 com.example.mistareas:id/anticipate = 0x7f080054
->>>>>>> df8bfdae4715d0b79d82fa2780db3af2727c89d3
 com.example.mistareas:style/Base.V21.ThemeOverlay.MaterialComponents.BottomSheetDialog = 0x7f10008a
 com.example.mistareas:id/animateToStart = 0x7f080052
 com.example.mistareas:anim/fragment_fast_out_extra_slow_in = 0x7f01001e
-<<<<<<< HEAD
-com.example.mistareas:id/animateToEnd = 0x7f080050
-com.example.mistareas:id/always = 0x7f08004f
-=======
 com.example.mistareas:id/animateToEnd = 0x7f080051
 com.example.mistareas:id/always = 0x7f080050
->>>>>>> df8bfdae4715d0b79d82fa2780db3af2727c89d3
 com.example.mistareas:attr/clockFaceBackgroundColor = 0x7f0300c6
 com.example.mistareas:style/Base.TextAppearance.AppCompat.Subhead = 0x7f10002a
 com.example.mistareas:id/allStates = 0x7f08004f
@@ -1908,11 +1307,7 @@ com.example.mistareas:id/action_bar_activity_content = 0x7f080036
 com.example.mistareas:dimen/design_navigation_item_icon_padding = 0x7f06007c
 com.example.mistareas:id/accessibility_custom_action_9 = 0x7f080030
 com.example.mistareas:style/ThemeOverlay.AppCompat.Dark.ActionBar = 0x7f1001dc
-<<<<<<< HEAD
-com.example.mistareas:id/path = 0x7f080186
-=======
 com.example.mistareas:id/path = 0x7f08018a
->>>>>>> df8bfdae4715d0b79d82fa2780db3af2727c89d3
 com.example.mistareas:id/accessibility_custom_action_31 = 0x7f08002a
 com.example.mistareas:style/Base.TextAppearance.AppCompat.Light.Widget.PopupMenu.Small = 0x7f100021
 com.example.mistareas:id/accessibility_custom_action_30 = 0x7f080029
@@ -1921,20 +1316,12 @@ com.example.mistareas:id/accessibility_custom_action_3 = 0x7f080028
 com.example.mistareas:id/accessibility_custom_action_26 = 0x7f080024
 com.example.mistareas:string/material_motion_easing_decelerated = 0x7f0f0055
 com.example.mistareas:id/accessibility_custom_action_24 = 0x7f080022
-<<<<<<< HEAD
-com.example.mistareas:id/mtrl_picker_header_toggle = 0x7f080161
-=======
 com.example.mistareas:id/mtrl_picker_header_toggle = 0x7f080165
->>>>>>> df8bfdae4715d0b79d82fa2780db3af2727c89d3
 com.example.mistareas:id/accessibility_custom_action_23 = 0x7f080021
 com.example.mistareas:id/accessibility_custom_action_22 = 0x7f080020
 com.example.mistareas:id/accessibility_custom_action_20 = 0x7f08001e
 com.example.mistareas:attr/paddingStart = 0x7f0302be
-<<<<<<< HEAD
-com.example.mistareas:id/homeAsUp = 0x7f0800fb
-=======
 com.example.mistareas:id/homeAsUp = 0x7f0800fd
->>>>>>> df8bfdae4715d0b79d82fa2780db3af2727c89d3
 com.example.mistareas:id/accessibility_custom_action_19 = 0x7f08001c
 com.example.mistareas:style/Widget.AppCompat.Light.ActivityChooserView = 0x7f100231
 com.example.mistareas:id/accessibility_custom_action_18 = 0x7f08001b
@@ -1964,47 +1351,6 @@ com.example.mistareas:id/action_context_bar = 0x7f08003e
 com.example.mistareas:id/NO_DEBUG = 0x7f080006
 com.example.mistareas:id/BOTTOM_START = 0x7f080002
 com.example.mistareas:dimen/item_touch_helper_max_drag_scroll_per_frame = 0x7f06009c
-<<<<<<< HEAD
-com.example.mistareas:drawable/upload_image = 0x7f0700c4
-com.example.mistareas:drawable/tooltip_frame_light = 0x7f0700c3
-com.example.mistareas:styleable/MaterialCardView = 0x7f110055
-com.example.mistareas:id/material_value_index = 0x7f080144
-com.example.mistareas:drawable/tooltip_frame_dark = 0x7f0700c2
-com.example.mistareas:drawable/test_level_drawable = 0x7f0700c1
-com.example.mistareas:drawable/register = 0x7f0700bf
-com.example.mistareas:attr/viewTransitionOnCross = 0x7f0303ff
-com.example.mistareas:drawable/perfil_cocina = 0x7f0700be
-com.example.mistareas:layout/design_navigation_item_header = 0x7f0b0038
-com.example.mistareas:drawable/notification_template_icon_bg = 0x7f0700ba
-com.example.mistareas:drawable/notification_icon_background = 0x7f0700b9
-com.example.mistareas:drawable/notification_bg_normal = 0x7f0700b7
-com.example.mistareas:attr/cornerRadius = 0x7f03010f
-com.example.mistareas:drawable/notification_bg_low_normal = 0x7f0700b5
-com.example.mistareas:style/ThemeOverlay.MaterialComponents.TextInputEditText.FilledBox.Dense = 0x7f100202
-com.example.mistareas:attr/saturation = 0x7f03030a
-com.example.mistareas:dimen/material_clock_face_margin_top = 0x7f0600a1
-com.example.mistareas:drawable/mtrl_popupmenu_background_dark = 0x7f0700af
-com.example.mistareas:id/south = 0x7f0801c6
-com.example.mistareas:drawable/mtrl_popupmenu_background = 0x7f0700ae
-com.example.mistareas:drawable/mtrl_ic_error = 0x7f0700ac
-com.example.mistareas:drawable/mtrl_ic_cancel = 0x7f0700ab
-com.example.mistareas:drawable/mtrl_ic_arrow_drop_up = 0x7f0700aa
-com.example.mistareas:attr/rotationCenterId = 0x7f030307
-com.example.mistareas:id/tag_accessibility_actions = 0x7f0801e2
-com.example.mistareas:id/mtrl_calendar_months = 0x7f080155
-com.example.mistareas:attr/actionBarWidgetTheme = 0x7f030010
-com.example.mistareas:drawable/mtrl_dropdown_arrow = 0x7f0700a8
-com.example.mistareas:dimen/compat_notification_large_icon_max_width = 0x7f06005f
-com.example.mistareas:drawable/material_ic_menu_arrow_up_black_24dp = 0x7f0700a6
-com.example.mistareas:style/TextAppearance.MaterialComponents.Body2 = 0x7f100179
-com.example.mistareas:drawable/material_ic_keyboard_arrow_left_black_24dp = 0x7f0700a1
-com.example.mistareas:style/Theme.MaterialComponents.Light.LargeTouch = 0x7f1001d3
-com.example.mistareas:dimen/mtrl_navigation_bar_item_default_margin = 0x7f060143
-com.example.mistareas:layout/notification_template_part_time = 0x7f0b007d
-com.example.mistareas:attr/defaultQueryHint = 0x7f03012d
-com.example.mistareas:dimen/abc_button_padding_horizontal_material = 0x7f060014
-com.example.mistareas:drawable/material_ic_clear_black_24dp = 0x7f07009f
-=======
 com.example.mistareas:drawable/upload_image = 0x7f0700c8
 com.example.mistareas:drawable/tooltip_frame_light = 0x7f0700c7
 com.example.mistareas:styleable/MaterialCardView = 0x7f110055
@@ -2051,7 +1397,6 @@ com.example.mistareas:dimen/abc_button_padding_horizontal_material = 0x7f060014
 com.example.mistareas:drawable/material_ic_clear_black_24dp = 0x7f0700a1
 com.example.mistareas:id/mtrl_picker_text_input_range_end = 0x7f080167
 com.example.mistareas:drawable/icon_check_grey = 0x7f07009d
->>>>>>> df8bfdae4715d0b79d82fa2780db3af2727c89d3
 com.example.mistareas:styleable/Constraint = 0x7f110027
 com.example.mistareas:attr/splitTrack = 0x7f030347
 com.example.mistareas:drawable/ic_send = 0x7f07009a
@@ -2063,11 +1408,7 @@ com.example.mistareas:drawable/ic_pass = 0x7f070095
 com.example.mistareas:drawable/ic_mtrl_chip_checked_circle = 0x7f070093
 com.example.mistareas:drawable/ic_mtrl_chip_checked_black = 0x7f070092
 com.example.mistareas:attr/piv_rtl_mode = 0x7f0302d9
-<<<<<<< HEAD
-com.example.mistareas:drawable/mtrl_tabs_default_indicator = 0x7f0700b0
-=======
 com.example.mistareas:drawable/mtrl_tabs_default_indicator = 0x7f0700b2
->>>>>>> df8bfdae4715d0b79d82fa2780db3af2727c89d3
 com.example.mistareas:drawable/ic_mtrl_checked_circle = 0x7f070091
 com.example.mistareas:drawable/ic_launcher_foreground = 0x7f070090
 com.example.mistareas:attr/snackbarButtonStyle = 0x7f030340
@@ -2079,22 +1420,14 @@ com.example.mistareas:style/TextAppearance.Design.Prefix = 0x7f100173
 com.example.mistareas:attr/actionTextColorAlpha = 0x7f030028
 com.example.mistareas:drawable/ic_dificultad = 0x7f07008a
 com.example.mistareas:attr/colorAccent = 0x7f0300d9
-<<<<<<< HEAD
-com.example.mistareas:id/textinput_placeholder = 0x7f080214
-=======
 com.example.mistareas:id/textinput_placeholder = 0x7f080218
->>>>>>> df8bfdae4715d0b79d82fa2780db3af2727c89d3
 com.example.mistareas:drawable/ic_delete = 0x7f070087
 com.example.mistareas:style/Base.V14.Theme.MaterialComponents.Light.Bridge = 0x7f100079
 com.example.mistareas:style/Base.Theme.AppCompat.Light.Dialog.Alert = 0x7f100051
 com.example.mistareas:drawable/ic_comida = 0x7f070086
 com.example.mistareas:style/Animation.MaterialComponents.BottomSheetDialog = 0x7f100007
 com.example.mistareas:attr/checkMarkCompat = 0x7f030097
-<<<<<<< HEAD
-com.example.mistareas:layout/material_timepicker = 0x7f0b004f
-=======
 com.example.mistareas:layout/material_timepicker = 0x7f0b0050
->>>>>>> df8bfdae4715d0b79d82fa2780db3af2727c89d3
 com.example.mistareas:attr/foregroundInsidePadding = 0x7f03019e
 com.example.mistareas:drawable/ic_baseline_fastfood_24 = 0x7f070082
 com.example.mistareas:drawable/ic_baseline_email_24 = 0x7f070081
@@ -2108,22 +1441,14 @@ com.example.mistareas:drawable/ic_arrow_back = 0x7f07007f
 com.example.mistareas:integer/mtrl_calendar_year_selector_span = 0x7f090016
 com.example.mistareas:drawable/design_snackbar_background = 0x7f070079
 com.example.mistareas:attr/checkedIconVisible = 0x7f0300a2
-<<<<<<< HEAD
-com.example.mistareas:id/position = 0x7f08018b
-=======
 com.example.mistareas:id/position = 0x7f08018f
->>>>>>> df8bfdae4715d0b79d82fa2780db3af2727c89d3
 com.example.mistareas:styleable/MotionLabel = 0x7f110064
 com.example.mistareas:drawable/design_ic_visibility_off = 0x7f070077
 com.example.mistareas:drawable/design_ic_visibility = 0x7f070076
 com.example.mistareas:drawable/design_fab_background = 0x7f070075
 com.example.mistareas:drawable/common_google_signin_btn_text_light_normal_background = 0x7f070073
 com.example.mistareas:string/recuperar_pass = 0x7f0f008f
-<<<<<<< HEAD
-com.example.mistareas:layout/mtrl_picker_header_toggle = 0x7f0b006c
-=======
 com.example.mistareas:layout/mtrl_picker_header_toggle = 0x7f0b006d
->>>>>>> df8bfdae4715d0b79d82fa2780db3af2727c89d3
 com.example.mistareas:style/Base.Widget.MaterialComponents.Chip = 0x7f1000d9
 com.example.mistareas:drawable/common_google_signin_btn_text_light_focused = 0x7f070071
 com.example.mistareas:attr/contentInsetRight = 0x7f0300fc
@@ -2131,11 +1456,6 @@ com.example.mistareas:drawable/common_google_signin_btn_text_light = 0x7f070070
 com.example.mistareas:drawable/common_google_signin_btn_text_disabled = 0x7f07006f
 com.example.mistareas:color/switch_thumb_material_dark = 0x7f0500de
 com.example.mistareas:drawable/common_google_signin_btn_text_dark_normal_background = 0x7f07006e
-<<<<<<< HEAD
-com.example.mistareas:dimen/tooltip_precise_anchor_extra_offset = 0x7f0601ac
-com.example.mistareas:style/ShapeAppearanceOverlay.MaterialComponents.TextInputLayout.FilledBox = 0x7f100123
-=======
->>>>>>> df8bfdae4715d0b79d82fa2780db3af2727c89d3
 com.example.mistareas:attr/colorSurface = 0x7f0300ed
 com.example.mistareas:drawable/common_google_signin_btn_text_dark_focused = 0x7f07006c
 com.example.mistareas:drawable/ic_person_login = 0x7f070098
@@ -2144,16 +1464,6 @@ com.example.mistareas:drawable/common_google_signin_btn_icon_light_focused = 0x7
 com.example.mistareas:dimen/mtrl_bottomappbar_fab_bottom_margin = 0x7f0600d0
 com.example.mistareas:string/abc_searchview_description_clear = 0x7f0f0013
 com.example.mistareas:drawable/common_google_signin_btn_icon_light = 0x7f070067
-<<<<<<< HEAD
-com.example.mistareas:id/forever = 0x7f0800ec
-com.example.mistareas:drawable/common_google_signin_btn_icon_disabled = 0x7f070066
-com.example.mistareas:drawable/material_ic_keyboard_arrow_previous_black_24dp = 0x7f0700a3
-com.example.mistareas:id/skipCollapsed = 0x7f0801bf
-com.example.mistareas:attr/springMass = 0x7f03034a
-com.example.mistareas:drawable/common_google_signin_btn_icon_dark_focused = 0x7f070063
-com.example.mistareas:string/material_hour_suffix = 0x7f0f0051
-com.example.mistareas:id/cajaTelefonoRegistro = 0x7f08007c
-=======
 com.example.mistareas:id/forever = 0x7f0800ee
 com.example.mistareas:drawable/material_ic_keyboard_arrow_previous_black_24dp = 0x7f0700a5
 com.example.mistareas:id/skipCollapsed = 0x7f0801c3
@@ -2161,7 +1471,6 @@ com.example.mistareas:attr/springMass = 0x7f03034a
 com.example.mistareas:drawable/common_google_signin_btn_icon_dark_focused = 0x7f070063
 com.example.mistareas:string/material_hour_suffix = 0x7f0f0051
 com.example.mistareas:id/cajaTelefonoRegistro = 0x7f08007d
->>>>>>> df8bfdae4715d0b79d82fa2780db3af2727c89d3
 com.example.mistareas:drawable/btn_checkbox_unchecked_to_checked_mtrl_animation = 0x7f07005c
 com.example.mistareas:style/Widget.MaterialComponents.MaterialCalendar.Day.Invalid = 0x7f100297
 com.example.mistareas:drawable/abc_vector_test = 0x7f070055
@@ -2174,17 +1483,6 @@ com.example.mistareas:dimen/mtrl_slider_track_top = 0x7f06016c
 com.example.mistareas:drawable/abc_switch_thumb_material = 0x7f070048
 com.example.mistareas:drawable/abc_star_half_black_48dp = 0x7f070047
 com.example.mistareas:drawable/abc_star_black_48dp = 0x7f070046
-<<<<<<< HEAD
-com.example.mistareas:id/browser_actions_menu_item_icon = 0x7f08006d
-com.example.mistareas:style/Base.V21.Theme.AppCompat.Light.Dialog = 0x7f100084
-com.example.mistareas:style/Base.Theme.MaterialComponents.Light = 0x7f10005e
-com.example.mistareas:drawable/abc_spinner_mtrl_am_alpha = 0x7f070044
-com.example.mistareas:id/horizontal = 0x7f0800fd
-com.example.mistareas:style/Base.Widget.MaterialComponents.TextInputEditText = 0x7f1000e1
-com.example.mistareas:drawable/abc_seekbar_track_material = 0x7f070043
-com.example.mistareas:attr/ratingBarStyle = 0x7f0302f9
-com.example.mistareas:id/tag_screen_reader_focusable = 0x7f0801e9
-=======
 com.example.mistareas:id/browser_actions_menu_item_icon = 0x7f08006e
 com.example.mistareas:style/Base.V21.Theme.AppCompat.Light.Dialog = 0x7f100084
 com.example.mistareas:style/Base.Theme.MaterialComponents.Light = 0x7f10005e
@@ -2194,7 +1492,6 @@ com.example.mistareas:style/Base.Widget.MaterialComponents.TextInputEditText = 0
 com.example.mistareas:drawable/abc_seekbar_track_material = 0x7f070043
 com.example.mistareas:attr/ratingBarStyle = 0x7f0302f9
 com.example.mistareas:id/tag_screen_reader_focusable = 0x7f0801ed
->>>>>>> df8bfdae4715d0b79d82fa2780db3af2727c89d3
 com.example.mistareas:attr/itemStrokeColor = 0x7f0301e6
 com.example.mistareas:id/actions = 0x7f080047
 com.example.mistareas:drawable/abc_scrubber_primary_mtrl_alpha = 0x7f07003f
@@ -2220,11 +1517,7 @@ com.example.mistareas:id/accessibility_custom_action_8 = 0x7f08002f
 com.example.mistareas:drawable/abc_ic_voice_search_api_material = 0x7f070028
 com.example.mistareas:drawable/abc_ic_search_api_material = 0x7f070027
 com.example.mistareas:drawable/abc_ic_menu_selectall_mtrl_alpha = 0x7f070025
-<<<<<<< HEAD
-com.example.mistareas:id/imageViewMediterraneo = 0x7f08010c
-=======
 com.example.mistareas:id/imageViewMediterraneo = 0x7f08010e
->>>>>>> df8bfdae4715d0b79d82fa2780db3af2727c89d3
 com.example.mistareas:drawable/abc_ic_menu_paste_mtrl_am_alpha = 0x7f070024
 com.example.mistareas:drawable/abc_ic_menu_copy_mtrl_am_alpha = 0x7f070021
 com.example.mistareas:drawable/abc_ic_go_search_api_material = 0x7f070020
@@ -2250,33 +1543,21 @@ com.example.mistareas:drawable/abc_btn_radio_to_on_mtrl_015 = 0x7f070013
 com.example.mistareas:style/Base.Theme.MaterialComponents.Light.Bridge = 0x7f10005f
 com.example.mistareas:dimen/mtrl_card_spacing = 0x7f06011c
 com.example.mistareas:drawable/abc_btn_colored_material = 0x7f07000e
-<<<<<<< HEAD
-com.example.mistareas:id/spline = 0x7f0801c9
-=======
 com.example.mistareas:id/spline = 0x7f0801cd
->>>>>>> df8bfdae4715d0b79d82fa2780db3af2727c89d3
 com.example.mistareas:attr/editTextStyle = 0x7f03014d
 com.example.mistareas:drawable/ic_edir = 0x7f07008b
 com.example.mistareas:drawable/abc_btn_check_material_anim = 0x7f07000b
 com.example.mistareas:attr/cardUseCompatPadding = 0x7f03008a
 com.example.mistareas:style/Base.Widget.AppCompat.SeekBar = 0x7f1000ce
 com.example.mistareas:attr/listPreferredItemPaddingStart = 0x7f030250
-<<<<<<< HEAD
-com.example.mistareas:id/buttonPanel = 0x7f080075
-=======
 com.example.mistareas:id/buttonPanel = 0x7f080076
->>>>>>> df8bfdae4715d0b79d82fa2780db3af2727c89d3
 com.example.mistareas:drawable/abc_btn_borderless_material = 0x7f070009
 com.example.mistareas:attr/moveWhenScrollAtTop = 0x7f0302a3
 com.example.mistareas:anim/abc_popup_enter = 0x7f010003
 com.example.mistareas:attr/mock_showDiagonals = 0x7f030285
 com.example.mistareas:drawable/abc_action_bar_item_background_material = 0x7f070008
 com.example.mistareas:drawable/abc_ab_share_pack_mtrl_alpha = 0x7f070007
-<<<<<<< HEAD
-com.example.mistareas:id/uniform = 0x7f08022b
-=======
 com.example.mistareas:id/uniform = 0x7f08022e
->>>>>>> df8bfdae4715d0b79d82fa2780db3af2727c89d3
 com.example.mistareas:drawable/$avd_show_password__2 = 0x7f070005
 com.example.mistareas:drawable/$avd_show_password__1 = 0x7f070004
 com.example.mistareas:color/common_google_signin_btn_text_light_focused = 0x7f05003c
@@ -2286,20 +1567,13 @@ com.example.mistareas:style/Theme.MaterialComponents.Light.NoActionBar.Bridge = 
 com.example.mistareas:attr/reactiveGuide_applyToConstraintSet = 0x7f0302fe
 com.example.mistareas:dimen/tooltip_vertical_padding = 0x7f0601ae
 com.example.mistareas:drawable/custom_edittext_chat = 0x7f070074
-<<<<<<< HEAD
-com.example.mistareas:id/save_overlay_view = 0x7f0801a1
-=======
 com.example.mistareas:id/save_overlay_view = 0x7f0801a5
->>>>>>> df8bfdae4715d0b79d82fa2780db3af2727c89d3
 com.example.mistareas:attr/actionModeFindDrawable = 0x7f03001c
 com.example.mistareas:dimen/tooltip_precise_anchor_threshold = 0x7f0601ad
 com.example.mistareas:attr/layout_marginBaseline = 0x7f030237
 com.example.mistareas:drawable/design_password_eye = 0x7f070078
-<<<<<<< HEAD
-=======
 com.example.mistareas:style/ShapeAppearanceOverlay.MaterialComponents.TextInputLayout.FilledBox = 0x7f100123
 com.example.mistareas:dimen/tooltip_precise_anchor_extra_offset = 0x7f0601ac
->>>>>>> df8bfdae4715d0b79d82fa2780db3af2727c89d3
 com.example.mistareas:dimen/title_padding = 0x7f0601a8
 com.example.mistareas:style/Base.V7.Theme.AppCompat.Dialog = 0x7f100095
 com.example.mistareas:color/abc_search_url_text_selected = 0x7f050010
@@ -2308,13 +1582,8 @@ com.example.mistareas:style/ThemeOverlay.MaterialComponents.ActionBar.Primary = 
 com.example.mistareas:dimen/test_navigation_bar_shadow_height = 0x7f0601a5
 com.example.mistareas:dimen/test_navigation_bar_item_min_width = 0x7f0601a3
 com.example.mistareas:dimen/test_navigation_bar_icon_size = 0x7f0601a1
-<<<<<<< HEAD
-com.example.mistareas:id/icon_only = 0x7f080101
-com.example.mistareas:layout/mtrl_alert_dialog = 0x7f0b0052
-=======
 com.example.mistareas:id/icon_only = 0x7f080103
 com.example.mistareas:layout/mtrl_alert_dialog = 0x7f0b0053
->>>>>>> df8bfdae4715d0b79d82fa2780db3af2727c89d3
 com.example.mistareas:dimen/test_navigation_bar_elevation = 0x7f06019f
 com.example.mistareas:dimen/test_navigation_bar_active_text_size = 0x7f06019e
 com.example.mistareas:dimen/test_navigation_bar_active_item_min_width = 0x7f06019d
@@ -2325,17 +1594,10 @@ com.example.mistareas:style/Base.Widget.MaterialComponents.AutoCompleteTextView 
 com.example.mistareas:attr/tabIndicatorGravity = 0x7f030379
 com.example.mistareas:dimen/subtitle_shadow_radius = 0x7f06019a
 com.example.mistareas:dimen/subtitle_shadow_offset = 0x7f060199
-<<<<<<< HEAD
-com.example.mistareas:id/header_title = 0x7f0800f8
-com.example.mistareas:dimen/mtrl_badge_radius = 0x7f0600c9
-com.example.mistareas:dimen/subtitle_corner_radius = 0x7f060197
-com.example.mistareas:layout/fragment_home = 0x7f0b0042
-=======
 com.example.mistareas:id/header_title = 0x7f0800fa
 com.example.mistareas:dimen/mtrl_badge_radius = 0x7f0600c9
 com.example.mistareas:dimen/subtitle_corner_radius = 0x7f060197
 com.example.mistareas:layout/fragment_home = 0x7f0b0043
->>>>>>> df8bfdae4715d0b79d82fa2780db3af2727c89d3
 com.example.mistareas:dimen/spot_size = 0x7f060196
 com.example.mistareas:dimen/progress_margin = 0x7f060194
 com.example.mistareas:style/Base.Widget.AppCompat.ActionButton.Overflow = 0x7f1000a3
@@ -2343,11 +1605,7 @@ com.example.mistareas:drawable/abc_list_selector_holo_dark = 0x7f070035
 com.example.mistareas:layout/activity_post_detail = 0x7f0b0023
 com.example.mistareas:dimen/notification_top_pad_large_text = 0x7f060193
 com.example.mistareas:layout/cardview_chats = 0x7f0b002a
-<<<<<<< HEAD
-com.example.mistareas:id/autoCompleteToStart = 0x7f08005a
-=======
 com.example.mistareas:id/autoCompleteToStart = 0x7f08005b
->>>>>>> df8bfdae4715d0b79d82fa2780db3af2727c89d3
 com.example.mistareas:color/dim_foreground_disabled_material_light = 0x7f050067
 com.example.mistareas:dimen/notification_top_pad = 0x7f060192
 com.example.mistareas:attr/listPreferredItemHeightLarge = 0x7f03024b
@@ -2370,17 +1628,10 @@ com.example.mistareas:attr/circleRadius = 0x7f0300b9
 com.example.mistareas:dimen/notification_action_icon_size = 0x7f060185
 com.example.mistareas:dimen/mtrl_snackbar_padding_horizontal = 0x7f060173
 com.example.mistareas:dimen/mtrl_transition_shared_axis_slide_distance = 0x7f060184
-<<<<<<< HEAD
-com.example.mistareas:layout/material_clock_display_divider = 0x7f0b0046
-com.example.mistareas:dimen/mtrl_textinput_outline_box_expanded_padding = 0x7f06017c
-com.example.mistareas:dimen/mtrl_textinput_counter_margin_start = 0x7f06017a
-com.example.mistareas:id/cut = 0x7f0800ae
-=======
 com.example.mistareas:layout/material_clock_display_divider = 0x7f0b0047
 com.example.mistareas:dimen/mtrl_textinput_outline_box_expanded_padding = 0x7f06017c
 com.example.mistareas:dimen/mtrl_textinput_counter_margin_start = 0x7f06017a
 com.example.mistareas:id/cut = 0x7f0800b0
->>>>>>> df8bfdae4715d0b79d82fa2780db3af2727c89d3
 com.example.mistareas:dimen/mtrl_textinput_box_stroke_width_focused = 0x7f060179
 com.example.mistareas:dimen/mtrl_textinput_box_stroke_width_default = 0x7f060178
 com.example.mistareas:string/abc_action_bar_up_description = 0x7f0f0001
@@ -2393,19 +1644,11 @@ com.example.mistareas:drawable/avd_show_password = 0x7f070057
 com.example.mistareas:drawable/ic_keyboard_black_24dp = 0x7f07008e
 com.example.mistareas:dimen/mtrl_progress_indicator_full_rounded_corner_radius = 0x7f06015f
 com.example.mistareas:dimen/mtrl_progress_circular_track_thickness_small = 0x7f06015e
-<<<<<<< HEAD
-com.example.mistareas:id/search_close_btn = 0x7f0801ae
-com.example.mistareas:id/nombreReceta = 0x7f080172
-com.example.mistareas:dimen/mtrl_progress_circular_track_thickness_medium = 0x7f06015d
-com.example.mistareas:dimen/mtrl_progress_circular_size_small = 0x7f06015b
-com.example.mistareas:id/ghost_view = 0x7f0800ef
-=======
 com.example.mistareas:id/search_close_btn = 0x7f0801b2
 com.example.mistareas:id/nombreReceta = 0x7f080176
 com.example.mistareas:dimen/mtrl_progress_circular_track_thickness_medium = 0x7f06015d
 com.example.mistareas:dimen/mtrl_progress_circular_size_small = 0x7f06015b
 com.example.mistareas:id/ghost_view = 0x7f0800f1
->>>>>>> df8bfdae4715d0b79d82fa2780db3af2727c89d3
 com.example.mistareas:dimen/mtrl_progress_circular_size_extra_small = 0x7f060159
 com.example.mistareas:attr/carousel_firstView = 0x7f03008e
 com.example.mistareas:dimen/mtrl_progress_circular_size = 0x7f060158
@@ -2415,11 +1658,7 @@ com.example.mistareas:attr/behavior_peekHeight = 0x7f03005e
 com.example.mistareas:dimen/material_clock_size = 0x7f0600a9
 com.example.mistareas:dimen/mtrl_extended_fab_start_padding_icon = 0x7f06012f
 com.example.mistareas:dimen/mtrl_progress_circular_inset_extra_small = 0x7f060154
-<<<<<<< HEAD
-com.example.mistareas:id/cardViewChina = 0x7f080083
-=======
 com.example.mistareas:id/cardViewChina = 0x7f080084
->>>>>>> df8bfdae4715d0b79d82fa2780db3af2727c89d3
 com.example.mistareas:dimen/mtrl_navigation_rail_text_bottom_margin = 0x7f060151
 com.example.mistareas:string/hello_blank_fragment = 0x7f0f0047
 com.example.mistareas:dimen/mtrl_navigation_rail_margin = 0x7f060150
@@ -2431,26 +1670,16 @@ com.example.mistareas:dimen/mtrl_navigation_rail_icon_margin = 0x7f06014e
 com.example.mistareas:dimen/mtrl_navigation_rail_compact_width = 0x7f06014b
 com.example.mistareas:styleable/Transform = 0x7f11008f
 com.example.mistareas:dimen/mtrl_navigation_item_shape_vertical_margin = 0x7f060149
-<<<<<<< HEAD
-com.example.mistareas:id/deltaRelative = 0x7f0800b5
-=======
 com.example.mistareas:id/deltaRelative = 0x7f0800b7
->>>>>>> df8bfdae4715d0b79d82fa2780db3af2727c89d3
 com.example.mistareas:dimen/mtrl_navigation_item_shape_horizontal_margin = 0x7f060148
 com.example.mistareas:dimen/mtrl_navigation_item_icon_size = 0x7f060147
 com.example.mistareas:dimen/mtrl_navigation_elevation = 0x7f060144
 com.example.mistareas:style/Base.Widget.AppCompat.Button.ButtonBar.AlertDialog = 0x7f1000aa
 com.example.mistareas:drawable/ic_add = 0x7f07007e
 com.example.mistareas:dimen/abc_action_bar_default_padding_end_material = 0x7f060003
-<<<<<<< HEAD
-com.example.mistareas:id/item3 = 0x7f080118
-com.example.mistareas:dimen/mtrl_btn_max_width = 0x7f0600e0
-com.example.mistareas:id/enterAlways = 0x7f0800dc
-=======
 com.example.mistareas:id/item3 = 0x7f08011b
 com.example.mistareas:dimen/mtrl_btn_max_width = 0x7f0600e0
 com.example.mistareas:id/enterAlways = 0x7f0800de
->>>>>>> df8bfdae4715d0b79d82fa2780db3af2727c89d3
 com.example.mistareas:string/abc_toolbar_collapse_description = 0x7f0f001a
 com.example.mistareas:attr/materialCalendarHeaderToggleButton = 0x7f030263
 com.example.mistareas:dimen/mtrl_low_ripple_pressed_alpha = 0x7f060140
@@ -2462,11 +1691,7 @@ com.example.mistareas:dimen/mtrl_high_ripple_hovered_alpha = 0x7f06013a
 com.example.mistareas:dimen/mtrl_high_ripple_default_alpha = 0x7f060138
 com.example.mistareas:dimen/tooltip_corner_radius = 0x7f0601a9
 com.example.mistareas:dimen/mtrl_fab_translation_z_pressed = 0x7f060137
-<<<<<<< HEAD
-com.example.mistareas:drawable/material_ic_edit_black_24dp = 0x7f0700a0
-=======
 com.example.mistareas:drawable/material_ic_edit_black_24dp = 0x7f0700a2
->>>>>>> df8bfdae4715d0b79d82fa2780db3af2727c89d3
 com.example.mistareas:styleable/Capability = 0x7f110019
 com.example.mistareas:attr/chipIcon = 0x7f0300a8
 com.example.mistareas:dimen/mtrl_fab_translation_z_hovered_focused = 0x7f060136
@@ -2474,11 +1699,7 @@ com.example.mistareas:dimen/mtrl_fab_elevation = 0x7f060134
 com.example.mistareas:style/Base.Widget.AppCompat.DrawerArrowToggle = 0x7f1000b2
 com.example.mistareas:attr/tickVisible = 0x7f0303cb
 com.example.mistareas:dimen/mtrl_extended_fab_translation_z_pressed = 0x7f060133
-<<<<<<< HEAD
-com.example.mistareas:id/fabChat = 0x7f0800e2
-=======
 com.example.mistareas:id/fabChat = 0x7f0800e4
->>>>>>> df8bfdae4715d0b79d82fa2780db3af2727c89d3
 com.example.mistareas:style/TextAppearance.Compat.Notification.Time.Media = 0x7f100169
 com.example.mistareas:dimen/mtrl_extended_fab_translation_z_hovered_focused = 0x7f060132
 com.example.mistareas:dimen/mtrl_extended_fab_min_width = 0x7f06012d
@@ -2486,11 +1707,7 @@ com.example.mistareas:attr/arrowHeadLength = 0x7f030039
 com.example.mistareas:string/mtrl_exceed_max_badge_number_content_description = 0x7f0f0065
 com.example.mistareas:attr/touchAnchorSide = 0x7f0303e3
 com.example.mistareas:dimen/mtrl_extended_fab_min_height = 0x7f06012c
-<<<<<<< HEAD
-com.example.mistareas:id/postLayout = 0x7f08018c
-=======
 com.example.mistareas:id/postLayout = 0x7f080190
->>>>>>> df8bfdae4715d0b79d82fa2780db3af2727c89d3
 com.example.mistareas:attr/layout_constraintHeight_default = 0x7f030210
 com.example.mistareas:id/accessibility_custom_action_25 = 0x7f080023
 com.example.mistareas:dimen/abc_text_size_title_material_toolbar = 0x7f060050
@@ -2501,21 +1718,13 @@ com.example.mistareas:attr/dayTodayStyle = 0x7f03012b
 com.example.mistareas:attr/wavePhase = 0x7f030408
 com.example.mistareas:dimen/mtrl_extended_fab_corner_radius = 0x7f060124
 com.example.mistareas:dimen/abc_text_size_large_material = 0x7f060048
-<<<<<<< HEAD
-com.example.mistareas:id/circle_center = 0x7f080099
-=======
 com.example.mistareas:id/circle_center = 0x7f08009a
->>>>>>> df8bfdae4715d0b79d82fa2780db3af2727c89d3
 com.example.mistareas:drawable/abc_text_cursor_material = 0x7f07004c
 com.example.mistareas:dimen/mtrl_exposed_dropdown_menu_popup_vertical_padding = 0x7f060122
 com.example.mistareas:attr/windowNoTitle = 0x7f030414
 com.example.mistareas:dimen/mtrl_exposed_dropdown_menu_popup_vertical_offset = 0x7f060121
 com.example.mistareas:dimen/mtrl_card_corner_radius = 0x7f060119
-<<<<<<< HEAD
-com.example.mistareas:id/view_offset_helper = 0x7f080231
-=======
 com.example.mistareas:id/view_offset_helper = 0x7f080234
->>>>>>> df8bfdae4715d0b79d82fa2780db3af2727c89d3
 com.example.mistareas:dimen/mtrl_calendar_year_width = 0x7f060116
 com.example.mistareas:color/mtrl_chip_background_color = 0x7f0500a1
 com.example.mistareas:dimen/mtrl_calendar_title_baseline_to_top = 0x7f060110
@@ -2529,11 +1738,7 @@ com.example.mistareas:id/accessibility_custom_action_27 = 0x7f080025
 com.example.mistareas:style/Base.Theme.MaterialComponents.Dialog.Alert = 0x7f100059
 com.example.mistareas:attr/motionDurationShort2 = 0x7f03028d
 com.example.mistareas:dimen/mtrl_calendar_navigation_top_padding = 0x7f060109
-<<<<<<< HEAD
-com.example.mistareas:id/add = 0x7f080048
-=======
 com.example.mistareas:id/add = 0x7f080049
->>>>>>> df8bfdae4715d0b79d82fa2780db3af2727c89d3
 com.example.mistareas:dimen/mtrl_calendar_month_vertical_padding = 0x7f060106
 com.example.mistareas:dimen/mtrl_calendar_month_horizontal_padding = 0x7f060105
 com.example.mistareas:dimen/mtrl_calendar_maximum_default_fullscreen_minor_axis = 0x7f060104
@@ -2552,11 +1757,7 @@ com.example.mistareas:style/Theme.AppCompat.CompactMenu = 0x7f10018c
 com.example.mistareas:dimen/mtrl_calendar_header_text_padding = 0x7f060100
 com.example.mistareas:string/fcm_fallback_notification_channel_label = 0x7f0f0040
 com.example.mistareas:dimen/mtrl_calendar_header_selection_line_height = 0x7f0600ff
-<<<<<<< HEAD
-com.example.mistareas:id/textViewTitleMyPost = 0x7f080208
-=======
 com.example.mistareas:id/textViewTitleMyPost = 0x7f08020c
->>>>>>> df8bfdae4715d0b79d82fa2780db3af2727c89d3
 com.example.mistareas:dimen/mtrl_calendar_header_divider_thickness = 0x7f0600fc
 com.example.mistareas:dimen/mtrl_calendar_year_height = 0x7f060113
 com.example.mistareas:dimen/mtrl_calendar_header_content_padding_fullscreen = 0x7f0600fb
@@ -2564,20 +1765,12 @@ com.example.mistareas:style/Widget.MaterialComponents.PopupMenu.ListPopupWindow 
 com.example.mistareas:dimen/design_textinput_caption_translate_y = 0x7f06008f
 com.example.mistareas:animator/mtrl_fab_show_motion_spec = 0x7f020017
 com.example.mistareas:dimen/mtrl_calendar_content_padding = 0x7f0600f1
-<<<<<<< HEAD
-com.example.mistareas:drawable/imagen_perfil = 0x7f07009c
-=======
 com.example.mistareas:drawable/imagen_perfil = 0x7f07009e
->>>>>>> df8bfdae4715d0b79d82fa2780db3af2727c89d3
 com.example.mistareas:dimen/mtrl_calendar_action_height = 0x7f0600ee
 com.example.mistareas:style/ThemeOverlay.AppCompat = 0x7f1001d9
 com.example.mistareas:attr/motionEffect_translationY = 0x7f030299
 com.example.mistareas:attr/itemIconTint = 0x7f0301da
-<<<<<<< HEAD
-com.example.mistareas:id/disjoint = 0x7f0800c5
-=======
 com.example.mistareas:id/disjoint = 0x7f0800c7
->>>>>>> df8bfdae4715d0b79d82fa2780db3af2727c89d3
 com.example.mistareas:dimen/mtrl_btn_text_size = 0x7f0600eb
 com.example.mistareas:attr/behavior_overlapTop = 0x7f03005d
 com.example.mistareas:color/design_dark_default_color_on_secondary = 0x7f050047
@@ -2595,49 +1788,30 @@ com.example.mistareas:dimen/mtrl_badge_text_size = 0x7f0600cb
 com.example.mistareas:dimen/mtrl_badge_horizontal_edge_offset = 0x7f0600c7
 com.example.mistareas:color/design_default_color_background = 0x7f05004f
 com.example.mistareas:dimen/mtrl_alert_dialog_background_inset_start = 0x7f0600c4
-<<<<<<< HEAD
-com.example.mistareas:id/reverseSawtooth = 0x7f080199
-com.example.mistareas:style/Platform.MaterialComponents = 0x7f1000f4
-com.example.mistareas:string/common_signin_button_text_long = 0x7f0f0037
-com.example.mistareas:id/imageViewCover = 0x7f08010a
-=======
 com.example.mistareas:id/reverseSawtooth = 0x7f08019d
 com.example.mistareas:style/Platform.MaterialComponents = 0x7f1000f4
 com.example.mistareas:string/common_signin_button_text_long = 0x7f0f0037
 com.example.mistareas:id/imageViewCover = 0x7f08010c
->>>>>>> df8bfdae4715d0b79d82fa2780db3af2727c89d3
 com.example.mistareas:dimen/material_timepicker_dialog_buttons_margin_top = 0x7f0600c1
 com.example.mistareas:drawable/abc_btn_check_to_on_mtrl_000 = 0x7f07000c
 com.example.mistareas:style/Widget.Design.BottomNavigationView = 0x7f100256
 com.example.mistareas:style/Widget.AppCompat.RatingBar.Small = 0x7f100246
 com.example.mistareas:dimen/mtrl_badge_toolbar_action_menu_item_vertical_offset = 0x7f0600cd
-<<<<<<< HEAD
-com.example.mistareas:id/item4 = 0x7f080119
-=======
 com.example.mistareas:id/item4 = 0x7f08011c
->>>>>>> df8bfdae4715d0b79d82fa2780db3af2727c89d3
 com.example.mistareas:attr/errorTextAppearance = 0x7f030161
 com.example.mistareas:dimen/material_textinput_min_width = 0x7f0600be
 com.example.mistareas:string/status_bar_notification_info_overflow = 0x7f0f0093
 com.example.mistareas:dimen/design_snackbar_action_text_color_alpha = 0x7f060081
 com.example.mistareas:dimen/material_textinput_max_width = 0x7f0600bd
 com.example.mistareas:attr/thumbTextPadding = 0x7f0303c2
-<<<<<<< HEAD
-com.example.mistareas:drawable/material_ic_menu_arrow_down_black_24dp = 0x7f0700a5
-=======
 com.example.mistareas:drawable/material_ic_menu_arrow_down_black_24dp = 0x7f0700a7
->>>>>>> df8bfdae4715d0b79d82fa2780db3af2727c89d3
 com.example.mistareas:dimen/design_navigation_item_horizontal_padding = 0x7f06007b
 com.example.mistareas:dimen/material_text_view_test_line_height_override = 0x7f0600bb
 com.example.mistareas:dimen/material_helper_text_font_1_3_padding_top = 0x7f0600b8
 com.example.mistareas:attr/arrowShaftLength = 0x7f03003a
 com.example.mistareas:color/abc_secondary_text_material_light = 0x7f050012
 com.example.mistareas:dimen/material_helper_text_font_1_3_padding_horizontal = 0x7f0600b7
-<<<<<<< HEAD
-com.example.mistareas:id/dimensions = 0x7f0800bf
-=======
 com.example.mistareas:id/dimensions = 0x7f0800c1
->>>>>>> df8bfdae4715d0b79d82fa2780db3af2727c89d3
 com.example.mistareas:style/Base.Widget.AppCompat.Light.ActionBar = 0x7f1000b7
 com.example.mistareas:dimen/material_font_2_0_box_collapsed_padding_top = 0x7f0600b5
 com.example.mistareas:styleable/ScrollingViewBehavior_Layout = 0x7f110076
@@ -2646,11 +1820,7 @@ com.example.mistareas:dimen/material_filled_edittext_font_1_3_padding_bottom = 0
 com.example.mistareas:attr/tabPadding = 0x7f03037f
 com.example.mistareas:style/Widget.MaterialComponents.MaterialCalendar.HeaderSelection = 0x7f1002a0
 com.example.mistareas:dimen/mtrl_calendar_day_width = 0x7f0600f7
-<<<<<<< HEAD
-com.example.mistareas:id/mtrl_picker_header = 0x7f08015e
-=======
 com.example.mistareas:id/mtrl_picker_header = 0x7f080162
->>>>>>> df8bfdae4715d0b79d82fa2780db3af2727c89d3
 com.example.mistareas:dimen/mtrl_extended_fab_disabled_elevation = 0x7f060125
 com.example.mistareas:dimen/material_emphasis_high_type = 0x7f0600ae
 com.example.mistareas:styleable/AnimatedStateListDrawableTransition = 0x7f110009
@@ -2660,11 +1830,7 @@ com.example.mistareas:style/Base.Widget.AppCompat.Light.PopupMenu.Overflow = 0x7
 com.example.mistareas:attr/flow_horizontalBias = 0x7f030183
 com.example.mistareas:dimen/mtrl_progress_circular_size_medium = 0x7f06015a
 com.example.mistareas:dimen/material_cursor_inset_top = 0x7f0600ab
-<<<<<<< HEAD
-com.example.mistareas:id/motion_base = 0x7f08014f
-=======
 com.example.mistareas:id/motion_base = 0x7f080153
->>>>>>> df8bfdae4715d0b79d82fa2780db3af2727c89d3
 com.example.mistareas:attr/paddingTopNoTitle = 0x7f0302bf
 com.example.mistareas:dimen/material_clock_period_toggle_margin_left = 0x7f0600a7
 com.example.mistareas:anim/abc_grow_fade_in_from_bottom = 0x7f010002
@@ -2682,24 +1848,15 @@ com.example.mistareas:id/accessibility_custom_action_7 = 0x7f08002e
 com.example.mistareas:style/ShapeAppearance.MaterialComponents.MediumComponent = 0x7f100113
 com.example.mistareas:attr/upDuration = 0x7f0303f8
 com.example.mistareas:dimen/highlight_alpha_material_dark = 0x7f060096
-<<<<<<< HEAD
-com.example.mistareas:layout/material_time_chip = 0x7f0b004d
-=======
 com.example.mistareas:layout/material_time_chip = 0x7f0b004e
->>>>>>> df8bfdae4715d0b79d82fa2780db3af2727c89d3
 com.example.mistareas:id/accessibility_custom_action_15 = 0x7f080018
 com.example.mistareas:dimen/fastscroll_default_thickness = 0x7f060092
 com.example.mistareas:style/Base.Theme.MaterialComponents.Light.Dialog.Alert = 0x7f100063
 com.example.mistareas:dimen/disabled_alpha_material_light = 0x7f060091
 com.example.mistareas:style/Base.V14.ThemeOverlay.MaterialComponents.Dialog.Alert = 0x7f10007f
 com.example.mistareas:dimen/design_tab_text_size_2line = 0x7f06008e
-<<<<<<< HEAD
-com.example.mistareas:id/submit_area = 0x7f0801dd
-com.example.mistareas:id/item1 = 0x7f080116
-=======
 com.example.mistareas:id/submit_area = 0x7f0801e1
 com.example.mistareas:id/item1 = 0x7f080119
->>>>>>> df8bfdae4715d0b79d82fa2780db3af2727c89d3
 com.example.mistareas:dimen/design_tab_max_width = 0x7f06008b
 com.example.mistareas:attr/titleMargin = 0x7f0303d2
 com.example.mistareas:string/material_motion_easing_emphasized = 0x7f0f0056
@@ -2711,11 +1868,7 @@ com.example.mistareas:dimen/design_navigation_separator_vertical_padding = 0x7f0
 com.example.mistareas:attr/layout_goneMarginBaseline = 0x7f03022e
 com.example.mistareas:attr/reverseLayout = 0x7f030305
 com.example.mistareas:dimen/design_fab_translation_z_pressed = 0x7f060077
-<<<<<<< HEAD
-com.example.mistareas:id/gone = 0x7f0800f1
-=======
 com.example.mistareas:id/gone = 0x7f0800f3
->>>>>>> df8bfdae4715d0b79d82fa2780db3af2727c89d3
 com.example.mistareas:dimen/design_fab_border_width = 0x7f060071
 com.example.mistareas:attr/actionBarDivider = 0x7f030006
 com.example.mistareas:dimen/design_bottom_navigation_shadow_height = 0x7f06006c
@@ -2725,10 +1878,6 @@ com.example.mistareas:string/abc_shareactionprovider_share_with = 0x7f0f0018
 com.example.mistareas:dimen/design_bottom_navigation_icon_size = 0x7f060067
 com.example.mistareas:id/actionDownUp = 0x7f080033
 com.example.mistareas:dimen/design_bottom_navigation_height = 0x7f060066
-<<<<<<< HEAD
-com.example.mistareas:id/dark = 0x7f0800af
-=======
->>>>>>> df8bfdae4715d0b79d82fa2780db3af2727c89d3
 com.example.mistareas:dimen/design_bottom_navigation_active_item_min_width = 0x7f060063
 com.example.mistareas:dimen/compat_notification_large_icon_max_height = 0x7f06005e
 com.example.mistareas:style/Base.TextAppearance.MaterialComponents.Button = 0x7f100041
@@ -2742,17 +1891,10 @@ com.example.mistareas:attr/fabCradleRoundedCornerRadius = 0x7f030173
 com.example.mistareas:attr/behavior_halfExpandedRatio = 0x7f03005b
 com.example.mistareas:attr/prefixTextColor = 0x7f0302ec
 com.example.mistareas:dimen/compat_button_padding_horizontal_material = 0x7f06005b
-<<<<<<< HEAD
-com.example.mistareas:id/spread = 0x7f0801cb
-com.example.mistareas:dimen/clock_face_margin_start = 0x7f060058
-com.example.mistareas:dimen/cardview_default_elevation = 0x7f060056
-com.example.mistareas:id/transitionToEnd = 0x7f080222
-=======
 com.example.mistareas:id/spread = 0x7f0801cf
 com.example.mistareas:dimen/clock_face_margin_start = 0x7f060058
 com.example.mistareas:dimen/cardview_default_elevation = 0x7f060056
 com.example.mistareas:id/transitionToEnd = 0x7f080225
->>>>>>> df8bfdae4715d0b79d82fa2780db3af2727c89d3
 com.example.mistareas:dimen/mtrl_tooltip_minWidth = 0x7f060182
 com.example.mistareas:attr/passwordToggleTintMode = 0x7f0302c8
 com.example.mistareas:dimen/browser_actions_context_menu_min_padding = 0x7f060054
@@ -2782,11 +1924,7 @@ com.example.mistareas:style/Base.TextAppearance.AppCompat.Widget.PopupMenu.Heade
 com.example.mistareas:dimen/abc_list_item_height_material = 0x7f060031
 com.example.mistareas:dimen/abc_list_item_height_large_material = 0x7f060030
 com.example.mistareas:drawable/ic_clock_black_24dp = 0x7f070085
-<<<<<<< HEAD
-com.example.mistareas:id/search_mag_icon = 0x7f0801b1
-=======
 com.example.mistareas:id/search_mag_icon = 0x7f0801b5
->>>>>>> df8bfdae4715d0b79d82fa2780db3af2727c89d3
 com.example.mistareas:dimen/abc_floating_window_z = 0x7f06002f
 com.example.mistareas:attr/tabInlineLabel = 0x7f03037b
 com.example.mistareas:id/accessibility_custom_action_6 = 0x7f08002d
@@ -2810,17 +1948,10 @@ com.example.mistareas:drawable/abc_textfield_activated_mtrl_alpha = 0x7f070050
 com.example.mistareas:attr/colorOnSurface = 0x7f0300e5
 com.example.mistareas:dimen/abc_dialog_fixed_height_major = 0x7f06001c
 com.example.mistareas:dimen/abc_dialog_corner_radius_material = 0x7f06001b
-<<<<<<< HEAD
-com.example.mistareas:id/parentRelative = 0x7f080183
-com.example.mistareas:id/material_timepicker_container = 0x7f08013f
-com.example.mistareas:drawable/ic_pass_login = 0x7f070096
-com.example.mistareas:id/ratio = 0x7f080191
-=======
 com.example.mistareas:id/parentRelative = 0x7f080187
 com.example.mistareas:id/material_timepicker_container = 0x7f080143
 com.example.mistareas:drawable/ic_pass_login = 0x7f070096
 com.example.mistareas:id/ratio = 0x7f080195
->>>>>>> df8bfdae4715d0b79d82fa2780db3af2727c89d3
 com.example.mistareas:dimen/abc_control_inset_material = 0x7f060019
 com.example.mistareas:attr/boxStrokeWidth = 0x7f030073
 com.example.mistareas:animator/design_appbar_state_list_animator = 0x7f020000
@@ -2828,17 +1959,10 @@ com.example.mistareas:attr/subtitleTextStyle = 0x7f030366
 com.example.mistareas:attr/labelBehavior = 0x7f0301f0
 com.example.mistareas:dimen/abc_control_corner_material = 0x7f060018
 com.example.mistareas:dimen/abc_cascading_menus_min_smallest_width = 0x7f060016
-<<<<<<< HEAD
-com.example.mistareas:id/mtrl_motion_snapshot_view = 0x7f08015c
-com.example.mistareas:dimen/abc_button_padding_vertical_material = 0x7f060015
-com.example.mistareas:attr/drawableTopCompat = 0x7f030146
-com.example.mistareas:id/horizontal_only = 0x7f0800fe
-=======
 com.example.mistareas:id/mtrl_motion_snapshot_view = 0x7f080160
 com.example.mistareas:dimen/abc_button_padding_vertical_material = 0x7f060015
 com.example.mistareas:attr/drawableTopCompat = 0x7f030146
 com.example.mistareas:id/horizontal_only = 0x7f080100
->>>>>>> df8bfdae4715d0b79d82fa2780db3af2727c89d3
 com.example.mistareas:dimen/abc_button_inset_vertical_material = 0x7f060013
 com.example.mistareas:style/Base.V26.Theme.AppCompat = 0x7f10008f
 com.example.mistareas:attr/itemPadding = 0x7f0301dc
@@ -2852,33 +1976,20 @@ com.example.mistareas:dimen/abc_action_bar_overflow_padding_end_material = 0x7f0
 com.example.mistareas:attr/autoCompleteMode = 0x7f03003c
 com.example.mistareas:dimen/abc_action_bar_elevation_material = 0x7f060005
 com.example.mistareas:string/path_password_eye_mask_visible = 0x7f0f008c
-<<<<<<< HEAD
-com.example.mistareas:layout/cardview_my_post = 0x7f0b002c
-=======
 com.example.mistareas:layout/cardview_my_post = 0x7f0b002d
->>>>>>> df8bfdae4715d0b79d82fa2780db3af2727c89d3
 com.example.mistareas:attr/headerLayout = 0x7f0301a5
 com.example.mistareas:animator/mtrl_chip_state_list_anim = 0x7f020010
 com.example.mistareas:dimen/abc_action_bar_default_padding_start_material = 0x7f060004
 com.example.mistareas:dimen/mtrl_slider_label_square_side = 0x7f060167
 com.example.mistareas:dimen/mtrl_btn_padding_top = 0x7f0600e4
-<<<<<<< HEAD
-com.example.mistareas:id/subtitulo = 0x7f0801de
-com.example.mistareas:drawable/notify_panel_notification_icon_bg = 0x7f0700bd
-=======
 com.example.mistareas:id/subtitulo = 0x7f0801e2
 com.example.mistareas:drawable/notify_panel_notification_icon_bg = 0x7f0700bf
->>>>>>> df8bfdae4715d0b79d82fa2780db3af2727c89d3
 com.example.mistareas:style/Widget.AppCompat.Light.ActionBar.Solid.Inverse = 0x7f100226
 com.example.mistareas:dimen/mtrl_bottomappbar_fab_cradle_vertical_offset = 0x7f0600d3
 com.example.mistareas:dimen/abc_action_bar_content_inset_with_nav = 0x7f060001
 com.example.mistareas:dimen/mtrl_calendar_bottom_padding = 0x7f0600f0
 com.example.mistareas:integer/mtrl_badge_max_character_count = 0x7f090011
-<<<<<<< HEAD
-com.example.mistareas:id/sawtooth = 0x7f0801a2
-=======
 com.example.mistareas:id/sawtooth = 0x7f0801a6
->>>>>>> df8bfdae4715d0b79d82fa2780db3af2727c89d3
 com.example.mistareas:attr/seekBarStyle = 0x7f030313
 com.example.mistareas:attr/perpendicularPath_percent = 0x7f0302cf
 com.example.mistareas:color/test_mtrl_calendar_day = 0x7f0500e4
@@ -2892,11 +2003,7 @@ com.example.mistareas:attr/overlay = 0x7f0302b8
 com.example.mistareas:color/switch_thumb_normal_material_light = 0x7f0500e1
 com.example.mistareas:attr/listPopupWindowStyle = 0x7f030249
 com.example.mistareas:color/switch_thumb_material_light = 0x7f0500df
-<<<<<<< HEAD
-com.example.mistareas:id/text_input_start_icon = 0x7f080210
-=======
 com.example.mistareas:id/text_input_start_icon = 0x7f080214
->>>>>>> df8bfdae4715d0b79d82fa2780db3af2727c89d3
 com.example.mistareas:attr/labelStyle = 0x7f0301f1
 com.example.mistareas:color/spots_dialog_color = 0x7f0500db
 com.example.mistareas:dimen/mtrl_navigation_rail_text_size = 0x7f060152
@@ -2912,11 +2019,7 @@ com.example.mistareas:style/TextAppearance.AppCompat.Widget.Button.Borderless.Co
 com.example.mistareas:attr/colorPrimary = 0x7f0300e6
 com.example.mistareas:color/primary_text_disabled_material_light = 0x7f0500d2
 com.example.mistareas:color/primary_text_default_material_dark = 0x7f0500cf
-<<<<<<< HEAD
-com.example.mistareas:id/textinput_suffix_text = 0x7f080216
-=======
 com.example.mistareas:id/textinput_suffix_text = 0x7f08021a
->>>>>>> df8bfdae4715d0b79d82fa2780db3af2727c89d3
 com.example.mistareas:attr/snackbarStyle = 0x7f030341
 com.example.mistareas:color/notification_icon_bg_color = 0x7f0500c9
 com.example.mistareas:color/mtrl_textinput_focused_box_stroke_color = 0x7f0500c6
@@ -2942,11 +2045,7 @@ com.example.mistareas:attr/motionDurationMedium1 = 0x7f03028a
 com.example.mistareas:attr/altSrc = 0x7f030032
 com.example.mistareas:color/browser_actions_bg_grey = 0x7f050028
 com.example.mistareas:color/mtrl_tabs_legacy_text_color_selector = 0x7f0500c0
-<<<<<<< HEAD
-com.example.mistareas:id/test_checkbox_app_button_tint = 0x7f0801f0
-=======
 com.example.mistareas:id/test_checkbox_app_button_tint = 0x7f0801f4
->>>>>>> df8bfdae4715d0b79d82fa2780db3af2727c89d3
 com.example.mistareas:attr/extendMotionSpec = 0x7f03016d
 com.example.mistareas:color/mtrl_tabs_icon_color_selector = 0x7f0500be
 com.example.mistareas:color/mtrl_tabs_colored_ripple_color = 0x7f0500bd
@@ -2958,15 +2057,9 @@ com.example.mistareas:color/mtrl_outlined_icon_tint = 0x7f0500b9
 com.example.mistareas:attr/expandedTitleMarginEnd = 0x7f030169
 com.example.mistareas:color/mtrl_on_surface_ripple_color = 0x7f0500b8
 com.example.mistareas:attr/contentPaddingStart = 0x7f030104
-<<<<<<< HEAD
-com.example.mistareas:layout/select_dialog_singlechoice_material = 0x7f0b0080
-com.example.mistareas:attr/deltaPolarRadius = 0x7f030130
-com.example.mistareas:id/design_menu_item_action_area_stub = 0x7f0800ba
-=======
 com.example.mistareas:layout/select_dialog_singlechoice_material = 0x7f0b0081
 com.example.mistareas:attr/deltaPolarRadius = 0x7f030130
 com.example.mistareas:id/design_menu_item_action_area_stub = 0x7f0800bc
->>>>>>> df8bfdae4715d0b79d82fa2780db3af2727c89d3
 com.example.mistareas:color/mtrl_on_primary_text_btn_text_color_selector = 0x7f0500b7
 com.example.mistareas:dimen/notification_media_narrow_margin = 0x7f06018c
 com.example.mistareas:color/mtrl_navigation_item_text_color = 0x7f0500b6
@@ -2982,20 +2075,12 @@ com.example.mistareas:color/mtrl_fab_ripple_color = 0x7f0500ab
 com.example.mistareas:dimen/mtrl_card_elevation = 0x7f06011b
 com.example.mistareas:animator/fragment_fade_enter = 0x7f020005
 com.example.mistareas:color/mtrl_choice_chip_text_color = 0x7f0500a7
-<<<<<<< HEAD
-com.example.mistareas:id/start = 0x7f0801d3
-=======
 com.example.mistareas:id/start = 0x7f0801d7
->>>>>>> df8bfdae4715d0b79d82fa2780db3af2727c89d3
 com.example.mistareas:dimen/abc_search_view_preferred_width = 0x7f060037
 com.example.mistareas:attr/layout_constrainedHeight = 0x7f0301fd
 com.example.mistareas:color/mtrl_chip_text_color = 0x7f0500a4
 com.example.mistareas:dimen/abc_star_medium = 0x7f06003c
-<<<<<<< HEAD
-com.example.mistareas:id/scroll = 0x7f0801a6
-=======
 com.example.mistareas:id/scroll = 0x7f0801aa
->>>>>>> df8bfdae4715d0b79d82fa2780db3af2727c89d3
 com.example.mistareas:attr/lastBaselineToBottomHeight = 0x7f0301f3
 com.example.mistareas:color/mtrl_calendar_item_stroke_color = 0x7f05009d
 com.example.mistareas:dimen/abc_text_size_subhead_material = 0x7f06004d
@@ -3020,11 +2105,7 @@ com.example.mistareas:color/material_on_surface_emphasis_medium = 0x7f050088
 com.example.mistareas:attr/panelMenuListWidth = 0x7f0302c3
 com.example.mistareas:color/material_on_surface_emphasis_high_type = 0x7f050087
 com.example.mistareas:color/material_on_primary_emphasis_medium = 0x7f050085
-<<<<<<< HEAD
-com.example.mistareas:id/decelerateAndComplete = 0x7f0800b2
-=======
 com.example.mistareas:id/decelerateAndComplete = 0x7f0800b4
->>>>>>> df8bfdae4715d0b79d82fa2780db3af2727c89d3
 com.example.mistareas:color/material_on_primary_emphasis_high_type = 0x7f050084
 com.example.mistareas:style/Base.TextAppearance.AppCompat.Widget.PopupMenu.Small = 0x7f10003d
 com.example.mistareas:attr/boxStrokeWidthFocused = 0x7f030074
@@ -3044,19 +2125,11 @@ com.example.mistareas:attr/methodName = 0x7f03027b
 com.example.mistareas:attr/placeholderTextAppearance = 0x7f0302e2
 com.example.mistareas:attr/buttonBarNegativeButtonStyle = 0x7f030077
 com.example.mistareas:dimen/mtrl_tooltip_minHeight = 0x7f060181
-<<<<<<< HEAD
-com.example.mistareas:id/scrollIndicatorDown = 0x7f0801a7
-com.example.mistareas:attr/flow_firstVerticalStyle = 0x7f030181
-com.example.mistareas:color/material_grey_850 = 0x7f05007e
-com.example.mistareas:style/Base.TextAppearance.AppCompat.Medium.Inverse = 0x7f100023
-com.example.mistareas:id/text2 = 0x7f0801f4
-=======
 com.example.mistareas:id/scrollIndicatorDown = 0x7f0801ab
 com.example.mistareas:attr/flow_firstVerticalStyle = 0x7f030181
 com.example.mistareas:color/material_grey_850 = 0x7f05007e
 com.example.mistareas:style/Base.TextAppearance.AppCompat.Medium.Inverse = 0x7f100023
 com.example.mistareas:id/text2 = 0x7f0801f8
->>>>>>> df8bfdae4715d0b79d82fa2780db3af2727c89d3
 com.example.mistareas:dimen/mtrl_navigation_rail_active_text_size = 0x7f06014a
 com.example.mistareas:attr/content = 0x7f0300f7
 com.example.mistareas:color/material_grey_600 = 0x7f05007c
@@ -3067,11 +2140,7 @@ com.example.mistareas:color/material_timepicker_button_stroke = 0x7f050091
 com.example.mistareas:style/RtlOverlay.Widget.AppCompat.DialogTitle.Icon = 0x7f100102
 com.example.mistareas:style/ShapeAppearance.MaterialComponents.Test = 0x7f100115
 com.example.mistareas:color/material_blue_grey_950 = 0x7f050075
-<<<<<<< HEAD
-com.example.mistareas:id/rounded = 0x7f08019e
-=======
 com.example.mistareas:id/rounded = 0x7f0801a2
->>>>>>> df8bfdae4715d0b79d82fa2780db3af2727c89d3
 com.example.mistareas:color/light = 0x7f050072
 com.example.mistareas:attr/actionModeSelectAllDrawable = 0x7f03001f
 com.example.mistareas:color/material_cursor_color = 0x7f050076
@@ -3084,22 +2153,14 @@ com.example.mistareas:styleable/Slider = 0x7f11007b
 com.example.mistareas:color/green = 0x7f05006e
 com.example.mistareas:color/foreground_material_light = 0x7f05006d
 com.example.mistareas:style/botones = 0x7f1002d8
-<<<<<<< HEAD
-com.example.mistareas:id/titleDividerNoCustom = 0x7f08021a
-=======
 com.example.mistareas:id/titleDividerNoCustom = 0x7f08021e
->>>>>>> df8bfdae4715d0b79d82fa2780db3af2727c89d3
 com.example.mistareas:color/dim_foreground_material_dark = 0x7f050068
 com.example.mistareas:color/design_icon_tint = 0x7f050064
 com.example.mistareas:attr/contentPaddingBottom = 0x7f030100
 com.example.mistareas:attr/customColorDrawableValue = 0x7f03011f
 com.example.mistareas:color/design_fab_stroke_top_inner_color = 0x7f050062
 com.example.mistareas:animator/linear_indeterminate_line2_tail_interpolator = 0x7f02000c
-<<<<<<< HEAD
-com.example.mistareas:id/mtrl_card_checked_layer_id = 0x7f080159
-=======
 com.example.mistareas:id/mtrl_card_checked_layer_id = 0x7f08015d
->>>>>>> df8bfdae4715d0b79d82fa2780db3af2727c89d3
 com.example.mistareas:color/design_fab_shadow_mid_color = 0x7f05005e
 com.example.mistareas:dimen/compat_button_padding_vertical_material = 0x7f06005c
 com.example.mistareas:color/design_default_color_primary_dark = 0x7f050057
@@ -3107,30 +2168,17 @@ com.example.mistareas:styleable/ConstraintLayout_Layout = 0x7f110028
 com.example.mistareas:attr/textColorSearchUrl = 0x7f0303ab
 com.example.mistareas:dimen/abc_select_dialog_padding_start_material = 0x7f06003a
 com.example.mistareas:color/design_default_color_primary = 0x7f050056
-<<<<<<< HEAD
-com.example.mistareas:layout/mtrl_picker_actions = 0x7f0b0065
-com.example.mistareas:dimen/mtrl_badge_toolbar_action_menu_item_horizontal_offset = 0x7f0600cc
-com.example.mistareas:attr/checkedIconEnabled = 0x7f03009e
-com.example.mistareas:id/material_timepicker_view = 0x7f080143
-=======
 com.example.mistareas:layout/mtrl_picker_actions = 0x7f0b0066
 com.example.mistareas:dimen/mtrl_badge_toolbar_action_menu_item_horizontal_offset = 0x7f0600cc
 com.example.mistareas:attr/checkedIconEnabled = 0x7f03009e
 com.example.mistareas:id/material_timepicker_view = 0x7f080147
->>>>>>> df8bfdae4715d0b79d82fa2780db3af2727c89d3
 com.example.mistareas:color/design_default_color_error = 0x7f050050
 com.example.mistareas:attr/tickColorInactive = 0x7f0303c7
 com.example.mistareas:dimen/mtrl_progress_circular_track_thickness_extra_small = 0x7f06015c
 com.example.mistareas:color/design_dark_default_color_secondary_variant = 0x7f05004d
-<<<<<<< HEAD
-com.example.mistareas:id/imageViewChina = 0x7f080109
-com.example.mistareas:style/Base.ThemeOverlay.AppCompat.Dark = 0x7f10006a
-com.example.mistareas:id/date_picker_actions = 0x7f0800b0
-=======
 com.example.mistareas:id/imageViewChina = 0x7f08010b
 com.example.mistareas:style/Base.ThemeOverlay.AppCompat.Dark = 0x7f10006a
 com.example.mistareas:id/date_picker_actions = 0x7f0800b2
->>>>>>> df8bfdae4715d0b79d82fa2780db3af2727c89d3
 com.example.mistareas:color/design_dark_default_color_primary_variant = 0x7f05004b
 com.example.mistareas:color/design_dark_default_color_primary_dark = 0x7f05004a
 com.example.mistareas:attr/expandActivityOverflowButtonDrawable = 0x7f030163
@@ -3139,11 +2187,7 @@ com.example.mistareas:attr/imageAspectRatioAdjust = 0x7f0301c3
 com.example.mistareas:color/design_dark_default_color_on_primary = 0x7f050046
 com.example.mistareas:interpolator/mtrl_linear_out_slow_in = 0x7f0a000a
 com.example.mistareas:dimen/design_snackbar_padding_horizontal = 0x7f060087
-<<<<<<< HEAD
-com.example.mistareas:id/mtrl_child_content_container = 0x7f08015a
-=======
 com.example.mistareas:id/mtrl_child_content_container = 0x7f08015e
->>>>>>> df8bfdae4715d0b79d82fa2780db3af2727c89d3
 com.example.mistareas:animator/mtrl_btn_state_list_anim = 0x7f02000d
 com.example.mistareas:color/common_google_signin_btn_text_light_disabled = 0x7f05003b
 com.example.mistareas:color/common_google_signin_btn_text_dark_pressed = 0x7f050038
@@ -3156,11 +2200,7 @@ com.example.mistareas:style/Widget.AppCompat.Button.Borderless = 0x7f100216
 com.example.mistareas:dimen/mtrl_btn_letter_spacing = 0x7f0600df
 com.example.mistareas:attr/tint = 0x7f0303cc
 com.example.mistareas:attr/carousel_touchUpMode = 0x7f030093
-<<<<<<< HEAD
-com.example.mistareas:id/startToEnd = 0x7f0801d5
-=======
 com.example.mistareas:id/startToEnd = 0x7f0801d9
->>>>>>> df8bfdae4715d0b79d82fa2780db3af2727c89d3
 com.example.mistareas:attr/motionInterpolator = 0x7f03029b
 com.example.mistareas:color/cardview_shadow_end_color = 0x7f050030
 com.example.mistareas:attr/waveVariesBy = 0x7f03040a
@@ -3220,30 +2260,18 @@ com.example.mistareas:dimen/hint_pressed_alpha_material_light = 0x7f06009b
 com.example.mistareas:attr/number = 0x7f0302ae
 com.example.mistareas:color/design_error = 0x7f05005c
 com.example.mistareas:attr/autoSizeStepGranularity = 0x7f030041
-<<<<<<< HEAD
-com.example.mistareas:id/staticLayout = 0x7f0801d7
-=======
 com.example.mistareas:id/staticLayout = 0x7f0801db
->>>>>>> df8bfdae4715d0b79d82fa2780db3af2727c89d3
 com.example.mistareas:string/bottomsheet_action_expand_halfway = 0x7f0f0020
 com.example.mistareas:attr/layout_constraintHorizontal_weight = 0x7f030216
 com.example.mistareas:dimen/mtrl_textinput_end_icon_margin_start = 0x7f06017b
 com.example.mistareas:attr/hintAnimationEnabled = 0x7f0301af
 com.example.mistareas:attr/windowFixedWidthMinor = 0x7f030411
-<<<<<<< HEAD
-com.example.mistareas:id/textViewUserName = 0x7f08020a
-=======
 com.example.mistareas:id/textViewUserName = 0x7f08020e
->>>>>>> df8bfdae4715d0b79d82fa2780db3af2727c89d3
 com.example.mistareas:attr/windowFixedHeightMajor = 0x7f03040e
 com.example.mistareas:attr/windowActionModeOverlay = 0x7f03040d
 com.example.mistareas:attr/drawableBottomCompat = 0x7f03013e
 com.example.mistareas:style/Base.Theme.AppCompat.Light = 0x7f10004e
-<<<<<<< HEAD
-com.example.mistareas:id/profile_image = 0x7f08018d
-=======
 com.example.mistareas:id/profile_image = 0x7f080191
->>>>>>> df8bfdae4715d0b79d82fa2780db3af2727c89d3
 com.example.mistareas:attr/subtitleTextColor = 0x7f030365
 com.example.mistareas:attr/windowActionBarOverlay = 0x7f03040c
 com.example.mistareas:mipmap/splash = 0x7f0d000b
@@ -3259,15 +2287,9 @@ com.example.mistareas:attr/viewTransitionOnNegativeCross = 0x7f030400
 com.example.mistareas:attr/autoCompleteTextViewStyle = 0x7f03003d
 com.example.mistareas:drawable/abc_control_background_material = 0x7f070019
 com.example.mistareas:dimen/design_bottom_navigation_elevation = 0x7f060065
-<<<<<<< HEAD
-com.example.mistareas:layout/custom_chat_toolbar = 0x7f0b002e
-com.example.mistareas:attr/scopeUris = 0x7f03030c
-com.example.mistareas:id/autoComplete = 0x7f080058
-=======
 com.example.mistareas:layout/custom_chat_toolbar = 0x7f0b002f
 com.example.mistareas:attr/scopeUris = 0x7f03030c
 com.example.mistareas:id/autoComplete = 0x7f080059
->>>>>>> df8bfdae4715d0b79d82fa2780db3af2727c89d3
 com.example.mistareas:attr/verticalOffset = 0x7f0303fc
 com.example.mistareas:drawable/botones = 0x7f070058
 com.example.mistareas:attr/useMaterialThemeColors = 0x7f0303fa
@@ -3287,11 +2309,7 @@ com.example.mistareas:id/accessibility_custom_action_13 = 0x7f080016
 com.example.mistareas:attr/transformPivotTarget = 0x7f0303ee
 com.example.mistareas:attr/trackTintMode = 0x7f0303ed
 com.example.mistareas:attr/trackTint = 0x7f0303ec
-<<<<<<< HEAD
-com.example.mistareas:id/parentPanel = 0x7f080182
-=======
 com.example.mistareas:id/parentPanel = 0x7f080186
->>>>>>> df8bfdae4715d0b79d82fa2780db3af2727c89d3
 com.example.mistareas:style/Widget.MaterialComponents.BottomNavigationView.Colored = 0x7f100270
 com.example.mistareas:attr/trackHeight = 0x7f0303ea
 com.example.mistareas:style/Theme.MaterialComponents.Light.DialogWhenLarge = 0x7f1001d2
@@ -3301,19 +2319,11 @@ com.example.mistareas:drawable/ic_desayuno = 0x7f070088
 com.example.mistareas:attr/trackColor = 0x7f0303e6
 com.example.mistareas:style/MaterialAlertDialog.MaterialComponents.Picker.Date.Spinner = 0x7f1000eb
 com.example.mistareas:integer/google_play_services_version = 0x7f090008
-<<<<<<< HEAD
-com.example.mistareas:id/search_voice_btn = 0x7f0801b4
-com.example.mistareas:id/grouping = 0x7f0800f5
-com.example.mistareas:attr/hideMotionSpec = 0x7f0301ac
-com.example.mistareas:attr/track = 0x7f0303e5
-com.example.mistareas:layout/material_clockface_textview = 0x7f0b0049
-=======
 com.example.mistareas:id/search_voice_btn = 0x7f0801b8
 com.example.mistareas:id/grouping = 0x7f0800f7
 com.example.mistareas:attr/hideMotionSpec = 0x7f0301ac
 com.example.mistareas:attr/track = 0x7f0303e5
 com.example.mistareas:layout/material_clockface_textview = 0x7f0b004a
->>>>>>> df8bfdae4715d0b79d82fa2780db3af2727c89d3
 com.example.mistareas:style/TextAppearance.Widget.AppCompat.Toolbar.Title = 0x7f10018a
 com.example.mistareas:color/material_slider_active_tick_marks_color = 0x7f05008a
 com.example.mistareas:attr/touchAnchorId = 0x7f0303e2
@@ -3327,13 +2337,8 @@ com.example.mistareas:attr/actionBarSplitStyle = 0x7f03000a
 com.example.mistareas:attr/layout_constraintBaseline_toBottomOf = 0x7f030201
 com.example.mistareas:attr/titleTextAppearance = 0x7f0303d8
 com.example.mistareas:color/darkBlue = 0x7f05003f
-<<<<<<< HEAD
-com.example.mistareas:id/textViewUserNamePost = 0x7f08020c
-com.example.mistareas:id/spread_inside = 0x7f0801cc
-=======
 com.example.mistareas:id/textViewUserNamePost = 0x7f080210
 com.example.mistareas:id/spread_inside = 0x7f0801d0
->>>>>>> df8bfdae4715d0b79d82fa2780db3af2727c89d3
 com.example.mistareas:style/Widget.MaterialComponents.MaterialCalendar.HeaderCancelButton = 0x7f10029c
 com.example.mistareas:attr/titleMarginTop = 0x7f0303d6
 com.example.mistareas:attr/titleMarginEnd = 0x7f0303d4
@@ -3343,11 +2348,7 @@ com.example.mistareas:attr/iconGravity = 0x7f0301b9
 com.example.mistareas:attr/titleCentered = 0x7f0303cf
 com.example.mistareas:attr/goIcon = 0x7f0301a2
 com.example.mistareas:attr/tickMarkTint = 0x7f0303c9
-<<<<<<< HEAD
-com.example.mistareas:id/bounce = 0x7f080068
-=======
 com.example.mistareas:id/bounce = 0x7f080069
->>>>>>> df8bfdae4715d0b79d82fa2780db3af2727c89d3
 com.example.mistareas:attr/maxAcceleration = 0x7f03026f
 com.example.mistareas:dimen/mtrl_extended_fab_end_padding = 0x7f060128
 com.example.mistareas:attr/thumbTintMode = 0x7f0303c4
@@ -3357,33 +2358,12 @@ com.example.mistareas:attr/actionModeCloseDrawable = 0x7f030019
 com.example.mistareas:attr/singleLine = 0x7f030329
 com.example.mistareas:anim/btn_checkbox_to_checked_box_inner_merged_animation = 0x7f01000e
 com.example.mistareas:color/mtrl_fab_icon_text_color_selector = 0x7f0500aa
-<<<<<<< HEAD
-com.example.mistareas:id/material_label = 0x7f08013a
-=======
 com.example.mistareas:id/material_label = 0x7f08013e
->>>>>>> df8bfdae4715d0b79d82fa2780db3af2727c89d3
 com.example.mistareas:attr/thumbRadius = 0x7f0303bf
 com.example.mistareas:attr/thumbColor = 0x7f0303bd
 com.example.mistareas:attr/themeLineHeight = 0x7f0303bb
 com.example.mistareas:dimen/abc_switch_padding = 0x7f06003e
 com.example.mistareas:attr/transitionPathRotate = 0x7f0303f2
-<<<<<<< HEAD
-com.example.mistareas:id/cos = 0x7f0800a9
-com.example.mistareas:attr/textureHeight = 0x7f0303b8
-com.example.mistareas:style/TextAppearance.AppCompat = 0x7f100132
-com.example.mistareas:id/cajaUser = 0x7f08007d
-com.example.mistareas:attr/boxBackgroundMode = 0x7f03006b
-com.example.mistareas:color/error_color_material_light = 0x7f05006b
-com.example.mistareas:attr/textureBlurFactor = 0x7f0303b6
-com.example.mistareas:id/easeInOut = 0x7f0800d3
-com.example.mistareas:attr/textPanY = 0x7f0303b4
-com.example.mistareas:style/Widget.MaterialComponents.BottomSheet = 0x7f100272
-com.example.mistareas:style/Test.Widget.MaterialComponents.MaterialCalendar = 0x7f100129
-com.example.mistareas:id/tag_accessibility_heading = 0x7f0801e4
-com.example.mistareas:attr/region_widthLessThan = 0x7f030303
-com.example.mistareas:id/closest = 0x7f08009e
-com.example.mistareas:layout/material_clockface_view = 0x7f0b004a
-=======
 com.example.mistareas:id/cos = 0x7f0800aa
 com.example.mistareas:attr/textureHeight = 0x7f0303b8
 com.example.mistareas:style/TextAppearance.AppCompat = 0x7f100132
@@ -3399,7 +2379,6 @@ com.example.mistareas:id/tag_accessibility_heading = 0x7f0801e8
 com.example.mistareas:attr/region_widthLessThan = 0x7f030303
 com.example.mistareas:id/closest = 0x7f08009f
 com.example.mistareas:layout/material_clockface_view = 0x7f0b004b
->>>>>>> df8bfdae4715d0b79d82fa2780db3af2727c89d3
 com.example.mistareas:attr/commitIcon = 0x7f0300ef
 com.example.mistareas:attr/fontProviderSystemFontFamily = 0x7f030199
 com.example.mistareas:attr/textOutlineColor = 0x7f0303b1
@@ -3429,22 +2408,13 @@ com.example.mistareas:attr/textAppearanceSubtitle1 = 0x7f0303a3
 com.example.mistareas:dimen/disabled_alpha_material_dark = 0x7f060090
 com.example.mistareas:attr/textAppearanceLineHeightEnabled = 0x7f03039a
 com.example.mistareas:string/abc_menu_shift_shortcut_label = 0x7f0f000e
-<<<<<<< HEAD
-com.example.mistareas:layout/test_toolbar_surface = 0x7f0b008b
-com.example.mistareas:layout/custom_dialog = 0x7f0b002f
-=======
 com.example.mistareas:layout/test_toolbar_surface = 0x7f0b008c
 com.example.mistareas:layout/custom_dialog = 0x7f0b0030
->>>>>>> df8bfdae4715d0b79d82fa2780db3af2727c89d3
 com.example.mistareas:attr/textAppearanceLargePopupMenu = 0x7f030399
 com.example.mistareas:drawable/$avd_hide_password__1 = 0x7f070001
 com.example.mistareas:attr/textAppearanceHeadline6 = 0x7f030398
 com.example.mistareas:layout/abc_action_bar_up_container = 0x7f0b0001
-<<<<<<< HEAD
-com.example.mistareas:id/linearLayoutEditProfile = 0x7f08012c
-=======
 com.example.mistareas:id/linearLayoutEditProfile = 0x7f08012f
->>>>>>> df8bfdae4715d0b79d82fa2780db3af2727c89d3
 com.example.mistareas:id/action_bar = 0x7f080035
 com.example.mistareas:attr/textAppearanceHeadline5 = 0x7f030397
 com.example.mistareas:attr/layout_constraintRight_toLeftOf = 0x7f03021b
@@ -3457,11 +2427,7 @@ com.example.mistareas:id/textViewMessage = 0x7f080206
 com.example.mistareas:anim/mtrl_bottom_sheet_slide_out = 0x7f010020
 com.example.mistareas:attr/layout_constraintWidth_min = 0x7f030229
 com.example.mistareas:attr/triggerSlack = 0x7f0303f6
-<<<<<<< HEAD
-com.example.mistareas:id/dragClockwise = 0x7f0800c9
-=======
 com.example.mistareas:id/dragClockwise = 0x7f0800cb
->>>>>>> df8bfdae4715d0b79d82fa2780db3af2727c89d3
 com.example.mistareas:styleable/AppBarLayout = 0x7f11000a
 com.example.mistareas:attr/textAppearanceHeadline2 = 0x7f030394
 com.example.mistareas:style/Base.Widget.AppCompat.ActionBar.Solid = 0x7f10009d
@@ -3492,11 +2458,7 @@ com.example.mistareas:attr/tabSelectedTextColor = 0x7f030385
 com.example.mistareas:string/password_toggle_content_description = 0x7f0f0089
 com.example.mistareas:attr/flow_padding = 0x7f03018b
 com.example.mistareas:attr/tabRippleColor = 0x7f030384
-<<<<<<< HEAD
-com.example.mistareas:id/cajaPassConfirmacion = 0x7f08007a
-=======
 com.example.mistareas:id/cajaPassConfirmacion = 0x7f08007b
->>>>>>> df8bfdae4715d0b79d82fa2780db3af2727c89d3
 com.example.mistareas:attr/flow_wrapMode = 0x7f030190
 com.example.mistareas:attr/customPixelDimension = 0x7f030125
 com.example.mistareas:attr/tabPaddingStart = 0x7f030382
@@ -3505,11 +2467,7 @@ com.example.mistareas:dimen/abc_dialog_title_divider_material = 0x7f060026
 com.example.mistareas:dimen/design_tab_text_size = 0x7f06008d
 com.example.mistareas:string/project_id = 0x7f0f008e
 com.example.mistareas:attr/motion_postLayoutCollision = 0x7f0302a1
-<<<<<<< HEAD
-com.example.mistareas:id/clip_vertical = 0x7f08009c
-=======
 com.example.mistareas:id/clip_vertical = 0x7f08009d
->>>>>>> df8bfdae4715d0b79d82fa2780db3af2727c89d3
 com.example.mistareas:color/mtrl_filled_stroke_color = 0x7f0500ae
 com.example.mistareas:attr/pressedTranslationZ = 0x7f0302ee
 com.example.mistareas:attr/carousel_infinite = 0x7f030090
@@ -3524,11 +2482,7 @@ com.example.mistareas:anim/abc_fade_in = 0x7f010000
 com.example.mistareas:dimen/mtrl_slider_label_padding = 0x7f060165
 com.example.mistareas:attr/tabIndicatorFullWidth = 0x7f030378
 com.example.mistareas:dimen/design_bottom_navigation_item_max_width = 0x7f060068
-<<<<<<< HEAD
-com.example.mistareas:id/browser_actions_header_text = 0x7f08006c
-=======
 com.example.mistareas:id/browser_actions_header_text = 0x7f08006d
->>>>>>> df8bfdae4715d0b79d82fa2780db3af2727c89d3
 com.example.mistareas:attr/layout_wrapBehaviorInParent = 0x7f03023b
 com.example.mistareas:attr/tabIndicatorAnimationMode = 0x7f030376
 com.example.mistareas:attr/tabIndicatorAnimationDuration = 0x7f030375
@@ -3537,38 +2491,22 @@ com.example.mistareas:attr/tabIconTint = 0x7f030372
 com.example.mistareas:attr/tickMarkTintMode = 0x7f0303ca
 com.example.mistareas:color/design_default_color_surface = 0x7f05005b
 com.example.mistareas:attr/flow_firstVerticalBias = 0x7f030180
-<<<<<<< HEAD
-com.example.mistareas:layout/mtrl_calendar_day_of_week = 0x7f0b0059
-=======
 com.example.mistareas:layout/mtrl_calendar_day_of_week = 0x7f0b005a
->>>>>>> df8bfdae4715d0b79d82fa2780db3af2727c89d3
 com.example.mistareas:color/tooltip_background_dark = 0x7f0500e6
 com.example.mistareas:attr/tabBackground = 0x7f03036f
 com.example.mistareas:style/Base.ThemeOverlay.AppCompat.ActionBar = 0x7f100069
 com.example.mistareas:attr/switchTextAppearance = 0x7f03036e
 com.example.mistareas:attr/tabIndicatorHeight = 0x7f03037a
-<<<<<<< HEAD
-com.example.mistareas:layout/mtrl_picker_header_fullscreen = 0x7f0b0069
-=======
 com.example.mistareas:layout/mtrl_picker_header_fullscreen = 0x7f0b006a
->>>>>>> df8bfdae4715d0b79d82fa2780db3af2727c89d3
 com.example.mistareas:attr/switchStyle = 0x7f03036d
 com.example.mistareas:dimen/highlight_alpha_material_colored = 0x7f060095
 com.example.mistareas:style/Base.V7.Widget.AppCompat.EditText = 0x7f10009a
 com.example.mistareas:attr/suggestionRowLayout = 0x7f03036a
-<<<<<<< HEAD
-com.example.mistareas:layout/mtrl_alert_select_dialog_singlechoice = 0x7f0b0057
-com.example.mistareas:color/abc_hint_foreground_material_dark = 0x7f050007
-com.example.mistareas:attr/suffixTextAppearance = 0x7f030368
-com.example.mistareas:style/Theme.MaterialComponents.Light.Dialog.Bridge = 0x7f1001cd
-com.example.mistareas:id/north = 0x7f080175
-=======
 com.example.mistareas:layout/mtrl_alert_select_dialog_singlechoice = 0x7f0b0058
 com.example.mistareas:color/abc_hint_foreground_material_dark = 0x7f050007
 com.example.mistareas:attr/suffixTextAppearance = 0x7f030368
 com.example.mistareas:style/Theme.MaterialComponents.Light.Dialog.Bridge = 0x7f1001cd
 com.example.mistareas:id/north = 0x7f080179
->>>>>>> df8bfdae4715d0b79d82fa2780db3af2727c89d3
 com.example.mistareas:dimen/abc_text_size_display_4_material = 0x7f060046
 com.example.mistareas:attr/motionEasingAccelerated = 0x7f03028e
 com.example.mistareas:attr/subtitleCentered = 0x7f030363
@@ -3580,11 +2518,7 @@ com.example.mistareas:color/bright_foreground_disabled_material_dark = 0x7f05002
 com.example.mistareas:attr/submitBackground = 0x7f030361
 com.example.mistareas:string/clear_text_end_icon_content_description = 0x7f0f0025
 com.example.mistareas:style/Widget.MaterialComponents.BottomNavigationView = 0x7f10026f
-<<<<<<< HEAD
-com.example.mistareas:id/clockwise = 0x7f08009d
-=======
 com.example.mistareas:id/clockwise = 0x7f08009e
->>>>>>> df8bfdae4715d0b79d82fa2780db3af2727c89d3
 com.example.mistareas:dimen/design_snackbar_max_width = 0x7f060085
 com.example.mistareas:integer/mtrl_calendar_selection_text_lines = 0x7f090015
 com.example.mistareas:attr/statusBarBackground = 0x7f03035b
@@ -3610,36 +2544,21 @@ com.example.mistareas:attr/paddingBottomNoButtons = 0x7f0302b9
 com.example.mistareas:attr/staggered = 0x7f03034f
 com.example.mistareas:integer/mtrl_tab_indicator_anim_duration_ms = 0x7f09001a
 com.example.mistareas:dimen/abc_control_padding_material = 0x7f06001a
-<<<<<<< HEAD
-com.example.mistareas:id/mtrl_calendar_selection_frame = 0x7f080156
-com.example.mistareas:attr/motionDurationLong1 = 0x7f030288
-com.example.mistareas:drawable/abc_btn_radio_material_anim = 0x7f070011
-com.example.mistareas:id/textSpacerNoTitle = 0x7f0801f9
-=======
 com.example.mistareas:id/mtrl_calendar_selection_frame = 0x7f08015a
 com.example.mistareas:attr/motionDurationLong1 = 0x7f030288
 com.example.mistareas:drawable/abc_btn_radio_material_anim = 0x7f070011
 com.example.mistareas:id/textSpacerNoTitle = 0x7f0801fd
->>>>>>> df8bfdae4715d0b79d82fa2780db3af2727c89d3
 com.example.mistareas:color/abc_btn_colored_text_material = 0x7f050003
 com.example.mistareas:attr/springStopThreshold = 0x7f03034c
 com.example.mistareas:attr/iconTint = 0x7f0301bd
 com.example.mistareas:attr/springStiffness = 0x7f03034b
 com.example.mistareas:attr/spinnerStyle = 0x7f030346
 com.example.mistareas:attr/spinBars = 0x7f030344
-<<<<<<< HEAD
-com.example.mistareas:id/textSpacerNoButtons = 0x7f0801f8
-com.example.mistareas:attr/spanCount = 0x7f030343
-com.example.mistareas:integer/abc_config_activityDefaultDur = 0x7f090000
-com.example.mistareas:id/test_radiobutton_android_button_tint = 0x7f0801f1
-com.example.mistareas:id/snackbar_action = 0x7f0801c2
-=======
 com.example.mistareas:id/textSpacerNoButtons = 0x7f0801fc
 com.example.mistareas:attr/spanCount = 0x7f030343
 com.example.mistareas:integer/abc_config_activityDefaultDur = 0x7f090000
 com.example.mistareas:id/test_radiobutton_android_button_tint = 0x7f0801f5
 com.example.mistareas:id/snackbar_action = 0x7f0801c6
->>>>>>> df8bfdae4715d0b79d82fa2780db3af2727c89d3
 com.example.mistareas:attr/touchRegionId = 0x7f0303e4
 com.example.mistareas:attr/sliderStartAutoCycle = 0x7f03033e
 com.example.mistareas:attr/tabPaddingTop = 0x7f030383
@@ -3655,11 +2574,7 @@ com.example.mistareas:animator/linear_indeterminate_line1_tail_interpolator = 0x
 com.example.mistareas:dimen/abc_seekbar_track_background_height_material = 0x7f060038
 com.example.mistareas:attr/trackCornerRadius = 0x7f0303e9
 com.example.mistareas:attr/sliderIndicatorSelectedColor = 0x7f03033b
-<<<<<<< HEAD
-com.example.mistareas:layout/design_bottom_sheet_dialog = 0x7f0b0031
-=======
 com.example.mistareas:layout/design_bottom_sheet_dialog = 0x7f0b0032
->>>>>>> df8bfdae4715d0b79d82fa2780db3af2727c89d3
 com.example.mistareas:dimen/abc_action_button_min_width_overflow_material = 0x7f06000f
 com.example.mistareas:dimen/mtrl_tooltip_padding = 0x7f060183
 com.example.mistareas:attr/sliderIndicatorMarginRight = 0x7f030335
@@ -3680,21 +2595,12 @@ com.example.mistareas:attr/sliderIndicatorEnabled = 0x7f030330
 com.example.mistareas:attr/sliderIndicatorAnimationDuration = 0x7f03032f
 com.example.mistareas:attr/suffixTextColor = 0x7f030369
 com.example.mistareas:dimen/design_snackbar_min_width = 0x7f060086
-<<<<<<< HEAD
-com.example.mistareas:id/unchecked = 0x7f08022a
-com.example.mistareas:attr/sliderAutoCycleDirection = 0x7f03032d
-com.example.mistareas:color/abc_background_cache_hint_selector_material_light = 0x7f050001
-com.example.mistareas:attr/singleChoiceItemLayout = 0x7f030328
-com.example.mistareas:id/textTop = 0x7f0801fb
-com.example.mistareas:id/home = 0x7f0800fa
-=======
 com.example.mistareas:id/unchecked = 0x7f08022d
 com.example.mistareas:attr/sliderAutoCycleDirection = 0x7f03032d
 com.example.mistareas:color/abc_background_cache_hint_selector_material_light = 0x7f050001
 com.example.mistareas:attr/singleChoiceItemLayout = 0x7f030328
 com.example.mistareas:id/textTop = 0x7f0801ff
 com.example.mistareas:id/home = 0x7f0800fc
->>>>>>> df8bfdae4715d0b79d82fa2780db3af2727c89d3
 com.example.mistareas:style/Widget.AppCompat.Button.ButtonBar.AlertDialog = 0x7f100218
 com.example.mistareas:integer/bottom_sheet_slide_duration = 0x7f090003
 com.example.mistareas:dimen/mtrl_exposed_dropdown_menu_popup_elevation = 0x7f060120
@@ -3702,11 +2608,7 @@ com.example.mistareas:animator/mtrl_card_state_list_anim = 0x7f02000f
 com.example.mistareas:attr/shrinkMotionSpec = 0x7f030327
 com.example.mistareas:style/Base.Theme.MaterialComponents.Light.DarkActionBar = 0x7f100060
 com.example.mistareas:string/material_motion_easing_standard = 0x7f0f0058
-<<<<<<< HEAD
-com.example.mistareas:id/jumpToStart = 0x7f080121
-=======
 com.example.mistareas:id/jumpToStart = 0x7f080124
->>>>>>> df8bfdae4715d0b79d82fa2780db3af2727c89d3
 com.example.mistareas:attr/counterMaxLength = 0x7f030116
 com.example.mistareas:dimen/material_clock_hand_center_dot_radius = 0x7f0600a2
 com.example.mistareas:attr/showTitle = 0x7f030326
@@ -3718,22 +2620,14 @@ com.example.mistareas:attr/showDividers = 0x7f030322
 com.example.mistareas:string/search_menu_title = 0x7f0f0092
 com.example.mistareas:dimen/mtrl_chip_text_size = 0x7f06011e
 com.example.mistareas:attr/showDelay = 0x7f030321
-<<<<<<< HEAD
-com.example.mistareas:id/selection_type = 0x7f0801b7
-=======
 com.example.mistareas:id/selection_type = 0x7f0801bb
->>>>>>> df8bfdae4715d0b79d82fa2780db3af2727c89d3
 com.example.mistareas:attr/materialCalendarMonth = 0x7f030264
 com.example.mistareas:attr/showAsAction = 0x7f030320
 com.example.mistareas:attr/sliderIndicatorRadius = 0x7f030339
 com.example.mistareas:color/design_default_color_on_primary = 0x7f050053
 com.example.mistareas:dimen/mtrl_btn_padding_left = 0x7f0600e2
 com.example.mistareas:attr/showAnimationBehavior = 0x7f03031f
-<<<<<<< HEAD
-com.example.mistareas:id/src_over = 0x7f0801d1
-=======
 com.example.mistareas:id/src_over = 0x7f0801d5
->>>>>>> df8bfdae4715d0b79d82fa2780db3af2727c89d3
 com.example.mistareas:attr/shortcutMatchRequired = 0x7f03031e
 com.example.mistareas:mipmap/fondo = 0x7f0d0002
 com.example.mistareas:attr/floatingActionButtonStyle = 0x7f03017d
@@ -3749,11 +2643,7 @@ com.example.mistareas:attr/background = 0x7f030044
 com.example.mistareas:attr/endIconTintMode = 0x7f030158
 com.example.mistareas:attr/selectableItemBackground = 0x7f030314
 com.example.mistareas:attr/chipStyle = 0x7f0300b6
-<<<<<<< HEAD
-com.example.mistareas:id/navigation_bar_item_icon_view = 0x7f080168
-=======
 com.example.mistareas:id/navigation_bar_item_icon_view = 0x7f08016c
->>>>>>> df8bfdae4715d0b79d82fa2780db3af2727c89d3
 com.example.mistareas:attr/fastScrollHorizontalTrackDrawable = 0x7f030179
 com.example.mistareas:attr/windowFixedWidthMajor = 0x7f030410
 com.example.mistareas:dimen/abc_text_size_body_1_material = 0x7f06003f
@@ -3768,11 +2658,7 @@ com.example.mistareas:attr/singleSelection = 0x7f03032a
 com.example.mistareas:color/switch_thumb_normal_material_dark = 0x7f0500e0
 com.example.mistareas:style/Base.Widget.AppCompat.RatingBar = 0x7f1000c9
 com.example.mistareas:attr/targetId = 0x7f03038a
-<<<<<<< HEAD
-com.example.mistareas:id/itemLogout = 0x7f08011d
-=======
 com.example.mistareas:id/itemLogout = 0x7f080120
->>>>>>> df8bfdae4715d0b79d82fa2780db3af2727c89d3
 com.example.mistareas:style/Widget.MaterialComponents.Button.TextButton.Dialog = 0x7f100279
 com.example.mistareas:drawable/abc_text_select_handle_middle_mtrl = 0x7f07004e
 com.example.mistareas:attr/scrimVisibleHeightTrigger = 0x7f03030f
@@ -3789,19 +2675,11 @@ com.example.mistareas:attr/reactiveGuide_valueId = 0x7f0302ff
 com.example.mistareas:style/TextAppearance.MaterialComponents.Headline4 = 0x7f100180
 com.example.mistareas:attr/reactiveGuide_applyToAllConstraintSets = 0x7f0302fd
 com.example.mistareas:attr/reactiveGuide_animateChange = 0x7f0302fc
-<<<<<<< HEAD
-com.example.mistareas:id/design_menu_item_action_area = 0x7f0800b9
-com.example.mistareas:style/Base.Theme.AppCompat.DialogWhenLarge = 0x7f10004d
-com.example.mistareas:drawable/abc_text_select_handle_right_mtrl = 0x7f07004f
-com.example.mistareas:attr/spinnerDropDownItemStyle = 0x7f030345
-com.example.mistareas:id/cajaUserRegistro = 0x7f08007e
-=======
 com.example.mistareas:id/design_menu_item_action_area = 0x7f0800bb
 com.example.mistareas:style/Base.Theme.AppCompat.DialogWhenLarge = 0x7f10004d
 com.example.mistareas:drawable/abc_text_select_handle_right_mtrl = 0x7f07004f
 com.example.mistareas:attr/spinnerDropDownItemStyle = 0x7f030345
 com.example.mistareas:id/cajaUserRegistro = 0x7f08007f
->>>>>>> df8bfdae4715d0b79d82fa2780db3af2727c89d3
 com.example.mistareas:id/META = 0x7f080005
 com.example.mistareas:attr/queryPatterns = 0x7f0302f6
 com.example.mistareas:dimen/mtrl_navigation_bar_item_default_icon_size = 0x7f060142
@@ -3824,21 +2702,12 @@ com.example.mistareas:attr/elevationOverlayEnabled = 0x7f030150
 com.example.mistareas:attr/progressBarPadding = 0x7f0302ef
 com.example.mistareas:dimen/mtrl_extended_fab_start_padding = 0x7f06012e
 com.example.mistareas:dimen/design_appbar_elevation = 0x7f060061
-<<<<<<< HEAD
-com.example.mistareas:id/wrap_content = 0x7f08023e
-com.example.mistareas:dimen/mtrl_edittext_rectangle_top_offset = 0x7f06011f
-com.example.mistareas:attr/popupWindowStyle = 0x7f0302e9
-com.example.mistareas:mipmap/ic_launcher = 0x7f0d0003
-com.example.mistareas:id/startHorizontal = 0x7f0801d4
-com.example.mistareas:layout/mtrl_picker_header_title_text = 0x7f0b006b
-=======
 com.example.mistareas:id/wrap_content = 0x7f080241
 com.example.mistareas:dimen/mtrl_edittext_rectangle_top_offset = 0x7f06011f
 com.example.mistareas:attr/popupWindowStyle = 0x7f0302e9
 com.example.mistareas:mipmap/ic_launcher = 0x7f0d0003
 com.example.mistareas:id/startHorizontal = 0x7f0801d8
 com.example.mistareas:layout/mtrl_picker_header_title_text = 0x7f0b006c
->>>>>>> df8bfdae4715d0b79d82fa2780db3af2727c89d3
 com.example.mistareas:attr/transitionFlags = 0x7f0303f1
 com.example.mistareas:attr/layout_constraintVertical_weight = 0x7f030225
 com.example.mistareas:attr/popupMenuStyle = 0x7f0302e7
@@ -3847,11 +2716,7 @@ com.example.mistareas:dimen/mtrl_textinput_start_icon_margin_end = 0x7f06017d
 com.example.mistareas:dimen/mtrl_btn_pressed_z = 0x7f0600e5
 com.example.mistareas:attr/popupMenuBackground = 0x7f0302e6
 com.example.mistareas:attr/placeholderTextColor = 0x7f0302e3
-<<<<<<< HEAD
-com.example.mistareas:id/collapseActionView = 0x7f08009f
-=======
 com.example.mistareas:id/collapseActionView = 0x7f0800a0
->>>>>>> df8bfdae4715d0b79d82fa2780db3af2727c89d3
 com.example.mistareas:attr/dividerHorizontal = 0x7f030137
 com.example.mistareas:attr/piv_strokeWidth = 0x7f0302dd
 com.example.mistareas:attr/collapseContentDescription = 0x7f0300d2
@@ -3880,20 +2745,12 @@ com.example.mistareas:attr/percentY = 0x7f0302ce
 com.example.mistareas:string/mtrl_picker_announce_current_selection = 0x7f0f0069
 com.example.mistareas:attr/toolbarNavigationButtonStyle = 0x7f0303dc
 com.example.mistareas:attr/sliderAnimationDuration = 0x7f03032c
-<<<<<<< HEAD
-com.example.mistareas:id/dragEnd = 0x7f0800cb
-=======
 com.example.mistareas:id/dragEnd = 0x7f0800cd
->>>>>>> df8bfdae4715d0b79d82fa2780db3af2727c89d3
 com.example.mistareas:attr/percentWidth = 0x7f0302cc
 com.example.mistareas:animator/mtrl_fab_transformation_sheet_collapse_spec = 0x7f020018
 com.example.mistareas:dimen/design_snackbar_padding_vertical_2lines = 0x7f060089
 com.example.mistareas:attr/startIconDrawable = 0x7f030352
-<<<<<<< HEAD
-com.example.mistareas:id/itemProfile = 0x7f08011e
-=======
 com.example.mistareas:id/itemProfile = 0x7f080121
->>>>>>> df8bfdae4715d0b79d82fa2780db3af2727c89d3
 com.example.mistareas:attr/radioButtonStyle = 0x7f0302f7
 com.example.mistareas:style/Base.Widget.AppCompat.CompoundButton.Switch = 0x7f1000b1
 com.example.mistareas:color/common_google_signin_btn_text_dark_default = 0x7f050035
@@ -3909,26 +2766,16 @@ com.example.mistareas:attr/SharedValueId = 0x7f030005
 com.example.mistareas:integer/material_motion_duration_medium_1 = 0x7f09000c
 com.example.mistareas:attr/actionModeShareDrawable = 0x7f030020
 com.example.mistareas:attr/paddingLeftSystemWindowInsets = 0x7f0302bc
-<<<<<<< HEAD
-com.example.mistareas:id/rightToLeft = 0x7f08019b
-com.example.mistareas:drawable/material_ic_keyboard_arrow_next_black_24dp = 0x7f0700a2
-=======
 com.example.mistareas:id/rightToLeft = 0x7f08019f
 com.example.mistareas:drawable/material_ic_keyboard_arrow_next_black_24dp = 0x7f0700a4
->>>>>>> df8bfdae4715d0b79d82fa2780db3af2727c89d3
 com.example.mistareas:integer/hide_password_duration = 0x7f090009
 com.example.mistareas:attr/fastScrollVerticalThumbDrawable = 0x7f03017a
 com.example.mistareas:attr/paddingBottomSystemWindowInsets = 0x7f0302ba
 com.example.mistareas:attr/overlapAnchor = 0x7f0302b7
 com.example.mistareas:attr/onStateTransition = 0x7f0302b5
 com.example.mistareas:attr/onPositiveCross = 0x7f0302b3
-<<<<<<< HEAD
-com.example.mistareas:id/default_activity_button = 0x7f0800b4
-com.example.mistareas:id/bounceStart = 0x7f08006b
-=======
 com.example.mistareas:id/default_activity_button = 0x7f0800b6
 com.example.mistareas:id/bounceStart = 0x7f08006c
->>>>>>> df8bfdae4715d0b79d82fa2780db3af2727c89d3
 com.example.mistareas:attr/materialAlertDialogTitlePanelStyle = 0x7f030256
 com.example.mistareas:attr/onNegativeCross = 0x7f0302b2
 com.example.mistareas:attr/titleMarginStart = 0x7f0303d5
@@ -3936,15 +2783,9 @@ com.example.mistareas:attr/passwordToggleDrawable = 0x7f0302c5
 com.example.mistareas:attr/state_dragged = 0x7f030358
 com.example.mistareas:attr/counterTextAppearance = 0x7f030119
 com.example.mistareas:dimen/mtrl_bottomappbar_fab_cradle_rounded_corner_radius = 0x7f0600d2
-<<<<<<< HEAD
-com.example.mistareas:layout/notification_template_part_chronometer = 0x7f0b007c
-com.example.mistareas:style/ThemeOverlay.MaterialComponents.Dark.ActionBar = 0x7f1001f0
-com.example.mistareas:layout/mtrl_alert_select_dialog_item = 0x7f0b0055
-=======
 com.example.mistareas:layout/notification_template_part_chronometer = 0x7f0b007d
 com.example.mistareas:style/ThemeOverlay.MaterialComponents.Dark.ActionBar = 0x7f1001f0
 com.example.mistareas:layout/mtrl_alert_select_dialog_item = 0x7f0b0056
->>>>>>> df8bfdae4715d0b79d82fa2780db3af2727c89d3
 com.example.mistareas:attr/onCross = 0x7f0302b0
 com.example.mistareas:attr/bottomSheetStyle = 0x7f030069
 com.example.mistareas:attr/nestedScrollable = 0x7f0302ad
@@ -3956,15 +2797,9 @@ com.example.mistareas:attr/layout_constraintWidth_max = 0x7f030228
 com.example.mistareas:attr/endIconTint = 0x7f030157
 com.example.mistareas:style/TextAppearance.MaterialComponents.Button = 0x7f10017a
 com.example.mistareas:style/TextAppearance.Compat.Notification.Line2 = 0x7f100165
-<<<<<<< HEAD
-com.example.mistareas:drawable/notification_tile_bg = 0x7f0700bc
-com.example.mistareas:attr/multiChoiceItemLayout = 0x7f0302a4
-com.example.mistareas:layout/material_clock_period_toggle = 0x7f0b0047
-=======
 com.example.mistareas:drawable/notification_tile_bg = 0x7f0700be
 com.example.mistareas:attr/multiChoiceItemLayout = 0x7f0302a4
 com.example.mistareas:layout/material_clock_period_toggle = 0x7f0b0048
->>>>>>> df8bfdae4715d0b79d82fa2780db3af2727c89d3
 com.example.mistareas:attr/initialActivityCount = 0x7f0301d0
 com.example.mistareas:id/accessibility_custom_action_28 = 0x7f080026
 com.example.mistareas:dimen/abc_button_inset_horizontal_material = 0x7f060012
@@ -3973,15 +2808,9 @@ com.example.mistareas:color/material_slider_active_track_color = 0x7f05008b
 com.example.mistareas:attr/isMaterialTheme = 0x7f0301d3
 com.example.mistareas:attr/motionProgress = 0x7f03029e
 com.example.mistareas:mipmap/secure = 0x7f0d000a
-<<<<<<< HEAD
-com.example.mistareas:id/ghost_view_holder = 0x7f0800f0
-com.example.mistareas:drawable/abc_list_longpressed_holo = 0x7f07002e
-com.example.mistareas:drawable/notification_bg_low = 0x7f0700b4
-=======
 com.example.mistareas:id/ghost_view_holder = 0x7f0800f2
 com.example.mistareas:drawable/abc_list_longpressed_holo = 0x7f07002e
 com.example.mistareas:drawable/notification_bg_low = 0x7f0700b6
->>>>>>> df8bfdae4715d0b79d82fa2780db3af2727c89d3
 com.example.mistareas:attr/telltales_tailScale = 0x7f03038c
 com.example.mistareas:color/cardview_dark_background = 0x7f05002e
 com.example.mistareas:style/Widget.MaterialComponents.TimePicker.ImageButton.ShapeAppearance = 0x7f1002d1
@@ -4004,28 +2833,16 @@ com.example.mistareas:dimen/mtrl_badge_with_text_radius = 0x7f0600ce
 com.example.mistareas:attr/logo = 0x7f030251
 com.example.mistareas:id/accessibility_custom_action_14 = 0x7f080017
 com.example.mistareas:attr/motionDurationShort1 = 0x7f03028c
-<<<<<<< HEAD
-com.example.mistareas:id/multiply = 0x7f080167
-=======
 com.example.mistareas:id/multiply = 0x7f08016b
->>>>>>> df8bfdae4715d0b79d82fa2780db3af2727c89d3
 com.example.mistareas:attr/motionDebug = 0x7f030287
 com.example.mistareas:style/Base.Theme.AppCompat.Dialog.MinWidth = 0x7f10004c
 com.example.mistareas:attr/navigationMode = 0x7f0302a8
 com.example.mistareas:attr/mock_labelColor = 0x7f030284
-<<<<<<< HEAD
-com.example.mistareas:id/standard = 0x7f0801d2
-com.example.mistareas:drawable/common_google_signin_btn_text_dark_normal = 0x7f07006d
-com.example.mistareas:attr/mock_labelBackgroundColor = 0x7f030283
-com.example.mistareas:styleable/KeyTrigger = 0x7f110047
-com.example.mistareas:id/listMode = 0x7f08012d
-=======
 com.example.mistareas:id/standard = 0x7f0801d6
 com.example.mistareas:drawable/common_google_signin_btn_text_dark_normal = 0x7f07006d
 com.example.mistareas:attr/mock_labelBackgroundColor = 0x7f030283
 com.example.mistareas:styleable/KeyTrigger = 0x7f110047
 com.example.mistareas:id/listMode = 0x7f080131
->>>>>>> df8bfdae4715d0b79d82fa2780db3af2727c89d3
 com.example.mistareas:style/Base.V28.Theme.AppCompat = 0x7f100092
 com.example.mistareas:style/Base.Theme.MaterialComponents.Light.Dialog.FixedSize = 0x7f100065
 com.example.mistareas:attr/minWidth = 0x7f030280
@@ -4034,11 +2851,7 @@ com.example.mistareas:attr/layout_constraintEnd_toStartOf = 0x7f03020b
 com.example.mistareas:drawable/icon_check_blue = 0x7f07009c
 com.example.mistareas:attr/actionBarPopupTheme = 0x7f030008
 com.example.mistareas:attr/itemTextAppearanceActive = 0x7f0301e9
-<<<<<<< HEAD
-com.example.mistareas:drawable/notification_action_background = 0x7f0700b2
-=======
 com.example.mistareas:drawable/notification_action_background = 0x7f0700b4
->>>>>>> df8bfdae4715d0b79d82fa2780db3af2727c89d3
 com.example.mistareas:dimen/mtrl_btn_text_btn_padding_left = 0x7f0600e9
 com.example.mistareas:dimen/mtrl_btn_z = 0x7f0600ec
 com.example.mistareas:styleable/ShapeAppearance = 0x7f110078
@@ -4067,13 +2880,8 @@ com.example.mistareas:attr/haloColor = 0x7f0301a3
 com.example.mistareas:attr/materialThemeOverlay = 0x7f03026c
 com.example.mistareas:attr/flow_lastHorizontalBias = 0x7f030186
 com.example.mistareas:color/mtrl_filled_background_color = 0x7f0500ac
-<<<<<<< HEAD
-com.example.mistareas:id/dragDown = 0x7f0800ca
-com.example.mistareas:id/botonReset = 0x7f080065
-=======
 com.example.mistareas:id/dragDown = 0x7f0800cc
 com.example.mistareas:id/botonReset = 0x7f080066
->>>>>>> df8bfdae4715d0b79d82fa2780db3af2727c89d3
 com.example.mistareas:style/Theme.AppCompat.Dialog = 0x7f100194
 com.example.mistareas:attr/materialCalendarYearNavigationButton = 0x7f030268
 com.example.mistareas:attr/colorSwitchThumbNormal = 0x7f0300ee
@@ -4081,11 +2889,7 @@ com.example.mistareas:layout/abc_list_menu_item_layout = 0x7f0b0010
 com.example.mistareas:drawable/googleg_disabled_color_18 = 0x7f07007b
 com.example.mistareas:attr/materialCalendarHeaderTitle = 0x7f030262
 com.example.mistareas:attr/iconStartPadding = 0x7f0301bc
-<<<<<<< HEAD
-com.example.mistareas:id/month_title = 0x7f08014e
-=======
 com.example.mistareas:id/month_title = 0x7f080152
->>>>>>> df8bfdae4715d0b79d82fa2780db3af2727c89d3
 com.example.mistareas:color/switch_thumb_disabled_material_light = 0x7f0500dd
 com.example.mistareas:attr/mock_showLabel = 0x7f030286
 com.example.mistareas:dimen/mtrl_progress_circular_radius = 0x7f060157
@@ -4095,17 +2899,10 @@ com.example.mistareas:attr/sliderStyle = 0x7f03033f
 com.example.mistareas:color/ripple_material_light = 0x7f0500d6
 com.example.mistareas:attr/flow_horizontalGap = 0x7f030184
 com.example.mistareas:anim/animacion = 0x7f01000c
-<<<<<<< HEAD
-com.example.mistareas:id/notification_main_column_container = 0x7f080178
-com.example.mistareas:id/search_button = 0x7f0801ad
-com.example.mistareas:attr/materialCalendarHeaderConfirmButton = 0x7f03025e
-com.example.mistareas:id/swap = 0x7f0801e0
-=======
 com.example.mistareas:id/notification_main_column_container = 0x7f08017c
 com.example.mistareas:id/search_button = 0x7f0801b1
 com.example.mistareas:attr/materialCalendarHeaderConfirmButton = 0x7f03025e
 com.example.mistareas:id/swap = 0x7f0801e4
->>>>>>> df8bfdae4715d0b79d82fa2780db3af2727c89d3
 com.example.mistareas:drawable/common_full_open_on_phone = 0x7f070061
 com.example.mistareas:id/SHOW_PROGRESS = 0x7f08000b
 com.example.mistareas:dimen/mtrl_calendar_day_today_stroke = 0x7f0600f5
@@ -4115,19 +2912,13 @@ com.example.mistareas:attr/materialCalendarHeaderCancelButton = 0x7f03025d
 com.example.mistareas:style/Base.Theme.AppCompat.Light.Dialog.MinWidth = 0x7f100053
 com.example.mistareas:integer/status_bar_notification_info_maxnum = 0x7f09001c
 com.example.mistareas:attr/materialAlertDialogTitleTextStyle = 0x7f030257
-<<<<<<< HEAD
-com.example.mistareas:id/x_left = 0x7f080240
-=======
 com.example.mistareas:id/x_left = 0x7f080243
->>>>>>> df8bfdae4715d0b79d82fa2780db3af2727c89d3
 com.example.mistareas:dimen/mtrl_card_dragged_z = 0x7f06011a
 com.example.mistareas:attr/prefixTextAppearance = 0x7f0302eb
 com.example.mistareas:attr/materialAlertDialogTheme = 0x7f030254
 com.example.mistareas:attr/textAppearanceSearchResultSubtitle = 0x7f0303a0
 com.example.mistareas:attr/layoutDescription = 0x7f0301f5
 com.example.mistareas:color/material_slider_inactive_tick_marks_color = 0x7f05008d
-com.example.mistareas:attr/chipMinHeight = 0x7f0300ad
-com.example.mistareas:id/toolbar = 0x7f08021e
 com.example.mistareas:attr/boxStrokeColor = 0x7f030071
 com.example.mistareas:attr/horizontalOffset = 0x7f0301b5
 com.example.mistareas:styleable/Badge = 0x7f110013
@@ -4137,11 +2928,7 @@ com.example.mistareas:attr/layout_scrollInterpolator = 0x7f03023a
 com.example.mistareas:layout/activity_post = 0x7f0b0022
 com.example.mistareas:color/accent_material_dark = 0x7f050019
 com.example.mistareas:color/mtrl_fab_bg_color_selector = 0x7f0500a9
-<<<<<<< HEAD
-com.example.mistareas:layout/notification_template_big_media_custom = 0x7f0b0074
-=======
 com.example.mistareas:layout/notification_template_big_media_custom = 0x7f0b0075
->>>>>>> df8bfdae4715d0b79d82fa2780db3af2727c89d3
 com.example.mistareas:dimen/mtrl_min_touch_target_size = 0x7f060141
 com.example.mistareas:dimen/design_fab_translation_z_hovered_focused = 0x7f060076
 com.example.mistareas:attr/placeholderText = 0x7f0302e1
@@ -4174,11 +2961,7 @@ com.example.mistareas:attr/layout_constraintWidth = 0x7f030226
 com.example.mistareas:attr/actionModeTheme = 0x7f030023
 com.example.mistareas:dimen/abc_config_prefDialogWidth = 0x7f060017
 com.example.mistareas:attr/layout_constraintVertical_chainStyle = 0x7f030224
-<<<<<<< HEAD
-com.example.mistareas:layout/notification_template_lines_media = 0x7f0b0079
-=======
 com.example.mistareas:layout/notification_template_lines_media = 0x7f0b007a
->>>>>>> df8bfdae4715d0b79d82fa2780db3af2727c89d3
 com.example.mistareas:attr/theme = 0x7f0303ba
 com.example.mistareas:attr/layout_constraintTop_toBottomOf = 0x7f030221
 com.example.mistareas:attr/ensureMinTouchTargetSize = 0x7f03015b
@@ -4221,15 +3004,9 @@ com.example.mistareas:style/Base.Widget.AppCompat.PopupMenu = 0x7f1000c4
 com.example.mistareas:anim/mtrl_bottom_sheet_slide_in = 0x7f01001f
 com.example.mistareas:attr/allowStacking = 0x7f03002f
 com.example.mistareas:attr/layout_constraintHeight_max = 0x7f030211
-<<<<<<< HEAD
-com.example.mistareas:id/view_tree_saved_state_registry_owner = 0x7f080234
-com.example.mistareas:style/TextAppearance.AppCompat.Widget.ActionMode.Subtitle.Inverse = 0x7f100155
-com.example.mistareas:id/reciclerViewComment = 0x7f080193
-=======
 com.example.mistareas:id/view_tree_saved_state_registry_owner = 0x7f080237
 com.example.mistareas:style/TextAppearance.AppCompat.Widget.ActionMode.Subtitle.Inverse = 0x7f100155
 com.example.mistareas:id/reciclerViewComment = 0x7f080197
->>>>>>> df8bfdae4715d0b79d82fa2780db3af2727c89d3
 com.example.mistareas:attr/borderWidth = 0x7f030064
 com.example.mistareas:dimen/mtrl_slider_track_side_padding = 0x7f06016b
 com.example.mistareas:dimen/mtrl_calendar_header_height = 0x7f0600fd
@@ -4256,17 +3033,10 @@ com.example.mistareas:style/TextAppearance.AppCompat.Button = 0x7f100135
 com.example.mistareas:drawable/common_google_signin_btn_text_dark = 0x7f07006b
 com.example.mistareas:dimen/mtrl_chip_pressed_translation_z = 0x7f06011d
 com.example.mistareas:color/mtrl_navigation_bar_colored_item_tint = 0x7f0500b0
-<<<<<<< HEAD
-com.example.mistareas:id/media_actions = 0x7f080145
-com.example.mistareas:attr/switchPadding = 0x7f03036c
-com.example.mistareas:attr/layout_constraintCircleRadius = 0x7f030208
-com.example.mistareas:id/fab = 0x7f0800e1
-=======
 com.example.mistareas:id/media_actions = 0x7f080149
 com.example.mistareas:attr/switchPadding = 0x7f03036c
 com.example.mistareas:attr/layout_constraintCircleRadius = 0x7f030208
 com.example.mistareas:id/fab = 0x7f0800e3
->>>>>>> df8bfdae4715d0b79d82fa2780db3af2727c89d3
 com.example.mistareas:style/Widget.AppCompat.SeekBar = 0x7f100249
 com.example.mistareas:attr/clickAction = 0x7f0300c5
 com.example.mistareas:attr/emojiCompatEnabled = 0x7f030151
@@ -4281,39 +3051,23 @@ com.example.mistareas:attr/textAppearanceListItem = 0x7f03039b
 com.example.mistareas:attr/layout_constraintBaseline_toBaselineOf = 0x7f030200
 com.example.mistareas:style/ThemeOverlay.AppCompat.DayNight.ActionBar = 0x7f1001de
 com.example.mistareas:attr/materialCalendarDay = 0x7f03025b
-<<<<<<< HEAD
-com.example.mistareas:id/status_bar_latest_event_content = 0x7f0801d9
-=======
 com.example.mistareas:id/status_bar_latest_event_content = 0x7f0801dd
->>>>>>> df8bfdae4715d0b79d82fa2780db3af2727c89d3
 com.example.mistareas:attr/imagePanX = 0x7f0301c5
 com.example.mistareas:string/mtrl_picker_toggle_to_text_input_mode = 0x7f0f0084
 com.example.mistareas:dimen/mtrl_extended_fab_top_padding = 0x7f060130
 com.example.mistareas:string/abc_menu_function_shortcut_label = 0x7f0f000c
-<<<<<<< HEAD
-com.example.mistareas:id/shortcut = 0x7f0801ba
-=======
 com.example.mistareas:id/shortcut = 0x7f0801be
->>>>>>> df8bfdae4715d0b79d82fa2780db3af2727c89d3
 com.example.mistareas:attr/layout_collapseMode = 0x7f0301fb
 com.example.mistareas:attr/layout_behavior = 0x7f0301fa
 com.example.mistareas:attr/textAppearanceListItemSecondary = 0x7f03039c
 com.example.mistareas:attr/flow_maxElementsWrap = 0x7f03018a
-<<<<<<< HEAD
-com.example.mistareas:id/textViewCorreoUser = 0x7f0801fe
-=======
 com.example.mistareas:id/textViewCorreoUser = 0x7f080202
->>>>>>> df8bfdae4715d0b79d82fa2780db3af2727c89d3
 com.example.mistareas:color/checkbox_themeable_attribute_color = 0x7f050033
 com.example.mistareas:attr/layout_anchor = 0x7f0301f8
 com.example.mistareas:style/ShapeAppearance.MaterialComponents = 0x7f100111
 com.example.mistareas:attr/hintEnabled = 0x7f0301b0
 com.example.mistareas:attr/layoutDuringTransition = 0x7f0301f6
-<<<<<<< HEAD
-com.example.mistareas:drawable/material_cursor_drawable = 0x7f07009d
-=======
 com.example.mistareas:drawable/material_cursor_drawable = 0x7f07009f
->>>>>>> df8bfdae4715d0b79d82fa2780db3af2727c89d3
 com.example.mistareas:attr/fontWeight = 0x7f03019c
 com.example.mistareas:attr/keyboardIcon = 0x7f0301ed
 com.example.mistareas:string/appbar_scrolling_view_behavior = 0x7f0f001d
@@ -4324,11 +3078,7 @@ com.example.mistareas:attr/itemTextColor = 0x7f0301eb
 com.example.mistareas:style/Theme.AppCompat.Empty = 0x7f100198
 com.example.mistareas:color/test_mtrl_calendar_day_selected = 0x7f0500e5
 com.example.mistareas:attr/itemShapeInsetTop = 0x7f0301e4
-<<<<<<< HEAD
-com.example.mistareas:id/imageViewPostCard = 0x7f08010e
-=======
 com.example.mistareas:id/imageViewPostCard = 0x7f080110
->>>>>>> df8bfdae4715d0b79d82fa2780db3af2727c89d3
 com.example.mistareas:style/Base.TextAppearance.AppCompat.Subhead.Inverse = 0x7f10002b
 com.example.mistareas:attr/buttonTint = 0x7f030082
 com.example.mistareas:attr/hoveredFocusedTranslationZ = 0x7f0301b6
@@ -4370,26 +3120,13 @@ com.example.mistareas:dimen/material_text_view_test_line_height = 0x7f0600ba
 com.example.mistareas:style/Platform.ThemeOverlay.AppCompat = 0x7f1000f8
 com.example.mistareas:attr/tabIndicatorColor = 0x7f030377
 com.example.mistareas:attr/iconPadding = 0x7f0301ba
-<<<<<<< HEAD
-com.example.mistareas:id/circleImageMyPost = 0x7f080096
-=======
 com.example.mistareas:id/circleImageMyPost = 0x7f080097
->>>>>>> df8bfdae4715d0b79d82fa2780db3af2727c89d3
 com.example.mistareas:string/apptareas = 0x7f0f001e
 com.example.mistareas:attr/passwordToggleEnabled = 0x7f0302c6
 com.example.mistareas:attr/colorControlHighlight = 0x7f0300dd
 com.example.mistareas:dimen/abc_action_bar_stacked_max_height = 0x7f060009
 com.example.mistareas:color/common_google_signin_btn_text_dark = 0x7f050034
 com.example.mistareas:attr/crossfade = 0x7f03011b
-<<<<<<< HEAD
-com.example.mistareas:id/textEnd = 0x7f0801f5
-com.example.mistareas:color/abc_hint_foreground_material_light = 0x7f050008
-com.example.mistareas:attr/helperText = 0x7f0301a7
-com.example.mistareas:id/withinBounds = 0x7f08023b
-com.example.mistareas:attr/useCompatPadding = 0x7f0303f9
-com.example.mistareas:styleable/Variant = 0x7f110091
-com.example.mistareas:id/tag_accessibility_clickable_spans = 0x7f0801e3
-=======
 com.example.mistareas:id/textEnd = 0x7f0801f9
 com.example.mistareas:color/abc_hint_foreground_material_light = 0x7f050008
 com.example.mistareas:attr/helperText = 0x7f0301a7
@@ -4397,26 +3134,17 @@ com.example.mistareas:id/withinBounds = 0x7f08023e
 com.example.mistareas:attr/useCompatPadding = 0x7f0303f9
 com.example.mistareas:styleable/Variant = 0x7f110091
 com.example.mistareas:id/tag_accessibility_clickable_spans = 0x7f0801e7
->>>>>>> df8bfdae4715d0b79d82fa2780db3af2727c89d3
 com.example.mistareas:style/Widget.AppCompat.ActionBar.TabView = 0x7f10020e
 com.example.mistareas:drawable/abc_btn_check_to_on_mtrl_015 = 0x7f07000d
 com.example.mistareas:dimen/design_navigation_padding_bottom = 0x7f06007e
 com.example.mistareas:attr/gestureInsetBottomIgnored = 0x7f0301a1
 com.example.mistareas:attr/gapBetweenBars = 0x7f0301a0
-<<<<<<< HEAD
-com.example.mistareas:id/staticPostLayout = 0x7f0801d8
-=======
 com.example.mistareas:id/staticPostLayout = 0x7f0801dc
->>>>>>> df8bfdae4715d0b79d82fa2780db3af2727c89d3
 com.example.mistareas:attr/warmth = 0x7f030404
 com.example.mistareas:color/highlighted_text_material_dark = 0x7f050070
 com.example.mistareas:attr/sliderScrollTimeInSec = 0x7f03033d
 com.example.mistareas:attr/dragDirection = 0x7f03013a
-<<<<<<< HEAD
-com.example.mistareas:id/all = 0x7f08004d
-=======
 com.example.mistareas:id/all = 0x7f08004e
->>>>>>> df8bfdae4715d0b79d82fa2780db3af2727c89d3
 com.example.mistareas:color/mtrl_chip_close_icon_tint = 0x7f0500a2
 com.example.mistareas:attr/forceApplySystemWindowInsetTop = 0x7f03019d
 com.example.mistareas:style/Theme.AppCompat.Light.Dialog.Alert = 0x7f10019c
@@ -4424,17 +3152,10 @@ com.example.mistareas:attr/layout_constraintHeight_percent = 0x7f030213
 com.example.mistareas:attr/drawerArrowStyle = 0x7f030147
 com.example.mistareas:dimen/title_margin = 0x7f0601a7
 com.example.mistareas:attr/fontStyle = 0x7f03019a
-<<<<<<< HEAD
-com.example.mistareas:id/material_clock_period_am_button = 0x7f080135
-com.example.mistareas:id/tag_accessibility_pane_title = 0x7f0801e5
-com.example.mistareas:attr/tabUnboundedRipple = 0x7f030389
-com.example.mistareas:id/textinput_helper_text = 0x7f080213
-=======
 com.example.mistareas:id/material_clock_period_am_button = 0x7f080139
 com.example.mistareas:id/tag_accessibility_pane_title = 0x7f0801e9
 com.example.mistareas:attr/tabUnboundedRipple = 0x7f030389
 com.example.mistareas:id/textinput_helper_text = 0x7f080217
->>>>>>> df8bfdae4715d0b79d82fa2780db3af2727c89d3
 com.example.mistareas:attr/fontProviderAuthority = 0x7f030193
 com.example.mistareas:attr/font = 0x7f030191
 com.example.mistareas:attr/switchMinWidth = 0x7f03036b
@@ -4443,11 +3164,7 @@ com.example.mistareas:drawable/abc_list_pressed_holo_light = 0x7f070030
 com.example.mistareas:attr/flow_lastHorizontalStyle = 0x7f030187
 com.example.mistareas:style/TextAppearance.Design.Placeholder = 0x7f100172
 com.example.mistareas:attr/hintTextAppearance = 0x7f0301b1
-<<<<<<< HEAD
-com.example.mistareas:layout/mtrl_calendar_day = 0x7f0b0058
-=======
 com.example.mistareas:layout/mtrl_calendar_day = 0x7f0b0059
->>>>>>> df8bfdae4715d0b79d82fa2780db3af2727c89d3
 com.example.mistareas:attr/flow_horizontalStyle = 0x7f030185
 com.example.mistareas:attr/layout_constraintBaseline_creator = 0x7f0301ff
 com.example.mistareas:style/Base.ThemeOverlay.MaterialComponents.Dialog.Alert = 0x7f100070
@@ -4467,11 +3184,7 @@ com.example.mistareas:attr/fabSize = 0x7f030176
 com.example.mistareas:drawable/common_google_signin_btn_icon_dark = 0x7f070062
 com.example.mistareas:attr/fabCustomSize = 0x7f030175
 com.example.mistareas:attr/tooltipStyle = 0x7f0303e0
-<<<<<<< HEAD
-com.example.mistareas:id/snapMargins = 0x7f0801c5
-=======
 com.example.mistareas:id/snapMargins = 0x7f0801c9
->>>>>>> df8bfdae4715d0b79d82fa2780db3af2727c89d3
 com.example.mistareas:attr/alertDialogButtonGroupStyle = 0x7f03002b
 com.example.mistareas:style/Test.ShapeAppearanceOverlay.MaterialComponents.MaterialCalendar.Day = 0x7f100127
 com.example.mistareas:attr/fabCradleMargin = 0x7f030172
@@ -4481,15 +3194,9 @@ com.example.mistareas:anim/abc_slide_out_top = 0x7f010009
 com.example.mistareas:style/TextAppearance.AppCompat.Medium = 0x7f100143
 com.example.mistareas:attr/fabAnimationMode = 0x7f030171
 com.example.mistareas:attr/fabAlignmentMode = 0x7f030170
-<<<<<<< HEAD
-com.example.mistareas:id/frost = 0x7f0800ee
-com.example.mistareas:attr/textAppearanceOverline = 0x7f03039e
-com.example.mistareas:id/mtrl_calendar_main_pane = 0x7f080154
-=======
 com.example.mistareas:id/frost = 0x7f0800f0
 com.example.mistareas:attr/textAppearanceOverline = 0x7f03039e
 com.example.mistareas:id/mtrl_calendar_main_pane = 0x7f080158
->>>>>>> df8bfdae4715d0b79d82fa2780db3af2727c89d3
 com.example.mistareas:dimen/mtrl_extended_fab_translation_z_base = 0x7f060131
 com.example.mistareas:attr/layout_constraintHorizontal_chainStyle = 0x7f030215
 com.example.mistareas:color/material_timepicker_clock_text_color = 0x7f050092
@@ -4503,11 +3210,7 @@ com.example.mistareas:attr/expandedTitleMarginTop = 0x7f03016b
 com.example.mistareas:style/Base.V21.Theme.MaterialComponents.Dialog = 0x7f100086
 com.example.mistareas:dimen/material_bottom_sheet_max_width = 0x7f06009f
 com.example.mistareas:attr/counterOverflowTextColor = 0x7f030118
-<<<<<<< HEAD
-com.example.mistareas:id/imagePostDetail = 0x7f080106
-=======
 com.example.mistareas:id/imagePostDetail = 0x7f080108
->>>>>>> df8bfdae4715d0b79d82fa2780db3af2727c89d3
 com.example.mistareas:attr/materialCardViewStyle = 0x7f030269
 com.example.mistareas:attr/expanded = 0x7f030164
 com.example.mistareas:integer/mtrl_card_anim_delay_ms = 0x7f090017
@@ -4523,11 +3226,7 @@ com.example.mistareas:attr/actionOverflowMenuStyle = 0x7f030026
 com.example.mistareas:attr/errorIconTint = 0x7f03015f
 com.example.mistareas:color/primary_text_disabled_material_dark = 0x7f0500d1
 com.example.mistareas:attr/errorIconDrawable = 0x7f03015e
-<<<<<<< HEAD
-com.example.mistareas:id/fill = 0x7f0800e4
-=======
 com.example.mistareas:id/fill = 0x7f0800e6
->>>>>>> df8bfdae4715d0b79d82fa2780db3af2727c89d3
 com.example.mistareas:dimen/mtrl_snackbar_action_text_color_alpha = 0x7f06016e
 com.example.mistareas:attr/actionBarTheme = 0x7f03000f
 com.example.mistareas:attr/quantizeMotionPhase = 0x7f0302f2
@@ -4540,22 +3239,13 @@ com.example.mistareas:color/browser_actions_text_color = 0x7f05002a
 com.example.mistareas:color/mtrl_choice_chip_ripple_color = 0x7f0500a6
 com.example.mistareas:attr/materialButtonToggleGroupStyle = 0x7f03025a
 com.example.mistareas:attr/cornerFamilyBottomLeft = 0x7f03010b
-<<<<<<< HEAD
-com.example.mistareas:layout/select_dialog_multichoice_material = 0x7f0b007f
-com.example.mistareas:id/light = 0x7f080127
-=======
 com.example.mistareas:layout/select_dialog_multichoice_material = 0x7f0b0080
 com.example.mistareas:id/light = 0x7f08012a
->>>>>>> df8bfdae4715d0b79d82fa2780db3af2727c89d3
 com.example.mistareas:color/material_slider_halo_color = 0x7f05008c
 com.example.mistareas:attr/cornerFamilyTopLeft = 0x7f03010d
 com.example.mistareas:id/activity_chooser_view_content = 0x7f080048
 com.example.mistareas:attr/materialTimePickerTheme = 0x7f03026e
-<<<<<<< HEAD
-com.example.mistareas:drawable/mtrl_dialog_background = 0x7f0700a7
-=======
 com.example.mistareas:drawable/mtrl_dialog_background = 0x7f0700a9
->>>>>>> df8bfdae4715d0b79d82fa2780db3af2727c89d3
 com.example.mistareas:dimen/mtrl_alert_dialog_picker_background_inset = 0x7f0600c6
 com.example.mistareas:style/Base.Widget.MaterialComponents.PopupMenu.Overflow = 0x7f1000de
 com.example.mistareas:color/white = 0x7f0500ea
@@ -4572,11 +3262,7 @@ com.example.mistareas:attr/itemStrokeWidth = 0x7f0301e7
 com.example.mistareas:style/TextAppearance.AppCompat.Widget.PopupMenu.Header = 0x7f10015d
 com.example.mistareas:attr/transitionShapeAppearance = 0x7f0303f3
 com.example.mistareas:attr/chipSpacingHorizontal = 0x7f0300b0
-<<<<<<< HEAD
-com.example.mistareas:id/textViewPostNumber = 0x7f080205
-=======
 com.example.mistareas:id/textViewPostNumber = 0x7f08020a
->>>>>>> df8bfdae4715d0b79d82fa2780db3af2727c89d3
 com.example.mistareas:color/mtrl_outlined_stroke_color = 0x7f0500ba
 com.example.mistareas:styleable/ViewPager2 = 0x7f110094
 com.example.mistareas:attr/expandedTitleMarginStart = 0x7f03016a
@@ -4609,11 +3295,7 @@ com.example.mistareas:attr/insetForeground = 0x7f0301d1
 com.example.mistareas:style/Base.TextAppearance.AppCompat.Title.Inverse = 0x7f10002d
 com.example.mistareas:attr/deltaPolarAngle = 0x7f03012f
 com.example.mistareas:attr/autoTransition = 0x7f030043
-<<<<<<< HEAD
-com.example.mistareas:id/snap = 0x7f0801c4
-=======
 com.example.mistareas:id/snap = 0x7f0801c8
->>>>>>> df8bfdae4715d0b79d82fa2780db3af2727c89d3
 com.example.mistareas:attr/layout_constraintRight_creator = 0x7f03021a
 com.example.mistareas:attr/checkedIconMargin = 0x7f03009f
 com.example.mistareas:attr/endIconMode = 0x7f030156
@@ -4623,11 +3305,7 @@ com.example.mistareas:attr/pivotAnchor = 0x7f0302e0
 com.example.mistareas:attr/tooltipText = 0x7f0303e1
 com.example.mistareas:attr/boxBackgroundColor = 0x7f03006a
 com.example.mistareas:style/Base.TextAppearance.MaterialComponents.Subtitle2 = 0x7f100043
-<<<<<<< HEAD
-com.example.mistareas:id/outline = 0x7f08017c
-=======
 com.example.mistareas:id/outline = 0x7f080180
->>>>>>> df8bfdae4715d0b79d82fa2780db3af2727c89d3
 com.example.mistareas:attr/drawableSize = 0x7f030142
 com.example.mistareas:attr/dayStyle = 0x7f03012a
 com.example.mistareas:color/design_default_color_primary_variant = 0x7f050058
@@ -4654,53 +3332,32 @@ com.example.mistareas:attr/drawableRightCompat = 0x7f030141
 com.example.mistareas:attr/currentState = 0x7f03011c
 com.example.mistareas:styleable/GradientColorItem = 0x7f11003d
 com.example.mistareas:attr/cornerSizeTopLeft = 0x7f030113
-<<<<<<< HEAD
-com.example.mistareas:id/neverCompleteToStart = 0x7f08016f
-=======
 com.example.mistareas:id/neverCompleteToStart = 0x7f080173
->>>>>>> df8bfdae4715d0b79d82fa2780db3af2727c89d3
 com.example.mistareas:anim/abc_popup_exit = 0x7f010004
 com.example.mistareas:attr/actionOverflowButtonStyle = 0x7f030025
 com.example.mistareas:attr/setsTag = 0x7f030318
 com.example.mistareas:attr/itemShapeInsetEnd = 0x7f0301e2
 com.example.mistareas:string/common_google_play_services_install_button = 0x7f0f0029
-<<<<<<< HEAD
-com.example.mistareas:id/layout = 0x7f080123
-=======
 com.example.mistareas:id/layout = 0x7f080126
->>>>>>> df8bfdae4715d0b79d82fa2780db3af2727c89d3
 com.example.mistareas:style/Base.Widget.AppCompat.Light.ActionBar.TabBar = 0x7f1000b9
 com.example.mistareas:dimen/fastscroll_minimum_range = 0x7f060094
 com.example.mistareas:style/Platform.MaterialComponents.Dialog = 0x7f1000f5
 com.example.mistareas:attr/contentScrim = 0x7f030106
 com.example.mistareas:attr/cornerSizeBottomLeft = 0x7f030111
 com.example.mistareas:attr/cornerSize = 0x7f030110
-<<<<<<< HEAD
-com.example.mistareas:drawable/material_ic_keyboard_arrow_right_black_24dp = 0x7f0700a4
-com.example.mistareas:dimen/mtrl_navigation_item_icon_padding = 0x7f060146
-com.example.mistareas:color/mtrl_textinput_hovered_box_stroke_color = 0x7f0500c7
-com.example.mistareas:attr/closeIconTint = 0x7f0300cf
-com.example.mistareas:id/save_non_transition_alpha = 0x7f0801a0
-=======
 com.example.mistareas:drawable/material_ic_keyboard_arrow_right_black_24dp = 0x7f0700a6
 com.example.mistareas:dimen/mtrl_navigation_item_icon_padding = 0x7f060146
 com.example.mistareas:color/mtrl_textinput_hovered_box_stroke_color = 0x7f0500c7
 com.example.mistareas:attr/closeIconTint = 0x7f0300cf
 com.example.mistareas:id/save_non_transition_alpha = 0x7f0801a4
->>>>>>> df8bfdae4715d0b79d82fa2780db3af2727c89d3
 com.example.mistareas:attr/customReference = 0x7f030126
 com.example.mistareas:style/TextAppearance.Widget.AppCompat.ExpandedMenu.Item = 0x7f100188
 com.example.mistareas:attr/imagePanY = 0x7f0301c6
 com.example.mistareas:attr/yearStyle = 0x7f030416
 com.example.mistareas:attr/itemHorizontalTranslationEnabled = 0x7f0301d7
 com.example.mistareas:style/Widget.AppCompat.TextView.SpinnerItem = 0x7f100250
-<<<<<<< HEAD
-com.example.mistareas:id/textInputNameEdit = 0x7f0801f6
-com.example.mistareas:id/edit_query = 0x7f0800d7
-=======
 com.example.mistareas:id/textInputNameEdit = 0x7f0801fa
 com.example.mistareas:id/edit_query = 0x7f0800d9
->>>>>>> df8bfdae4715d0b79d82fa2780db3af2727c89d3
 com.example.mistareas:style/RtlOverlay.Widget.AppCompat.PopupMenuItem.Title = 0x7f100108
 com.example.mistareas:attr/cornerFamily = 0x7f03010a
 com.example.mistareas:style/TextAppearance.Design.Error = 0x7f10016f
@@ -4708,15 +3365,9 @@ com.example.mistareas:attr/textPanX = 0x7f0303b3
 com.example.mistareas:style/Base.Widget.MaterialComponents.Snackbar = 0x7f1000e0
 com.example.mistareas:attr/closeIconSize = 0x7f0300cd
 com.example.mistareas:drawable/btn_checkbox_checked_to_unchecked_mtrl_animation = 0x7f07005a
-<<<<<<< HEAD
-com.example.mistareas:id/itemHome = 0x7f08011c
-com.example.mistareas:color/mtrl_btn_text_color_disabled = 0x7f05009a
-com.example.mistareas:id/src_atop = 0x7f0801cf
-=======
 com.example.mistareas:id/itemHome = 0x7f08011f
 com.example.mistareas:color/mtrl_btn_text_color_disabled = 0x7f05009a
 com.example.mistareas:id/src_atop = 0x7f0801d3
->>>>>>> df8bfdae4715d0b79d82fa2780db3af2727c89d3
 com.example.mistareas:attr/divider = 0x7f030136
 com.example.mistareas:attr/circularflow_angles = 0x7f0300bb
 com.example.mistareas:attr/contentPaddingRight = 0x7f030103
@@ -4726,11 +3377,7 @@ com.example.mistareas:attr/contentInsetStartWithNavigation = 0x7f0300fe
 com.example.mistareas:attr/appBarLayoutStyle = 0x7f030036
 com.example.mistareas:integer/mtrl_calendar_header_orientation = 0x7f090014
 com.example.mistareas:attr/materialCircleRadius = 0x7f03026a
-<<<<<<< HEAD
-com.example.mistareas:layout/mtrl_picker_dialog = 0x7f0b0066
-=======
 com.example.mistareas:layout/mtrl_picker_dialog = 0x7f0b0067
->>>>>>> df8bfdae4715d0b79d82fa2780db3af2727c89d3
 com.example.mistareas:attr/civ_border_width = 0x7f0300c2
 com.example.mistareas:style/Theme.MaterialComponents.NoActionBar.Bridge = 0x7f1001d7
 com.example.mistareas:style/Base.TextAppearance.AppCompat.Display1 = 0x7f100018
@@ -4744,11 +3391,7 @@ com.example.mistareas:attr/cardCornerRadius = 0x7f030085
 com.example.mistareas:style/TextAppearance.MaterialComponents.Subtitle2 = 0x7f100185
 com.example.mistareas:attr/state_above_anchor = 0x7f030355
 com.example.mistareas:style/Base.Widget.MaterialComponents.TextView = 0x7f1000e3
-<<<<<<< HEAD
-com.example.mistareas:id/hideable = 0x7f0800f9
-=======
 com.example.mistareas:id/hideable = 0x7f0800fb
->>>>>>> df8bfdae4715d0b79d82fa2780db3af2727c89d3
 com.example.mistareas:attr/itemShapeAppearance = 0x7f0301de
 com.example.mistareas:styleable/AppCompatTheme = 0x7f110012
 com.example.mistareas:dimen/test_navigation_bar_item_max_width = 0x7f0601a2
@@ -4767,17 +3410,10 @@ com.example.mistareas:dimen/design_navigation_icon_padding = 0x7f060079
 com.example.mistareas:attr/shapeAppearanceOverlay = 0x7f03031c
 com.example.mistareas:attr/backgroundInsetTop = 0x7f030049
 com.example.mistareas:attr/maxLines = 0x7f030275
-<<<<<<< HEAD
-com.example.mistareas:id/never = 0x7f08016d
-com.example.mistareas:attr/colorOnPrimarySurface = 0x7f0300e3
-com.example.mistareas:attr/piv_viewPager = 0x7f0302df
-com.example.mistareas:id/test_checkbox_android_button_tint = 0x7f0801ef
-=======
 com.example.mistareas:id/never = 0x7f080171
 com.example.mistareas:attr/colorOnPrimarySurface = 0x7f0300e3
 com.example.mistareas:attr/piv_viewPager = 0x7f0302df
 com.example.mistareas:id/test_checkbox_android_button_tint = 0x7f0801f3
->>>>>>> df8bfdae4715d0b79d82fa2780db3af2727c89d3
 com.example.mistareas:attr/actionModeCopyDrawable = 0x7f03001a
 com.example.mistareas:attr/closeIconEnabled = 0x7f0300cb
 com.example.mistareas:attr/liftOnScrollTargetViewId = 0x7f03023d
@@ -4786,22 +3422,14 @@ com.example.mistareas:attr/colorControlNormal = 0x7f0300de
 com.example.mistareas:string/imagen_de_fondo = 0x7f0f004a
 com.example.mistareas:attr/itemTextAppearanceInactive = 0x7f0301ea
 com.example.mistareas:attr/indicatorColor = 0x7f0301cb
-<<<<<<< HEAD
-com.example.mistareas:id/center = 0x7f080086
-=======
 com.example.mistareas:id/center = 0x7f080087
->>>>>>> df8bfdae4715d0b79d82fa2780db3af2727c89d3
 com.example.mistareas:drawable/ic_home = 0x7f07008d
 com.example.mistareas:attr/windowMinWidthMinor = 0x7f030413
 com.example.mistareas:style/Widget.MaterialComponents.MaterialCalendar.HeaderConfirmButton = 0x7f10029d
 com.example.mistareas:dimen/tooltip_margin = 0x7f0601ab
 com.example.mistareas:attr/customIntegerValue = 0x7f030123
 com.example.mistareas:attr/colorButtonNormal = 0x7f0300db
-<<<<<<< HEAD
-com.example.mistareas:id/material_clock_hand = 0x7f080134
-=======
 com.example.mistareas:id/material_clock_hand = 0x7f080138
->>>>>>> df8bfdae4715d0b79d82fa2780db3af2727c89d3
 com.example.mistareas:attr/boxCornerRadiusBottomEnd = 0x7f03006d
 com.example.mistareas:integer/design_tab_indicator_anim_duration_ms = 0x7f090007
 com.example.mistareas:attr/colorBackgroundFloating = 0x7f0300da
@@ -4812,11 +3440,7 @@ com.example.mistareas:attr/cardMaxElevation = 0x7f030088
 com.example.mistareas:attr/counterEnabled = 0x7f030115
 com.example.mistareas:color/material_grey_800 = 0x7f05007d
 com.example.mistareas:style/CardView = 0x7f1000e4
-<<<<<<< HEAD
-com.example.mistareas:id/wrap = 0x7f08023d
-=======
 com.example.mistareas:id/wrap = 0x7f080240
->>>>>>> df8bfdae4715d0b79d82fa2780db3af2727c89d3
 com.example.mistareas:attr/fontProviderQuery = 0x7f030198
 com.example.mistareas:dimen/abc_text_size_caption_material = 0x7f060042
 com.example.mistareas:attr/cardViewStyle = 0x7f03008b
@@ -4836,27 +3460,16 @@ com.example.mistareas:attr/maxActionInlineWidth = 0x7f030270
 com.example.mistareas:styleable/CircularProgressIndicator = 0x7f110020
 com.example.mistareas:attr/buttonGravity = 0x7f03007c
 com.example.mistareas:layout/abc_popup_menu_item_layout = 0x7f0b0013
-<<<<<<< HEAD
-com.example.mistareas:drawable/notification_bg_low_pressed = 0x7f0700b6
-=======
 com.example.mistareas:drawable/notification_bg_low_pressed = 0x7f0700b8
->>>>>>> df8bfdae4715d0b79d82fa2780db3af2727c89d3
 com.example.mistareas:attr/transitionEasing = 0x7f0303f0
 com.example.mistareas:attr/strokeColor = 0x7f03035e
 com.example.mistareas:attr/yearTodayStyle = 0x7f030417
 com.example.mistareas:attr/chipStandaloneStyle = 0x7f0300b2
 com.example.mistareas:style/Widget.AppCompat.ListMenuView = 0x7f10023a
-<<<<<<< HEAD
-com.example.mistareas:layout/text_view_with_line_height_from_appearance = 0x7f0b008c
-com.example.mistareas:style/Base.V7.Widget.AppCompat.AutoCompleteTextView = 0x7f100099
-com.example.mistareas:id/chip1 = 0x7f08008e
-com.example.mistareas:id/fill_vertical = 0x7f0800e6
-=======
 com.example.mistareas:layout/text_view_with_line_height_from_appearance = 0x7f0b008d
 com.example.mistareas:style/Base.V7.Widget.AppCompat.AutoCompleteTextView = 0x7f100099
 com.example.mistareas:id/chip1 = 0x7f08008f
 com.example.mistareas:id/fill_vertical = 0x7f0800e8
->>>>>>> df8bfdae4715d0b79d82fa2780db3af2727c89d3
 com.example.mistareas:dimen/test_navigation_bar_label_padding = 0x7f0601a4
 com.example.mistareas:style/TextAppearance.Design.HelperText = 0x7f100170
 com.example.mistareas:color/design_dark_default_color_primary = 0x7f050049
@@ -4900,20 +3513,6 @@ com.example.mistareas:attr/piv_dynamicCount = 0x7f0302d4
 com.example.mistareas:color/material_grey_50 = 0x7f05007b
 com.example.mistareas:attr/checkedChip = 0x7f03009c
 com.example.mistareas:attr/checkMarkTint = 0x7f030098
-<<<<<<< HEAD
-com.example.mistareas:id/info = 0x7f080112
-com.example.mistareas:id/cardViewMediterranea = 0x7f080084
-com.example.mistareas:attr/actionModeBackground = 0x7f030016
-com.example.mistareas:animator/mtrl_btn_unelevated_state_list_anim = 0x7f02000e
-com.example.mistareas:attr/motionEasingStandard = 0x7f030292
-com.example.mistareas:id/list_item = 0x7f08012e
-com.example.mistareas:color/abc_tint_spinner = 0x7f050017
-com.example.mistareas:layout/material_clock_period_toggle_land = 0x7f0b0048
-com.example.mistareas:animator/fragment_close_exit = 0x7f020004
-com.example.mistareas:layout/mtrl_calendar_month_labeled = 0x7f0b005d
-com.example.mistareas:attr/homeAsUpIndicator = 0x7f0301b3
-com.example.mistareas:id/fade = 0x7f0800e3
-=======
 com.example.mistareas:id/info = 0x7f080115
 com.example.mistareas:id/cardViewMediterranea = 0x7f080085
 com.example.mistareas:attr/actionModeBackground = 0x7f030016
@@ -4926,7 +3525,6 @@ com.example.mistareas:animator/fragment_close_exit = 0x7f020004
 com.example.mistareas:layout/mtrl_calendar_month_labeled = 0x7f0b005e
 com.example.mistareas:attr/homeAsUpIndicator = 0x7f0301b3
 com.example.mistareas:id/fade = 0x7f0800e5
->>>>>>> df8bfdae4715d0b79d82fa2780db3af2727c89d3
 com.example.mistareas:attr/behavior_saveFlags = 0x7f03005f
 com.example.mistareas:dimen/test_navigation_bar_text_size = 0x7f0601a6
 com.example.mistareas:styleable/TextEffects = 0x7f110089
@@ -4946,13 +3544,8 @@ com.example.mistareas:style/Base.DialogWindowTitleBackground.AppCompat = 0x7f100
 com.example.mistareas:attr/backgroundInsetStart = 0x7f030048
 com.example.mistareas:attr/attributeName = 0x7f03003b
 com.example.mistareas:dimen/mtrl_btn_text_btn_padding_right = 0x7f0600ea
-<<<<<<< HEAD
-com.example.mistareas:id/wrap_content_constrained = 0x7f08023f
-com.example.mistareas:id/design_menu_item_text = 0x7f0800bb
-=======
 com.example.mistareas:id/wrap_content_constrained = 0x7f080242
 com.example.mistareas:id/design_menu_item_text = 0x7f0800bd
->>>>>>> df8bfdae4715d0b79d82fa2780db3af2727c89d3
 com.example.mistareas:dimen/mtrl_slider_label_radius = 0x7f060166
 com.example.mistareas:attr/paddingTopSystemWindowInsets = 0x7f0302c0
 com.example.mistareas:dimen/abc_list_item_padding_horizontal_material = 0x7f060033
@@ -4961,11 +3554,7 @@ com.example.mistareas:attr/itemTextAppearance = 0x7f0301e8
 com.example.mistareas:styleable/FloatingActionButton_Behavior_Layout = 0x7f110035
 com.example.mistareas:attr/defaultDuration = 0x7f03012c
 com.example.mistareas:attr/buttonPanelSideLayout = 0x7f03007e
-<<<<<<< HEAD
-com.example.mistareas:id/design_navigation_view = 0x7f0800bc
-=======
 com.example.mistareas:id/design_navigation_view = 0x7f0800be
->>>>>>> df8bfdae4715d0b79d82fa2780db3af2727c89d3
 com.example.mistareas:dimen/material_font_1_3_box_collapsed_padding_top = 0x7f0600b4
 com.example.mistareas:attr/viewTransitionMode = 0x7f0303fe
 com.example.mistareas:attr/expandedTitleMargin = 0x7f030167
@@ -4975,13 +3564,8 @@ com.example.mistareas:color/abc_tint_default = 0x7f050014
 com.example.mistareas:attr/buttonBarNeutralButtonStyle = 0x7f030078
 com.example.mistareas:attr/measureWithLargestChild = 0x7f030278
 com.example.mistareas:color/design_fab_stroke_top_outer_color = 0x7f050063
-<<<<<<< HEAD
-com.example.mistareas:id/navigation_bar_item_large_label_view = 0x7f08016a
-com.example.mistareas:id/mtrl_internal_children_alpha_tag = 0x7f08015b
-=======
 com.example.mistareas:id/navigation_bar_item_large_label_view = 0x7f08016e
 com.example.mistareas:id/mtrl_internal_children_alpha_tag = 0x7f08015f
->>>>>>> df8bfdae4715d0b79d82fa2780db3af2727c89d3
 com.example.mistareas:dimen/material_clock_display_padding = 0x7f0600a0
 com.example.mistareas:anim/abc_slide_in_top = 0x7f010007
 com.example.mistareas:attr/piv_animationType = 0x7f0302d1
@@ -5035,21 +3619,13 @@ com.example.mistareas:attr/autoSizeMinTextSize = 0x7f03003f
 com.example.mistareas:attr/behavior_autoShrink = 0x7f030057
 com.example.mistareas:color/design_dark_default_color_secondary = 0x7f05004c
 com.example.mistareas:style/ThemeOverlay.MaterialComponents.MaterialAlertDialog.Picker.Date.Header.Text.Day = 0x7f1001fc
-<<<<<<< HEAD
-com.example.mistareas:id/square = 0x7f0801ce
-=======
 com.example.mistareas:id/square = 0x7f0801d2
->>>>>>> df8bfdae4715d0b79d82fa2780db3af2727c89d3
 com.example.mistareas:attr/navigationContentDescription = 0x7f0302a5
 com.example.mistareas:attr/textBackgroundPanX = 0x7f0303a6
 com.example.mistareas:layout/abc_screen_toolbar = 0x7f0b0017
 com.example.mistareas:attr/motionEffect_translationX = 0x7f030298
 com.example.mistareas:attr/tabIconTintMode = 0x7f030373
-<<<<<<< HEAD
-com.example.mistareas:id/disableScroll = 0x7f0800c4
-=======
 com.example.mistareas:id/disableScroll = 0x7f0800c6
->>>>>>> df8bfdae4715d0b79d82fa2780db3af2727c89d3
 com.example.mistareas:attr/textAppearanceHeadline1 = 0x7f030393
 com.example.mistareas:dimen/mtrl_navigation_rail_default_width = 0x7f06014c
 com.example.mistareas:style/Platform.V21.AppCompat = 0x7f1000fb
@@ -5058,14 +3634,8 @@ com.example.mistareas:attr/backgroundTintMode = 0x7f03004e
 com.example.mistareas:drawable/abc_scrubber_track_mtrl_alpha = 0x7f070040
 com.example.mistareas:attr/strokeWidth = 0x7f03035f
 com.example.mistareas:attr/backgroundOverlayColorAlpha = 0x7f03004a
-<<<<<<< HEAD
-com.example.mistareas:string/mtrl_picker_invalid_format_example = 0x7f0f0071
-com.example.mistareas:layout/mtrl_picker_text_input_date_range = 0x7f0b006e
-com.example.mistareas:drawable/notification_bg = 0x7f0700b3
-=======
 com.example.mistareas:layout/mtrl_picker_text_input_date_range = 0x7f0b006f
 com.example.mistareas:drawable/notification_bg = 0x7f0700b5
->>>>>>> df8bfdae4715d0b79d82fa2780db3af2727c89d3
 com.example.mistareas:attr/startIconCheckable = 0x7f030350
 com.example.mistareas:attr/tabContentStart = 0x7f030370
 com.example.mistareas:attr/shapeAppearance = 0x7f030319
@@ -5074,37 +3644,22 @@ com.example.mistareas:color/material_deep_teal_500 = 0x7f050078
 com.example.mistareas:layout/abc_alert_dialog_button_bar_material = 0x7f0b0008
 com.example.mistareas:attr/backgroundTint = 0x7f03004d
 com.example.mistareas:style/Base.V14.Theme.MaterialComponents.Light.Dialog.Bridge = 0x7f10007c
-<<<<<<< HEAD
-com.example.mistareas:id/sin = 0x7f0801be
-com.example.mistareas:styleable/ViewTransition = 0x7f110096
-com.example.mistareas:id/noScroll = 0x7f080170
-com.example.mistareas:layout/fragment_filters = 0x7f0b0041
-=======
 com.example.mistareas:id/sin = 0x7f0801c2
 com.example.mistareas:styleable/ViewTransition = 0x7f110096
 com.example.mistareas:id/noScroll = 0x7f080174
 com.example.mistareas:layout/fragment_filters = 0x7f0b0042
->>>>>>> df8bfdae4715d0b79d82fa2780db3af2727c89d3
 com.example.mistareas:attr/keylines = 0x7f0301ee
 com.example.mistareas:attr/actionViewClass = 0x7f030029
 com.example.mistareas:layout/abc_action_bar_title_item = 0x7f0b0000
 com.example.mistareas:style/Theme.MaterialComponents.DayNight.Dialog.FixedSize = 0x7f1001b4
 com.example.mistareas:dimen/design_snackbar_background_corner_radius = 0x7f060082
-<<<<<<< HEAD
-com.example.mistareas:id/textViewDescriptionPostCard = 0x7f080200
-=======
 com.example.mistareas:id/textViewDescriptionPostCard = 0x7f080204
->>>>>>> df8bfdae4715d0b79d82fa2780db3af2727c89d3
 com.example.mistareas:dimen/mtrl_low_ripple_default_alpha = 0x7f06013d
 com.example.mistareas:attr/hideAnimationBehavior = 0x7f0301ab
 com.example.mistareas:color/bright_foreground_material_dark = 0x7f050026
 com.example.mistareas:attr/textStartPadding = 0x7f0303b5
 com.example.mistareas:style/TextAppearance.Compat.Notification.Title.Media = 0x7f10016b
-<<<<<<< HEAD
-com.example.mistareas:layout/mtrl_navigation_rail_item = 0x7f0b0064
-=======
 com.example.mistareas:layout/mtrl_navigation_rail_item = 0x7f0b0065
->>>>>>> df8bfdae4715d0b79d82fa2780db3af2727c89d3
 com.example.mistareas:attr/backgroundStacked = 0x7f03004c
 com.example.mistareas:attr/constraint_referenced_tags = 0x7f0300f5
 com.example.mistareas:string/mtrl_picker_text_input_month_abbr = 0x7f0f0080
@@ -5114,11 +3669,7 @@ com.example.mistareas:attr/actionModeWebSearchDrawable = 0x7f030024
 com.example.mistareas:dimen/design_bottom_sheet_modal_elevation = 0x7f06006f
 com.example.mistareas:attr/circleCrop = 0x7f0300b8
 com.example.mistareas:attr/listPreferredItemPaddingLeft = 0x7f03024e
-<<<<<<< HEAD
-com.example.mistareas:id/color = 0x7f0800a0
-=======
 com.example.mistareas:id/color = 0x7f0800a1
->>>>>>> df8bfdae4715d0b79d82fa2780db3af2727c89d3
 com.example.mistareas:attr/fontProviderFetchStrategy = 0x7f030195
 com.example.mistareas:attr/errorIconTintMode = 0x7f030160
 com.example.mistareas:attr/indicatorInset = 0x7f0301ce
@@ -5140,11 +3691,7 @@ com.example.mistareas:attr/tickColor = 0x7f0303c5
 com.example.mistareas:attr/circularProgressIndicatorStyle = 0x7f0300ba
 com.example.mistareas:color/mtrl_choice_chip_background_color = 0x7f0500a5
 com.example.mistareas:anim/btn_checkbox_to_unchecked_icon_null_animation = 0x7f010013
-<<<<<<< HEAD
-com.example.mistareas:drawable/mtrl_ic_arrow_drop_down = 0x7f0700a9
-=======
 com.example.mistareas:drawable/mtrl_ic_arrow_drop_down = 0x7f0700ab
->>>>>>> df8bfdae4715d0b79d82fa2780db3af2727c89d3
 com.example.mistareas:attr/editTextColor = 0x7f03014c
 com.example.mistareas:attr/contentPadding = 0x7f0300ff
 com.example.mistareas:dimen/design_snackbar_padding_vertical = 0x7f060088
@@ -5156,17 +3703,6 @@ com.example.mistareas:animator/linear_indeterminate_line2_head_interpolator = 0x
 com.example.mistareas:menu/bottom_navigation_menu = 0x7f0c0000
 com.example.mistareas:attr/colorScheme = 0x7f0300ea
 com.example.mistareas:attr/backgroundInsetBottom = 0x7f030046
-<<<<<<< HEAD
-com.example.mistareas:id/parent_matrix = 0x7f080184
-com.example.mistareas:dimen/mtrl_bottomappbar_fabOffsetEndMode = 0x7f0600cf
-com.example.mistareas:layout/abc_activity_chooser_view_list_item = 0x7f0b0007
-com.example.mistareas:dimen/mtrl_snackbar_background_corner_radius = 0x7f06016f
-com.example.mistareas:id/slide = 0x7f0801c1
-com.example.mistareas:id/parent = 0x7f080181
-com.example.mistareas:attr/colorOnBackground = 0x7f0300e0
-com.example.mistareas:anim/abc_slide_in_bottom = 0x7f010006
-com.example.mistareas:drawable/test_custom_background = 0x7f0700c0
-=======
 com.example.mistareas:id/parent_matrix = 0x7f080188
 com.example.mistareas:dimen/mtrl_bottomappbar_fabOffsetEndMode = 0x7f0600cf
 com.example.mistareas:layout/abc_activity_chooser_view_list_item = 0x7f0b0007
@@ -5176,7 +3712,6 @@ com.example.mistareas:id/parent = 0x7f080185
 com.example.mistareas:attr/colorOnBackground = 0x7f0300e0
 com.example.mistareas:anim/abc_slide_in_bottom = 0x7f010006
 com.example.mistareas:drawable/test_custom_background = 0x7f0700c4
->>>>>>> df8bfdae4715d0b79d82fa2780db3af2727c89d3
 com.example.mistareas:dimen/abc_edit_text_inset_top_material = 0x7f06002e
 com.example.mistareas:id/checkbox = 0x7f08008c
 com.example.mistareas:style/Base.V14.ThemeOverlay.MaterialComponents.Dialog = 0x7f10007e
@@ -5198,11 +3733,7 @@ com.example.mistareas:style/Base.MaterialAlertDialog.MaterialComponents.Title.Ic
 com.example.mistareas:attr/actionMenuTextColor = 0x7f030015
 com.example.mistareas:attr/curveFit = 0x7f03011d
 com.example.mistareas:attr/motionTarget = 0x7f0302a0
-<<<<<<< HEAD
-com.example.mistareas:drawable/material_ic_calendar_black_24dp = 0x7f07009e
-=======
 com.example.mistareas:drawable/material_ic_calendar_black_24dp = 0x7f0700a0
->>>>>>> df8bfdae4715d0b79d82fa2780db3af2727c89d3
 com.example.mistareas:style/Base.Widget.AppCompat.DrawerArrowToggle.Common = 0x7f1000b3
 com.example.mistareas:anim/design_bottom_sheet_slide_in = 0x7f01001a
 com.example.mistareas:attr/telltales_velocityMode = 0x7f03038d
@@ -5222,11 +3753,7 @@ com.example.mistareas:animator/mtrl_extended_fab_change_size_expand_motion_spec 
 com.example.mistareas:attr/alpha = 0x7f030030
 com.example.mistareas:color/common_google_signin_btn_text_light_default = 0x7f05003a
 com.example.mistareas:attr/itemShapeInsetStart = 0x7f0301e3
-<<<<<<< HEAD
-com.example.mistareas:layout/notification_media_action = 0x7f0b0071
-=======
 com.example.mistareas:layout/notification_media_action = 0x7f0b0072
->>>>>>> df8bfdae4715d0b79d82fa2780db3af2727c89d3
 com.example.mistareas:color/secondary_text_disabled_material_light = 0x7f0500da
 com.example.mistareas:style/MaterialAlertDialog.MaterialComponents.Title.Icon.CenterStacked = 0x7f1000ed
 com.example.mistareas:attr/dragThreshold = 0x7f03013c
@@ -5235,12 +3762,8 @@ com.example.mistareas:style/TestStyleWithThemeLineHeightAttribute = 0x7f10012e
 com.example.mistareas:attr/textAppearanceSubtitle2 = 0x7f0303a4
 com.example.mistareas:attr/layout_constraintGuide_end = 0x7f03020d
 com.example.mistareas:anim/abc_tooltip_enter = 0x7f01000a
-<<<<<<< HEAD
-com.example.mistareas:id/enterAlwaysCollapsed = 0x7f0800dd
-=======
 com.example.mistareas:id/enterAlwaysCollapsed = 0x7f0800df
 com.example.mistareas:attr/chipMinHeight = 0x7f0300ad
->>>>>>> df8bfdae4715d0b79d82fa2780db3af2727c89d3
 com.example.mistareas:mipmap/icono_app = 0x7f0d0007
 com.example.mistareas:attr/materialAlertDialogBodyTextStyle = 0x7f030253
 com.example.mistareas:dimen/design_fab_size_mini = 0x7f060074
@@ -5260,11 +3783,7 @@ com.example.mistareas:attr/layout_constraintTag = 0x7f03021f
 com.example.mistareas:dimen/mtrl_calendar_action_padding = 0x7f0600ef
 com.example.mistareas:styleable/State = 0x7f110080
 com.example.mistareas:color/common_google_signin_btn_text_dark_focused = 0x7f050037
-<<<<<<< HEAD
-com.example.mistareas:id/percent = 0x7f080189
-=======
 com.example.mistareas:id/percent = 0x7f08018d
->>>>>>> df8bfdae4715d0b79d82fa2780db3af2727c89d3
 com.example.mistareas:dimen/design_fab_elevation = 0x7f060072
 com.example.mistareas:attr/hintTextColor = 0x7f0301b2
 com.example.mistareas:attr/autoSizeMaxTextSize = 0x7f03003e
@@ -5281,9 +3800,5 @@ com.example.mistareas:attr/buttonCompat = 0x7f03007b
 com.example.mistareas:attr/stackFromEnd = 0x7f03034e
 com.example.mistareas:attr/maxImageSize = 0x7f030274
 com.example.mistareas:integer/mtrl_card_anim_duration_ms = 0x7f090018
-<<<<<<< HEAD
-com.example.mistareas:id/sharedValueUnset = 0x7f0801b9
-=======
 com.example.mistareas:id/sharedValueUnset = 0x7f0801bd
->>>>>>> df8bfdae4715d0b79d82fa2780db3af2727c89d3
 com.example.mistareas:anim/abc_slide_out_bottom = 0x7f010008

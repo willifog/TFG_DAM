@@ -3696,64 +3696,7 @@
                     }
                 },
                 {
-<<<<<<< HEAD
                     "source": "C:\\Users\\Cesar\\.gradle\\caches\\transforms-3\\24c34d25420869913b3d8e8e08f090d8\\transformed\\jetified-play-services-base-18.0.1\\res\\values\\values.xml",
-=======
-                    "source": "D:\\Programacion Apps\\TFG_DAM\\app\\src\\main\\res\\values\\strings.xml",
-                    "from": {
-                        "startLines": "1,13,14,23,20,10,18,3,4,7,2,19,21,6,9,12,8,16,5",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "17,564,610,1063,951,468,811,109,170,310,62,882,1004,265,398,511,351,679,210",
-                        "endColumns": "43,44,65,100,51,39,69,59,38,39,45,67,55,43,68,51,45,71,53",
-                        "endOffsets": "56,604,671,1159,998,503,876,164,204,345,103,945,1055,304,462,558,392,746,259"
-                    },
-                    "to": {
-                        "startLines": "1221,1223,1249,1250,1252,1263,1264,1267,1269,1270,1291,1327,1328,1329,1336,1337,1338,1341,1342",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "70889,71083,74255,74321,74566,75683,75723,76100,76219,76258,79109,85634,85702,85758,86681,86750,86802,86972,87044",
-                        "endColumns": "43,44,65,100,51,39,69,59,38,39,45,67,55,43,68,51,45,71,53",
-                        "endOffsets": "70928,71123,74316,74417,74613,75718,75788,76155,76253,76293,79150,85697,85753,85797,86745,86797,86843,87039,87093"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\willi\\.gradle\\caches\\transforms-3\\8badf493af3c6ba8853a565887ab5111\\transformed\\jetified-viewpager2-1.0.0\\res\\values\\values.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endLines": "4",
-                        "endColumns": "24",
-                        "endOffsets": "160"
-                    },
-                    "to": {
-                        "startLines": "9747",
-                        "startColumns": "4",
-                        "startOffsets": "576448",
-                        "endLines": "9749",
-                        "endColumns": "24",
-                        "endOffsets": "576553"
-                    }
-                },
-                {
-                    "source": "D:\\Programacion Apps\\TFG_DAM\\app\\src\\main\\res\\values\\colors.xml",
-                    "from": {
-                        "startLines": "7,13,11,10,9,12,2,5,6,3,4,8",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "286,542,455,412,372,501,57,198,242,105,151,329",
-                        "endColumns": "41,43,44,41,38,39,46,42,42,44,45,41",
-                        "endOffsets": "323,581,495,449,406,536,99,236,280,145,192,366"
-                    },
-                    "to": {
-                        "startLines": "495,512,521,565,566,569,601,613,614,617,618,619",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "23896,25077,25792,28806,28848,29022,31108,31927,31970,32134,32179,32225",
-                        "endColumns": "41,43,44,41,38,39,46,42,42,44,45,41",
-                        "endOffsets": "23933,25116,25832,28843,28882,29057,31150,31965,32008,32174,32220,32262"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\willi\\.gradle\\caches\\transforms-3\\24c34d25420869913b3d8e8e08f090d8\\transformed\\jetified-play-services-base-18.0.1\\res\\values\\values.xml",
->>>>>>> df8bfdae4715d0b79d82fa2780db3af2727c89d3
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,33,46",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
