@@ -14,12 +14,21 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/Theme.MisTareas">
+
+
         <activity
+<<<<<<< HEAD
             android:name=".activities.ChatActivity"
             android:exported="false" />
         <activity
+=======
+>>>>>>> df8bfdae4715d0b79d82fa2780db3af2727c89d3
             android:name=".activities.ResetPasswordActivity"
             android:exported="false" />
+        <activity
+            android:name=".activities.ChatActivity"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.NoActionBar"/>
         <activity
             android:name=".activities.FiltersActivity"
             android:exported="false" />
