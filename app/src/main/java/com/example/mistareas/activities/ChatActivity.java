@@ -90,7 +90,7 @@ public class ChatActivity extends AppCompatActivity {
         mExtraIdUser2 = getIntent().getStringExtra("idUser2");
         mExtraIdChat = getIntent().getStringExtra("idChat");
 
-        showCustomToolbar(R.layout.custom_chat_toolbar); 
+        showCustomToolbar(R.layout.custom_chat_toolbar);
 
         mImageViewSendMessage.setOnClickListener(new View.OnClickListener() {
             @Override
