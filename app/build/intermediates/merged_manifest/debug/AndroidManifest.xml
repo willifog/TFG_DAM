@@ -30,7 +30,8 @@
         android:theme="@style/Theme.MisTareas" >
         <activity
             android:name="com.example.mistareas.activities.ChatActivity"
-            android:exported="false" />
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
         <activity
             android:name="com.example.mistareas.activities.FiltersActivity"
             android:exported="false" />

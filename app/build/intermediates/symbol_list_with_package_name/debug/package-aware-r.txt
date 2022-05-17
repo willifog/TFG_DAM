@@ -2031,6 +2031,7 @@ id action_bar_root
 id action_bar_spinner
 id action_bar_subtitle
 id action_bar_title
+id action_bar_toolbar
 id action_container
 id action_context_bar
 id action_divider
@@ -2143,6 +2144,7 @@ id counterclockwise
 id currentState
 id custom
 id customPanel
+id custom_chat_toolbar
 id cut
 id dark
 id date_picker_actions
@@ -2490,7 +2492,6 @@ id textViewNameCategory
 id textViewPhone
 id textViewPhonePost
 id textViewPostNumber
-id textViewRelativeTime
 id textViewTitle
 id textViewTitleMyPost
 id textViewTitlePostCard
@@ -2514,7 +2515,6 @@ id titleDividerNoCustom
 id title_template
 id titulo
 id toggle
-id toolbar
 id top
 id topPanel
 id touch_outside
@@ -3377,6 +3377,7 @@ style Theme_MaterialComponents_Light_NoActionBar_Bridge
 style Theme_MaterialComponents_NoActionBar
 style Theme_MaterialComponents_NoActionBar_Bridge
 style Theme_MisTareas
+style Theme_MisTareas_NoActionBar
 style ThemeOverlay_AppCompat
 style ThemeOverlay_AppCompat_ActionBar
 style ThemeOverlay_AppCompat_Dark

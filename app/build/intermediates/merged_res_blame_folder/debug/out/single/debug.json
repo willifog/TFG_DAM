@@ -44,12 +44,12 @@
         "source": "D:\\Programacion Apps\\TFG_DAM\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.webp"
     },
     {
-        "merged": "D:\\Programacion Apps\\TFG_DAM\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_register.png.flat",
-        "source": "D:\\Programacion Apps\\TFG_DAM\\app\\src\\main\\res\\drawable-mdpi\\register.png"
-    },
-    {
         "merged": "D:\\Programacion Apps\\TFG_DAM\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_edir.xml.flat",
         "source": "D:\\Programacion Apps\\TFG_DAM\\app\\src\\main\\res\\drawable\\ic_edir.xml"
+    },
+    {
+        "merged": "D:\\Programacion Apps\\TFG_DAM\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_register.png.flat",
+        "source": "D:\\Programacion Apps\\TFG_DAM\\app\\src\\main\\res\\drawable-mdpi\\register.png"
     },
     {
         "merged": "D:\\Programacion Apps\\TFG_DAM\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_filters.xml.flat",

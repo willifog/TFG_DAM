@@ -90,7 +90,7 @@ public class ChatActivity extends AppCompatActivity {
         mExtraIdUser2 = getIntent().getStringExtra("idUser2");
         mExtraIdChat = getIntent().getStringExtra("idChat");
 
-        //showCustomToolbar(R.layout.custom_chat_toolbar); //Por alguna razón si se muestra la toolbar, no se abre el chat. Por ahora lo dejo desactivado
+        showCustomToolbar(R.layout.custom_chat_toolbar); 
 
         mImageViewSendMessage.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -167,7 +167,7 @@ public class ChatActivity extends AppCompatActivity {
     }
 
     private void showCustomToolbar(int resource) {
-        Toolbar toolbar = findViewById(R.id.toolbar);
+        Toolbar toolbar = findViewById(R.id.action_bar_toolbar);
         setSupportActionBar(toolbar);
         ActionBar actionBar = getSupportActionBar();
         actionBar.setTitle("");
@@ -178,7 +178,6 @@ public class ChatActivity extends AppCompatActivity {
         actionBar.setCustomView(mActionBarView);
         mCircleImageProfile = mActionBarView.findViewById(R.id.circleImageProfile);
         mTextViewUsername = mActionBarView.findViewById(R.id.textViewUserName);
-        mTextViewRelativeTime = mActionBarView.findViewById(R.id.textViewRelativeTime);
         mImageViewBack = mActionBarView.findViewById(R.id.imageViewBack);
 
         mImageViewBack.setOnClickListener(new View.OnClickListener() {

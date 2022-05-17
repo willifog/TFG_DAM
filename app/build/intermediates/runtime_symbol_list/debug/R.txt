@@ -2030,6 +2030,7 @@ int id action_bar_root 0x7f080037
 int id action_bar_spinner 0x7f080038
 int id action_bar_subtitle 0x7f080039
 int id action_bar_title 0x7f08003a
+int id action_bar_toolbar 0x7f080244
 int id action_container 0x7f08003b
 int id action_context_bar 0x7f08003c
 int id action_divider 0x7f08003d
@@ -2142,6 +2143,7 @@ int id counterclockwise 0x7f0800a7
 int id currentState 0x7f0800a8
 int id custom 0x7f0800a9
 int id customPanel 0x7f0800aa
+int id custom_chat_toolbar 0x7f080245
 int id cut 0x7f0800ab
 int id dark 0x7f0800ac
 int id date_picker_actions 0x7f0800ad
@@ -2489,7 +2491,6 @@ int id textViewNameCategory 0x7f080202
 int id textViewPhone 0x7f080203
 int id textViewPhonePost 0x7f080204
 int id textViewPostNumber 0x7f080205
-int id textViewRelativeTime 0x7f080206
 int id textViewTitle 0x7f080207
 int id textViewTitleMyPost 0x7f080208
 int id textViewTitlePostCard 0x7f080209
@@ -2513,7 +2514,6 @@ int id titleDividerNoCustom 0x7f08021a
 int id title_template 0x7f08021b
 int id titulo 0x7f08021c
 int id toggle 0x7f08021d
-int id toolbar 0x7f08021e
 int id top 0x7f08021f
 int id topPanel 0x7f080220
 int id touch_outside 0x7f080221
@@ -3376,6 +3376,7 @@ int style Theme_MaterialComponents_Light_NoActionBar_Bridge 0x7f1001d5
 int style Theme_MaterialComponents_NoActionBar 0x7f1001d6
 int style Theme_MaterialComponents_NoActionBar_Bridge 0x7f1001d7
 int style Theme_MisTareas 0x7f1001d8
+int style Theme_MisTareas_NoActionBar 0x7f1002da
 int style ThemeOverlay_AppCompat 0x7f1001d9
 int style ThemeOverlay_AppCompat_ActionBar 0x7f1001da
 int style ThemeOverlay_AppCompat_Dark 0x7f1001db
