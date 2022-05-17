@@ -52,7 +52,6 @@ public class ResetPasswordActivity extends AppCompatActivity {
                 }else{
                     Toast.makeText(ResetPasswordActivity.this, "Error al introducir el email", Toast.LENGTH_SHORT).show();
                 }
-
             }
         });
     }
