@@ -126,6 +126,16 @@
         app:rippleColor="@color/white"
         app:strokeColor="@color/verdeClaro" />
 
+    <TextView
+        android:id="@+id/ResetPass"
+        android:onClick="resetPass"
+        style="@style/etiquetas"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="15dp"
+        android:text="He olvidado mi contraseña"
+        android:textColor="@color/white"
+        android:textSize="16dp" />
+
 
 
 </RelativeLayout>

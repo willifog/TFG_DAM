@@ -208,8 +208,17 @@
         "source": "D:\\Programacion Apps\\TFG_DAM\\app\\src\\main\\res\\layout\\activity_post.xml"
     },
     {
+<<<<<<< HEAD
+        "merged": "C:\\Users\\Cesar\\AndroidStudioProjects\\TFG_DAM\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_reset_password.xml.flat",
+        "source": "C:\\Users\\Cesar\\AndroidStudioProjects\\TFG_DAM\\app\\src\\main\\res\\layout\\activity_reset_password.xml"
+    },
+    {
+        "merged": "C:\\Users\\Cesar\\AndroidStudioProjects\\TFG_DAM\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_cena.png.flat",
+        "source": "C:\\Users\\Cesar\\AndroidStudioProjects\\TFG_DAM\\app\\src\\main\\res\\drawable\\ic_cena.png"
+=======
         "merged": "D:\\Programacion Apps\\TFG_DAM\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_edit_profile.xml.flat",
         "source": "D:\\Programacion Apps\\TFG_DAM\\app\\src\\main\\res\\layout\\activity_edit_profile.xml"
+>>>>>>> aef325421b975ebbb557ad7375a0de42d8b3e14d
     },
     {
         "merged": "D:\\Programacion Apps\\TFG_DAM\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_ic_launcher_foreground.xml.flat",

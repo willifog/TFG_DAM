@@ -29,7 +29,11 @@
         android:testOnly="true"
         android:theme="@style/Theme.MisTareas" >
         <activity
+<<<<<<< HEAD
+            android:name="com.example.mistareas.activities.ResetPasswordActivity"
+=======
             android:name="com.example.mistareas.activities.ChatActivity"
+>>>>>>> aef325421b975ebbb557ad7375a0de42d8b3e14d
             android:exported="false" />
         <activity
             android:name="com.example.mistareas.activities.FiltersActivity"

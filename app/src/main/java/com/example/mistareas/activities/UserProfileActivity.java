@@ -1,21 +1,37 @@
 package com.example.mistareas.activities;
 
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
+
 
 import android.content.Intent;
+
 import android.os.Bundle;
+import android.util.AttributeSet;
+import android.view.LayoutInflater;
 import android.view.View;
+import android.view.ViewGroup;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import com.example.mistareas.R;
-import com.example.mistareas.models.User;
+
+import com.example.mistareas.adapters.MyPostsAdapter;
+import com.example.mistareas.models.Post;
+
+
+
 import com.example.mistareas.providers.AuthProvider;
 import com.example.mistareas.providers.PostProvider;
 import com.example.mistareas.providers.UsersProvider;
+import com.firebase.ui.firestore.FirestoreRecyclerOptions;
 import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.firebase.firestore.DocumentSnapshot;
+import com.google.firebase.firestore.Query;
 import com.google.firebase.firestore.QuerySnapshot;
 import com.squareup.picasso.Picasso;
 
@@ -37,7 +53,11 @@ public class UserProfileActivity extends AppCompatActivity {
 
     String mExtraIdUser;
 
+    MyPostsAdapter mAdapter;
+    RecyclerView mRecyclerView;
+
     FloatingActionButton mFabChat;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -49,6 +69,11 @@ public class UserProfileActivity extends AppCompatActivity {
         mTextViewPhone = findViewById(R.id.textViewPhone);
         mTextViewPostNumber = findViewById(R.id.textViewPostNumber);
         mCircleImageProfile = findViewById(R.id.profile_image);
+
+        //Nos mostrará las tarjetas(publicaciones) una debajo de la otra
+        mRecyclerView = findViewById(R.id.reciclerViewMyPost);
+        LinearLayoutManager linearLayoutManager = new LinearLayoutManager(UserProfileActivity.this);
+        mRecyclerView.setLayoutManager(linearLayoutManager);
 
         mLinearLayoutEditProfile = findViewById(R.id.linearLayoutEditProfile);
 
@@ -105,6 +130,31 @@ public class UserProfileActivity extends AppCompatActivity {
                 mTextViewPostNumber.setText(String.valueOf(numeroPost));
             }
         });
+    }
+
+    /**
+     * Metodo para obtener las publicaciones del usuario
+     *
+     */
+    @Override
+    public void onStart() {
+        super.onStart();
+        getUser();
+
+        Query query = mPostProvider.getPostByUser(mExtraIdUser);  //Obtenemos las publicaciones del usuario
+        FirestoreRecyclerOptions<Post> options = new FirestoreRecyclerOptions
+                .Builder<Post>().setQuery(query, Post.class)
+                .build();
+        mAdapter = new MyPostsAdapter(options, UserProfileActivity.this);
+        mRecyclerView.setAdapter(mAdapter);
+        mAdapter.startListening();  //Obtenemos datos en tiempo real.
+    }
+
+    @Override
+    public void onStop() {
+        super.onStop();
+
+        mAdapter.stopListening();
     }
 
 
