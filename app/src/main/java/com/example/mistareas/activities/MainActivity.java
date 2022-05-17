@@ -20,21 +20,32 @@ import com.example.mistareas.fragments.ChatsFragment;
 import com.example.mistareas.fragments.FiltersFragment;
 import com.example.mistareas.fragments.HomeFragment;
 import com.example.mistareas.fragments.ProfileFragment;
+import com.example.mistareas.providers.AuthProvider;
+import com.example.mistareas.providers.TokenProvider;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.android.material.navigation.NavigationBarView;
+
+import java.util.TooManyListenersException;
 
 
 public class MainActivity extends AppCompatActivity{
 
     BottomNavigationView bottomNavigation;
 
+    TokenProvider mTokenProvider;
+    AuthProvider mAuthProvider;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        openFragment(new HomeFragment()); //Indicamos la vista que con la que se inicia el main
 
+        mTokenProvider = new TokenProvider();
+        mAuthProvider = new AuthProvider();
+
+        openFragment(new HomeFragment()); //Indicamos la vista que con la que se inicia el main
+        createToken(); //Crea token de notificaciones al iniciar la aplicación
         bottomNavigation = findViewById(R.id.bottom_navigation);
 
 
@@ -59,6 +70,10 @@ public class MainActivity extends AppCompatActivity{
             }
         });
 
+    }
+
+    private void createToken(){
+        mTokenProvider.create(mAuthProvider.getUid());
     }
 
     public void openFragment(Fragment fragment) {
