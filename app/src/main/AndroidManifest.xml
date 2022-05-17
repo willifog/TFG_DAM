@@ -15,11 +15,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MisTareas">
         <activity
-<<<<<<< HEAD
-            android:name=".activities.ResetPasswordActivity"
-=======
             android:name=".activities.ChatActivity"
->>>>>>> aef325421b975ebbb557ad7375a0de42d8b3e14d
+            android:exported="false" />
+        <activity
+            android:name=".activities.ResetPasswordActivity"
             android:exported="false" />
         <activity
             android:name=".activities.FiltersActivity"
