@@ -32,7 +32,7 @@
                 android:layout_height="wrap_content"
                 android:text="Titulo de la app"
                 android:maxLines="1"
-                android:textColor="@color/white"
+                android:textColor="#2C732F"
                 android:textSize="16dp"/>
 
             <TextView

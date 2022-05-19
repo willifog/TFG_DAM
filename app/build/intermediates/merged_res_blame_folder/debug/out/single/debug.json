@@ -1,11 +1,11 @@
 [
     {
-        "merged": "C:\\Users\\Cesar\\AndroidStudioProjects\\TFG_DAM\\app\\build\\intermediates\\merged_res\\debug\\layout_cardview_chats.xml.flat",
-        "source": "C:\\Users\\Cesar\\AndroidStudioProjects\\TFG_DAM\\app\\src\\main\\res\\layout\\cardview_chats.xml"
-    },
-    {
         "merged": "C:\\Users\\Cesar\\AndroidStudioProjects\\TFG_DAM\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_fondo.jpg.flat",
         "source": "C:\\Users\\Cesar\\AndroidStudioProjects\\TFG_DAM\\app\\src\\main\\res\\mipmap-mdpi\\fondo.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Cesar\\AndroidStudioProjects\\TFG_DAM\\app\\build\\intermediates\\merged_res\\debug\\layout_cardview_chats.xml.flat",
+        "source": "C:\\Users\\Cesar\\AndroidStudioProjects\\TFG_DAM\\app\\src\\main\\res\\layout\\cardview_chats.xml"
     },
     {
         "merged": "C:\\Users\\Cesar\\AndroidStudioProjects\\TFG_DAM\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxxhdpi_ic_user.png.flat",
@@ -28,20 +28,20 @@
         "source": "C:\\Users\\Cesar\\AndroidStudioProjects\\TFG_DAM\\app\\src\\main\\res\\mipmap-mdpi\\icono_app_40.jpg"
     },
     {
-        "merged": "C:\\Users\\Cesar\\AndroidStudioProjects\\TFG_DAM\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_chat.xml.flat",
-        "source": "C:\\Users\\Cesar\\AndroidStudioProjects\\TFG_DAM\\app\\src\\main\\res\\drawable\\ic_chat.xml"
-    },
-    {
         "merged": "C:\\Users\\Cesar\\AndroidStudioProjects\\TFG_DAM\\app\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_icon_check_blue.png.flat",
         "source": "C:\\Users\\Cesar\\AndroidStudioProjects\\TFG_DAM\\app\\src\\main\\res\\drawable-hdpi\\icon_check_blue.png"
     },
     {
-        "merged": "C:\\Users\\Cesar\\AndroidStudioProjects\\TFG_DAM\\app\\build\\intermediates\\merged_res\\debug\\layout_custom_chat_toolbar.xml.flat",
-        "source": "C:\\Users\\Cesar\\AndroidStudioProjects\\TFG_DAM\\app\\src\\main\\res\\layout\\custom_chat_toolbar.xml"
+        "merged": "C:\\Users\\Cesar\\AndroidStudioProjects\\TFG_DAM\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_chat.xml.flat",
+        "source": "C:\\Users\\Cesar\\AndroidStudioProjects\\TFG_DAM\\app\\src\\main\\res\\drawable\\ic_chat.xml"
     },
     {
         "merged": "C:\\Users\\Cesar\\AndroidStudioProjects\\TFG_DAM\\app\\build\\intermediates\\merged_res\\debug\\drawable_gradient.xml.flat",
         "source": "C:\\Users\\Cesar\\AndroidStudioProjects\\TFG_DAM\\app\\src\\main\\res\\drawable\\gradient.xml"
+    },
+    {
+        "merged": "C:\\Users\\Cesar\\AndroidStudioProjects\\TFG_DAM\\app\\build\\intermediates\\merged_res\\debug\\layout_custom_chat_toolbar.xml.flat",
+        "source": "C:\\Users\\Cesar\\AndroidStudioProjects\\TFG_DAM\\app\\src\\main\\res\\layout\\custom_chat_toolbar.xml"
     },
     {
         "merged": "C:\\Users\\Cesar\\AndroidStudioProjects\\TFG_DAM\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
@@ -124,12 +124,12 @@
         "source": "C:\\Users\\Cesar\\AndroidStudioProjects\\TFG_DAM\\app\\src\\main\\res\\drawable\\ic_baseline_arrow_back_24.xml"
     },
     {
-        "merged": "C:\\Users\\Cesar\\AndroidStudioProjects\\TFG_DAM\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxxhdpi_ic_pass.png.flat",
-        "source": "C:\\Users\\Cesar\\AndroidStudioProjects\\TFG_DAM\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_pass.png"
-    },
-    {
         "merged": "C:\\Users\\Cesar\\AndroidStudioProjects\\TFG_DAM\\app\\build\\intermediates\\merged_res\\debug\\drawable_imagen_perfil.png.flat",
         "source": "C:\\Users\\Cesar\\AndroidStudioProjects\\TFG_DAM\\app\\src\\main\\res\\drawable\\imagen_perfil.png"
+    },
+    {
+        "merged": "C:\\Users\\Cesar\\AndroidStudioProjects\\TFG_DAM\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxxhdpi_ic_pass.png.flat",
+        "source": "C:\\Users\\Cesar\\AndroidStudioProjects\\TFG_DAM\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_pass.png"
     },
     {
         "merged": "C:\\Users\\Cesar\\AndroidStudioProjects\\TFG_DAM\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_baseline_fastfood_24.xml.flat",
@@ -140,286 +140,14 @@
         "source": "C:\\Users\\Cesar\\AndroidStudioProjects\\TFG_DAM\\app\\src\\main\\res\\drawable\\ic_filter.xml"
     },
     {
-        "merged": "C:\\Users\\Cesar\\AndroidStudioProjects\\TFG_DAM\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\Cesar\\AndroidStudioProjects\\TFG_DAM\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.webp"
-    },
-    {
         "merged": "C:\\Users\\Cesar\\AndroidStudioProjects\\TFG_DAM\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_dificultad.xml.flat",
         "source": "C:\\Users\\Cesar\\AndroidStudioProjects\\TFG_DAM\\app\\src\\main\\res\\drawable\\ic_dificultad.xml"
     },
     {
-<<<<<<< HEAD
-        "merged": "C:\\Users\\Cesar\\AndroidStudioProjects\\TFG_DAM\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_reset_password.xml.flat",
-        "source": "C:\\Users\\Cesar\\AndroidStudioProjects\\TFG_DAM\\app\\src\\main\\res\\layout\\activity_reset_password.xml"
+        "merged": "C:\\Users\\Cesar\\AndroidStudioProjects\\TFG_DAM\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Cesar\\AndroidStudioProjects\\TFG_DAM\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\Cesar\\AndroidStudioProjects\\TFG_DAM\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_cena.png.flat",
-        "source": "C:\\Users\\Cesar\\AndroidStudioProjects\\TFG_DAM\\app\\src\\main\\res\\drawable\\ic_cena.png"
-    },
-    {
-        "merged": "C:\\Users\\Cesar\\AndroidStudioProjects\\TFG_DAM\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_arrow_back.xml.flat",
-        "source": "C:\\Users\\Cesar\\AndroidStudioProjects\\TFG_DAM\\app\\src\\main\\res\\drawable\\ic_arrow_back.xml"
-    },
-    {
-        "merged": "C:\\Users\\Cesar\\AndroidStudioProjects\\TFG_DAM\\app\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_ic_pass.png.flat",
-        "source": "C:\\Users\\Cesar\\AndroidStudioProjects\\TFG_DAM\\app\\src\\main\\res\\drawable-xhdpi\\ic_pass.png"
-    },
-    {
-        "merged": "C:\\Users\\Cesar\\AndroidStudioProjects\\TFG_DAM\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_delete.xml.flat",
-        "source": "C:\\Users\\Cesar\\AndroidStudioProjects\\TFG_DAM\\app\\src\\main\\res\\drawable\\ic_delete.xml"
-    },
-    {
-        "merged": "C:\\Users\\Cesar\\AndroidStudioProjects\\TFG_DAM\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_login.xml.flat",
-        "source": "C:\\Users\\Cesar\\AndroidStudioProjects\\TFG_DAM\\app\\src\\main\\res\\layout\\activity_login.xml"
-    },
-    {
-        "merged": "C:\\Users\\Cesar\\AndroidStudioProjects\\TFG_DAM\\app\\build\\intermediates\\merged_res\\debug\\xml_file_paths.xml.flat",
-        "source": "C:\\Users\\Cesar\\AndroidStudioProjects\\TFG_DAM\\app\\src\\main\\res\\xml\\file_paths.xml"
-    },
-    {
-        "merged": "C:\\Users\\Cesar\\AndroidStudioProjects\\TFG_DAM\\app\\build\\intermediates\\merged_res\\debug\\drawable_botones.xml.flat",
-        "source": "C:\\Users\\Cesar\\AndroidStudioProjects\\TFG_DAM\\app\\src\\main\\res\\drawable\\botones.xml"
-    },
-    {
-        "merged": "C:\\Users\\Cesar\\AndroidStudioProjects\\TFG_DAM\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_chat.xml.flat",
-        "source": "C:\\Users\\Cesar\\AndroidStudioProjects\\TFG_DAM\\app\\src\\main\\res\\layout\\activity_chat.xml"
-    },
-    {
-        "merged": "C:\\Users\\Cesar\\AndroidStudioProjects\\TFG_DAM\\app\\build\\intermediates\\merged_res\\debug\\anim_animacion3.xml.flat",
-        "source": "C:\\Users\\Cesar\\AndroidStudioProjects\\TFG_DAM\\app\\src\\main\\res\\anim\\animacion3.xml"
-    },
-    {
-        "merged": "C:\\Users\\Cesar\\AndroidStudioProjects\\TFG_DAM\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_desayuno.jpg.flat",
-        "source": "C:\\Users\\Cesar\\AndroidStudioProjects\\TFG_DAM\\app\\src\\main\\res\\drawable\\ic_desayuno.jpg"
-    },
-    {
-        "merged": "C:\\Users\\Cesar\\AndroidStudioProjects\\TFG_DAM\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_logo.png.flat",
-        "source": "C:\\Users\\Cesar\\AndroidStudioProjects\\TFG_DAM\\app\\src\\main\\res\\mipmap-mdpi\\logo.png"
-    },
-    {
-        "merged": "C:\\Users\\Cesar\\AndroidStudioProjects\\TFG_DAM\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_edit_profile.xml.flat",
-        "source": "C:\\Users\\Cesar\\AndroidStudioProjects\\TFG_DAM\\app\\src\\main\\res\\layout\\activity_edit_profile.xml"
-    },
-    {
-        "merged": "C:\\Users\\Cesar\\AndroidStudioProjects\\TFG_DAM\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_phone.xml.flat",
-        "source": "C:\\Users\\Cesar\\AndroidStudioProjects\\TFG_DAM\\app\\src\\main\\res\\drawable\\ic_phone.xml"
-    },
-    {
-        "merged": "C:\\Users\\Cesar\\AndroidStudioProjects\\TFG_DAM\\app\\build\\intermediates\\merged_res\\debug\\layout_cardview_my_post.xml.flat",
-        "source": "C:\\Users\\Cesar\\AndroidStudioProjects\\TFG_DAM\\app\\src\\main\\res\\layout\\cardview_my_post.xml"
-    },
-    {
-        "merged": "C:\\Users\\Cesar\\AndroidStudioProjects\\TFG_DAM\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_icon_check_grey.png.flat",
-        "source": "C:\\Users\\Cesar\\AndroidStudioProjects\\TFG_DAM\\app\\src\\main\\res\\drawable-xxhdpi\\icon_check_grey.png"
-    },
-    {
-        "merged": "C:\\Users\\Cesar\\AndroidStudioProjects\\TFG_DAM\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_padding_send.png.flat",
-        "source": "C:\\Users\\Cesar\\AndroidStudioProjects\\TFG_DAM\\app\\src\\main\\res\\mipmap-hdpi\\ic_padding_send.png"
-    },
-    {
-        "merged": "C:\\Users\\Cesar\\AndroidStudioProjects\\TFG_DAM\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_secure.png.flat",
-        "source": "C:\\Users\\Cesar\\AndroidStudioProjects\\TFG_DAM\\app\\src\\main\\res\\mipmap-mdpi\\secure.png"
-    },
-    {
-        "merged": "C:\\Users\\Cesar\\AndroidStudioProjects\\TFG_DAM\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\Cesar\\AndroidStudioProjects\\TFG_DAM\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.webp"
-    },
-    {
-        "merged": "C:\\Users\\Cesar\\AndroidStudioProjects\\TFG_DAM\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_user_profile.xml.flat",
-        "source": "C:\\Users\\Cesar\\AndroidStudioProjects\\TFG_DAM\\app\\src\\main\\res\\layout\\activity_user_profile.xml"
-    },
-    {
-        "merged": "C:\\Users\\Cesar\\AndroidStudioProjects\\TFG_DAM\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\Cesar\\AndroidStudioProjects\\TFG_DAM\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.webp"
-    },
-    {
-        "merged": "C:\\Users\\Cesar\\AndroidStudioProjects\\TFG_DAM\\app\\build\\intermediates\\merged_res\\debug\\menu_bottom_navigation_menu.xml.flat",
-        "source": "C:\\Users\\Cesar\\AndroidStudioProjects\\TFG_DAM\\app\\src\\main\\res\\menu\\bottom_navigation_menu.xml"
-    },
-    {
-        "merged": "C:\\Users\\Cesar\\AndroidStudioProjects\\TFG_DAM\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_person.xml.flat",
-        "source": "C:\\Users\\Cesar\\AndroidStudioProjects\\TFG_DAM\\app\\src\\main\\res\\drawable\\ic_person.xml"
-    },
-    {
-        "merged": "C:\\Users\\Cesar\\AndroidStudioProjects\\TFG_DAM\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_back.png.flat",
-        "source": "C:\\Users\\Cesar\\AndroidStudioProjects\\TFG_DAM\\app\\src\\main\\res\\mipmap-mdpi\\back.png"
-    },
-    {
-        "merged": "C:\\Users\\Cesar\\AndroidStudioProjects\\TFG_DAM\\app\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_ic_pass.png.flat",
-        "source": "C:\\Users\\Cesar\\AndroidStudioProjects\\TFG_DAM\\app\\src\\main\\res\\drawable-hdpi\\ic_pass.png"
-    },
-    {
-        "merged": "C:\\Users\\Cesar\\AndroidStudioProjects\\TFG_DAM\\app\\build\\intermediates\\merged_res\\debug\\drawable_rounded_linear_layout_2.xml.flat",
-        "source": "C:\\Users\\Cesar\\AndroidStudioProjects\\TFG_DAM\\app\\src\\main\\res\\drawable\\rounded_linear_layout_2.xml"
-    },
-    {
-        "merged": "C:\\Users\\Cesar\\AndroidStudioProjects\\TFG_DAM\\app\\build\\intermediates\\merged_res\\debug\\layout_cardview_post.xml.flat",
-        "source": "C:\\Users\\Cesar\\AndroidStudioProjects\\TFG_DAM\\app\\src\\main\\res\\layout\\cardview_post.xml"
-    },
-    {
-        "merged": "C:\\Users\\Cesar\\AndroidStudioProjects\\TFG_DAM\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_bird.png.flat",
-        "source": "C:\\Users\\Cesar\\AndroidStudioProjects\\TFG_DAM\\app\\src\\main\\res\\mipmap-mdpi\\bird.png"
-    },
-    {
-        "merged": "C:\\Users\\Cesar\\AndroidStudioProjects\\TFG_DAM\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_description.xml.flat",
-        "source": "C:\\Users\\Cesar\\AndroidStudioProjects\\TFG_DAM\\app\\src\\main\\res\\drawable\\ic_description.xml"
-    },
-    {
-        "merged": "C:\\Users\\Cesar\\AndroidStudioProjects\\TFG_DAM\\app\\build\\intermediates\\merged_res\\debug\\layout_action_bar_toolbar.xml.flat",
-        "source": "C:\\Users\\Cesar\\AndroidStudioProjects\\TFG_DAM\\app\\src\\main\\res\\layout\\action_bar_toolbar.xml"
-    },
-    {
-        "merged": "C:\\Users\\Cesar\\AndroidStudioProjects\\TFG_DAM\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_register.png.flat",
-        "source": "C:\\Users\\Cesar\\AndroidStudioProjects\\TFG_DAM\\app\\src\\main\\res\\drawable-mdpi\\register.png"
-    },
-    {
-        "merged": "C:\\Users\\Cesar\\AndroidStudioProjects\\TFG_DAM\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_padding_send.png.flat",
-        "source": "C:\\Users\\Cesar\\AndroidStudioProjects\\TFG_DAM\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_padding_send.png"
-    },
-    {
-        "merged": "C:\\Users\\Cesar\\AndroidStudioProjects\\TFG_DAM\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_chats.xml.flat",
-        "source": "C:\\Users\\Cesar\\AndroidStudioProjects\\TFG_DAM\\app\\src\\main\\res\\layout\\fragment_chats.xml"
-    },
-    {
-        "merged": "C:\\Users\\Cesar\\AndroidStudioProjects\\TFG_DAM\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_register.xml.flat",
-        "source": "C:\\Users\\Cesar\\AndroidStudioProjects\\TFG_DAM\\app\\src\\main\\res\\layout\\activity_register.xml"
-    },
-    {
-        "merged": "C:\\Users\\Cesar\\AndroidStudioProjects\\TFG_DAM\\app\\build\\intermediates\\merged_res\\debug\\menu_main_menu.xml.flat",
-        "source": "C:\\Users\\Cesar\\AndroidStudioProjects\\TFG_DAM\\app\\src\\main\\res\\menu\\main_menu.xml"
-    },
-    {
-        "merged": "C:\\Users\\Cesar\\AndroidStudioProjects\\TFG_DAM\\app\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_icon_check_grey.png.flat",
-        "source": "C:\\Users\\Cesar\\AndroidStudioProjects\\TFG_DAM\\app\\src\\main\\res\\drawable-xhdpi\\icon_check_grey.png"
-    },
-    {
-        "merged": "C:\\Users\\Cesar\\AndroidStudioProjects\\TFG_DAM\\app\\build\\intermediates\\merged_res\\debug\\layout_cardview_message.xml.flat",
-        "source": "C:\\Users\\Cesar\\AndroidStudioProjects\\TFG_DAM\\app\\src\\main\\res\\layout\\cardview_message.xml"
-    },
-    {
-        "merged": "C:\\Users\\Cesar\\AndroidStudioProjects\\TFG_DAM\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\Cesar\\AndroidStudioProjects\\TFG_DAM\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.webp"
-    },
-    {
-        "merged": "C:\\Users\\Cesar\\AndroidStudioProjects\\TFG_DAM\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_baseline_email_24.xml.flat",
-        "source": "C:\\Users\\Cesar\\AndroidStudioProjects\\TFG_DAM\\app\\src\\main\\res\\drawable\\ic_baseline_email_24.xml"
-    },
-    {
-        "merged": "C:\\Users\\Cesar\\AndroidStudioProjects\\TFG_DAM\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_splash.jpg.flat",
-        "source": "C:\\Users\\Cesar\\AndroidStudioProjects\\TFG_DAM\\app\\src\\main\\res\\mipmap-mdpi\\splash.jpg"
-    },
-    {
-        "merged": "C:\\Users\\Cesar\\AndroidStudioProjects\\TFG_DAM\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_pass_login.xml.flat",
-        "source": "C:\\Users\\Cesar\\AndroidStudioProjects\\TFG_DAM\\app\\src\\main\\res\\drawable\\ic_pass_login.xml"
-    },
-    {
-        "merged": "C:\\Users\\Cesar\\AndroidStudioProjects\\TFG_DAM\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_launcher_background.xml.flat",
-        "source": "C:\\Users\\Cesar\\AndroidStudioProjects\\TFG_DAM\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
-    },
-    {
-        "merged": "C:\\Users\\Cesar\\AndroidStudioProjects\\TFG_DAM\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_icon_check_blue.png.flat",
-        "source": "C:\\Users\\Cesar\\AndroidStudioProjects\\TFG_DAM\\app\\src\\main\\res\\drawable-mdpi\\icon_check_blue.png"
-    },
-    {
-        "merged": "C:\\Users\\Cesar\\AndroidStudioProjects\\TFG_DAM\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_main.xml.flat",
-        "source": "C:\\Users\\Cesar\\AndroidStudioProjects\\TFG_DAM\\app\\src\\main\\res\\layout\\activity_main.xml"
-    },
-    {
-        "merged": "C:\\Users\\Cesar\\AndroidStudioProjects\\TFG_DAM\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_person_login.xml.flat",
-        "source": "C:\\Users\\Cesar\\AndroidStudioProjects\\TFG_DAM\\app\\src\\main\\res\\drawable\\ic_person_login.xml"
-    },
-    {
-        "merged": "C:\\Users\\Cesar\\AndroidStudioProjects\\TFG_DAM\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_ic_pass.png.flat",
-        "source": "C:\\Users\\Cesar\\AndroidStudioProjects\\TFG_DAM\\app\\src\\main\\res\\drawable-xxhdpi\\ic_pass.png"
-    },
-    {
-        "merged": "C:\\Users\\Cesar\\AndroidStudioProjects\\TFG_DAM\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\Cesar\\AndroidStudioProjects\\TFG_DAM\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.webp"
-    },
-    {
-        "merged": "C:\\Users\\Cesar\\AndroidStudioProjects\\TFG_DAM\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_icon_edit.png.flat",
-        "source": "C:\\Users\\Cesar\\AndroidStudioProjects\\TFG_DAM\\app\\src\\main\\res\\mipmap-mdpi\\icon_edit.png"
-    },
-    {
-        "merged": "C:\\Users\\Cesar\\AndroidStudioProjects\\TFG_DAM\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_edir.xml.flat",
-        "source": "C:\\Users\\Cesar\\AndroidStudioProjects\\TFG_DAM\\app\\src\\main\\res\\drawable\\ic_edir.xml"
-    },
-    {
-        "merged": "C:\\Users\\Cesar\\AndroidStudioProjects\\TFG_DAM\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_profile.xml.flat",
-        "source": "C:\\Users\\Cesar\\AndroidStudioProjects\\TFG_DAM\\app\\src\\main\\res\\layout\\fragment_profile.xml"
-    },
-    {
-        "merged": "C:\\Users\\Cesar\\AndroidStudioProjects\\TFG_DAM\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_ic_user.png.flat",
-        "source": "C:\\Users\\Cesar\\AndroidStudioProjects\\TFG_DAM\\app\\src\\main\\res\\drawable-mdpi\\ic_user.png"
-    },
-    {
-        "merged": "C:\\Users\\Cesar\\AndroidStudioProjects\\TFG_DAM\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_post_detail.xml.flat",
-        "source": "C:\\Users\\Cesar\\AndroidStudioProjects\\TFG_DAM\\app\\src\\main\\res\\layout\\activity_post_detail.xml"
-    },
-    {
-        "merged": "C:\\Users\\Cesar\\AndroidStudioProjects\\TFG_DAM\\app\\build\\intermediates\\merged_res\\debug\\layout_cardview_comment.xml.flat",
-        "source": "C:\\Users\\Cesar\\AndroidStudioProjects\\TFG_DAM\\app\\src\\main\\res\\layout\\cardview_comment.xml"
-    },
-    {
-        "merged": "C:\\Users\\Cesar\\AndroidStudioProjects\\TFG_DAM\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\Cesar\\AndroidStudioProjects\\TFG_DAM\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.webp"
-    },
-    {
-        "merged": "C:\\Users\\Cesar\\AndroidStudioProjects\\TFG_DAM\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_padding_send.png.flat",
-        "source": "C:\\Users\\Cesar\\AndroidStudioProjects\\TFG_DAM\\app\\src\\main\\res\\mipmap-mdpi\\ic_padding_send.png"
-    },
-    {
-        "merged": "C:\\Users\\Cesar\\AndroidStudioProjects\\TFG_DAM\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_padding_send.png.flat",
-        "source": "C:\\Users\\Cesar\\AndroidStudioProjects\\TFG_DAM\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_padding_send.png"
-    },
-    {
-        "merged": "C:\\Users\\Cesar\\AndroidStudioProjects\\TFG_DAM\\app\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_icon_check_blue.png.flat",
-        "source": "C:\\Users\\Cesar\\AndroidStudioProjects\\TFG_DAM\\app\\src\\main\\res\\drawable-xhdpi\\icon_check_blue.png"
-    },
-    {
-        "merged": "C:\\Users\\Cesar\\AndroidStudioProjects\\TFG_DAM\\app\\build\\intermediates\\merged_res\\debug\\drawable_rounded_linear_layout.xml.flat",
-        "source": "C:\\Users\\Cesar\\AndroidStudioProjects\\TFG_DAM\\app\\src\\main\\res\\drawable\\rounded_linear_layout.xml"
-    },
-    {
-        "merged": "C:\\Users\\Cesar\\AndroidStudioProjects\\TFG_DAM\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_home.xml.flat",
-        "source": "C:\\Users\\Cesar\\AndroidStudioProjects\\TFG_DAM\\app\\src\\main\\res\\layout\\fragment_home.xml"
-    },
-    {
-        "merged": "C:\\Users\\Cesar\\AndroidStudioProjects\\TFG_DAM\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_ic_launcher_foreground.xml.flat",
-        "source": "C:\\Users\\Cesar\\AndroidStudioProjects\\TFG_DAM\\app\\src\\main\\res\\drawable-v24\\ic_launcher_foreground.xml"
-    },
-    {
-        "merged": "C:\\Users\\Cesar\\AndroidStudioProjects\\TFG_DAM\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_filters.xml.flat",
-        "source": "C:\\Users\\Cesar\\AndroidStudioProjects\\TFG_DAM\\app\\src\\main\\res\\layout\\fragment_filters.xml"
-    },
-    {
-        "merged": "C:\\Users\\Cesar\\AndroidStudioProjects\\TFG_DAM\\app\\build\\intermediates\\merged_res\\debug\\anim_animacion.xml.flat",
-        "source": "C:\\Users\\Cesar\\AndroidStudioProjects\\TFG_DAM\\app\\src\\main\\res\\anim\\animacion.xml"
-    },
-    {
-        "merged": "C:\\Users\\Cesar\\AndroidStudioProjects\\TFG_DAM\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_comida.png.flat",
-        "source": "C:\\Users\\Cesar\\AndroidStudioProjects\\TFG_DAM\\app\\src\\main\\res\\drawable\\ic_comida.png"
-    },
-    {
-        "merged": "C:\\Users\\Cesar\\AndroidStudioProjects\\TFG_DAM\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\Cesar\\AndroidStudioProjects\\TFG_DAM\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.webp"
-    },
-    {
-        "merged": "C:\\Users\\Cesar\\AndroidStudioProjects\\TFG_DAM\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_icon_check_blue.png.flat",
-        "source": "C:\\Users\\Cesar\\AndroidStudioProjects\\TFG_DAM\\app\\src\\main\\res\\drawable-xxhdpi\\icon_check_blue.png"
-    },
-    {
-        "merged": "C:\\Users\\Cesar\\AndroidStudioProjects\\TFG_DAM\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_splash.xml.flat",
-        "source": "C:\\Users\\Cesar\\AndroidStudioProjects\\TFG_DAM\\app\\src\\main\\res\\layout\\activity_splash.xml"
-    },
-    {
-        "merged": "C:\\Users\\Cesar\\AndroidStudioProjects\\TFG_DAM\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "C:\\Users\\Cesar\\AndroidStudioProjects\\TFG_DAM\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
-    },
-    {
-        "merged": "C:\\Users\\Cesar\\AndroidStudioProjects\\TFG_DAM\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_ic_user.png.flat",
-        "source": "C:\\Users\\Cesar\\AndroidStudioProjects\\TFG_DAM\\app\\src\\main\\res\\drawable-xxhdpi\\ic_user.png"
-=======
         "merged": "C:\\Users\\Cesar\\AndroidStudioProjects\\TFG_DAM\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_americana.jpg.flat",
         "source": "C:\\Users\\Cesar\\AndroidStudioProjects\\TFG_DAM\\app\\src\\main\\res\\drawable\\ic_americana.jpg"
     },
@@ -702,6 +430,5 @@
     {
         "merged": "C:\\Users\\Cesar\\AndroidStudioProjects\\TFG_DAM\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_china.jpg.flat",
         "source": "C:\\Users\\Cesar\\AndroidStudioProjects\\TFG_DAM\\app\\src\\main\\res\\drawable\\ic_china.jpg"
->>>>>>> cesar
     }
 ]
