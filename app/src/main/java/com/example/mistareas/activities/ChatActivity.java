@@ -98,7 +98,6 @@ public class ChatActivity extends AppCompatActivity {
                 sendMessage();
             }
         });
-
         checkIfChatExists();
     }
 
@@ -117,6 +116,7 @@ public class ChatActivity extends AppCompatActivity {
         mAdapter.stopListening();
     }
 
+    //Obtiene los mensaje de la base de datos
     private void getMessageChat(){
         Query query = mMessageProvider.getMessageByChat(mExtraIdChat);
         FirestoreRecyclerOptions<Message> options =
@@ -134,6 +134,7 @@ public class ChatActivity extends AppCompatActivity {
                 int nMessages = mAdapter.getItemCount();
                 int lastMessagePosition = mLinearLayoutManager.findLastCompletelyVisibleItemPosition();
 
+                //Siempre abre el chat en el último mensaje
                 if(lastMessagePosition == -1 || (positionStart >= (nMessages -1) && lastMessagePosition == (positionStart - 1))){
                     mRecyclerViewMessage.scrollToPosition(positionStart);
                 }
@@ -141,6 +142,7 @@ public class ChatActivity extends AppCompatActivity {
         });
     }
 
+    //Envía un mensaje a la base de datos y actualiza el chat en tiempo real
     private void sendMessage() {
         String textMessage = mEditTextMessage.getText().toString();
         if(!textMessage.isEmpty()){
@@ -166,6 +168,7 @@ public class ChatActivity extends AppCompatActivity {
         }
     }
 
+    //Método para mostrar una toolbar personalizada que nos indique con quién estamos chateando
     private void showCustomToolbar(int resource) {
         Toolbar toolbar = findViewById(R.id.action_bar_toolbar);
         setSupportActionBar(toolbar);
@@ -191,6 +194,7 @@ public class ChatActivity extends AppCompatActivity {
 
     }
 
+    //Nos permite recopilar la información (nombre y foto de perfil) de la persona con la que estamos chateando
     private void getUserInfo() {
         String idUserInfo = "";
         if (mAuthProvider.getUid().equals(mExtraIdUser1)){
@@ -219,6 +223,7 @@ public class ChatActivity extends AppCompatActivity {
         });
     }
 
+    //Comprueba si ya existe un chat creado con el usuario. Si lo hay, lo abre y recoge todos los mensajes de la base de datos. Si no lo hay, crea uno nuevo.
     private void checkIfChatExists(){
         mChatsProvider.getChatbyUser1AndUser2(mExtraIdUser1, mExtraIdUser2).get().addOnSuccessListener(new OnSuccessListener<QuerySnapshot>() {
             @Override
@@ -235,6 +240,7 @@ public class ChatActivity extends AppCompatActivity {
         });
     }
 
+    //Comprueba si un mensaje ha sido visto
     private void updateViewed() {
         String idSender = "";
 
@@ -255,6 +261,8 @@ public class ChatActivity extends AppCompatActivity {
 
     }
 
+    //Crea un nuevo chat entre dos usuariuos si no existe aún en la base de datos. La ID de un chat es la concatenación
+    // de las ids de los dos usuarios que lo comparten.
     private void createChat() {
         Chat chat = new Chat();
         chat.setIdUser1(mExtraIdUser1);

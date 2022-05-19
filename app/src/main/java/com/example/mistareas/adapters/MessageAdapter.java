@@ -48,6 +48,8 @@ public class MessageAdapter extends FirestoreRecyclerAdapter<Message, MessageAda
         final String messageId = document.getId();
        holder.textViewMessage.setText(message.getMessage());
 
+       /*Con esto colocamos los mensajes a la izquierda o a la derecha y pintamos el bocadillo del mensaje de un color u otro
+       en función de quién envía y quién recibe el mensaje*/
         if(message.getIdSender().equals(mAuthProvider.getUid())){
             RelativeLayout.LayoutParams params = new RelativeLayout.LayoutParams(
                     RelativeLayout.LayoutParams.WRAP_CONTENT,
@@ -73,6 +75,7 @@ public class MessageAdapter extends FirestoreRecyclerAdapter<Message, MessageAda
             holder.imageViewViewed.setVisibility(View.INVISIBLE);
         }
 
+        //Cambia los ticks de gris a azul si el otro usuario ha visto el mensaje
         if(message.isViewed()){
             holder.imageViewViewed.setImageResource(R.drawable.icon_check_blue);
         }else{
