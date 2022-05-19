@@ -41,7 +41,6 @@ public class ChatsAdapter extends FirestoreRecyclerAdapter<Chat, ChatsAdapter.Vi
 
     @Override
     protected void onBindViewHolder(@NonNull ViewHolder holder, int position, @NonNull Chat chat) {
-
         DocumentSnapshot document = getSnapshots().getSnapshot(position);  //Obtenemos el documento con la info de la publicacion
         final String chatId = document.getId();
         if(mAuthProvider.getUid().equals(chat.getIdUser1())){
@@ -56,9 +55,10 @@ public class ChatsAdapter extends FirestoreRecyclerAdapter<Chat, ChatsAdapter.Vi
                 goToChatActivity(chatId, chat.getIdUser1(), chat.getIdUser2());
             }
         });
-        //getUserInfo(chatId, holder);
     }
 
+    //Utilizando los ids del chat y los usuarios, podemos abrir un chat que posteriormente recopile todos los mensajes en la base de datos que pertenezcan
+    //a dicho chat/usuarios
     private void goToChatActivity(String chatId, String idUser1, String idUser2) {
         Intent intent = new Intent(context, ChatActivity.class);
         intent.putExtra("idChat", chatId);
@@ -67,6 +67,7 @@ public class ChatsAdapter extends FirestoreRecyclerAdapter<Chat, ChatsAdapter.Vi
         context.startActivity(intent);
 
     }
+
 
     private void getUserInfo(String idUser, ViewHolder holder){
         mUsersProvider.getUser(idUser).addOnSuccessListener(new OnSuccessListener<DocumentSnapshot>() {

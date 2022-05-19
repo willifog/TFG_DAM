@@ -30,6 +30,7 @@
         android:layout_height="wrap_content"
         android:layout_toRightOf="@id/circleImageProfile"
         android:maxLines="1"
+        android:paddingTop="8dp"
         android:text="Nombre usuario"
         android:textColor="@color/white"
         android:textSize="18dp" />
