@@ -25,9 +25,9 @@ public class SplashActivity extends AppCompatActivity implements Animation.Anima
     //Ocultamos la brra suberior que sale por defecto.
     getSupportActionBar().hide();
 
-        ImageView bird2 = (ImageView) findViewById(R.id.bird2);
+        ImageView logoApp = (ImageView) findViewById(R.id.logo);
         Animation anim3 = AnimationUtils.loadAnimation(this,R.anim.animacion3);
-        bird2.startAnimation(anim3);
+        logoApp.startAnimation(anim3);
 
 
 

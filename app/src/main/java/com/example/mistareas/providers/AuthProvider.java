@@ -13,14 +13,32 @@ public class AuthProvider {
         mAuth = FirebaseAuth.getInstance();
     }
 
+    /**
+     * Metodo para añadir un nuevo usuario a la base de datos
+     *
+     * @param email email introducido por el usuario
+     * @param password contraseña introducida por usuario
+     *
+     * @return retorna una tarea(se controla con el metodo que la llama)
+     */
     public Task<AuthResult> register(String email, String password){
         return  mAuth.createUserWithEmailAndPassword(email,password);
     }
+
+    /**
+     * Metodo que permite el acceso a la aplicacion si existen las credenciales en la bbdd
+     * @param email correo electronico del usuario
+     * @param password contraseña a introducir por el usuario
+     * @return acceso a la app
+     */
     public Task<AuthResult> login(String email, String password){
        return mAuth.signInWithEmailAndPassword(email,password);
     }
 
-    //Buscar el Id del Usuario
+    /**
+     * Metodo que obtiene el id del usuario
+     * @return ID del usuario actual
+     */
     public String getUid(){
         if(mAuth.getCurrentUser() != null){
             return mAuth.getCurrentUser().getUid();
@@ -29,6 +47,10 @@ public class AuthProvider {
         }
     }
 
+    /**
+     * Metodo que permite mantener la sesion iniciada
+     * @return sesion del usuario
+     */
     public FirebaseUser getUserSession(){
         if(mAuth.getCurrentUser() != null){
             return mAuth.getCurrentUser();
@@ -46,6 +68,9 @@ public class AuthProvider {
         }
     }
 
+    /**
+     * metodo que cierra la sesion del usuario
+     */
     public void logOut(){
         if(mAuth != null){
             mAuth.signOut();

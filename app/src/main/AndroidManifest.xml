@@ -18,7 +18,8 @@
 
         <activity
             android:name=".activities.ResetPasswordActivity"
-            android:exported="false" />
+            android:exported="false"
+            android:parentActivityName=".activities.LoginActivity"/>
         <activity
             android:name=".activities.ChatActivity"
             android:exported="false"
@@ -32,17 +33,6 @@
         <activity
             android:name=".activities.PostDetailActivity"
             android:exported="false" />
-
-        <provider
-            android:name="androidx.core.content.FileProvider"
-            android:authorities="com.example.mistareas"
-            android:exported="false"
-            android:grantUriPermissions="true">
-            <meta-data
-                android:name="android.support.FILE_PROVIDER_PATHS"
-                android:resource="@xml/file_paths" />
-        </provider>
-
         <activity
             android:name=".activities.EditProfileActivity"
             android:exported="false" />
@@ -69,6 +59,16 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.example.mistareas"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
 
         <service
             android:name=".services.MyFirebaseMessagingClient"

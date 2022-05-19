@@ -49,6 +49,7 @@ public class MainActivity extends AppCompatActivity{
         bottomNavigation = findViewById(R.id.bottom_navigation);
 
 
+        //Opciones para la barra de navegacion inferior
         bottomNavigation.setOnItemSelectedListener(new NavigationBarView.OnItemSelectedListener() {
             @Override
             public boolean onNavigationItemSelected(@NonNull MenuItem item) {
@@ -76,6 +77,11 @@ public class MainActivity extends AppCompatActivity{
         mTokenProvider.create(mAuthProvider.getUid());
     }
 
+    /**
+     * Metodo que nos permite cambiar de fragment
+     *
+     * @param fragment activity a la que vamos a cambiar
+     */
     public void openFragment(Fragment fragment) {
         FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
         transaction.replace(R.id.container, fragment);

@@ -23,7 +23,6 @@ import com.example.mistareas.adapters.MyPostsAdapter;
 import com.example.mistareas.models.Post;
 
 
-
 import com.example.mistareas.providers.AuthProvider;
 import com.example.mistareas.providers.PostProvider;
 import com.example.mistareas.providers.UsersProvider;
@@ -70,7 +69,7 @@ public class UserProfileActivity extends AppCompatActivity {
         mTextViewPostNumber = findViewById(R.id.textViewPostNumber);
         mCircleImageProfile = findViewById(R.id.profile_image);
 
-        //Nos mostrará las tarjetas(publicaciones) una debajo de la otra
+        //Nos mostrará las tarjetas(posts) una debajo de la otra
         mRecyclerView = findViewById(R.id.reciclerViewMyPost);
         LinearLayoutManager linearLayoutManager = new LinearLayoutManager(UserProfileActivity.this);
         mRecyclerView.setLayoutManager(linearLayoutManager);
@@ -91,6 +90,7 @@ public class UserProfileActivity extends AppCompatActivity {
         mAuthProvider = new AuthProvider();
         mPostProvider = new PostProvider();
 
+        //Id del usuario del perfil que accedemos
         mExtraIdUser = getIntent().getStringExtra("idUser");
 
         mFabChat = findViewById(R.id.fabChat);
@@ -99,6 +99,7 @@ public class UserProfileActivity extends AppCompatActivity {
             mFabChat.setVisibility(View.GONE);
         }
 
+        //Boton para iniciar conversacion
         mFabChat.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -110,10 +111,14 @@ public class UserProfileActivity extends AppCompatActivity {
         getPostNumber();
     }
 
+    /**
+     * Metodo que  incia una nueva activity pasandole los id de los usuarios que comenzaran la conversacion.
+     *
+     */
     private void goToChatActivity() {
         Intent intent = new Intent(UserProfileActivity.this, ChatActivity.class);
-        intent.putExtra("idUser1", mAuthProvider.getUid());
-        intent.putExtra("idUser2", mExtraIdUser);
+        intent.putExtra("idUser1", mAuthProvider.getUid());  //ID del usuario que comienza la conversacion.
+        intent.putExtra("idUser2", mExtraIdUser); // ID del usuario del perfil
         startActivity(intent);
     }
 
@@ -157,7 +162,17 @@ public class UserProfileActivity extends AppCompatActivity {
         mAdapter.stopListening();
     }
 
-
+    /**
+     * Metodo con el que obtenemos los datos del perfil de usuario que se va a visitar.
+     *
+     * Nos apoyamos en UsersProvider y le pasamos el id del usuario al que queremos realizar la consulta.
+     *
+     * Las peticiones a la bbdd se hacen mediante la clase DocumentSnapshot la cual tiene varios
+     * metodos para hacer las consultas.
+     *
+     * .contains() utilizado para buscar el campo de cada documento
+     * .getString() obtenemos el contenido de el campo indicado
+     */
     private void getUser(){
         mUsersProvider.getUser(mExtraIdUser).addOnSuccessListener(new OnSuccessListener<DocumentSnapshot>() {
             @Override

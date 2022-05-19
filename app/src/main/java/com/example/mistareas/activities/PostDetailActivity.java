@@ -120,7 +120,7 @@ public class PostDetailActivity extends AppCompatActivity {
             }
         });
 
-        //Metodo el cual nos permite volver atras
+        //Boton de retroceso
         mCircleImageViewBack = findViewById(R.id.circleImageBack);
         mCircleImageViewBack.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -129,7 +129,9 @@ public class PostDetailActivity extends AppCompatActivity {
             }
         });
 
+
         getPost();
+
 
         mButtonShowProfile.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -143,7 +145,8 @@ public class PostDetailActivity extends AppCompatActivity {
     protected void onStart() {
         super.onStart();
 
-        Query query = mCommentProvider.getCommentByPost(mExtraPostId);       //obtenemos datos de firestore
+        //Obenemos los comentarios  pasandole el id del post en el que estamos.
+        Query query = mCommentProvider.getCommentByPost(mExtraPostId);
         FirestoreRecyclerOptions<Comment> options = new FirestoreRecyclerOptions
                 .Builder<Comment>().setQuery(query, Comment.class)
                 .build();
@@ -184,6 +187,11 @@ public class PostDetailActivity extends AppCompatActivity {
         dialog.show();
     }
 
+    /**
+     * Metodo utilizado para crear un nuevo objeto comentario
+     *
+     * @param comentario String introducido por usuario desde un DialogInterface
+     */
     private void createComment(final String comentario) {
         Comment comment = new Comment();
         comment.setComment(comentario);
@@ -232,10 +240,8 @@ public class PostDetailActivity extends AppCompatActivity {
                                     Toast.makeText(PostDetailActivity.this, "La notificación no se pudo enviar",Toast.LENGTH_SHORT).show();
                                 }
                             }
-
                             @Override
                             public void onFailure(Call<FCMResponse> call, Throwable t) {
-
                             }
                         });
                     }
@@ -263,7 +269,13 @@ public class PostDetailActivity extends AppCompatActivity {
 
     }
 
-    //Obtenemos la imagen desde el documento
+    /**
+     * Metodo utilizado para obtener la informacion de la publicacion.
+     *
+     * Nos apoyamos en la clase PostProvider para acceder a los datos mediante el id.
+     *
+     * Para hacer la consulta utilizamos la clase DocumentSnapshot y sus metodos.
+     */
     private void getPost(){
 
         mPostProvider.getPostById(mExtraPostId).addOnSuccessListener(new OnSuccessListener<DocumentSnapshot>() {  //Obtenemos la publicacion del user
@@ -300,6 +312,11 @@ public class PostDetailActivity extends AppCompatActivity {
         });
     }
 
+    /**
+     * Metodo utilizado para obtener los datos del usuario que ha creado la publicacion.
+     *
+     * @param idUser ID del usuario del que queremos obtener los datos.
+     */
     private void getUserInfo(String idUser) {
 
         //Consultamos los datos del usuario

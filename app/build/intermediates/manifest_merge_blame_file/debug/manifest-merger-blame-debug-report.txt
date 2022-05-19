@@ -51,6 +51,7 @@
 30        android:theme="@style/Theme.MisTareas" >
 30-->C:\Users\Cesar\AndroidStudioProjects\TFG_DAM\app\src\main\AndroidManifest.xml:16:9-47
 31        <activity
+<<<<<<< HEAD
 31-->C:\Users\Cesar\AndroidStudioProjects\TFG_DAM\app\src\main\AndroidManifest.xml:19:9-21:40
 32            android:name="com.example.mistareas.activities.ResetPasswordActivity"
 32-->C:\Users\Cesar\AndroidStudioProjects\TFG_DAM\app\src\main\AndroidManifest.xml:20:13-61
@@ -152,6 +153,110 @@
 81-->C:\Users\Cesar\AndroidStudioProjects\TFG_DAM\app\src\main\AndroidManifest.xml:69:27-74
 82            </intent-filter>
 83        </activity>
+=======
+31-->C:\Users\Cesar\AndroidStudioProjects\TFG_DAM\app\src\main\AndroidManifest.xml:19:9-22:69
+32            android:name="com.example.mistareas.activities.ResetPasswordActivity"
+32-->C:\Users\Cesar\AndroidStudioProjects\TFG_DAM\app\src\main\AndroidManifest.xml:20:13-61
+33            android:exported="false"
+33-->C:\Users\Cesar\AndroidStudioProjects\TFG_DAM\app\src\main\AndroidManifest.xml:21:13-37
+34            android:parentActivityName="com.example.mistareas.activities.LoginActivity" />
+34-->C:\Users\Cesar\AndroidStudioProjects\TFG_DAM\app\src\main\AndroidManifest.xml:22:13-67
+35        <activity
+35-->C:\Users\Cesar\AndroidStudioProjects\TFG_DAM\app\src\main\AndroidManifest.xml:23:9-26:65
+36            android:name="com.example.mistareas.activities.ChatActivity"
+36-->C:\Users\Cesar\AndroidStudioProjects\TFG_DAM\app\src\main\AndroidManifest.xml:24:13-52
+37            android:exported="false"
+37-->C:\Users\Cesar\AndroidStudioProjects\TFG_DAM\app\src\main\AndroidManifest.xml:25:13-37
+38            android:theme="@style/Theme.AppCompat.NoActionBar" />
+38-->C:\Users\Cesar\AndroidStudioProjects\TFG_DAM\app\src\main\AndroidManifest.xml:26:13-63
+39        <activity
+39-->C:\Users\Cesar\AndroidStudioProjects\TFG_DAM\app\src\main\AndroidManifest.xml:27:9-29:40
+40            android:name="com.example.mistareas.activities.FiltersActivity"
+40-->C:\Users\Cesar\AndroidStudioProjects\TFG_DAM\app\src\main\AndroidManifest.xml:28:13-55
+41            android:exported="false" />
+41-->C:\Users\Cesar\AndroidStudioProjects\TFG_DAM\app\src\main\AndroidManifest.xml:29:13-37
+42        <activity
+42-->C:\Users\Cesar\AndroidStudioProjects\TFG_DAM\app\src\main\AndroidManifest.xml:30:9-32:40
+43            android:name="com.example.mistareas.activities.UserProfileActivity"
+43-->C:\Users\Cesar\AndroidStudioProjects\TFG_DAM\app\src\main\AndroidManifest.xml:31:13-59
+44            android:exported="false" />
+44-->C:\Users\Cesar\AndroidStudioProjects\TFG_DAM\app\src\main\AndroidManifest.xml:32:13-37
+45        <activity
+45-->C:\Users\Cesar\AndroidStudioProjects\TFG_DAM\app\src\main\AndroidManifest.xml:33:9-35:40
+46            android:name="com.example.mistareas.activities.PostDetailActivity"
+46-->C:\Users\Cesar\AndroidStudioProjects\TFG_DAM\app\src\main\AndroidManifest.xml:34:13-58
+47            android:exported="false" />
+47-->C:\Users\Cesar\AndroidStudioProjects\TFG_DAM\app\src\main\AndroidManifest.xml:35:13-37
+48        <activity
+48-->C:\Users\Cesar\AndroidStudioProjects\TFG_DAM\app\src\main\AndroidManifest.xml:36:9-38:40
+49            android:name="com.example.mistareas.activities.EditProfileActivity"
+49-->C:\Users\Cesar\AndroidStudioProjects\TFG_DAM\app\src\main\AndroidManifest.xml:37:13-59
+50            android:exported="false" />
+50-->C:\Users\Cesar\AndroidStudioProjects\TFG_DAM\app\src\main\AndroidManifest.xml:38:13-37
+51        <activity
+51-->C:\Users\Cesar\AndroidStudioProjects\TFG_DAM\app\src\main\AndroidManifest.xml:39:9-42:69
+52            android:name="com.example.mistareas.activities.PostActivity"
+52-->C:\Users\Cesar\AndroidStudioProjects\TFG_DAM\app\src\main\AndroidManifest.xml:40:13-52
+53            android:exported="false"
+53-->C:\Users\Cesar\AndroidStudioProjects\TFG_DAM\app\src\main\AndroidManifest.xml:41:13-37
+54            android:parentActivityName="com.example.mistareas.activities.MainActivity" />
+54-->C:\Users\Cesar\AndroidStudioProjects\TFG_DAM\app\src\main\AndroidManifest.xml:42:13-66
+55        <activity
+55-->C:\Users\Cesar\AndroidStudioProjects\TFG_DAM\app\src\main\AndroidManifest.xml:43:9-46:70
+56            android:name="com.example.mistareas.activities.RegisterActivity"
+56-->C:\Users\Cesar\AndroidStudioProjects\TFG_DAM\app\src\main\AndroidManifest.xml:44:13-56
+57            android:exported="false"
+57-->C:\Users\Cesar\AndroidStudioProjects\TFG_DAM\app\src\main\AndroidManifest.xml:45:13-37
+58            android:parentActivityName="com.example.mistareas.activities.LoginActivity" />
+58-->C:\Users\Cesar\AndroidStudioProjects\TFG_DAM\app\src\main\AndroidManifest.xml:46:13-67
+59        <activity
+59-->C:\Users\Cesar\AndroidStudioProjects\TFG_DAM\app\src\main\AndroidManifest.xml:47:9-49:40
+60            android:name="com.example.mistareas.activities.MainActivity"
+60-->C:\Users\Cesar\AndroidStudioProjects\TFG_DAM\app\src\main\AndroidManifest.xml:48:13-52
+61            android:exported="false" />
+61-->C:\Users\Cesar\AndroidStudioProjects\TFG_DAM\app\src\main\AndroidManifest.xml:49:13-37
+62        <activity
+62-->C:\Users\Cesar\AndroidStudioProjects\TFG_DAM\app\src\main\AndroidManifest.xml:50:9-52:40
+63            android:name="com.example.mistareas.activities.LoginActivity"
+63-->C:\Users\Cesar\AndroidStudioProjects\TFG_DAM\app\src\main\AndroidManifest.xml:51:13-53
+64            android:exported="false" />
+64-->C:\Users\Cesar\AndroidStudioProjects\TFG_DAM\app\src\main\AndroidManifest.xml:52:13-37
+65        <activity
+65-->C:\Users\Cesar\AndroidStudioProjects\TFG_DAM\app\src\main\AndroidManifest.xml:53:9-61:20
+66            android:name="com.example.mistareas.activities.SplashActivity"
+66-->C:\Users\Cesar\AndroidStudioProjects\TFG_DAM\app\src\main\AndroidManifest.xml:54:13-54
+67            android:exported="true" >
+67-->C:\Users\Cesar\AndroidStudioProjects\TFG_DAM\app\src\main\AndroidManifest.xml:55:13-36
+68            <intent-filter>
+68-->C:\Users\Cesar\AndroidStudioProjects\TFG_DAM\app\src\main\AndroidManifest.xml:56:13-60:29
+69                <action android:name="android.intent.action.MAIN" />
+69-->C:\Users\Cesar\AndroidStudioProjects\TFG_DAM\app\src\main\AndroidManifest.xml:57:17-69
+69-->C:\Users\Cesar\AndroidStudioProjects\TFG_DAM\app\src\main\AndroidManifest.xml:57:25-66
+70
+71                <category android:name="android.intent.category.LAUNCHER" />
+71-->C:\Users\Cesar\AndroidStudioProjects\TFG_DAM\app\src\main\AndroidManifest.xml:59:17-77
+71-->C:\Users\Cesar\AndroidStudioProjects\TFG_DAM\app\src\main\AndroidManifest.xml:59:27-74
+72            </intent-filter>
+73        </activity>
+74
+75        <provider
+75-->C:\Users\Cesar\AndroidStudioProjects\TFG_DAM\app\src\main\AndroidManifest.xml:63:9-71:20
+76            android:name="androidx.core.content.FileProvider"
+76-->C:\Users\Cesar\AndroidStudioProjects\TFG_DAM\app\src\main\AndroidManifest.xml:64:13-62
+77            android:authorities="com.example.mistareas"
+77-->C:\Users\Cesar\AndroidStudioProjects\TFG_DAM\app\src\main\AndroidManifest.xml:65:13-56
+78            android:exported="false"
+78-->C:\Users\Cesar\AndroidStudioProjects\TFG_DAM\app\src\main\AndroidManifest.xml:66:13-37
+79            android:grantUriPermissions="true" >
+79-->C:\Users\Cesar\AndroidStudioProjects\TFG_DAM\app\src\main\AndroidManifest.xml:67:13-47
+80            <meta-data
+80-->C:\Users\Cesar\AndroidStudioProjects\TFG_DAM\app\src\main\AndroidManifest.xml:68:13-70:54
+81                android:name="android.support.FILE_PROVIDER_PATHS"
+81-->C:\Users\Cesar\AndroidStudioProjects\TFG_DAM\app\src\main\AndroidManifest.xml:69:17-67
+82                android:resource="@xml/file_paths" />
+82-->C:\Users\Cesar\AndroidStudioProjects\TFG_DAM\app\src\main\AndroidManifest.xml:70:17-51
+83        </provider>
+>>>>>>> cesar
 84
 85        <service
 85-->C:\Users\Cesar\AndroidStudioProjects\TFG_DAM\app\src\main\AndroidManifest.xml:73:9-79:19

@@ -4,11 +4,13 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.graphics.Typeface;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ProgressBar;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.mistareas.R;
@@ -35,18 +37,20 @@ public class ResetPasswordActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_reset_password);
 
+        Typeface miFuente = Typeface.createFromAsset(getAssets(),"stickynotes.ttf");
+        TextView titulo = (TextView) findViewById(R.id.titulo);
+        titulo.setTypeface(miFuente);
+
         mAuth = FirebaseAuth.getInstance();
         mTextInputEmail = findViewById(R.id.cajaEmailReset);
         mButtonReset = findViewById(R.id.botonReset);
 
 
-
+        //Establecemos el escuchador sobre el boton de "solicitar contraseña"
         mButtonReset.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
                 String email = mTextInputEmail.getText().toString().trim();
-
                 if(!email.isEmpty()){
                     resetPassword();
                 }else{

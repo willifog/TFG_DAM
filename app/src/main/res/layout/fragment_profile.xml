@@ -4,7 +4,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context=".fragments.ProfileFragment">
+    tools:context=".fragments.ProfileFragment"
+    >
 
     <com.google.android.material.appbar.AppBarLayout
         android:layout_width="match_parent"
@@ -21,8 +22,7 @@
             <FrameLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:background="@color/white"
-                >
+                android:background="#27A6A6A6">
 
                 <ImageView
                     android:layout_width="match_parent"
@@ -39,8 +39,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="140dp"
                     android:src="@drawable/imagen_perfil"
-                    app:civ_border_width="3dp"
-                    app:civ_border_color="#FAFAFA"
+                    app:civ_border_width="5dp"
+                    app:civ_border_color="@color/green"
                     android:layout_marginTop="130dp"/>
 
         <!-- Etiquetas para el telefono -->
@@ -170,7 +170,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         app:layout_behavior="@string/appbar_scrolling_view_behavior"
-        android:layout_marginTop="20dp">
+        android:background="#27A6A6A6">
 
         <LinearLayout
             android:layout_width="match_parent"

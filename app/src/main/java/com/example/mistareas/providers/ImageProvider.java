@@ -18,6 +18,17 @@ public class ImageProvider {
         mStorage = FirebaseStorage.getInstance().getReference(); //Hacemos referencia la modulo de storage en firebase
     }
 
+    /**
+     * Metodo al que se le pasa el contexto y la imagen que queremos almacenar
+     *  se establece un tamaño reducido para ahorrar espacio de almacenamiento.
+     *  se crea una instancia en firabase y una vez creada  se actualiza con la
+     *  nueva imagen comprimida.
+     *
+     * @param context contexto en el que se encuentra la imagen
+     * @param file fichero/imagen  que queremos almacenar.
+     *
+     * @return retorna una tarea que será controlada desde la llamada.
+     */
     public UploadTask save(Context context, File file){
         byte[] imageByte = CompressorBitmapImage.getImage(context,file.getPath(),500,500);
 

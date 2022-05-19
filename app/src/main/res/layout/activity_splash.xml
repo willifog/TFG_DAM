@@ -27,7 +27,7 @@
         android:textSize="50sp" />
 
     <ImageView
-        android:id="@+id/bird2"
+        android:id="@+id/logo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="120dp"

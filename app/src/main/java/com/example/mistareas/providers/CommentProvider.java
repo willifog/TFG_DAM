@@ -24,7 +24,11 @@ public class CommentProvider {
         return mCollection.document().set(comment);
     }
 
-    //Obtener comentario de un post
+    /**
+     * Metodo que hace una consulta a firebase con el id pasado por parametro
+     * @param id id del comentario a buscar
+     * @return
+     */
     public Query getCommentByPost(String id){
         return mCollection.whereEqualTo("idPost", id);
     }

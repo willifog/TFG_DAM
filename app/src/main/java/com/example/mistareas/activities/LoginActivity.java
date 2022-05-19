@@ -70,22 +70,14 @@ public class LoginActivity extends AppCompatActivity {
             }
         });
 
-
-        //Escuchador recuperar contraseña
- /*       mButtonResetPass.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                startActivity(new Intent(LoginActivity.this, ResetPasswordActivity.class));
-            }
-        });
-*/     }
+     }
 
 
-     //Dejamos la sesion iniciada (accederia sin tener que logearse)
+
     @Override
     protected void onStart() {
         super.onStart();
-        if(mAuthProvider.getUserSession() != null){
+        if(mAuthProvider.getUserSession() != null){ //Dejamos la sesion iniciada
             Intent intent = new Intent(LoginActivity.this, MainActivity.class);
             intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_NEW_TASK); //Evitamos que se pueda volver borrando el historial de activitys
             startActivity(intent);
@@ -98,17 +90,19 @@ public class LoginActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
+    //Cambio activity ResetPassword
     public void resetPass(View view){
         Intent intent = new Intent(this, ResetPasswordActivity.class);
         startActivity(intent);
     }
 
-    //Nos logeamos con correo y contraseña
+    /**
+     * Metodo que permite acceder a la app mediante el correo electronico y contraseña
+     * Se apoya en la clase AuthProvider para comprobar los datos en firebase
+     */
     public void login(){
             String email = mTextInputEmail.getText().toString();
             String password = mTextInputPassword.getText().toString();
-
-
 
             if(!email.isEmpty() && !password.isEmpty()){
                 mDialog.show();

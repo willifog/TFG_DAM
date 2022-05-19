@@ -1898,12 +1898,14 @@ drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
 drawable gradient
 drawable ic_add
+drawable ic_americana
 drawable ic_arrow_back
 drawable ic_baseline_arrow_back_24
 drawable ic_baseline_email_24
 drawable ic_baseline_fastfood_24
 drawable ic_cena
 drawable ic_chat
+drawable ic_china
 drawable ic_clock_black_24dp
 drawable ic_comida
 drawable ic_delete
@@ -1916,6 +1918,7 @@ drawable ic_home
 drawable ic_keyboard_black_24dp
 drawable ic_launcher_background
 drawable ic_launcher_foreground
+drawable ic_mediterranea
 drawable ic_mtrl_checked_circle
 drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
@@ -2070,7 +2073,6 @@ id baseline
 id beginOnFirstDraw
 id beginning
 id bestChoice
-id bird2
 id blocking
 id botonLogin
 id botonRegistrar
@@ -2279,6 +2281,7 @@ id linearLayoutEditProfile
 id linearLayoutMessage
 id listMode
 id list_item
+id logo
 id masked
 id match_constraint
 id match_parent

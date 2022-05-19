@@ -105,7 +105,8 @@ public class ProfileFragment extends Fragment {
         super.onStart();
         getUser();
 
-        Query query = mPostProvider.getPostByUser(mAuthProvider.getUid());  //Obtenemos las publicaciones del usuario
+        //Obtenemos las publicaciones del usuario
+        Query query = mPostProvider.getPostByUser(mAuthProvider.getUid());
         FirestoreRecyclerOptions<Post> options = new FirestoreRecyclerOptions
                 .Builder<Post>().setQuery(query, Post.class)
                 .build();
@@ -121,12 +122,22 @@ public class ProfileFragment extends Fragment {
         mAdapter.stopListening();
     }
 
+    /**
+     * Metodo que permite el cambio de activity para hacer cambios en el perfil
+     */
     private void goToEditProfile() {
         Intent intent = new Intent(getContext(), EditProfileActivity.class);
         startActivity(intent);
     }
 
     //Se le pasa el id del usuario a buscar
+
+    /**
+     * Metodo utilizado para obtener el numero de post publicados por el usuario.
+     *
+     * utiliza la clase PostProvider  para buscar las publicaciones del usuario mediante el ID de este.
+     * se obtienen los resultados y se calculan los post.
+     */
     private void getPostNumber(){
         mPostProvider.getPostByUser(mAuthProvider.getUid()).get().addOnSuccessListener(new OnSuccessListener<QuerySnapshot>() {
             @Override
@@ -137,6 +148,17 @@ public class ProfileFragment extends Fragment {
         });
     }
 
+    /**
+     * Metodo con el que obtenemos los datos del perfil de usuario.
+     *
+     * Nos apoyamos en UsersProvider y le pasamos el id del usuario al que queremos realizar la consulta.
+     *
+     * Las peticiones a la bbdd se hacen mediante la clase DocumentSnapshot la cual tiene varios
+     * metodos para hacer las consultas.
+     *
+     * .contains() utilizado para buscar el campo de cada documento
+     * .getString() obtenemos el contenido de el campo indicado
+     */
     private void getUser(){
         mUsersProvider.getUser(mAuthProvider.getUid()).addOnSuccessListener(new OnSuccessListener<DocumentSnapshot>() {
             @Override
@@ -164,4 +186,5 @@ public class ProfileFragment extends Fragment {
             }
         });
     }
+
 }

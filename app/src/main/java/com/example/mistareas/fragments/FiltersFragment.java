@@ -78,16 +78,10 @@ public class FiltersFragment extends Fragment {
 
     }
 
-
     private void FiltroActividad(String category)
     {
         Intent intent = new Intent(getContext(), FiltersActivity.class);
         intent.putExtra( "category", category);
         startActivity(intent);
     }
-
-
-    //    return inflater.inflate(R.layout.fragment_filters, container, false);
-   // }
-
 }
