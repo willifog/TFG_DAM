@@ -148,6 +148,10 @@
         "source": "C:\\Users\\Cesar\\AndroidStudioProjects\\TFG_DAM\\app\\src\\main\\res\\drawable\\ic_dificultad.xml"
     },
     {
+        "merged": "C:\\Users\\Cesar\\AndroidStudioProjects\\TFG_DAM\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_americana.jpg.flat",
+        "source": "C:\\Users\\Cesar\\AndroidStudioProjects\\TFG_DAM\\app\\src\\main\\res\\drawable\\ic_americana.jpg"
+    },
+    {
         "merged": "C:\\Users\\Cesar\\AndroidStudioProjects\\TFG_DAM\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_reset_password.xml.flat",
         "source": "C:\\Users\\Cesar\\AndroidStudioProjects\\TFG_DAM\\app\\src\\main\\res\\layout\\activity_reset_password.xml"
     },
@@ -296,6 +300,10 @@
         "source": "C:\\Users\\Cesar\\AndroidStudioProjects\\TFG_DAM\\app\\src\\main\\res\\layout\\cardview_message.xml"
     },
     {
+        "merged": "C:\\Users\\Cesar\\AndroidStudioProjects\\TFG_DAM\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_mediterranea.jpg.flat",
+        "source": "C:\\Users\\Cesar\\AndroidStudioProjects\\TFG_DAM\\app\\src\\main\\res\\drawable\\ic_mediterranea.jpg"
+    },
+    {
         "merged": "C:\\Users\\Cesar\\AndroidStudioProjects\\TFG_DAM\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher.webp.flat",
         "source": "C:\\Users\\Cesar\\AndroidStudioProjects\\TFG_DAM\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.webp"
     },
@@ -418,5 +426,9 @@
     {
         "merged": "C:\\Users\\Cesar\\AndroidStudioProjects\\TFG_DAM\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_ic_user.png.flat",
         "source": "C:\\Users\\Cesar\\AndroidStudioProjects\\TFG_DAM\\app\\src\\main\\res\\drawable-xxhdpi\\ic_user.png"
+    },
+    {
+        "merged": "C:\\Users\\Cesar\\AndroidStudioProjects\\TFG_DAM\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_china.jpg.flat",
+        "source": "C:\\Users\\Cesar\\AndroidStudioProjects\\TFG_DAM\\app\\src\\main\\res\\drawable\\ic_china.jpg"
     }
 ]

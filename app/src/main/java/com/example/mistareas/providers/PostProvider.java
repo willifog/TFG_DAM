@@ -14,14 +14,22 @@ public class PostProvider {
     CollectionReference mCollection;
 
     public PostProvider() {
-        mCollection = FirebaseFirestore.getInstance().collection("Posts"); //Creamos una nueva coleccion en FireStore
+        mCollection = FirebaseFirestore.getInstance().collection("Posts");
     }
 
-    public Task<Void> save(Post post){  //Le pasamos la publicacion que vamos a guardar en "POSTS"
-        return mCollection.document().set(post);   //Lo ponemos vacio para que nos cree un nuevo documento unico para cada post.
+    /**
+     * Metodo que almacena un nuevo post a la coleccion de posts en firebase
+     * @param post publcacion creada por el usuario
+     * @return utiliza  la coleccion para añadir el post
+     */
+    public Task<Void> save(Post post){
+        return mCollection.document().set(post);
     }
 
-    //Para obtener todos los post
+    /**
+     * Metodo utilizado para obtener todos los post y ordenarlos por la fecha.
+     * @return
+     */
     public Query getAll(){
        return  mCollection.orderBy("timestamp",Query.Direction.DESCENDING);
     }
@@ -32,11 +40,20 @@ public class PostProvider {
         return  mCollection.whereEqualTo("category", category).orderBy("timestamp",Query.Direction.DESCENDING);
     }
 
-    //Obtener post de un usuario
+    /**
+     * Metodo que devuelve los post de un usuario
+     * @param id ID del usuario que queremos obtener sus posts
+     * @return retorna los post del usuario
+     */
     public Query getPostByUser(String id){
         return mCollection.whereEqualTo("idUser", id);
     }
 
+    /**
+     * Metodo que borra el post pasado por parametro
+     * @param id post que queremos eliminar
+     * @return
+     */
     public Task<Void> delete (String id){
         return mCollection.document(id).delete();
     }

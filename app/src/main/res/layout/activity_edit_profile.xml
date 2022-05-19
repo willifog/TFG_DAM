@@ -26,17 +26,18 @@
         app:civ_border_color="#FAFAFA"
         android:layout_marginTop="130dp"/>
 
+    <!-- Boton EDITAR -->
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical">
 
-<!-- Campo para el NOMBRE -->
+        <!-- Campo para el NOMBRE -->
         <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="270dp"
             android:layout_marginLeft="40dp"
+            android:layout_marginTop="270dp"
             android:layout_marginRight="40dp">
 
             <com.google.android.material.textfield.TextInputEditText
@@ -54,12 +55,12 @@
             </com.google.android.material.textfield.TextInputEditText>
         </com.google.android.material.textfield.TextInputLayout>
 
-<!-- Campo para el TELEFONO -->
+        <!-- Campo para el TELEFONO -->
         <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="15dp"
             android:layout_marginLeft="40dp"
+            android:layout_marginTop="15dp"
             android:layout_marginRight="40dp">
 
             <com.google.android.material.textfield.TextInputEditText
@@ -69,16 +70,15 @@
                 android:layout_marginBottom="0dp"
                 android:background="#4AFFFFFF"
                 android:hint="@string/numero_de_telefono"
+                android:inputType="numberSigned"
                 android:textColor="@color/design_default_color_primary"
-                android:textSize="17sp"
-                android:inputType="numberSigned">
+                android:textSize="17sp">
 
             </com.google.android.material.textfield.TextInputEditText>
         </com.google.android.material.textfield.TextInputLayout>
 
     </LinearLayout>
 
-<!-- Boton EDITAR -->
     <com.google.android.material.button.MaterialButton
         android:id="@+id/btnEditProfile"
         android:layout_width="match_parent"

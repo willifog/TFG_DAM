@@ -39,7 +39,7 @@ import java.util.Date;
 import de.hdodenhof.circleimageview.CircleImageView;
 import dmax.dialog.SpotsDialog;
 
-public class EditProfileActivity extends AppCompatActivity {
+public class   EditProfileActivity extends AppCompatActivity {
 
     CircleImageView mCircleImageViewBack; //Boton retroceso
     CircleImageView mCircleImageViewProfile;    //Imagen perfil
@@ -120,6 +120,13 @@ public class EditProfileActivity extends AppCompatActivity {
         getUser();
     }
 
+    /**
+     * Metodo que se utiliza para obtener los datos del usuario.
+     * se apoya en UsersProviders y AuthProvider para obtener el ID del usuario y a partir de esto
+     * obtener los datos del usuario deseado.
+     *
+     * documentSnapshot se utiliza para hacer la consulta sobre la base de datos.
+     */
     private void getUser(){
         mUsersProvider.getUser(mAuthProvider.getUid()).addOnSuccessListener(new OnSuccessListener<DocumentSnapshot>() {
             @Override
@@ -144,6 +151,11 @@ public class EditProfileActivity extends AppCompatActivity {
         });
     }
 
+    /**
+     * Metodo que nos permite guardar los cambios realizados cumpliendo ciertas condiciones.
+     *
+     * Este metodo se apoya en el metodo updateInfo el cual es el que ejecuta la accion de actualizar.
+     */
     private void clickEditProfile() {
         mUserName = mTextInputUserName.getText().toString();
         mPhone = mTextInputPhone.getText().toString();
@@ -166,6 +178,17 @@ public class EditProfileActivity extends AppCompatActivity {
         
     }
 
+    /**
+     * Metodo utilizado para almacenar imagenes en la base de datos.
+     * EL metodo se apoya en la clase ImageProvider que nos permite utilizar un metodo para guardar
+     * el fichero y nos retorna una tarea que la controlamos en funcion de si es correcta o falla.
+     *
+     * Si la tarea es satisfactoria se crea un objeto post con los datos requeridos.
+     *
+     * en caso de error se muestra una alerta.
+     *
+     * @param imageFile Imagen que queremos almacenar
+     */
     private void saveImage(File imageFile){
         mDialog.show(); //Mostramos dialogo de espera
         mImageProvider.save(EditProfileActivity.this, imageFile).addOnCompleteListener(new OnCompleteListener<UploadTask.TaskSnapshot>() {
@@ -176,14 +199,12 @@ public class EditProfileActivity extends AppCompatActivity {
                         @Override
                         public void onSuccess(Uri uri) {
                             final String urlProfile = uri.toString();    //Aqui ya hemos obtenidos la url de la imagen.
-
                             User user = new User();
                             user.setId(mAuthProvider.getUid());
                             user.setUsername(mUserName);
                             user.setPhone(mPhone);
                             user.setImageProfile(mImageProfile);    //Añadimos la imagen ya que sino apareceria a null y daria error al actualizar
                             user.setImageProfile(urlProfile);
-
                             updateInfo(user);
                         }
                     });
@@ -195,12 +216,17 @@ public class EditProfileActivity extends AppCompatActivity {
         });
     }
 
-
+    /**
+     * Metodo que se apoya en la clase UsersProvider para actualizar los datos del usuario pasado.
+     * Si la tarea que nos devuelve es completada correctamente mostramos una alerta informando
+     * en caso contrario mostramos alerta de no poder actualizar
+     *
+     * @param user usuario que queremos actualizar
+     */
     private void updateInfo(User user){
         if(mDialog.isShowing()){        //Para que no se solape con el del metodo que lo ha llamado
             mDialog.show();
         }
-
         mUsersProvider.update(user).addOnCompleteListener(new OnCompleteListener<Void>() {
             @Override
             public void onComplete(@NonNull Task<Void> task) {
@@ -220,7 +246,16 @@ public class EditProfileActivity extends AppCompatActivity {
         startActivityForResult(galleryIntent, requestCode);
     }
 
-
+    /**
+     * Metodo utilizado para obtener un resultado de la activity (imagenes)
+     *
+     * Dependiendo del codigo introducido el metodo selecciona si es una imagen de la camara o de la
+     * galeria. una vez seleccionada la imagen la muestra en la ImageView.
+     *
+     * @param requestCode codigo de identificacion de imagen (camara/galeria)
+     * @param resultCode
+     * @param data
+     */
     @Override
     protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
         super.onActivityResult(requestCode, resultCode, data);

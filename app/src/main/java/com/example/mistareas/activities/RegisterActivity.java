@@ -82,7 +82,9 @@ public class RegisterActivity extends AppCompatActivity {
         });
     }
 
-    //Validacion del registro
+    /**
+     * Metodo utilizado para las validaciones del registro de usuarios.
+     */
     private void register(){
         String username = mTextInputUsername.getText().toString();
         String email = mTextInputEmail.getText().toString();
@@ -107,6 +109,16 @@ public class RegisterActivity extends AppCompatActivity {
         }
     }
 
+    /**
+     * Metodo utilizado para registrar un nuevo usuario,que hace una llamada a otro metodo que devulve
+     * una tarea. Si la tarea se completa correctamente añadimos los datos de usuario sino
+     * mostramos mensaje de error.
+     *
+     * @param username nombre de usuario a registrar
+     * @param email email de usuario a registrar
+     * @param password contraseña introducida por el usuario
+     * @param phone telefono de usuario
+     */
     private void createUser(final String username, final String email, final String password, final String phone){
         mDialog.show();
         mAuthProvider.register(email,password).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
@@ -122,7 +134,7 @@ public class RegisterActivity extends AppCompatActivity {
                     user.setPhone(phone);
                     user.setTimestamp(new Date().getTime());
 
-                    //Enviamos los datos  almacenados en el HasMap y los guardamos en bbdd
+                    //Enviamos los datos  almacenados  y los guardamos en bbdd
                     mUsersProvider.create(user).addOnCompleteListener(new OnCompleteListener<Void>() {
                         @Override
                         public void onComplete(@NonNull Task<Void> task) {
@@ -144,7 +156,13 @@ public class RegisterActivity extends AppCompatActivity {
             }
         });
     }
-    
+
+    /**
+     * Validacion de Email
+     *
+     * @param email email introducido por el usuario el cual se va a verificar
+     * @return  true en caso de ser correcto, false si no cumple las condiciones.
+     */
     public boolean isEmailValid(String email) {
         String expression = "^[\\w\\.-]+@([\\w\\-]+\\.)+[A-Z]{2,4}$";
         Pattern pattern = Pattern.compile(expression, Pattern.CASE_INSENSITIVE);

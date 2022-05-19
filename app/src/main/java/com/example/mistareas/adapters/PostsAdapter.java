@@ -42,7 +42,8 @@ public class PostsAdapter extends FirestoreRecyclerAdapter<Post,PostsAdapter.Vie
     @Override
     protected void onBindViewHolder(@NonNull ViewHolder holder, int position, @NonNull Post post) {
 
-        DocumentSnapshot document = getSnapshots().getSnapshot(position);  //Obtenemos el documento con la info de la publicacion
+        //Obtenemos el documento con la info de la publicacion
+        DocumentSnapshot document = getSnapshots().getSnapshot(position);
         String postId = document.getId();
 
 
