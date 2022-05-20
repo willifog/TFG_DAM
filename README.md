@@ -5,10 +5,10 @@ Aquí iremos subiendo el código que vayamos creando.
 
 Por hacer:
 Estructura Básica BBDD (Usuarios, Recetas y Chat)* (al final elegimos Firebase para la BBDD)<br>
-Creación Usuarios
-Login y Registro Usuarios (autentificación)
-Recuperación Contraseña
-Crear, Mostrar, Editar y Eliminar Recetas
+Creación Usuarios<br>
+Login y Registro Usuarios (autentificación)<br>
+Recuperación Contraseña<br>
+Crear, Mostrar, Editar y Eliminar Recetas<br>
 Chat entre usuarios
 
 Orden:
