@@ -204,7 +204,7 @@ public class PostDetailActivity extends AppCompatActivity {
             @Override
             public void onComplete(@NonNull Task<Void> task) {
                 if(task.isSuccessful()){
-                    sendNotification(comentario);
+                //    sendNotification(comentario);
                     Toast.makeText(PostDetailActivity.this , "Comentario añadido", Toast.LENGTH_SHORT).show();
                 }else{
                     Toast.makeText(PostDetailActivity.this, "No se ha podido publicar el comentario", Toast.LENGTH_SHORT).show();
